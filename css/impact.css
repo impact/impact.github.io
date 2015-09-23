@@ -1,0 +1,20 @@
+.centered {
+	text-align: center;
+}
+
+.bordered {
+	border: 1px solid red;
+}
+
+.rgroup {
+	margin-top: 20px;
+}
+
+.pullright {
+	float: right;
+}
+
+.vspan {
+	margin-left: 2px;
+	margin-right: 2px;
+}
