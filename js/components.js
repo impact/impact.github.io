@@ -1,10 +1,21 @@
 /// <reference path="../typings/react/react-global.d.ts" />
 /// <reference path="../typings/jquery/jquery.d.ts" />
+/// <reference path="../typings/semver/semver.d.ts" />
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
     function __() { this.constructor = d; }
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
+function SortLibrary(a, b) {
+    return b.stars - a.stars;
+}
+/*
+function SortVersion(a: Version, b: Version) {
+    if (semver.gt(a, b)) return 1;
+    if (semver.lt(a, b)) return -1;
+    return 0;
+}
+*/
 var Result = (function (_super) {
     __extends(Result, _super);
     function Result() {
@@ -17,17 +28,18 @@ var Result = (function (_super) {
         var homepage = lib.homepage;
         var stars = lib.stars;
         var vkeys = Object.keys(lib.versions);
+        //var vlist = vkeys.map((k) => lib.versions[k]).sort(SortVersion)
         var versions = vkeys.map(function (k) {
             var vdata = lib.versions[k];
             var zip = vdata.zipball_url;
-            return React.createElement("span", {"className": "label label-success vspan"}, k);
+            return React.createElement("div", {"className": "label label-success vspan breaker"}, k);
             //return <button type="button" data-disable="true" className="btn btn-sm btn-default">{k}</button>
         });
         var header = React.createElement("h4", {"className": "list-group-item-heading"}, name);
         if (homepage != "") {
             header = React.createElement("h4", {"className": "list-group-item-heading"}, React.createElement("a", {"href": homepage}, name));
         }
-        return React.createElement("div", {"className": "list-group-item"}, React.createElement("p", {"className": "pullright"}, React.createElement("button", {"type": "button", "className": "btn btn-default btn-sm"}, "Stars: ", stars)), header, React.createElement("p", {"className": "list-group-item-text"}, this.props.library.description), React.createElement("p", null, React.createElement("div", {"className": "btn-group", "role": "group", "aria-label": "..."}, versions)));
+        return React.createElement("div", {"className": "list-group-item"}, React.createElement("p", {"className": "pullright"}, React.createElement("button", {"type": "button", "className": "btn btn-default btn-sm"}, "Stars: ", stars)), header, React.createElement("p", {"className": "list-group-item-text"}, this.props.library.description, React.createElement("br", null)), React.createElement("p", {"className": "centered"}, versions));
     };
     return Result;
 })(React.Component);
@@ -48,9 +60,7 @@ var ImpactState = (function () {
                     _this.results.push(lib);
                 }
             });
-            this.results = this.results.sort(function (a, b) {
-                return b.stars - a.stars;
-            });
+            this.results = this.results.sort(SortLibrary);
             // TODO: Set results
             console.log("Should search for term ", term);
             console.log("Results: ", this.results);
@@ -92,7 +102,7 @@ var Impact = (function (_super) {
         var relems = this.state.results.map(function (result) {
             return React.createElement(Result, {"library": result});
         });
-        return (React.createElement("div", {"className": "container-fluid"}, React.createElement("div", {"className": "row"}, React.createElement("div", {"className": "col-lg-12 centered"}, React.createElement("img", {"src": "img/logo_glossy.svg"})), React.createElement("div", {"className": "col-lg-4 col-lg-offset-4 centered"}, React.createElement("div", {"className": "input-group"}, React.createElement("input", {"type": "text", "className": "form-control", "value": term, "placeholder": "Search for...", "onChange": this.handleChange.bind(this)}), React.createElement("span", {"className": "input-group-btn"}, React.createElement("button", {"className": "btn btn-default", "type": "button"}, React.createElement("span", {"className": "glyphicon glyphicon-search"})))))), React.createElement("div", {"className": "list-group col-lg-8 col-lg-offset-2 rgroup"}, relems)));
+        return (React.createElement("div", {"className": "container-fluid"}, React.createElement("div", {"className": "row"}, React.createElement("div", {"className": "col-lg-12 col-md-12 col-sm-12 centered"}, React.createElement("img", {"src": "img/logo_glossy.svg"})), React.createElement("div", {"className": "col-lg-4 col-lg-offset-4 col-md-8 col-md-offset-2 col-sm-12 centered"}, React.createElement("div", {"className": "input-group"}, React.createElement("input", {"type": "text", "className": "form-control", "value": term, "placeholder": "Search for...", "onChange": this.handleChange.bind(this)}), React.createElement("span", {"className": "input-group-btn"}, React.createElement("button", {"className": "btn btn-default", "type": "button"}, React.createElement("span", {"className": "glyphicon glyphicon-search"})))))), React.createElement("div", {"className": "list-group col-lg-6 col-lg-offset-3 rgroup col-md-12"}, relems)));
     };
     return Impact;
 })(React.Component);
