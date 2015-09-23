@@ -1,1207 +1,960 @@
-(Generated: Wed Sep 23 07:08:52 UTC 2015)
-2015/09/23 07:08:52 Ignoring settings file, got error while parsing: open /var/www/.config/impact/impactrc: no such file or directory
+(Generated: on. 23. sep. 13:15:27 +0200 2015)
+2015/09/23 13:15:27 Ignoring settings file, got error while parsing: Error parsing expression starting @ (L2, C7): invalid character 'c' after top-level value
+Fetching repositories for modelica
+  Fetching page 1, 9 entries
+  Fetching page 2, 0 entries
 Processing: ExternalMedia (https://github.com/modelica/ExternalMedia, fork=false)
-2015/09/23 07:08:53 No source for ExternalMedia
+2015/09/23 13:15:28 No source for ExternalMedia
 Processing: Modelica (https://github.com/modelica/Modelica, fork=false)
-2015/09/23 07:08:54 No source for Modelica
+2015/09/23 13:15:29 No source for Modelica
+2015/09/23 13:15:30 Processing tag v3.2.1+build.3
   3.2.1+build.3: Recording
-2015/09/23 07:08:55 Looking for file Modelica.mo in Modelica:3.2.1+build.3: false
-2015/09/23 07:08:55 Looking for file Modelica 3.2.1+build.3.mo in Modelica:3.2.1+build.3: false
-2015/09/23 07:08:55 Looking for file Modelica.mo in Modelica:3.2.1+build.3: false
-2015/09/23 07:08:55 Looking for file Modelica 3.2.1+build.3.mo in Modelica:3.2.1+build.3: false
-2015/09/23 07:08:55 Looking for file Modelica 3.2.1.mo in Modelica:3.2.1+build.3: false
-2015/09/23 07:08:55 Looking for file Modelica 3.2.1.mo in Modelica:3.2.1+build.3: false
-2015/09/23 07:08:55 Looking for directory Modelica in Modelica:3.2.1+build.3: false
-2015/09/23 07:08:55 Looking for directory Modelica 3.2.1+build.3 in Modelica:3.2.1+build.3: false
-2015/09/23 07:08:56 Looking for directory Modelica in Modelica:3.2.1+build.3: false
-2015/09/23 07:08:56 Looking for directory Modelica 3.2.1+build.3 in Modelica:3.2.1+build.3: false
-2015/09/23 07:08:56 Looking for directory Modelica 3.2.1 in Modelica:3.2.1+build.3: true
-2015/09/23 07:08:56   Found
-2015/09/23 07:08:56 Looking for directory Modelica 3.2.1 in Modelica:3.2.1+build.3: true
+2015/09/23 13:15:30   Reviewing contents of modelica/Modelica
+2015/09/23 13:15:34 Error extracting uses annotation: Error while parsing uses annotation of ModelicaReference 3.2.1/package.mo in github repository Modelica: Unable to find version for library Modelica
+    Processing library Complex @ Complex.mo
     Processing library Modelica @ Modelica 3.2.1
+    Processing library Modelica @ ModelicaReference 3.2.1
+    Processing library ModelicaServices @ ModelicaServices 3.2.1
+    Processing library ObsoleteModelica3 @ ObsoleteModelica3.mo
+2015/09/23 13:15:35 Processing tag v3.2.1+build.2
   3.2.1+build.2: Recording
-2015/09/23 07:08:58 Looking for file Modelica.mo in Modelica:3.2.1+build.2: false
-2015/09/23 07:08:58 Looking for file Modelica 3.2.1+build.2.mo in Modelica:3.2.1+build.2: false
-2015/09/23 07:08:58 Looking for file Modelica.mo in Modelica:3.2.1+build.2: false
-2015/09/23 07:08:58 Looking for file Modelica 3.2.1+build.2.mo in Modelica:3.2.1+build.2: false
-2015/09/23 07:08:58 Looking for file Modelica 3.2.1.mo in Modelica:3.2.1+build.2: false
-2015/09/23 07:08:59 Looking for file Modelica 3.2.1.mo in Modelica:3.2.1+build.2: false
-2015/09/23 07:08:59 Looking for directory Modelica in Modelica:3.2.1+build.2: false
-2015/09/23 07:08:59 Looking for directory Modelica 3.2.1+build.2 in Modelica:3.2.1+build.2: false
-2015/09/23 07:08:59 Looking for directory Modelica in Modelica:3.2.1+build.2: false
-2015/09/23 07:08:59 Looking for directory Modelica 3.2.1+build.2 in Modelica:3.2.1+build.2: false
-2015/09/23 07:08:59 Looking for directory Modelica 3.2.1 in Modelica:3.2.1+build.2: true
-2015/09/23 07:08:59   Found
-2015/09/23 07:09:00 Looking for directory Modelica 3.2.1 in Modelica:3.2.1+build.2: true
+2015/09/23 13:15:36   Reviewing contents of modelica/Modelica
+2015/09/23 13:15:39 Error extracting uses annotation: Error while parsing uses annotation of ModelicaReference 3.2.1/package.mo in github repository Modelica: Unable to find version for library Modelica
+    Processing library Complex @ Complex.mo
     Processing library Modelica @ Modelica 3.2.1
+    Processing library Modelica @ ModelicaReference 3.2.1
+    Processing library ModelicaServices @ ModelicaServices 3.2.1
+    Processing library ObsoleteModelica3 @ ObsoleteModelica3.mo
+2015/09/23 13:15:40 Processing tag v3.2
   3.2: Recording
-2015/09/23 07:09:01 Looking for file Modelica.mo in Modelica:3.2: false
-2015/09/23 07:09:01 Looking for file Modelica 3.2.mo in Modelica:3.2: false
-2015/09/23 07:09:02 Looking for file Modelica.mo in Modelica:3.2: false
-2015/09/23 07:09:02 Looking for file Modelica 3.2.mo in Modelica:3.2: false
-2015/09/23 07:09:02 Looking for directory Modelica in Modelica:3.2: false
-2015/09/23 07:09:02 Looking for directory Modelica 3.2 in Modelica:3.2: true
-2015/09/23 07:09:02   Found
-2015/09/23 07:09:02 Looking for directory Modelica in Modelica:3.2: false
-2015/09/23 07:09:03 Looking for directory Modelica 3.2 in Modelica:3.2: true
+2015/09/23 13:15:41   Reviewing contents of modelica/Modelica
+2015/09/23 13:15:44 Error extracting uses annotation: Error while parsing uses annotation of ModelicaReference/package.mo in github repository Modelica: Unable to find version for library Modelica
+    Processing library Complex @ Complex.mo
     Processing library Modelica @ Modelica 3.2
+    Processing library Modelica @ ModelicaReference
+    Processing library ModelicaServices @ ModelicaServices 1.1
+    Processing library ObsoleteModelica3 @ ObsoleteModelica3.mo
+2015/09/23 13:15:45 Processing tag v3.1
   3.1: Recording
-2015/09/23 07:09:04 Looking for file Modelica.mo in Modelica:3.1: false
-2015/09/23 07:09:04 Looking for file Modelica 3.1.mo in Modelica:3.1: false
-2015/09/23 07:09:05 Looking for file Modelica.mo in Modelica:3.1: false
-2015/09/23 07:09:05 Looking for file Modelica 3.1.mo in Modelica:3.1: false
-2015/09/23 07:09:05 Looking for directory Modelica in Modelica:3.1: false
-2015/09/23 07:09:05 Looking for directory Modelica 3.1 in Modelica:3.1: true
-2015/09/23 07:09:05   Found
-2015/09/23 07:09:05 Looking for directory Modelica in Modelica:3.1: false
-2015/09/23 07:09:05 Looking for directory Modelica 3.1 in Modelica:3.1: true
+2015/09/23 13:15:46   Reviewing contents of modelica/Modelica
+2015/09/23 13:15:48 Error extracting uses annotation: Error while parsing uses annotation of ModelicaReference/package.mo in github repository Modelica: Unable to find version for library Modelica
     Processing library Modelica @ Modelica 3.1
+    Processing library Modelica @ ModelicaReference
+    Processing library ModelicaServices @ ModelicaServices 1.0
+    Processing library ObsoleteModelica3 @ ObsoleteModelica3.mo
+2015/09/23 13:15:50 Processing tag v3.0.1
   3.0.1: Recording
-2015/09/23 07:09:07 Looking for file Modelica.mo in Modelica:3.0.1: false
-2015/09/23 07:09:07 Looking for file Modelica 3.0.1.mo in Modelica:3.0.1: false
-2015/09/23 07:09:07 Looking for file Modelica.mo in Modelica:3.0.1: false
-2015/09/23 07:09:07 Looking for file Modelica 3.0.1.mo in Modelica:3.0.1: false
-2015/09/23 07:09:08 Looking for directory Modelica in Modelica:3.0.1: false
-2015/09/23 07:09:08 Looking for directory Modelica 3.0.1 in Modelica:3.0.1: true
-2015/09/23 07:09:08   Found
-2015/09/23 07:09:08 Looking for directory Modelica in Modelica:3.0.1: false
-2015/09/23 07:09:08 Looking for directory Modelica 3.0.1 in Modelica:3.0.1: true
+2015/09/23 13:15:50   Reviewing contents of modelica/Modelica
     Processing library Modelica @ Modelica 3.0.1
+    Processing library ObsoleteModelica3 @ ObsoleteModelica3.mo
+2015/09/23 13:15:53 Processing tag v3.0
   3.0: Recording
-2015/09/23 07:09:10 Looking for file Modelica.mo in Modelica:3.0: false
-2015/09/23 07:09:10 Looking for file Modelica 3.0.mo in Modelica:3.0: false
-2015/09/23 07:09:10 Looking for file Modelica.mo in Modelica:3.0: false
-2015/09/23 07:09:10 Looking for file Modelica 3.0.mo in Modelica:3.0: false
-2015/09/23 07:09:10 Looking for directory Modelica in Modelica:3.0: false
-2015/09/23 07:09:10 Looking for directory Modelica 3.0 in Modelica:3.0: true
-2015/09/23 07:09:10   Found
-2015/09/23 07:09:11 Looking for directory Modelica in Modelica:3.0: false
-2015/09/23 07:09:11 Looking for directory Modelica 3.0 in Modelica:3.0: true
+2015/09/23 13:15:53   Reviewing contents of modelica/Modelica
     Processing library Modelica @ Modelica 3.0
+    Processing library ObsoleteModelica3 @ ObsoleteModelica3.mo
+2015/09/23 13:15:55 Processing tag v2.2.2
   2.2.2: Recording
-2015/09/23 07:09:12 Looking for file Modelica.mo in Modelica:2.2.2: false
-2015/09/23 07:09:12 Looking for file Modelica 2.2.2.mo in Modelica:2.2.2: false
-2015/09/23 07:09:13 Looking for file Modelica.mo in Modelica:2.2.2: false
-2015/09/23 07:09:13 Looking for file Modelica 2.2.2.mo in Modelica:2.2.2: false
-2015/09/23 07:09:13 Looking for directory Modelica in Modelica:2.2.2: false
-2015/09/23 07:09:13 Looking for directory Modelica 2.2.2 in Modelica:2.2.2: true
-2015/09/23 07:09:13   Found
-2015/09/23 07:09:13 Looking for directory Modelica in Modelica:2.2.2: false
-2015/09/23 07:09:14 Looking for directory Modelica 2.2.2 in Modelica:2.2.2: true
+2015/09/23 13:15:56   Reviewing contents of modelica/Modelica
     Processing library Modelica @ Modelica 2.2.2
+2015/09/23 13:15:58 Processing tag v2.2.1
   2.2.1: Recording
-2015/09/23 07:09:15 Looking for file Modelica.mo in Modelica:2.2.1: false
-2015/09/23 07:09:15 Looking for file Modelica 2.2.1.mo in Modelica:2.2.1: false
-2015/09/23 07:09:15 Looking for file Modelica.mo in Modelica:2.2.1: false
-2015/09/23 07:09:15 Looking for file Modelica 2.2.1.mo in Modelica:2.2.1: false
-2015/09/23 07:09:15 Looking for directory Modelica in Modelica:2.2.1: false
-2015/09/23 07:09:16 Looking for directory Modelica 2.2.1 in Modelica:2.2.1: true
-2015/09/23 07:09:16   Found
-2015/09/23 07:09:16 Looking for directory Modelica in Modelica:2.2.1: false
-2015/09/23 07:09:16 Looking for directory Modelica 2.2.1 in Modelica:2.2.1: true
+2015/09/23 13:15:59   Reviewing contents of modelica/Modelica
     Processing library Modelica @ Modelica 2.2.1
+2015/09/23 13:16:01 Processing tag v2.2
   2.2: Recording
-2015/09/23 07:09:17 Looking for file Modelica.mo in Modelica:2.2: false
-2015/09/23 07:09:18 Looking for file Modelica 2.2.mo in Modelica:2.2: false
-2015/09/23 07:09:18 Looking for file Modelica.mo in Modelica:2.2: false
-2015/09/23 07:09:18 Looking for file Modelica 2.2.mo in Modelica:2.2: false
-2015/09/23 07:09:18 Looking for directory Modelica in Modelica:2.2: false
-2015/09/23 07:09:18 Looking for directory Modelica 2.2 in Modelica:2.2: true
-2015/09/23 07:09:18   Found
-2015/09/23 07:09:19 Looking for directory Modelica in Modelica:2.2: false
-2015/09/23 07:09:19 Looking for directory Modelica 2.2 in Modelica:2.2: true
+2015/09/23 13:16:01   Reviewing contents of modelica/Modelica
     Processing library Modelica @ Modelica 2.2
+2015/09/23 13:16:03 Processing tag v2.1
   2.1: Recording
-2015/09/23 07:09:20 Looking for file Modelica.mo in Modelica:2.1: false
-2015/09/23 07:09:20 Looking for file Modelica 2.1.mo in Modelica:2.1: false
-2015/09/23 07:09:20 Looking for file Modelica.mo in Modelica:2.1: false
-2015/09/23 07:09:20 Looking for file Modelica 2.1.mo in Modelica:2.1: false
-2015/09/23 07:09:20 Looking for directory Modelica in Modelica:2.1: false
-2015/09/23 07:09:21 Looking for directory Modelica 2.1 in Modelica:2.1: true
-2015/09/23 07:09:21   Found
-2015/09/23 07:09:21 Looking for directory Modelica in Modelica:2.1: false
-2015/09/23 07:09:21 Looking for directory Modelica 2.1 in Modelica:2.1: true
+2015/09/23 13:16:03   Reviewing contents of modelica/Modelica
     Processing library Modelica @ Modelica 2.1
+2015/09/23 13:16:05 Processing tag v1.6
   1.6: Recording
-2015/09/23 07:09:22 Looking for file Modelica.mo in Modelica:1.6: false
-2015/09/23 07:09:22 Looking for file Modelica 1.6.mo in Modelica:1.6: false
-2015/09/23 07:09:23 Looking for file Modelica.mo in Modelica:1.6: false
-2015/09/23 07:09:23 Looking for file Modelica 1.6.mo in Modelica:1.6: false
-2015/09/23 07:09:23 Looking for directory Modelica in Modelica:1.6: false
-2015/09/23 07:09:23 Looking for directory Modelica 1.6 in Modelica:1.6: true
-2015/09/23 07:09:23   Found
-2015/09/23 07:09:23 Looking for directory Modelica in Modelica:1.6: false
-2015/09/23 07:09:24 Looking for directory Modelica 1.6 in Modelica:1.6: true
+2015/09/23 13:16:05   Reviewing contents of modelica/Modelica
     Processing library Modelica @ Modelica 1.6
+2015/09/23 13:16:06 Processing tag v1.5-dev
   1.5-dev: Recording
-2015/09/23 07:09:25 Looking for file Modelica.mo in Modelica:1.5-dev: false
-2015/09/23 07:09:25 Looking for file Modelica 1.5-dev.mo in Modelica:1.5-dev: false
-2015/09/23 07:09:25 Looking for file Modelica.mo in Modelica:1.5-dev: false
-2015/09/23 07:09:25 Looking for file Modelica 1.5-dev.mo in Modelica:1.5-dev: false
-2015/09/23 07:09:25 Looking for file Modelica 1.5.mo in Modelica:1.5-dev: false
-2015/09/23 07:09:25 Looking for file Modelica 1.5.mo in Modelica:1.5-dev: false
-2015/09/23 07:09:25 Looking for directory Modelica in Modelica:1.5-dev: false
-2015/09/23 07:09:26 Looking for directory Modelica 1.5-dev in Modelica:1.5-dev: false
-2015/09/23 07:09:26 Looking for directory Modelica in Modelica:1.5-dev: false
-2015/09/23 07:09:26 Looking for directory Modelica 1.5-dev in Modelica:1.5-dev: false
-2015/09/23 07:09:26 Looking for directory Modelica 1.5 in Modelica:1.5-dev: false
-2015/09/23 07:09:26 Looking for directory Modelica 1.5 in Modelica:1.5-dev: false
-2015/09/23 07:09:26 Check if directory Modelica:1.5-dev is a package: true
-2015/09/23 07:09:26   Found
-    Processing library Modelica @ 
+2015/09/23 13:16:07   Reviewing contents of modelica/Modelica
+2015/09/23 13:16:07   Repository is a library
+    Processing library Modelica @ .
+2015/09/23 13:16:08 Processing tag v1.3.1-dev
   1.3.1-dev: Recording
-2015/09/23 07:09:27 Looking for file Modelica.mo in Modelica:1.3.1-dev: false
-2015/09/23 07:09:27 Looking for file Modelica 1.3.1-dev.mo in Modelica:1.3.1-dev: false
-2015/09/23 07:09:28 Looking for file Modelica.mo in Modelica:1.3.1-dev: false
-2015/09/23 07:09:28 Looking for file Modelica 1.3.1-dev.mo in Modelica:1.3.1-dev: false
-2015/09/23 07:09:28 Looking for file Modelica 1.3.1.mo in Modelica:1.3.1-dev: false
-2015/09/23 07:09:28 Looking for file Modelica 1.3.1.mo in Modelica:1.3.1-dev: false
-2015/09/23 07:09:28 Looking for directory Modelica in Modelica:1.3.1-dev: false
-2015/09/23 07:09:28 Looking for directory Modelica 1.3.1-dev in Modelica:1.3.1-dev: false
-2015/09/23 07:09:28 Looking for directory Modelica in Modelica:1.3.1-dev: false
-2015/09/23 07:09:28 Looking for directory Modelica 1.3.1-dev in Modelica:1.3.1-dev: false
-2015/09/23 07:09:29 Looking for directory Modelica 1.3.1 in Modelica:1.3.1-dev: false
-2015/09/23 07:09:29 Looking for directory Modelica 1.3.1 in Modelica:1.3.1-dev: false
-2015/09/23 07:09:29 Check if directory Modelica:1.3.1-dev is a package: true
-2015/09/23 07:09:29   Found
-    Processing library Modelica @ 
+2015/09/23 13:16:08   Reviewing contents of modelica/Modelica
+2015/09/23 13:16:09   Repository is a library
+    Processing library Modelica @ .
 Processing: Modelica_DeviceDrivers (https://github.com/modelica/Modelica_DeviceDrivers, fork=false)
-2015/09/23 07:09:30 No source for Modelica_DeviceDrivers
+2015/09/23 13:16:10 No source for Modelica_DeviceDrivers
+2015/09/23 13:16:10 Processing tag v1.4.2
   1.4.2: Recording
-2015/09/23 07:09:31 Looking for file Modelica_DeviceDrivers.mo in Modelica_DeviceDrivers:1.4.2: false
-2015/09/23 07:09:31 Looking for file Modelica_DeviceDrivers 1.4.2.mo in Modelica_DeviceDrivers:1.4.2: false
-2015/09/23 07:09:31 Looking for file Modelica_DeviceDrivers.mo in Modelica_DeviceDrivers:1.4.2: false
-2015/09/23 07:09:31 Looking for file Modelica_DeviceDrivers 1.4.2.mo in Modelica_DeviceDrivers:1.4.2: false
-2015/09/23 07:09:31 Looking for directory Modelica_DeviceDrivers in Modelica_DeviceDrivers:1.4.2: true
-2015/09/23 07:09:31   Found
-2015/09/23 07:09:32 Looking for directory Modelica_DeviceDrivers 1.4.2 in Modelica_DeviceDrivers:1.4.2: false
-2015/09/23 07:09:32 Looking for directory Modelica_DeviceDrivers in Modelica_DeviceDrivers:1.4.2: true
-2015/09/23 07:09:32 Looking for directory Modelica_DeviceDrivers 1.4.2 in Modelica_DeviceDrivers:1.4.2: false
+2015/09/23 13:16:10   Reviewing contents of modelica/Modelica_DeviceDrivers
     Processing library Modelica_DeviceDrivers @ Modelica_DeviceDrivers
+2015/09/23 13:16:12 Processing tag v1.4.1
   1.4.1: Recording
-2015/09/23 07:09:33 Looking for file Modelica_DeviceDrivers.mo in Modelica_DeviceDrivers:1.4.1: false
-2015/09/23 07:09:33 Looking for file Modelica_DeviceDrivers 1.4.1.mo in Modelica_DeviceDrivers:1.4.1: false
-2015/09/23 07:09:33 Looking for file Modelica_DeviceDrivers.mo in Modelica_DeviceDrivers:1.4.1: false
-2015/09/23 07:09:33 Looking for file Modelica_DeviceDrivers 1.4.1.mo in Modelica_DeviceDrivers:1.4.1: false
-2015/09/23 07:09:34 Looking for directory Modelica_DeviceDrivers in Modelica_DeviceDrivers:1.4.1: true
-2015/09/23 07:09:34   Found
-2015/09/23 07:09:34 Looking for directory Modelica_DeviceDrivers 1.4.1 in Modelica_DeviceDrivers:1.4.1: false
-2015/09/23 07:09:34 Looking for directory Modelica_DeviceDrivers in Modelica_DeviceDrivers:1.4.1: true
-2015/09/23 07:09:35 Looking for directory Modelica_DeviceDrivers 1.4.1 in Modelica_DeviceDrivers:1.4.1: false
+2015/09/23 13:16:12   Reviewing contents of modelica/Modelica_DeviceDrivers
     Processing library Modelica_DeviceDrivers @ Modelica_DeviceDrivers
+2015/09/23 13:16:13 Processing tag v1.4.0
   1.4.0: Recording
-2015/09/23 07:09:35 Looking for file Modelica_DeviceDrivers.mo in Modelica_DeviceDrivers:1.4.0: false
-2015/09/23 07:09:35 Looking for file Modelica_DeviceDrivers 1.4.0.mo in Modelica_DeviceDrivers:1.4.0: false
-2015/09/23 07:09:36 Looking for file Modelica_DeviceDrivers.mo in Modelica_DeviceDrivers:1.4.0: false
-2015/09/23 07:09:36 Looking for file Modelica_DeviceDrivers 1.4.0.mo in Modelica_DeviceDrivers:1.4.0: false
-2015/09/23 07:09:36 Looking for directory Modelica_DeviceDrivers in Modelica_DeviceDrivers:1.4.0: true
-2015/09/23 07:09:36   Found
-2015/09/23 07:09:36 Looking for directory Modelica_DeviceDrivers 1.4.0 in Modelica_DeviceDrivers:1.4.0: false
-2015/09/23 07:09:36 Looking for directory Modelica_DeviceDrivers in Modelica_DeviceDrivers:1.4.0: true
-2015/09/23 07:09:37 Looking for directory Modelica_DeviceDrivers 1.4.0 in Modelica_DeviceDrivers:1.4.0: false
+2015/09/23 13:16:14   Reviewing contents of modelica/Modelica_DeviceDrivers
     Processing library Modelica_DeviceDrivers @ Modelica_DeviceDrivers
+2015/09/23 13:16:15 Processing tag v1.3+build.2
   1.3+build.2: Recording
-2015/09/23 07:09:38 Looking for file Modelica_DeviceDrivers.mo in Modelica_DeviceDrivers:1.3+build.2: false
-2015/09/23 07:09:38 Looking for file Modelica_DeviceDrivers 1.3+build.2.mo in Modelica_DeviceDrivers:1.3+build.2: false
-2015/09/23 07:09:38 Looking for file Modelica_DeviceDrivers.mo in Modelica_DeviceDrivers:1.3+build.2: false
-2015/09/23 07:09:38 Looking for file Modelica_DeviceDrivers 1.3+build.2.mo in Modelica_DeviceDrivers:1.3+build.2: false
-2015/09/23 07:09:38 Looking for file Modelica_DeviceDrivers 1.3.mo in Modelica_DeviceDrivers:1.3+build.2: false
-2015/09/23 07:09:38 Looking for file Modelica_DeviceDrivers 1.3.mo in Modelica_DeviceDrivers:1.3+build.2: false
-2015/09/23 07:09:38 Looking for directory Modelica_DeviceDrivers in Modelica_DeviceDrivers:1.3+build.2: false
-2015/09/23 07:09:38 Looking for directory Modelica_DeviceDrivers 1.3+build.2 in Modelica_DeviceDrivers:1.3+build.2: false
-2015/09/23 07:09:39 Looking for directory Modelica_DeviceDrivers in Modelica_DeviceDrivers:1.3+build.2: false
-2015/09/23 07:09:39 Looking for directory Modelica_DeviceDrivers 1.3+build.2 in Modelica_DeviceDrivers:1.3+build.2: false
-2015/09/23 07:09:39 Looking for directory Modelica_DeviceDrivers 1.3 in Modelica_DeviceDrivers:1.3+build.2: true
-2015/09/23 07:09:39   Found
-2015/09/23 07:09:39 Looking for directory Modelica_DeviceDrivers 1.3 in Modelica_DeviceDrivers:1.3+build.2: true
+2015/09/23 13:16:16   Reviewing contents of modelica/Modelica_DeviceDrivers
     Processing library Modelica_DeviceDrivers @ Modelica_DeviceDrivers 1.3
+2015/09/23 13:16:17 Processing tag v1.3+build.1
   1.3+build.1: Recording
-2015/09/23 07:09:40 Looking for file Modelica_DeviceDrivers.mo in Modelica_DeviceDrivers:1.3+build.1: false
-2015/09/23 07:09:40 Looking for file Modelica_DeviceDrivers 1.3+build.1.mo in Modelica_DeviceDrivers:1.3+build.1: false
-2015/09/23 07:09:41 Looking for file Modelica_DeviceDrivers.mo in Modelica_DeviceDrivers:1.3+build.1: false
-2015/09/23 07:09:41 Looking for file Modelica_DeviceDrivers 1.3+build.1.mo in Modelica_DeviceDrivers:1.3+build.1: false
-2015/09/23 07:09:41 Looking for file Modelica_DeviceDrivers 1.3.mo in Modelica_DeviceDrivers:1.3+build.1: false
-2015/09/23 07:09:41 Looking for file Modelica_DeviceDrivers 1.3.mo in Modelica_DeviceDrivers:1.3+build.1: false
-2015/09/23 07:09:41 Looking for directory Modelica_DeviceDrivers in Modelica_DeviceDrivers:1.3+build.1: false
-2015/09/23 07:09:41 Looking for directory Modelica_DeviceDrivers 1.3+build.1 in Modelica_DeviceDrivers:1.3+build.1: false
-2015/09/23 07:09:41 Looking for directory Modelica_DeviceDrivers in Modelica_DeviceDrivers:1.3+build.1: false
-2015/09/23 07:09:41 Looking for directory Modelica_DeviceDrivers 1.3+build.1 in Modelica_DeviceDrivers:1.3+build.1: false
-2015/09/23 07:09:42 Looking for directory Modelica_DeviceDrivers 1.3 in Modelica_DeviceDrivers:1.3+build.1: true
-2015/09/23 07:09:42   Found
-2015/09/23 07:09:42 Looking for directory Modelica_DeviceDrivers 1.3 in Modelica_DeviceDrivers:1.3+build.1: true
+2015/09/23 13:16:18   Reviewing contents of modelica/Modelica_DeviceDrivers
     Processing library Modelica_DeviceDrivers @ Modelica_DeviceDrivers 1.3
+2015/09/23 13:16:19 Processing tag v1.2+build.1
   1.2+build.1: Recording
-2015/09/23 07:09:43 Looking for file Modelica_DeviceDrivers.mo in Modelica_DeviceDrivers:1.2+build.1: false
-2015/09/23 07:09:43 Looking for file Modelica_DeviceDrivers 1.2+build.1.mo in Modelica_DeviceDrivers:1.2+build.1: false
-2015/09/23 07:09:43 Looking for file Modelica_DeviceDrivers.mo in Modelica_DeviceDrivers:1.2+build.1: false
-2015/09/23 07:09:43 Looking for file Modelica_DeviceDrivers 1.2+build.1.mo in Modelica_DeviceDrivers:1.2+build.1: false
-2015/09/23 07:09:44 Looking for file Modelica_DeviceDrivers 1.2.mo in Modelica_DeviceDrivers:1.2+build.1: false
-2015/09/23 07:09:44 Looking for file Modelica_DeviceDrivers 1.2.mo in Modelica_DeviceDrivers:1.2+build.1: false
-2015/09/23 07:09:44 Looking for directory Modelica_DeviceDrivers in Modelica_DeviceDrivers:1.2+build.1: false
-2015/09/23 07:09:44 Looking for directory Modelica_DeviceDrivers 1.2+build.1 in Modelica_DeviceDrivers:1.2+build.1: false
-2015/09/23 07:09:44 Looking for directory Modelica_DeviceDrivers in Modelica_DeviceDrivers:1.2+build.1: false
-2015/09/23 07:09:44 Looking for directory Modelica_DeviceDrivers 1.2+build.1 in Modelica_DeviceDrivers:1.2+build.1: false
-2015/09/23 07:09:44 Looking for directory Modelica_DeviceDrivers 1.2 in Modelica_DeviceDrivers:1.2+build.1: true
-2015/09/23 07:09:44   Found
-2015/09/23 07:09:45 Looking for directory Modelica_DeviceDrivers 1.2 in Modelica_DeviceDrivers:1.2+build.1: true
+2015/09/23 13:16:19   Reviewing contents of modelica/Modelica_DeviceDrivers
     Processing library Modelica_DeviceDrivers @ Modelica_DeviceDrivers 1.2
+2015/09/23 13:16:20 Processing tag v1.1build4
   1.1build4: Ignoring
+2015/09/23 13:16:20 Processing tag v1.1build3
   1.1build3: Ignoring
+2015/09/23 13:16:20 Processing tag v1.1build2
   1.1build2: Ignoring
+2015/09/23 13:16:20 Processing tag v1.1
   1.1: Recording
-2015/09/23 07:09:46 Looking for file Modelica_DeviceDrivers.mo in Modelica_DeviceDrivers:1.1: false
-2015/09/23 07:09:46 Looking for file Modelica_DeviceDrivers 1.1.mo in Modelica_DeviceDrivers:1.1: false
-2015/09/23 07:09:46 Looking for file Modelica_DeviceDrivers.mo in Modelica_DeviceDrivers:1.1: false
-2015/09/23 07:09:46 Looking for file Modelica_DeviceDrivers 1.1.mo in Modelica_DeviceDrivers:1.1: false
-2015/09/23 07:09:46 Looking for directory Modelica_DeviceDrivers in Modelica_DeviceDrivers:1.1: false
-2015/09/23 07:09:46 Looking for directory Modelica_DeviceDrivers 1.1 in Modelica_DeviceDrivers:1.1: true
-2015/09/23 07:09:46   Found
-2015/09/23 07:09:47 Looking for directory Modelica_DeviceDrivers in Modelica_DeviceDrivers:1.1: false
-2015/09/23 07:09:47 Looking for directory Modelica_DeviceDrivers 1.1 in Modelica_DeviceDrivers:1.1: true
+2015/09/23 13:16:21   Reviewing contents of modelica/Modelica_DeviceDrivers
     Processing library Modelica_DeviceDrivers @ Modelica_DeviceDrivers 1.1
+2015/09/23 13:16:22 Processing tag v1.0
   1.0: Recording
-2015/09/23 07:09:48 Looking for file Modelica_DeviceDrivers.mo in Modelica_DeviceDrivers:1.0: false
-2015/09/23 07:09:48 Looking for file Modelica_DeviceDrivers 1.0.mo in Modelica_DeviceDrivers:1.0: false
-2015/09/23 07:09:48 Looking for file Modelica_DeviceDrivers.mo in Modelica_DeviceDrivers:1.0: false
-2015/09/23 07:09:48 Looking for file Modelica_DeviceDrivers 1.0.mo in Modelica_DeviceDrivers:1.0: false
-2015/09/23 07:09:49 Looking for directory Modelica_DeviceDrivers in Modelica_DeviceDrivers:1.0: false
-2015/09/23 07:09:49 Looking for directory Modelica_DeviceDrivers 1.0 in Modelica_DeviceDrivers:1.0: true
-2015/09/23 07:09:49   Found
-2015/09/23 07:09:49 Looking for directory Modelica_DeviceDrivers in Modelica_DeviceDrivers:1.0: false
-2015/09/23 07:09:49 Looking for directory Modelica_DeviceDrivers 1.0 in Modelica_DeviceDrivers:1.0: true
+2015/09/23 13:16:23   Reviewing contents of modelica/Modelica_DeviceDrivers
     Processing library Modelica_DeviceDrivers @ Modelica_DeviceDrivers 1.0
 Processing: Modelica_EnergyStorages (https://github.com/modelica/Modelica_EnergyStorages, fork=false)
-2015/09/23 07:09:50 No source for Modelica_EnergyStorages
+2015/09/23 13:16:24 No source for Modelica_EnergyStorages
 Processing: Modelica_LinearSystems2 (https://github.com/modelica/Modelica_LinearSystems2, fork=false)
-2015/09/23 07:09:51 No source for Modelica_LinearSystems2
+2015/09/23 13:16:25 No source for Modelica_LinearSystems2
+2015/09/23 13:16:26 Processing tag v2.3.3
   2.3.3: Recording
-2015/09/23 07:09:52 Looking for file Modelica_LinearSystems2.mo in Modelica_LinearSystems2:2.3.3: false
-2015/09/23 07:09:52 Looking for file Modelica_LinearSystems2 2.3.3.mo in Modelica_LinearSystems2:2.3.3: false
-2015/09/23 07:09:53 Looking for file Modelica_LinearSystems2.mo in Modelica_LinearSystems2:2.3.3: false
-2015/09/23 07:09:53 Looking for file Modelica_LinearSystems2 2.3.3.mo in Modelica_LinearSystems2:2.3.3: false
-2015/09/23 07:09:53 Looking for directory Modelica_LinearSystems2 in Modelica_LinearSystems2:2.3.3: false
-2015/09/23 07:09:53 Looking for directory Modelica_LinearSystems2 2.3.3 in Modelica_LinearSystems2:2.3.3: true
-2015/09/23 07:09:53   Found
-2015/09/23 07:09:53 Looking for directory Modelica_LinearSystems2 in Modelica_LinearSystems2:2.3.3: false
-2015/09/23 07:09:54 Looking for directory Modelica_LinearSystems2 2.3.3 in Modelica_LinearSystems2:2.3.3: true
+2015/09/23 13:16:26   Reviewing contents of modelica/Modelica_LinearSystems2
     Processing library Modelica_LinearSystems2 @ Modelica_LinearSystems2 2.3.3
+2015/09/23 13:16:27 Processing tag v2.3.2
   2.3.2: Recording
-2015/09/23 07:09:55 Looking for file Modelica_LinearSystems2.mo in Modelica_LinearSystems2:2.3.2: false
-2015/09/23 07:09:55 Looking for file Modelica_LinearSystems2 2.3.2.mo in Modelica_LinearSystems2:2.3.2: false
-2015/09/23 07:09:55 Looking for file Modelica_LinearSystems2.mo in Modelica_LinearSystems2:2.3.2: false
-2015/09/23 07:09:55 Looking for file Modelica_LinearSystems2 2.3.2.mo in Modelica_LinearSystems2:2.3.2: false
-2015/09/23 07:09:55 Looking for directory Modelica_LinearSystems2 in Modelica_LinearSystems2:2.3.2: false
-2015/09/23 07:09:55 Looking for directory Modelica_LinearSystems2 2.3.2 in Modelica_LinearSystems2:2.3.2: false
-2015/09/23 07:09:55 Looking for directory Modelica_LinearSystems2 in Modelica_LinearSystems2:2.3.2: false
-2015/09/23 07:09:56 Looking for directory Modelica_LinearSystems2 2.3.2 in Modelica_LinearSystems2:2.3.2: false
-2015/09/23 07:09:56 Check if directory Modelica_LinearSystems2:2.3.2 is a package: false
-2015/09/23 07:09:56 Nothing found in Modelica_LinearSystems2/2.3.2 for among [Modelica_LinearSystems2.mo Modelica_LinearSystems2 2.3.2.mo Modelica_LinearSystems2.mo Modelica_LinearSystems2 2.3.2.mo] or [Modelica_LinearSystems2 Modelica_LinearSystems2 2.3.2 Modelica_LinearSystems2 Modelica_LinearSystems2 2.3.2]
-    No Modelica libraries found in repository Modelica_LinearSystems2:2.3.2
+2015/09/23 13:16:28   Reviewing contents of modelica/Modelica_LinearSystems2
+    Processing library Modelica_LinearSystems2 @ Modelica_LinearSystems 2.3.2
+2015/09/23 13:16:29 Processing tag v2.3.1
+  2.3.1: Recording
+2015/09/23 13:16:30   Reviewing contents of modelica/Modelica_LinearSystems2
+    Processing library Modelica_LinearSystems2 @ Modelica_LinearSystems 2.3.1
+2015/09/23 13:16:31 Processing tag v2.3
   2.3: Recording
-2015/09/23 07:09:56 Looking for file Modelica_LinearSystems2.mo in Modelica_LinearSystems2:2.3: false
-2015/09/23 07:09:56 Looking for file Modelica_LinearSystems2 2.3.mo in Modelica_LinearSystems2:2.3: false
-2015/09/23 07:09:56 Looking for file Modelica_LinearSystems2.mo in Modelica_LinearSystems2:2.3: false
-2015/09/23 07:09:56 Looking for file Modelica_LinearSystems2 2.3.mo in Modelica_LinearSystems2:2.3: false
-2015/09/23 07:09:56 Looking for directory Modelica_LinearSystems2 in Modelica_LinearSystems2:2.3: false
-2015/09/23 07:09:57 Looking for directory Modelica_LinearSystems2 2.3 in Modelica_LinearSystems2:2.3: true
-2015/09/23 07:09:57   Found
-2015/09/23 07:09:57 Looking for directory Modelica_LinearSystems2 in Modelica_LinearSystems2:2.3: false
-2015/09/23 07:09:57 Looking for directory Modelica_LinearSystems2 2.3 in Modelica_LinearSystems2:2.3: true
+2015/09/23 13:16:32   Reviewing contents of modelica/Modelica_LinearSystems2
     Processing library Modelica_LinearSystems2 @ Modelica_LinearSystems2 2.3
+2015/09/23 13:16:33 Processing tag v2.0
   2.0: Recording
-2015/09/23 07:09:58 Looking for file Modelica_LinearSystems2.mo in Modelica_LinearSystems2:2.0: false
-2015/09/23 07:09:58 Looking for file Modelica_LinearSystems2 2.0.mo in Modelica_LinearSystems2:2.0: false
-2015/09/23 07:09:58 Looking for file Modelica_LinearSystems2.mo in Modelica_LinearSystems2:2.0: false
-2015/09/23 07:09:59 Looking for file Modelica_LinearSystems2 2.0.mo in Modelica_LinearSystems2:2.0: false
-2015/09/23 07:09:59 Looking for directory Modelica_LinearSystems2 in Modelica_LinearSystems2:2.0: false
-2015/09/23 07:09:59 Looking for directory Modelica_LinearSystems2 2.0 in Modelica_LinearSystems2:2.0: true
-2015/09/23 07:09:59   Found
-2015/09/23 07:09:59 Looking for directory Modelica_LinearSystems2 in Modelica_LinearSystems2:2.0: false
-2015/09/23 07:09:59 Looking for directory Modelica_LinearSystems2 2.0 in Modelica_LinearSystems2:2.0: true
+2015/09/23 13:16:33   Reviewing contents of modelica/Modelica_LinearSystems2
     Processing library Modelica_LinearSystems2 @ Modelica_LinearSystems2 2.0
+2015/09/23 13:16:34 Processing tag deprecated
   deprecated: Ignoring
 Processing: Modelica_StateGraph2 (https://github.com/modelica/Modelica_StateGraph2, fork=false)
-2015/09/23 07:10:01 No source for Modelica_StateGraph2
+2015/09/23 13:16:35 No source for Modelica_StateGraph2
+2015/09/23 13:16:35 Processing tag v2.0.2
   2.0.2: Recording
-2015/09/23 07:10:02 Looking for file Modelica_StateGraph2.mo in Modelica_StateGraph2:2.0.2: false
-2015/09/23 07:10:02 Looking for file Modelica_StateGraph2 2.0.2.mo in Modelica_StateGraph2:2.0.2: false
-2015/09/23 07:10:02 Looking for file Modelica_StateGraph2.mo in Modelica_StateGraph2:2.0.2: false
-2015/09/23 07:10:02 Looking for file Modelica_StateGraph2 2.0.2.mo in Modelica_StateGraph2:2.0.2: false
-2015/09/23 07:10:02 Looking for directory Modelica_StateGraph2 in Modelica_StateGraph2:2.0.2: false
-2015/09/23 07:10:02 Looking for directory Modelica_StateGraph2 2.0.2 in Modelica_StateGraph2:2.0.2: true
-2015/09/23 07:10:02   Found
-2015/09/23 07:10:03 Looking for directory Modelica_StateGraph2 in Modelica_StateGraph2:2.0.2: false
-2015/09/23 07:10:03 Looking for directory Modelica_StateGraph2 2.0.2 in Modelica_StateGraph2:2.0.2: true
+2015/09/23 13:16:36   Reviewing contents of modelica/Modelica_StateGraph2
     Processing library Modelica_StateGraph2 @ Modelica_StateGraph2 2.0.2
+2015/09/23 13:16:37 Processing tag v2.0.1
   2.0.1: Recording
-2015/09/23 07:10:06 Looking for file Modelica_StateGraph2.mo in Modelica_StateGraph2:2.0.1: false
-2015/09/23 07:10:06 Looking for file Modelica_StateGraph2 2.0.1.mo in Modelica_StateGraph2:2.0.1: false
-2015/09/23 07:10:06 Looking for file Modelica_StateGraph2.mo in Modelica_StateGraph2:2.0.1: false
-2015/09/23 07:10:06 Looking for file Modelica_StateGraph2 2.0.1.mo in Modelica_StateGraph2:2.0.1: false
-2015/09/23 07:10:06 Looking for directory Modelica_StateGraph2 in Modelica_StateGraph2:2.0.1: false
-2015/09/23 07:10:06 Looking for directory Modelica_StateGraph2 2.0.1 in Modelica_StateGraph2:2.0.1: true
-2015/09/23 07:10:06   Found
-2015/09/23 07:10:07 Looking for directory Modelica_StateGraph2 in Modelica_StateGraph2:2.0.1: false
-2015/09/23 07:10:07 Looking for directory Modelica_StateGraph2 2.0.1 in Modelica_StateGraph2:2.0.1: true
+2015/09/23 13:16:38   Reviewing contents of modelica/Modelica_StateGraph2
     Processing library Modelica_StateGraph2 @ Modelica_StateGraph2 2.0.1
+2015/09/23 13:16:44 Processing tag v2.0
   2.0: Recording
-2015/09/23 07:10:10 Looking for file Modelica_StateGraph2.mo in Modelica_StateGraph2:2.0: false
-2015/09/23 07:10:10 Looking for file Modelica_StateGraph2 2.0.mo in Modelica_StateGraph2:2.0: false
-2015/09/23 07:10:10 Looking for file Modelica_StateGraph2.mo in Modelica_StateGraph2:2.0: false
-2015/09/23 07:10:10 Looking for file Modelica_StateGraph2 2.0.mo in Modelica_StateGraph2:2.0: false
-2015/09/23 07:10:10 Looking for directory Modelica_StateGraph2 in Modelica_StateGraph2:2.0: false
-2015/09/23 07:10:10 Looking for directory Modelica_StateGraph2 2.0 in Modelica_StateGraph2:2.0: true
-2015/09/23 07:10:10   Found
-2015/09/23 07:10:11 Looking for directory Modelica_StateGraph2 in Modelica_StateGraph2:2.0: false
-2015/09/23 07:10:11 Looking for directory Modelica_StateGraph2 2.0 in Modelica_StateGraph2:2.0: true
+2015/09/23 13:16:45   Reviewing contents of modelica/Modelica_StateGraph2
     Processing library Modelica_StateGraph2 @ Modelica_StateGraph2 2.0
 Processing: Modelica_Synchronous (https://github.com/modelica/Modelica_Synchronous, fork=false)
-2015/09/23 07:10:13 No source for Modelica_Synchronous
+2015/09/23 13:16:46 No source for Modelica_Synchronous
+2015/09/23 13:16:47 Processing tag v0.92+build.2
   0.92+build.2: Recording
-2015/09/23 07:10:14 Looking for file Modelica_Synchronous.mo in Modelica_Synchronous:0.92+build.2: false
-2015/09/23 07:10:14 Looking for file Modelica_Synchronous 0.92+build.2.mo in Modelica_Synchronous:0.92+build.2: false
-2015/09/23 07:10:14 Looking for file Modelica_Synchronous.mo in Modelica_Synchronous:0.92+build.2: false
-2015/09/23 07:10:14 Looking for file Modelica_Synchronous 0.92+build.2.mo in Modelica_Synchronous:0.92+build.2: false
-2015/09/23 07:10:14 Looking for file Modelica_Synchronous 0.92.mo in Modelica_Synchronous:0.92+build.2: false
-2015/09/23 07:10:14 Looking for file Modelica_Synchronous 0.92.mo in Modelica_Synchronous:0.92+build.2: false
-2015/09/23 07:10:14 Looking for directory Modelica_Synchronous in Modelica_Synchronous:0.92+build.2: false
-2015/09/23 07:10:15 Looking for directory Modelica_Synchronous 0.92+build.2 in Modelica_Synchronous:0.92+build.2: false
-2015/09/23 07:10:15 Looking for directory Modelica_Synchronous in Modelica_Synchronous:0.92+build.2: false
-2015/09/23 07:10:15 Looking for directory Modelica_Synchronous 0.92+build.2 in Modelica_Synchronous:0.92+build.2: false
-2015/09/23 07:10:15 Looking for directory Modelica_Synchronous 0.92 in Modelica_Synchronous:0.92+build.2: true
-2015/09/23 07:10:15   Found
-2015/09/23 07:10:15 Looking for directory Modelica_Synchronous 0.92 in Modelica_Synchronous:0.92+build.2: true
+2015/09/23 13:16:47   Reviewing contents of modelica/Modelica_Synchronous
     Processing library Modelica_Synchronous @ Modelica_Synchronous 0.92
+2015/09/23 13:16:48 Processing tag v0.92
   0.92: Recording
-2015/09/23 07:10:16 Looking for file Modelica_Synchronous.mo in Modelica_Synchronous:0.92: false
-2015/09/23 07:10:17 Looking for file Modelica_Synchronous 0.92.mo in Modelica_Synchronous:0.92: false
-2015/09/23 07:10:17 Looking for file Modelica_Synchronous.mo in Modelica_Synchronous:0.92: false
-2015/09/23 07:10:17 Looking for file Modelica_Synchronous 0.92.mo in Modelica_Synchronous:0.92: false
-2015/09/23 07:10:17 Looking for directory Modelica_Synchronous in Modelica_Synchronous:0.92: false
-2015/09/23 07:10:17 Looking for directory Modelica_Synchronous 0.92 in Modelica_Synchronous:0.92: true
-2015/09/23 07:10:17   Found
-2015/09/23 07:10:18 Looking for directory Modelica_Synchronous in Modelica_Synchronous:0.92: false
-2015/09/23 07:10:18 Looking for directory Modelica_Synchronous 0.92 in Modelica_Synchronous:0.92: true
+2015/09/23 13:16:49   Reviewing contents of modelica/Modelica_Synchronous
     Processing library Modelica_Synchronous @ Modelica_Synchronous 0.92
+2015/09/23 13:16:50 Processing tag v0.91
   0.91: Recording
-2015/09/23 07:10:19 Looking for file Modelica_Synchronous.mo in Modelica_Synchronous:0.91: false
-2015/09/23 07:10:19 Looking for file Modelica_Synchronous 0.91.mo in Modelica_Synchronous:0.91: false
-2015/09/23 07:10:19 Looking for file Modelica_Synchronous.mo in Modelica_Synchronous:0.91: false
-2015/09/23 07:10:19 Looking for file Modelica_Synchronous 0.91.mo in Modelica_Synchronous:0.91: false
-2015/09/23 07:10:19 Looking for directory Modelica_Synchronous in Modelica_Synchronous:0.91: false
-2015/09/23 07:10:19 Looking for directory Modelica_Synchronous 0.91 in Modelica_Synchronous:0.91: true
-2015/09/23 07:10:19   Found
-2015/09/23 07:10:20 Looking for directory Modelica_Synchronous in Modelica_Synchronous:0.91: false
-2015/09/23 07:10:20 Looking for directory Modelica_Synchronous 0.91 in Modelica_Synchronous:0.91: true
-    Processing library Modelica_Synchronous @ Modelica_Synchronous 0.91
+2015/09/23 13:16:51   Reviewing contents of modelica/Modelica_Synchronous
+2015/09/23 13:16:51   Repository is a library
+    Processing library Modelica_Synchronous @ .
 Processing: PowerSystems (https://github.com/modelica/PowerSystems, fork=false)
-2015/09/23 07:10:21 No source for PowerSystems
+2015/09/23 13:16:52 No source for PowerSystems
+2015/09/23 13:16:52 Processing tag v0.4.0
   0.4.0: Recording
-2015/09/23 07:10:22 Looking for file PowerSystems.mo in PowerSystems:0.4.0: false
-2015/09/23 07:10:23 Looking for file PowerSystems 0.4.0.mo in PowerSystems:0.4.0: false
-2015/09/23 07:10:23 Looking for file PowerSystems.mo in PowerSystems:0.4.0: false
-2015/09/23 07:10:23 Looking for file PowerSystems 0.4.0.mo in PowerSystems:0.4.0: false
-2015/09/23 07:10:23 Looking for directory PowerSystems in PowerSystems:0.4.0: false
-2015/09/23 07:10:23 Looking for directory PowerSystems 0.4.0 in PowerSystems:0.4.0: true
-2015/09/23 07:10:23   Found
-2015/09/23 07:10:24 Looking for directory PowerSystems in PowerSystems:0.4.0: false
-2015/09/23 07:10:24 Looking for directory PowerSystems 0.4.0 in PowerSystems:0.4.0: true
+2015/09/23 13:16:53   Reviewing contents of modelica/PowerSystems
     Processing library PowerSystems @ PowerSystems 0.4.0
+2015/09/23 13:16:54 Processing tag v0.3
   0.3: Recording
-2015/09/23 07:10:25 Looking for file PowerSystems.mo in PowerSystems:0.3: false
-2015/09/23 07:10:25 Looking for file PowerSystems 0.3.mo in PowerSystems:0.3: false
-2015/09/23 07:10:25 Looking for file PowerSystems.mo in PowerSystems:0.3: false
-2015/09/23 07:10:25 Looking for file PowerSystems 0.3.mo in PowerSystems:0.3: false
-2015/09/23 07:10:25 Looking for directory PowerSystems in PowerSystems:0.3: false
-2015/09/23 07:10:25 Looking for directory PowerSystems 0.3 in PowerSystems:0.3: true
-2015/09/23 07:10:25   Found
-2015/09/23 07:10:26 Looking for directory PowerSystems in PowerSystems:0.3: false
-2015/09/23 07:10:26 Looking for directory PowerSystems 0.3 in PowerSystems:0.3: true
+2015/09/23 13:16:55   Reviewing contents of modelica/PowerSystems
     Processing library PowerSystems @ PowerSystems 0.3
+2015/09/23 13:16:56 Processing tag v0.2
   0.2: Recording
-2015/09/23 07:10:27 Looking for file PowerSystems.mo in PowerSystems:0.2: false
-2015/09/23 07:10:27 Looking for file PowerSystems 0.2.mo in PowerSystems:0.2: false
-2015/09/23 07:10:27 Looking for file PowerSystems.mo in PowerSystems:0.2: false
-2015/09/23 07:10:27 Looking for file PowerSystems 0.2.mo in PowerSystems:0.2: false
-2015/09/23 07:10:28 Looking for directory PowerSystems in PowerSystems:0.2: false
-2015/09/23 07:10:28 Looking for directory PowerSystems 0.2 in PowerSystems:0.2: true
-2015/09/23 07:10:28   Found
-2015/09/23 07:10:28 Looking for directory PowerSystems in PowerSystems:0.2: false
-2015/09/23 07:10:28 Looking for directory PowerSystems 0.2 in PowerSystems:0.2: true
+2015/09/23 13:16:56   Reviewing contents of modelica/PowerSystems
     Processing library PowerSystems @ PowerSystems 0.2
 Processing: VehicleInterfaces (https://github.com/modelica/VehicleInterfaces, fork=false)
-2015/09/23 07:10:29 No source for VehicleInterfaces
+2015/09/23 13:16:58 No source for VehicleInterfaces
+2015/09/23 13:16:58 Processing tag v1.2.3
   1.2.3: Recording
-2015/09/23 07:10:30 Looking for file VehicleInterfaces.mo in VehicleInterfaces:1.2.3: false
-2015/09/23 07:10:31 Looking for file VehicleInterfaces 1.2.3.mo in VehicleInterfaces:1.2.3: false
-2015/09/23 07:10:31 Looking for file VehicleInterfaces.mo in VehicleInterfaces:1.2.3: false
-2015/09/23 07:10:31 Looking for file VehicleInterfaces 1.2.3.mo in VehicleInterfaces:1.2.3: false
-2015/09/23 07:10:31 Looking for directory VehicleInterfaces in VehicleInterfaces:1.2.3: true
-2015/09/23 07:10:31   Found
-2015/09/23 07:10:32 Looking for directory VehicleInterfaces 1.2.3 in VehicleInterfaces:1.2.3: false
-2015/09/23 07:10:32 Looking for directory VehicleInterfaces in VehicleInterfaces:1.2.3: true
-2015/09/23 07:10:32 Looking for directory VehicleInterfaces 1.2.3 in VehicleInterfaces:1.2.3: false
+2015/09/23 13:16:59   Reviewing contents of modelica/VehicleInterfaces
     Processing library VehicleInterfaces @ VehicleInterfaces
+2015/09/23 13:17:00 Processing tag v1.2.2
   1.2.2: Recording
-2015/09/23 07:10:33 Looking for file VehicleInterfaces.mo in VehicleInterfaces:1.2.2: false
-2015/09/23 07:10:33 Looking for file VehicleInterfaces 1.2.2.mo in VehicleInterfaces:1.2.2: false
-2015/09/23 07:10:33 Looking for file VehicleInterfaces.mo in VehicleInterfaces:1.2.2: false
-2015/09/23 07:10:33 Looking for file VehicleInterfaces 1.2.2.mo in VehicleInterfaces:1.2.2: false
-2015/09/23 07:10:33 Looking for directory VehicleInterfaces in VehicleInterfaces:1.2.2: false
-2015/09/23 07:10:34 Looking for directory VehicleInterfaces 1.2.2 in VehicleInterfaces:1.2.2: true
-2015/09/23 07:10:34   Found
-2015/09/23 07:10:34 Looking for directory VehicleInterfaces in VehicleInterfaces:1.2.2: false
-2015/09/23 07:10:34 Looking for directory VehicleInterfaces 1.2.2 in VehicleInterfaces:1.2.2: true
+2015/09/23 13:17:00   Reviewing contents of modelica/VehicleInterfaces
     Processing library VehicleInterfaces @ VehicleInterfaces 1.2.2
+2015/09/23 13:17:02 Processing tag v1.2.1
   1.2.1: Recording
-2015/09/23 07:10:35 Looking for file VehicleInterfaces.mo in VehicleInterfaces:1.2.1: false
-2015/09/23 07:10:35 Looking for file VehicleInterfaces 1.2.1.mo in VehicleInterfaces:1.2.1: false
-2015/09/23 07:10:35 Looking for file VehicleInterfaces.mo in VehicleInterfaces:1.2.1: false
-2015/09/23 07:10:36 Looking for file VehicleInterfaces 1.2.1.mo in VehicleInterfaces:1.2.1: false
-2015/09/23 07:10:36 Looking for directory VehicleInterfaces in VehicleInterfaces:1.2.1: false
-2015/09/23 07:10:36 Looking for directory VehicleInterfaces 1.2.1 in VehicleInterfaces:1.2.1: true
-2015/09/23 07:10:36   Found
-2015/09/23 07:10:36 Looking for directory VehicleInterfaces in VehicleInterfaces:1.2.1: false
-2015/09/23 07:10:37 Looking for directory VehicleInterfaces 1.2.1 in VehicleInterfaces:1.2.1: true
+2015/09/23 13:17:03   Reviewing contents of modelica/VehicleInterfaces
     Processing library VehicleInterfaces @ VehicleInterfaces 1.2.1
+Fetching repositories for modelica-3rdparty
+  Fetching page 1, 10 entries
+  Fetching page 2, 10 entries
+  Fetching page 3, 10 entries
+  Fetching page 4, 10 entries
+  Fetching page 5, 10 entries
+  Fetching page 6, 8 entries
+  Fetching page 7, 0 entries
 Processing: ADGenKinetics (https://github.com/modelica-3rdparty/ADGenKinetics, fork=false)
-2015/09/23 07:10:38 No source for ADGenKinetics
+2015/09/23 13:17:08 No source for ADGenKinetics
+2015/09/23 13:17:09 Processing tag v1.0+r23
   1.0+r23: Recording
-2015/09/23 07:10:39 Looking for file ADGenKinetics.mo in ADGenKinetics:1.0+r23: true
-2015/09/23 07:10:39   Found
-2015/09/23 07:10:40 Looking for file ADGenKinetics 1.0+r23.mo in ADGenKinetics:1.0+r23: false
-2015/09/23 07:10:40 Looking for file ADGenKinetics.mo in ADGenKinetics:1.0+r23: true
-2015/09/23 07:10:41 Looking for file ADGenKinetics 1.0+r23.mo in ADGenKinetics:1.0+r23: false
-2015/09/23 07:10:41 Looking for file ADGenKinetics 1.0.mo in ADGenKinetics:1.0+r23: false
-2015/09/23 07:10:41 Looking for file ADGenKinetics 1.0.mo in ADGenKinetics:1.0+r23: false
-2015/09/23 07:10:41 Looking for directory ADGenKinetics in ADGenKinetics:1.0+r23: false
-2015/09/23 07:10:41 Looking for directory ADGenKinetics 1.0+r23 in ADGenKinetics:1.0+r23: false
-2015/09/23 07:10:41 Looking for directory ADGenKinetics in ADGenKinetics:1.0+r23: false
-2015/09/23 07:10:42 Looking for directory ADGenKinetics 1.0+r23 in ADGenKinetics:1.0+r23: false
-2015/09/23 07:10:42 Looking for directory ADGenKinetics 1.0 in ADGenKinetics:1.0+r23: false
-2015/09/23 07:10:42 Looking for directory ADGenKinetics 1.0 in ADGenKinetics:1.0+r23: false
+2015/09/23 13:17:09   Reviewing contents of modelica-3rdparty/ADGenKinetics
     Processing library ADGenKinetics @ ADGenKinetics.mo
 Processing: ADMSL (https://github.com/modelica-3rdparty/ADMSL, fork=true)
-2015/09/23 07:10:43 Source for ADMSL exists
+2015/09/23 13:17:10 Source for ADMSL exists
 Processing: AixLib (https://github.com/modelica-3rdparty/AixLib, fork=true)
-2015/09/23 07:10:44 Source for AixLib exists
+2015/09/23 13:17:11 Source for AixLib exists
+2015/09/23 13:17:12 Processing tag v0.1.0
   0.1.0: Recording
-2015/09/23 07:10:45 Looking for file AixLib.mo in AixLib:0.1.0: false
-2015/09/23 07:10:45 Looking for file AixLib 0.1.0.mo in AixLib:0.1.0: false
-2015/09/23 07:10:45 Looking for file AixLib.mo in AixLib:0.1.0: false
-2015/09/23 07:10:45 Looking for file AixLib 0.1.0.mo in AixLib:0.1.0: false
-2015/09/23 07:10:45 Looking for directory AixLib in AixLib:0.1.0: true
-2015/09/23 07:10:45   Found
-2015/09/23 07:10:46 Looking for directory AixLib 0.1.0 in AixLib:0.1.0: false
-2015/09/23 07:10:46 Looking for directory AixLib in AixLib:0.1.0: true
-2015/09/23 07:10:46 Looking for directory AixLib 0.1.0 in AixLib:0.1.0: false
+2015/09/23 13:17:12   Reviewing contents of RWTH-EBC/AixLib
     Processing library AixLib @ AixLib
 Processing: ATplus (https://github.com/modelica-3rdparty/ATplus, fork=false)
-2015/09/23 07:10:47 No source for ATplus
+2015/09/23 13:17:14 No source for ATplus
+2015/09/23 13:17:14 Processing tag v2.1
   2.1: Recording
-2015/09/23 07:10:48 Looking for file ATplus.mo in ATplus:2.1: false
-2015/09/23 07:10:48 Looking for file ATplus 2.1.mo in ATplus:2.1: false
-2015/09/23 07:10:48 Looking for file ATplus.mo in ATplus:2.1: false
-2015/09/23 07:10:48 Looking for file ATplus 2.1.mo in ATplus:2.1: false
-2015/09/23 07:10:48 Looking for directory ATplus in ATplus:2.1: false
-2015/09/23 07:10:49 Looking for directory ATplus 2.1 in ATplus:2.1: true
-2015/09/23 07:10:49   Found
-2015/09/23 07:10:49 Looking for directory ATplus in ATplus:2.1: false
-2015/09/23 07:10:49 Looking for directory ATplus 2.1 in ATplus:2.1: true
+2015/09/23 13:17:15   Reviewing contents of modelica-3rdparty/ATplus
     Processing library ATplus @ ATplus 2.1
 Processing: BioChem (https://github.com/modelica-3rdparty/BioChem, fork=true)
-2015/09/23 07:10:50 Source for BioChem exists
+2015/09/23 13:17:16 Source for BioChem exists
+2015/09/23 13:17:17 Processing tag v1.0.1
   1.0.1: Recording
-2015/09/23 07:10:51 Looking for file BioChem.mo in BioChem:1.0.1: false
-2015/09/23 07:10:51 Looking for file BioChem 1.0.1.mo in BioChem:1.0.1: false
-2015/09/23 07:10:51 Looking for file BioChem.mo in BioChem:1.0.1: false
-2015/09/23 07:10:52 Looking for file BioChem 1.0.1.mo in BioChem:1.0.1: false
-2015/09/23 07:10:52 Looking for directory BioChem in BioChem:1.0.1: false
-2015/09/23 07:10:52 Looking for directory BioChem 1.0.1 in BioChem:1.0.1: true
-2015/09/23 07:10:52   Found
-2015/09/23 07:10:52 Looking for directory BioChem in BioChem:1.0.1: false
-2015/09/23 07:10:52 Looking for directory BioChem 1.0.1 in BioChem:1.0.1: true
+2015/09/23 13:17:18   Reviewing contents of OpenModelica/BioChem
     Processing library BioChem @ BioChem 1.0.1
+2015/09/23 13:17:19 Processing tag v1.0
   1.0: Recording
-2015/09/23 07:10:53 Looking for file BioChem.mo in BioChem:1.0: false
-2015/09/23 07:10:54 Looking for file BioChem 1.0.mo in BioChem:1.0: false
-2015/09/23 07:10:54 Looking for file BioChem.mo in BioChem:1.0: false
-2015/09/23 07:10:54 Looking for file BioChem 1.0.mo in BioChem:1.0: false
-2015/09/23 07:10:54 Looking for directory BioChem in BioChem:1.0: false
-2015/09/23 07:10:54 Looking for directory BioChem 1.0 in BioChem:1.0: true
-2015/09/23 07:10:54   Found
-2015/09/23 07:10:55 Looking for directory BioChem in BioChem:1.0: false
-2015/09/23 07:10:55 Looking for directory BioChem 1.0 in BioChem:1.0: true
+2015/09/23 13:17:20   Reviewing contents of OpenModelica/BioChem
     Processing library BioChem @ BioChem 1.0
 Processing: BondGraph (https://github.com/modelica-3rdparty/BondGraph, fork=false)
-2015/09/23 07:10:56 No source for BondGraph
+2015/09/23 13:17:22 No source for BondGraph
+2015/09/23 13:17:22 Processing tag v1.1.0
   1.1.0: Recording
-2015/09/23 07:10:57 Looking for file BondGraph.mo in BondGraph:1.1.0: true
-2015/09/23 07:10:57   Found
-2015/09/23 07:10:58 Looking for file BondGraph 1.1.0.mo in BondGraph:1.1.0: false
-2015/09/23 07:10:58 Looking for file BondGraph.mo in BondGraph:1.1.0: true
-2015/09/23 07:10:59 Looking for file BondGraph 1.1.0.mo in BondGraph:1.1.0: false
-2015/09/23 07:10:59 Looking for directory BondGraph in BondGraph:1.1.0: false
-2015/09/23 07:10:59 Looking for directory BondGraph 1.1.0 in BondGraph:1.1.0: false
-2015/09/23 07:10:59 Looking for directory BondGraph in BondGraph:1.1.0: false
-2015/09/23 07:10:59 Looking for directory BondGraph 1.1.0 in BondGraph:1.1.0: false
+2015/09/23 13:17:23   Reviewing contents of modelica-3rdparty/BondGraph
     Processing library BondGraph @ BondGraph.mo
+2015/09/23 13:17:24 Processing tag v1.0.0
   1.0.0: Recording
-2015/09/23 07:11:01 Looking for file BondGraph.mo in BondGraph:1.0.0: true
-2015/09/23 07:11:01   Found
-2015/09/23 07:11:02 Looking for file BondGraph 1.0.0.mo in BondGraph:1.0.0: false
-2015/09/23 07:11:02 Looking for file BondGraph.mo in BondGraph:1.0.0: true
-2015/09/23 07:11:03 Looking for file BondGraph 1.0.0.mo in BondGraph:1.0.0: false
-2015/09/23 07:11:03 Looking for directory BondGraph in BondGraph:1.0.0: false
-2015/09/23 07:11:03 Looking for directory BondGraph 1.0.0 in BondGraph:1.0.0: false
-2015/09/23 07:11:03 Looking for directory BondGraph in BondGraph:1.0.0: false
-2015/09/23 07:11:03 Looking for directory BondGraph 1.0.0 in BondGraph:1.0.0: false
+2015/09/23 13:17:24   Reviewing contents of modelica-3rdparty/BondGraph
     Processing library BondGraph @ BondGraph.mo
 Processing: BondLib (https://github.com/modelica-3rdparty/BondLib, fork=false)
-2015/09/23 07:11:04 No source for BondLib
+2015/09/23 13:17:26 No source for BondLib
+2015/09/23 13:17:26 Processing tag v2.3
+  2.3: Recording
+2015/09/23 13:17:26   Reviewing contents of modelica-3rdparty/BondLib
+    Processing library BondLib @ BondLib 2.3
 Processing: BrineProp (https://github.com/modelica-3rdparty/BrineProp, fork=true)
-2015/09/23 07:11:05 Source for BrineProp exists
+2015/09/23 13:17:31 Source for BrineProp exists
+2015/09/23 13:17:31 Processing tag v0.4.3
   0.4.3: Recording
-2015/09/23 07:11:06 Looking for file BrineProp.mo in BrineProp:0.4.3: false
-2015/09/23 07:11:06 Looking for file BrineProp 0.4.3.mo in BrineProp:0.4.3: false
-2015/09/23 07:11:06 Looking for file BrineProp.mo in BrineProp:0.4.3: false
-2015/09/23 07:11:07 Looking for file BrineProp 0.4.3.mo in BrineProp:0.4.3: false
-2015/09/23 07:11:07 Looking for directory BrineProp in BrineProp:0.4.3: true
-2015/09/23 07:11:07   Found
-2015/09/23 07:11:07 Looking for directory BrineProp 0.4.3 in BrineProp:0.4.3: false
-2015/09/23 07:11:07 Looking for directory BrineProp in BrineProp:0.4.3: true
-2015/09/23 07:11:08 Looking for directory BrineProp 0.4.3 in BrineProp:0.4.3: false
+2015/09/23 13:17:31   Reviewing contents of Heineken/BrineProp
     Processing library BrineProp @ BrineProp
+2015/09/23 13:17:33 Processing tag v0.4.2
   0.4.2: Recording
-2015/09/23 07:11:08 Looking for file BrineProp.mo in BrineProp:0.4.2: false
-2015/09/23 07:11:09 Looking for file BrineProp 0.4.2.mo in BrineProp:0.4.2: false
-2015/09/23 07:11:09 Looking for file BrineProp.mo in BrineProp:0.4.2: false
-2015/09/23 07:11:09 Looking for file BrineProp 0.4.2.mo in BrineProp:0.4.2: false
-2015/09/23 07:11:09 Looking for directory BrineProp in BrineProp:0.4.2: true
-2015/09/23 07:11:09   Found
-2015/09/23 07:11:09 Looking for directory BrineProp 0.4.2 in BrineProp:0.4.2: false
-2015/09/23 07:11:10 Looking for directory BrineProp in BrineProp:0.4.2: true
-2015/09/23 07:11:10 Looking for directory BrineProp 0.4.2 in BrineProp:0.4.2: false
+2015/09/23 13:17:34   Reviewing contents of Heineken/BrineProp
     Processing library BrineProp @ BrineProp
+2015/09/23 13:17:35 Processing tag v0.4.1
   0.4.1: Recording
-2015/09/23 07:11:11 Looking for file BrineProp.mo in BrineProp:0.4.1: false
-2015/09/23 07:11:11 Looking for file BrineProp 0.4.1.mo in BrineProp:0.4.1: false
-2015/09/23 07:11:11 Looking for file BrineProp.mo in BrineProp:0.4.1: false
-2015/09/23 07:11:11 Looking for file BrineProp 0.4.1.mo in BrineProp:0.4.1: false
-2015/09/23 07:11:11 Looking for directory BrineProp in BrineProp:0.4.1: true
-2015/09/23 07:11:11   Found
-2015/09/23 07:11:12 Looking for directory BrineProp 0.4.1 in BrineProp:0.4.1: false
-2015/09/23 07:11:12 Looking for directory BrineProp in BrineProp:0.4.1: true
-2015/09/23 07:11:12 Looking for directory BrineProp 0.4.1 in BrineProp:0.4.1: false
+2015/09/23 13:17:36   Reviewing contents of Heineken/BrineProp
     Processing library BrineProp @ BrineProp
+2015/09/23 13:17:38 Processing tag v0.4.0
   0.4.0: Recording
-2015/09/23 07:11:13 Looking for file BrineProp.mo in BrineProp:0.4.0: false
-2015/09/23 07:11:13 Looking for file BrineProp 0.4.0.mo in BrineProp:0.4.0: false
-2015/09/23 07:11:13 Looking for file BrineProp.mo in BrineProp:0.4.0: false
-2015/09/23 07:11:13 Looking for file BrineProp 0.4.0.mo in BrineProp:0.4.0: false
-2015/09/23 07:11:14 Looking for directory BrineProp in BrineProp:0.4.0: true
-2015/09/23 07:11:14   Found
-2015/09/23 07:11:14 Looking for directory BrineProp 0.4.0 in BrineProp:0.4.0: false
-2015/09/23 07:11:14 Looking for directory BrineProp in BrineProp:0.4.0: true
-2015/09/23 07:11:15 Looking for directory BrineProp 0.4.0 in BrineProp:0.4.0: false
+2015/09/23 13:17:38   Reviewing contents of Heineken/BrineProp
     Processing library BrineProp @ BrineProp
+2015/09/23 13:17:40 Processing tag v0.3.2
   0.3.2: Recording
-2015/09/23 07:11:15 Looking for file BrineProp.mo in BrineProp:0.3.2: false
-2015/09/23 07:11:15 Looking for file BrineProp 0.3.2.mo in BrineProp:0.3.2: false
-2015/09/23 07:11:16 Looking for file BrineProp.mo in BrineProp:0.3.2: false
-2015/09/23 07:11:16 Looking for file BrineProp 0.3.2.mo in BrineProp:0.3.2: false
-2015/09/23 07:11:16 Looking for directory BrineProp in BrineProp:0.3.2: true
-2015/09/23 07:11:16   Found
-2015/09/23 07:11:16 Looking for directory BrineProp 0.3.2 in BrineProp:0.3.2: false
-2015/09/23 07:11:16 Looking for directory BrineProp in BrineProp:0.3.2: true
-2015/09/23 07:11:17 Looking for directory BrineProp 0.3.2 in BrineProp:0.3.2: false
+2015/09/23 13:17:41   Reviewing contents of Heineken/BrineProp
     Processing library BrineProp @ BrineProp
+2015/09/23 13:17:43 Processing tag v0.3.1
   0.3.1: Recording
-2015/09/23 07:11:18 Looking for file BrineProp.mo in BrineProp:0.3.1: false
-2015/09/23 07:11:18 Looking for file BrineProp 0.3.1.mo in BrineProp:0.3.1: false
-2015/09/23 07:11:18 Looking for file BrineProp.mo in BrineProp:0.3.1: false
-2015/09/23 07:11:18 Looking for file BrineProp 0.3.1.mo in BrineProp:0.3.1: false
-2015/09/23 07:11:18 Looking for directory BrineProp in BrineProp:0.3.1: true
-2015/09/23 07:11:18   Found
-2015/09/23 07:11:19 Looking for directory BrineProp 0.3.1 in BrineProp:0.3.1: false
-2015/09/23 07:11:19 Looking for directory BrineProp in BrineProp:0.3.1: true
-2015/09/23 07:11:19 Looking for directory BrineProp 0.3.1 in BrineProp:0.3.1: false
+2015/09/23 13:17:43   Reviewing contents of Heineken/BrineProp
     Processing library BrineProp @ BrineProp
+2015/09/23 13:17:46 Processing tag v0.3.0
   0.3.0: Recording
-2015/09/23 07:11:20 Looking for file BrineProp.mo in BrineProp:0.3.0: false
-2015/09/23 07:11:20 Looking for file BrineProp 0.3.0.mo in BrineProp:0.3.0: false
-2015/09/23 07:11:20 Looking for file BrineProp.mo in BrineProp:0.3.0: false
-2015/09/23 07:11:20 Looking for file BrineProp 0.3.0.mo in BrineProp:0.3.0: false
-2015/09/23 07:11:20 Looking for directory BrineProp in BrineProp:0.3.0: true
-2015/09/23 07:11:20   Found
-2015/09/23 07:11:21 Looking for directory BrineProp 0.3.0 in BrineProp:0.3.0: false
-2015/09/23 07:11:21 Looking for directory BrineProp in BrineProp:0.3.0: true
-2015/09/23 07:11:21 Looking for directory BrineProp 0.3.0 in BrineProp:0.3.0: false
+2015/09/23 13:17:46   Reviewing contents of Heineken/BrineProp
     Processing library BrineProp @ BrineProp
+2015/09/23 13:17:49 Processing tag v0.2.0
   0.2.0: Recording
-2015/09/23 07:11:22 Looking for file BrineProp.mo in BrineProp:0.2.0: false
-2015/09/23 07:11:22 Looking for file BrineProp 0.2.0.mo in BrineProp:0.2.0: false
-2015/09/23 07:11:22 Looking for file BrineProp.mo in BrineProp:0.2.0: false
-2015/09/23 07:11:23 Looking for file BrineProp 0.2.0.mo in BrineProp:0.2.0: false
-2015/09/23 07:11:23 Looking for directory BrineProp in BrineProp:0.2.0: true
-2015/09/23 07:11:23   Found
-2015/09/23 07:11:23 Looking for directory BrineProp 0.2.0 in BrineProp:0.2.0: false
-2015/09/23 07:11:23 Looking for directory BrineProp in BrineProp:0.2.0: true
-2015/09/23 07:11:24 Looking for directory BrineProp 0.2.0 in BrineProp:0.2.0: false
+2015/09/23 13:17:49   Reviewing contents of Heineken/BrineProp
     Processing library BrineProp @ BrineProp
+2015/09/23 13:17:51 Processing tag v0.1.9
 Processing: Buildings (https://github.com/modelica-3rdparty/Buildings, fork=true)
-2015/09/23 07:11:24 Source for modelica-buildings exists
+2015/09/23 13:17:52 Source for modelica-buildings exists
+2015/09/23 13:17:53 Processing tag v2.1.0
   2.1.0: Recording
-2015/09/23 07:11:25 Looking for file modelica-buildings.mo in modelica-buildings:2.1.0: false
-2015/09/23 07:11:25 Looking for file modelica-buildings 2.1.0.mo in modelica-buildings:2.1.0: false
-2015/09/23 07:11:26 Looking for file Buildings.mo in modelica-buildings:2.1.0: false
-2015/09/23 07:11:26 Looking for file Buildings 2.1.0.mo in modelica-buildings:2.1.0: false
-2015/09/23 07:11:26 Looking for directory modelica-buildings in modelica-buildings:2.1.0: false
-2015/09/23 07:11:26 Looking for directory modelica-buildings 2.1.0 in modelica-buildings:2.1.0: false
-2015/09/23 07:11:26 Looking for directory Buildings in modelica-buildings:2.1.0: false
-2015/09/23 07:11:26 Looking for directory Buildings 2.1.0 in modelica-buildings:2.1.0: true
-2015/09/23 07:11:26   Found
-    Processing library modelica-buildings @ Buildings 2.1.0
+2015/09/23 13:17:53   Reviewing contents of lbl-srg/modelica-buildings
+    Processing library Buildings @ Buildings 2.1.0
+2015/09/23 13:17:55 Processing tag v2.0.0-rc.1
   2.0.0-rc.1: Recording
-2015/09/23 07:11:28 Looking for file modelica-buildings.mo in modelica-buildings:2.0.0-rc.1: false
-2015/09/23 07:11:28 Looking for file modelica-buildings 2.0.0-rc.1.mo in modelica-buildings:2.0.0-rc.1: false
-2015/09/23 07:11:28 Looking for file Buildings.mo in modelica-buildings:2.0.0-rc.1: false
-2015/09/23 07:11:28 Looking for file Buildings 2.0.0-rc.1.mo in modelica-buildings:2.0.0-rc.1: false
-2015/09/23 07:11:28 Looking for file modelica-buildings 2.0.0.mo in modelica-buildings:2.0.0-rc.1: false
-2015/09/23 07:11:28 Looking for file Buildings 2.0.0.mo in modelica-buildings:2.0.0-rc.1: false
-2015/09/23 07:11:29 Looking for directory modelica-buildings in modelica-buildings:2.0.0-rc.1: false
-2015/09/23 07:11:29 Looking for directory modelica-buildings 2.0.0-rc.1 in modelica-buildings:2.0.0-rc.1: false
-2015/09/23 07:11:29 Looking for directory Buildings in modelica-buildings:2.0.0-rc.1: false
-2015/09/23 07:11:29 Looking for directory Buildings 2.0.0-rc.1 in modelica-buildings:2.0.0-rc.1: false
-2015/09/23 07:11:29 Looking for directory modelica-buildings 2.0.0 in modelica-buildings:2.0.0-rc.1: false
-2015/09/23 07:11:29 Looking for directory Buildings 2.0.0 in modelica-buildings:2.0.0-rc.1: true
-2015/09/23 07:11:29   Found
-    Processing library modelica-buildings @ Buildings 2.0.0
+2015/09/23 13:17:55   Reviewing contents of lbl-srg/modelica-buildings
+    Processing library Buildings @ Buildings 2.0.0
+2015/09/23 13:17:57 Processing tag v2.0.0
   2.0.0: Recording
-2015/09/23 07:11:31 Looking for file modelica-buildings.mo in modelica-buildings:2.0.0: false
-2015/09/23 07:11:31 Looking for file modelica-buildings 2.0.0.mo in modelica-buildings:2.0.0: false
-2015/09/23 07:11:31 Looking for file Buildings.mo in modelica-buildings:2.0.0: false
-2015/09/23 07:11:31 Looking for file Buildings 2.0.0.mo in modelica-buildings:2.0.0: false
-2015/09/23 07:11:31 Looking for directory modelica-buildings in modelica-buildings:2.0.0: false
-2015/09/23 07:11:31 Looking for directory modelica-buildings 2.0.0 in modelica-buildings:2.0.0: false
-2015/09/23 07:11:31 Looking for directory Buildings in modelica-buildings:2.0.0: false
-2015/09/23 07:11:32 Looking for directory Buildings 2.0.0 in modelica-buildings:2.0.0: true
-2015/09/23 07:11:32   Found
-    Processing library modelica-buildings @ Buildings 2.0.0
+2015/09/23 13:17:57   Reviewing contents of lbl-srg/modelica-buildings
+    Processing library Buildings @ Buildings 2.0.0
+2015/09/23 13:17:58 Processing tag v1.6+build.1
   1.6+build.1: Recording
-2015/09/23 07:11:33 Looking for file modelica-buildings.mo in modelica-buildings:1.6+build.1: false
-2015/09/23 07:11:33 Looking for file modelica-buildings 1.6+build.1.mo in modelica-buildings:1.6+build.1: false
-2015/09/23 07:11:33 Looking for file Buildings.mo in modelica-buildings:1.6+build.1: false
-2015/09/23 07:11:33 Looking for file Buildings 1.6+build.1.mo in modelica-buildings:1.6+build.1: false
-2015/09/23 07:11:34 Looking for file modelica-buildings 1.6.mo in modelica-buildings:1.6+build.1: false
-2015/09/23 07:11:34 Looking for file Buildings 1.6.mo in modelica-buildings:1.6+build.1: false
-2015/09/23 07:11:34 Looking for directory modelica-buildings in modelica-buildings:1.6+build.1: false
-2015/09/23 07:11:34 Looking for directory modelica-buildings 1.6+build.1 in modelica-buildings:1.6+build.1: false
-2015/09/23 07:11:34 Looking for directory Buildings in modelica-buildings:1.6+build.1: false
-2015/09/23 07:11:34 Looking for directory Buildings 1.6+build.1 in modelica-buildings:1.6+build.1: false
-2015/09/23 07:11:34 Looking for directory modelica-buildings 1.6 in modelica-buildings:1.6+build.1: false
-2015/09/23 07:11:34 Looking for directory Buildings 1.6 in modelica-buildings:1.6+build.1: true
-2015/09/23 07:11:34   Found
-    Processing library modelica-buildings @ Buildings 1.6
+2015/09/23 13:17:59   Reviewing contents of lbl-srg/modelica-buildings
+    Processing library Buildings @ Buildings 1.6
+2015/09/23 13:18:00 Processing tag v1.5+build.3
   1.5+build.3: Recording
-2015/09/23 07:11:36 Looking for file modelica-buildings.mo in modelica-buildings:1.5+build.3: false
-2015/09/23 07:11:36 Looking for file modelica-buildings 1.5+build.3.mo in modelica-buildings:1.5+build.3: false
-2015/09/23 07:11:36 Looking for file Buildings.mo in modelica-buildings:1.5+build.3: false
-2015/09/23 07:11:36 Looking for file Buildings 1.5+build.3.mo in modelica-buildings:1.5+build.3: false
-2015/09/23 07:11:36 Looking for file modelica-buildings 1.5.mo in modelica-buildings:1.5+build.3: false
-2015/09/23 07:11:36 Looking for file Buildings 1.5.mo in modelica-buildings:1.5+build.3: false
-2015/09/23 07:11:37 Looking for directory modelica-buildings in modelica-buildings:1.5+build.3: false
-2015/09/23 07:11:37 Looking for directory modelica-buildings 1.5+build.3 in modelica-buildings:1.5+build.3: false
-2015/09/23 07:11:37 Looking for directory Buildings in modelica-buildings:1.5+build.3: false
-2015/09/23 07:11:37 Looking for directory Buildings 1.5+build.3 in modelica-buildings:1.5+build.3: false
-2015/09/23 07:11:37 Looking for directory modelica-buildings 1.5 in modelica-buildings:1.5+build.3: false
-2015/09/23 07:11:37 Looking for directory Buildings 1.5 in modelica-buildings:1.5+build.3: true
-2015/09/23 07:11:37   Found
-    Processing library modelica-buildings @ Buildings 1.5
+2015/09/23 13:18:01   Reviewing contents of lbl-srg/modelica-buildings
+    Processing library Buildings @ Buildings 1.5
+2015/09/23 13:18:02 Processing tag v1.5+build.2
   1.5+build.2: Recording
-2015/09/23 07:11:39 Looking for file modelica-buildings.mo in modelica-buildings:1.5+build.2: false
-2015/09/23 07:11:39 Looking for file modelica-buildings 1.5+build.2.mo in modelica-buildings:1.5+build.2: false
-2015/09/23 07:11:39 Looking for file Buildings.mo in modelica-buildings:1.5+build.2: false
-2015/09/23 07:11:39 Looking for file Buildings 1.5+build.2.mo in modelica-buildings:1.5+build.2: false
-2015/09/23 07:11:39 Looking for file modelica-buildings 1.5.mo in modelica-buildings:1.5+build.2: false
-2015/09/23 07:11:39 Looking for file Buildings 1.5.mo in modelica-buildings:1.5+build.2: false
-2015/09/23 07:11:39 Looking for directory modelica-buildings in modelica-buildings:1.5+build.2: false
-2015/09/23 07:11:40 Looking for directory modelica-buildings 1.5+build.2 in modelica-buildings:1.5+build.2: false
-2015/09/23 07:11:40 Looking for directory Buildings in modelica-buildings:1.5+build.2: false
-2015/09/23 07:11:40 Looking for directory Buildings 1.5+build.2 in modelica-buildings:1.5+build.2: false
-2015/09/23 07:11:40 Looking for directory modelica-buildings 1.5 in modelica-buildings:1.5+build.2: false
-2015/09/23 07:11:40 Looking for directory Buildings 1.5 in modelica-buildings:1.5+build.2: true
-2015/09/23 07:11:40   Found
-    Processing library modelica-buildings @ Buildings 1.5
+2015/09/23 13:18:02   Reviewing contents of lbl-srg/modelica-buildings
+    Processing library Buildings @ Buildings 1.5
+2015/09/23 13:18:04 Processing tag v1.5+build.1
   1.5+build.1: Recording
-2015/09/23 07:11:41 Looking for file modelica-buildings.mo in modelica-buildings:1.5+build.1: false
-2015/09/23 07:11:42 Looking for file modelica-buildings 1.5+build.1.mo in modelica-buildings:1.5+build.1: false
-2015/09/23 07:11:42 Looking for file Buildings.mo in modelica-buildings:1.5+build.1: false
-2015/09/23 07:11:42 Looking for file Buildings 1.5+build.1.mo in modelica-buildings:1.5+build.1: false
-2015/09/23 07:11:42 Looking for file modelica-buildings 1.5.mo in modelica-buildings:1.5+build.1: false
-2015/09/23 07:11:42 Looking for file Buildings 1.5.mo in modelica-buildings:1.5+build.1: false
-2015/09/23 07:11:42 Looking for directory modelica-buildings in modelica-buildings:1.5+build.1: false
-2015/09/23 07:11:42 Looking for directory modelica-buildings 1.5+build.1 in modelica-buildings:1.5+build.1: false
-2015/09/23 07:11:42 Looking for directory Buildings in modelica-buildings:1.5+build.1: false
-2015/09/23 07:11:43 Looking for directory Buildings 1.5+build.1 in modelica-buildings:1.5+build.1: false
-2015/09/23 07:11:43 Looking for directory modelica-buildings 1.5 in modelica-buildings:1.5+build.1: false
-2015/09/23 07:11:43 Looking for directory Buildings 1.5 in modelica-buildings:1.5+build.1: true
-2015/09/23 07:11:43   Found
-    Processing library modelica-buildings @ Buildings 1.5
+2015/09/23 13:18:05   Reviewing contents of lbl-srg/modelica-buildings
+    Processing library Buildings @ Buildings 1.5
+2015/09/23 13:18:06 Processing tag v1.4_build1
   1.4_build1: Ignoring
 Processing: Chemical (https://github.com/modelica-3rdparty/Chemical, fork=true)
-2015/09/23 07:11:44 Source for Chemical exists
+2015/09/23 13:18:06 Source for Chemical exists
+2015/09/23 13:18:07 Processing tag v1.1.0-gamma
   1.1.0-gamma: Recording
-2015/09/23 07:11:45 Looking for file Chemical.mo in Chemical:1.1.0-gamma: false
-2015/09/23 07:11:45 Looking for file Chemical 1.1.0-gamma.mo in Chemical:1.1.0-gamma: false
-2015/09/23 07:11:45 Looking for file Chemical.mo in Chemical:1.1.0-gamma: false
-2015/09/23 07:11:46 Looking for file Chemical 1.1.0-gamma.mo in Chemical:1.1.0-gamma: false
-2015/09/23 07:11:46 Looking for file Chemical 1.1.0.mo in Chemical:1.1.0-gamma: false
-2015/09/23 07:11:46 Looking for file Chemical 1.1.0.mo in Chemical:1.1.0-gamma: false
-2015/09/23 07:11:46 Looking for directory Chemical in Chemical:1.1.0-gamma: true
-2015/09/23 07:11:46   Found
-2015/09/23 07:11:46 Looking for directory Chemical 1.1.0-gamma in Chemical:1.1.0-gamma: false
-2015/09/23 07:11:47 Looking for directory Chemical in Chemical:1.1.0-gamma: true
-2015/09/23 07:11:47 Looking for directory Chemical 1.1.0-gamma in Chemical:1.1.0-gamma: false
-2015/09/23 07:11:47 Looking for directory Chemical 1.1.0 in Chemical:1.1.0-gamma: false
-2015/09/23 07:11:47 Looking for directory Chemical 1.1.0 in Chemical:1.1.0-gamma: false
+2015/09/23 13:18:07   Reviewing contents of MarekMatejak/Chemical
     Processing library Chemical @ Chemical
+2015/09/23 13:18:08 Processing tag v1.1.0-beta
   1.1.0-beta: Recording
-2015/09/23 07:11:48 Looking for file Chemical.mo in Chemical:1.1.0-beta: false
-2015/09/23 07:11:48 Looking for file Chemical 1.1.0-beta.mo in Chemical:1.1.0-beta: false
-2015/09/23 07:11:49 Looking for file Chemical.mo in Chemical:1.1.0-beta: false
-2015/09/23 07:11:49 Looking for file Chemical 1.1.0-beta.mo in Chemical:1.1.0-beta: false
-2015/09/23 07:11:49 Looking for file Chemical 1.1.0.mo in Chemical:1.1.0-beta: false
-2015/09/23 07:11:49 Looking for file Chemical 1.1.0.mo in Chemical:1.1.0-beta: false
-2015/09/23 07:11:49 Looking for directory Chemical in Chemical:1.1.0-beta: false
-2015/09/23 07:11:49 Looking for directory Chemical 1.1.0-beta in Chemical:1.1.0-beta: false
-2015/09/23 07:11:49 Looking for directory Chemical in Chemical:1.1.0-beta: false
-2015/09/23 07:11:49 Looking for directory Chemical 1.1.0-beta in Chemical:1.1.0-beta: false
-2015/09/23 07:11:50 Looking for directory Chemical 1.1.0 in Chemical:1.1.0-beta: true
-2015/09/23 07:11:50   Found
-2015/09/23 07:11:50 Looking for directory Chemical 1.1.0 in Chemical:1.1.0-beta: true
+2015/09/23 13:18:09   Reviewing contents of MarekMatejak/Chemical
     Processing library Chemical @ Chemical 1.1.0
+2015/09/23 13:18:10 Processing tag v1.1.0-alpha
   1.1.0-alpha: Recording
-2015/09/23 07:11:52 Looking for file Chemical.mo in Chemical:1.1.0-alpha: false
-2015/09/23 07:11:52 Looking for file Chemical 1.1.0-alpha.mo in Chemical:1.1.0-alpha: false
-2015/09/23 07:11:52 Looking for file Chemical.mo in Chemical:1.1.0-alpha: false
-2015/09/23 07:11:52 Looking for file Chemical 1.1.0-alpha.mo in Chemical:1.1.0-alpha: false
-2015/09/23 07:11:52 Looking for file Chemical 1.1.0.mo in Chemical:1.1.0-alpha: false
-2015/09/23 07:11:52 Looking for file Chemical 1.1.0.mo in Chemical:1.1.0-alpha: false
-2015/09/23 07:11:52 Looking for directory Chemical in Chemical:1.1.0-alpha: true
-2015/09/23 07:11:52   Found
-2015/09/23 07:11:53 Looking for directory Chemical 1.1.0-alpha in Chemical:1.1.0-alpha: false
-2015/09/23 07:11:53 Looking for directory Chemical in Chemical:1.1.0-alpha: true
-2015/09/23 07:11:53 Looking for directory Chemical 1.1.0-alpha in Chemical:1.1.0-alpha: false
-2015/09/23 07:11:54 Looking for directory Chemical 1.1.0 in Chemical:1.1.0-alpha: false
-2015/09/23 07:11:54 Looking for directory Chemical 1.1.0 in Chemical:1.1.0-alpha: false
+2015/09/23 13:18:11   Reviewing contents of MarekMatejak/Chemical
     Processing library Chemical @ Chemical
+2015/09/23 13:18:12 Processing tag v1.1.0
   1.1.0: Recording
-2015/09/23 07:11:55 Looking for file Chemical.mo in Chemical:1.1.0: false
-2015/09/23 07:11:55 Looking for file Chemical 1.1.0.mo in Chemical:1.1.0: false
-2015/09/23 07:11:55 Looking for file Chemical.mo in Chemical:1.1.0: false
-2015/09/23 07:11:55 Looking for file Chemical 1.1.0.mo in Chemical:1.1.0: false
-2015/09/23 07:11:56 Looking for directory Chemical in Chemical:1.1.0: true
-2015/09/23 07:11:56   Found
-2015/09/23 07:11:56 Looking for directory Chemical 1.1.0 in Chemical:1.1.0: false
-2015/09/23 07:11:56 Looking for directory Chemical in Chemical:1.1.0: true
-2015/09/23 07:11:57 Looking for directory Chemical 1.1.0 in Chemical:1.1.0: false
+2015/09/23 13:18:12   Reviewing contents of MarekMatejak/Chemical
     Processing library Chemical @ Chemical
+2015/09/23 13:18:14 Processing tag v1.0.0
   1.0.0: Recording
-2015/09/23 07:11:58 Looking for file Chemical.mo in Chemical:1.0.0: false
-2015/09/23 07:11:58 Looking for file Chemical 1.0.0.mo in Chemical:1.0.0: false
-2015/09/23 07:11:58 Looking for file Chemical.mo in Chemical:1.0.0: false
-2015/09/23 07:11:58 Looking for file Chemical 1.0.0.mo in Chemical:1.0.0: false
-2015/09/23 07:11:58 Looking for directory Chemical in Chemical:1.0.0: false
-2015/09/23 07:11:58 Looking for directory Chemical 1.0.0 in Chemical:1.0.0: true
-2015/09/23 07:11:58   Found
-2015/09/23 07:11:59 Looking for directory Chemical in Chemical:1.0.0: false
-2015/09/23 07:11:59 Looking for directory Chemical 1.0.0 in Chemical:1.0.0: true
+2015/09/23 13:18:14   Reviewing contents of MarekMatejak/Chemical
     Processing library Chemical @ Chemical 1.0.0
 Processing: ComplexLib (https://github.com/modelica-3rdparty/ComplexLib, fork=false)
-2015/09/23 07:12:00 No source for ComplexLib
+2015/09/23 13:18:16 No source for ComplexLib
+2015/09/23 13:18:16 Processing tag v1.0
   1.0: Recording
-2015/09/23 07:12:02 Looking for file ComplexLib.mo in ComplexLib:1.0: true
-2015/09/23 07:12:02   Found
-2015/09/23 07:12:02 Looking for file ComplexLib 1.0.mo in ComplexLib:1.0: false
-2015/09/23 07:12:03 Looking for file ComplexLib.mo in ComplexLib:1.0: true
-2015/09/23 07:12:03 Looking for file ComplexLib 1.0.mo in ComplexLib:1.0: false
-2015/09/23 07:12:03 Looking for directory ComplexLib in ComplexLib:1.0: false
-2015/09/23 07:12:04 Looking for directory ComplexLib 1.0 in ComplexLib:1.0: false
-2015/09/23 07:12:04 Looking for directory ComplexLib in ComplexLib:1.0: false
-2015/09/23 07:12:04 Looking for directory ComplexLib 1.0 in ComplexLib:1.0: false
+2015/09/23 13:18:17   Reviewing contents of modelica-3rdparty/ComplexLib
     Processing library ComplexLib @ ComplexLib.mo
 Processing: DESLib (https://github.com/modelica-3rdparty/DESLib, fork=false)
-2015/09/23 07:12:05 No source for DESLib
+2015/09/23 13:18:18 No source for DESLib
+2015/09/23 13:18:18 Processing tag v1.6.1
+  1.6.1: Recording
+2015/09/23 13:18:19   Reviewing contents of modelica-3rdparty/DESLib
+2015/09/23 13:18:20 Error extracting uses annotation: Error while parsing uses annotation of DESLib 1.6.1/package.mo in github repository DESLib: Unable to normalize version for DESLib: Unable to normalize version string '1'
+    Processing library DESLib @ DESLib 1.6.1
 Processing: ExtendedPetriNets (https://github.com/modelica-3rdparty/ExtendedPetriNets, fork=false)
-2015/09/23 07:12:06 No source for ExtendedPetriNets
+2015/09/23 13:18:21 No source for ExtendedPetriNets
+2015/09/23 13:18:21 Processing tag v1.0
   1.0: Recording
-2015/09/23 07:12:07 Looking for file ExtendedPetriNets.mo in ExtendedPetriNets:1.0: false
-2015/09/23 07:12:07 Looking for file ExtendedPetriNets 1.0.mo in ExtendedPetriNets:1.0: false
-2015/09/23 07:12:07 Looking for file ExtendedPetriNets.mo in ExtendedPetriNets:1.0: false
-2015/09/23 07:12:07 Looking for file ExtendedPetriNets 1.0.mo in ExtendedPetriNets:1.0: false
-2015/09/23 07:12:07 Looking for directory ExtendedPetriNets in ExtendedPetriNets:1.0: false
-2015/09/23 07:12:08 Looking for directory ExtendedPetriNets 1.0 in ExtendedPetriNets:1.0: true
-2015/09/23 07:12:08   Found
-2015/09/23 07:12:08 Looking for directory ExtendedPetriNets in ExtendedPetriNets:1.0: false
-2015/09/23 07:12:08 Looking for directory ExtendedPetriNets 1.0 in ExtendedPetriNets:1.0: true
+2015/09/23 13:18:21   Reviewing contents of modelica-3rdparty/ExtendedPetriNets
     Processing library ExtendedPetriNets @ ExtendedPetriNets 1.0
 Processing: ExternData (https://github.com/modelica-3rdparty/ExternData, fork=true)
-2015/09/23 07:12:09 Source for ExternData exists
+2015/09/23 13:18:23 Source for ExternData exists
+2015/09/23 13:18:24 Processing tag v1.1.0
   1.1.0: Recording
-2015/09/23 07:12:10 Looking for file ExternData.mo in ExternData:1.1.0: false
-2015/09/23 07:12:10 Looking for file ExternData 1.1.0.mo in ExternData:1.1.0: false
-2015/09/23 07:12:11 Looking for file ExternData.mo in ExternData:1.1.0: false
-2015/09/23 07:12:11 Looking for file ExternData 1.1.0.mo in ExternData:1.1.0: false
-2015/09/23 07:12:11 Looking for directory ExternData in ExternData:1.1.0: true
-2015/09/23 07:12:11   Found
-2015/09/23 07:12:11 Looking for directory ExternData 1.1.0 in ExternData:1.1.0: false
-2015/09/23 07:12:11 Looking for directory ExternData in ExternData:1.1.0: true
-2015/09/23 07:12:12 Looking for directory ExternData 1.1.0 in ExternData:1.1.0: false
+2015/09/23 13:18:24   Reviewing contents of tbeu/ExternData
     Processing library ExternData @ ExternData
+2015/09/23 13:18:25 Processing tag v1.0.4
   1.0.4: Recording
-2015/09/23 07:12:13 Looking for file ExternData.mo in ExternData:1.0.4: false
-2015/09/23 07:12:13 Looking for file ExternData 1.0.4.mo in ExternData:1.0.4: false
-2015/09/23 07:12:13 Looking for file ExternData.mo in ExternData:1.0.4: false
-2015/09/23 07:12:13 Looking for file ExternData 1.0.4.mo in ExternData:1.0.4: false
-2015/09/23 07:12:13 Looking for directory ExternData in ExternData:1.0.4: true
-2015/09/23 07:12:13   Found
-2015/09/23 07:12:14 Looking for directory ExternData 1.0.4 in ExternData:1.0.4: false
-2015/09/23 07:12:14 Looking for directory ExternData in ExternData:1.0.4: true
-2015/09/23 07:12:14 Looking for directory ExternData 1.0.4 in ExternData:1.0.4: false
+2015/09/23 13:18:26   Reviewing contents of tbeu/ExternData
     Processing library ExternData @ ExternData
+2015/09/23 13:18:27 Processing tag v1.0.3
   1.0.3: Recording
-2015/09/23 07:12:15 Looking for file ExternData.mo in ExternData:1.0.3: false
-2015/09/23 07:12:15 Looking for file ExternData 1.0.3.mo in ExternData:1.0.3: false
-2015/09/23 07:12:15 Looking for file ExternData.mo in ExternData:1.0.3: false
-2015/09/23 07:12:15 Looking for file ExternData 1.0.3.mo in ExternData:1.0.3: false
-2015/09/23 07:12:15 Looking for directory ExternData in ExternData:1.0.3: true
-2015/09/23 07:12:15   Found
-2015/09/23 07:12:16 Looking for directory ExternData 1.0.3 in ExternData:1.0.3: false
-2015/09/23 07:12:16 Looking for directory ExternData in ExternData:1.0.3: true
-2015/09/23 07:12:17 Looking for directory ExternData 1.0.3 in ExternData:1.0.3: false
+2015/09/23 13:18:27   Reviewing contents of tbeu/ExternData
     Processing library ExternData @ ExternData
+2015/09/23 13:18:29 Processing tag v1.0.2
   1.0.2: Recording
-2015/09/23 07:12:17 Looking for file ExternData.mo in ExternData:1.0.2: false
-2015/09/23 07:12:17 Looking for file ExternData 1.0.2.mo in ExternData:1.0.2: false
-2015/09/23 07:12:18 Looking for file ExternData.mo in ExternData:1.0.2: false
-2015/09/23 07:12:18 Looking for file ExternData 1.0.2.mo in ExternData:1.0.2: false
-2015/09/23 07:12:18 Looking for directory ExternData in ExternData:1.0.2: true
-2015/09/23 07:12:18   Found
-2015/09/23 07:12:18 Looking for directory ExternData 1.0.2 in ExternData:1.0.2: false
-2015/09/23 07:12:18 Looking for directory ExternData in ExternData:1.0.2: true
-2015/09/23 07:12:19 Looking for directory ExternData 1.0.2 in ExternData:1.0.2: false
+2015/09/23 13:18:29   Reviewing contents of tbeu/ExternData
     Processing library ExternData @ ExternData
+2015/09/23 13:18:31 Processing tag v1.0.1
   1.0.1: Recording
-2015/09/23 07:12:20 Looking for file ExternData.mo in ExternData:1.0.1: false
-2015/09/23 07:12:20 Looking for file ExternData 1.0.1.mo in ExternData:1.0.1: false
-2015/09/23 07:12:20 Looking for file ExternData.mo in ExternData:1.0.1: false
-2015/09/23 07:12:20 Looking for file ExternData 1.0.1.mo in ExternData:1.0.1: false
-2015/09/23 07:12:20 Looking for directory ExternData in ExternData:1.0.1: true
-2015/09/23 07:12:20   Found
-2015/09/23 07:12:21 Looking for directory ExternData 1.0.1 in ExternData:1.0.1: false
-2015/09/23 07:12:21 Looking for directory ExternData in ExternData:1.0.1: true
-2015/09/23 07:12:21 Looking for directory ExternData 1.0.1 in ExternData:1.0.1: false
+2015/09/23 13:18:31   Reviewing contents of tbeu/ExternData
     Processing library ExternData @ ExternData
+2015/09/23 13:18:32 Processing tag v1.0.0
   1.0.0: Recording
-2015/09/23 07:12:22 Looking for file ExternData.mo in ExternData:1.0.0: false
-2015/09/23 07:12:22 Looking for file ExternData 1.0.0.mo in ExternData:1.0.0: false
-2015/09/23 07:12:22 Looking for file ExternData.mo in ExternData:1.0.0: false
-2015/09/23 07:12:22 Looking for file ExternData 1.0.0.mo in ExternData:1.0.0: false
-2015/09/23 07:12:23 Looking for directory ExternData in ExternData:1.0.0: true
-2015/09/23 07:12:23   Found
-2015/09/23 07:12:23 Looking for directory ExternData 1.0.0 in ExternData:1.0.0: false
-2015/09/23 07:12:23 Looking for directory ExternData in ExternData:1.0.0: true
-2015/09/23 07:12:24 Looking for directory ExternData 1.0.0 in ExternData:1.0.0: false
+2015/09/23 13:18:33   Reviewing contents of tbeu/ExternData
     Processing library ExternData @ ExternData
 Processing: FastBuildings (https://github.com/modelica-3rdparty/FastBuildings, fork=true)
-2015/09/23 07:12:24 Source for FastBuildings exists
+2015/09/23 13:18:35 Source for FastBuildings exists
 Processing: FaultTriggering (https://github.com/modelica-3rdparty/FaultTriggering, fork=true)
-2015/09/23 07:12:25 Source for FaultTriggering exists
+2015/09/23 13:18:36 Source for FaultTriggering exists
+2015/09/23 13:18:36 Processing tag v0.6.4
   0.6.4: Recording
-2015/09/23 07:12:26 Looking for file FaultTriggering.mo in FaultTriggering:0.6.4: false
-2015/09/23 07:12:26 Looking for file FaultTriggering 0.6.4.mo in FaultTriggering:0.6.4: false
-2015/09/23 07:12:26 Looking for file FaultTriggering.mo in FaultTriggering:0.6.4: false
-2015/09/23 07:12:27 Looking for file FaultTriggering 0.6.4.mo in FaultTriggering:0.6.4: false
-2015/09/23 07:12:27 Looking for directory FaultTriggering in FaultTriggering:0.6.4: false
-2015/09/23 07:12:27 Looking for directory FaultTriggering 0.6.4 in FaultTriggering:0.6.4: false
-2015/09/23 07:12:27 Looking for directory FaultTriggering in FaultTriggering:0.6.4: false
-2015/09/23 07:12:27 Looking for directory FaultTriggering 0.6.4 in FaultTriggering:0.6.4: false
-2015/09/23 07:12:27 Check if directory FaultTriggering:0.6.4 is a package: false
-2015/09/23 07:12:27 Nothing found in FaultTriggering/0.6.4 for among [FaultTriggering.mo FaultTriggering 0.6.4.mo FaultTriggering.mo FaultTriggering 0.6.4.mo] or [FaultTriggering FaultTriggering 0.6.4 FaultTriggering FaultTriggering 0.6.4]
-    No Modelica libraries found in repository FaultTriggering:0.6.4
+2015/09/23 13:18:37   Reviewing contents of DLR-SR/FaultTriggering
+    Processing library FaultTriggering @ FaultTriggering 0.5.0
+2015/09/23 13:18:38 Processing tag v0.6.3
   0.6.3: Recording
-2015/09/23 07:12:27 Looking for file FaultTriggering.mo in FaultTriggering:0.6.3: false
-2015/09/23 07:12:28 Looking for file FaultTriggering 0.6.3.mo in FaultTriggering:0.6.3: false
-2015/09/23 07:12:28 Looking for file FaultTriggering.mo in FaultTriggering:0.6.3: false
-2015/09/23 07:12:28 Looking for file FaultTriggering 0.6.3.mo in FaultTriggering:0.6.3: false
-2015/09/23 07:12:28 Looking for directory FaultTriggering in FaultTriggering:0.6.3: true
-2015/09/23 07:12:28   Found
-2015/09/23 07:12:28 Looking for directory FaultTriggering 0.6.3 in FaultTriggering:0.6.3: false
-2015/09/23 07:12:29 Looking for directory FaultTriggering in FaultTriggering:0.6.3: true
-2015/09/23 07:12:29 Looking for directory FaultTriggering 0.6.3 in FaultTriggering:0.6.3: false
+2015/09/23 13:18:39   Reviewing contents of DLR-SR/FaultTriggering
     Processing library FaultTriggering @ FaultTriggering
+2015/09/23 13:18:40 Processing tag v0.6.2
   0.6.2: Recording
-2015/09/23 07:12:30 Looking for file FaultTriggering.mo in FaultTriggering:0.6.2: false
-2015/09/23 07:12:30 Looking for file FaultTriggering 0.6.2.mo in FaultTriggering:0.6.2: false
-2015/09/23 07:12:30 Looking for file FaultTriggering.mo in FaultTriggering:0.6.2: false
-2015/09/23 07:12:30 Looking for file FaultTriggering 0.6.2.mo in FaultTriggering:0.6.2: false
-2015/09/23 07:12:30 Looking for directory FaultTriggering in FaultTriggering:0.6.2: true
-2015/09/23 07:12:30   Found
-2015/09/23 07:12:31 Looking for directory FaultTriggering 0.6.2 in FaultTriggering:0.6.2: false
-2015/09/23 07:12:31 Looking for directory FaultTriggering in FaultTriggering:0.6.2: true
-2015/09/23 07:12:31 Looking for directory FaultTriggering 0.6.2 in FaultTriggering:0.6.2: false
+2015/09/23 13:18:41   Reviewing contents of DLR-SR/FaultTriggering
     Processing library FaultTriggering @ FaultTriggering
+2015/09/23 13:18:42 Processing tag v0.5.0
   0.5.0: Recording
-2015/09/23 07:12:32 Looking for file FaultTriggering.mo in FaultTriggering:0.5.0: false
-2015/09/23 07:12:32 Looking for file FaultTriggering 0.5.0.mo in FaultTriggering:0.5.0: false
-2015/09/23 07:12:32 Looking for file FaultTriggering.mo in FaultTriggering:0.5.0: false
-2015/09/23 07:12:32 Looking for file FaultTriggering 0.5.0.mo in FaultTriggering:0.5.0: false
-2015/09/23 07:12:33 Looking for directory FaultTriggering in FaultTriggering:0.5.0: false
-2015/09/23 07:12:33 Looking for directory FaultTriggering 0.5.0 in FaultTriggering:0.5.0: true
-2015/09/23 07:12:33   Found
-2015/09/23 07:12:33 Looking for directory FaultTriggering in FaultTriggering:0.5.0: false
-2015/09/23 07:12:33 Looking for directory FaultTriggering 0.5.0 in FaultTriggering:0.5.0: true
+2015/09/23 13:18:43   Reviewing contents of DLR-SR/FaultTriggering
     Processing library FaultTriggering @ FaultTriggering 0.5.0
 Processing: FCSys (https://github.com/modelica-3rdparty/FCSys, fork=true)
-2015/09/23 07:12:34 Source for FCSys exists
+2015/09/23 13:18:44 Source for FCSys exists
+2015/09/23 13:18:45 Processing tag v0.2.6
   0.2.6: Recording
-2015/09/23 07:12:35 Looking for file FCSys.mo in FCSys:0.2.6: false
-2015/09/23 07:12:35 Looking for file FCSys 0.2.6.mo in FCSys:0.2.6: false
-2015/09/23 07:12:35 Looking for file FCSys.mo in FCSys:0.2.6: false
-2015/09/23 07:12:36 Looking for file FCSys 0.2.6.mo in FCSys:0.2.6: false
-2015/09/23 07:12:36 Looking for directory FCSys in FCSys:0.2.6: false
-2015/09/23 07:12:36 Looking for directory FCSys 0.2.6 in FCSys:0.2.6: true
-2015/09/23 07:12:36   Found
-2015/09/23 07:12:36 Looking for directory FCSys in FCSys:0.2.6: false
-2015/09/23 07:12:36 Looking for directory FCSys 0.2.6 in FCSys:0.2.6: true
+2015/09/23 13:18:45   Reviewing contents of kdavies4/FCSys
     Processing library FCSys @ FCSys 0.2.6
+    Processing library FCSysTest @ FCSysTest
+2015/09/23 13:18:48 Processing tag v0.2.5
   0.2.5: Recording
-2015/09/23 07:12:37 Looking for file FCSys.mo in FCSys:0.2.5: false
-2015/09/23 07:12:38 Looking for file FCSys 0.2.5.mo in FCSys:0.2.5: false
-2015/09/23 07:12:38 Looking for file FCSys.mo in FCSys:0.2.5: false
-2015/09/23 07:12:38 Looking for file FCSys 0.2.5.mo in FCSys:0.2.5: false
-2015/09/23 07:12:38 Looking for directory FCSys in FCSys:0.2.5: false
-2015/09/23 07:12:38 Looking for directory FCSys 0.2.5 in FCSys:0.2.5: true
-2015/09/23 07:12:38   Found
-2015/09/23 07:12:39 Looking for directory FCSys in FCSys:0.2.5: false
-2015/09/23 07:12:39 Looking for directory FCSys 0.2.5 in FCSys:0.2.5: true
+2015/09/23 13:18:49   Reviewing contents of kdavies4/FCSys
     Processing library FCSys @ FCSys 0.2.5
+    Processing library FCSysTest @ FCSysTest
+2015/09/23 13:18:51 Processing tag v0.2.4
   0.2.4: Recording
-2015/09/23 07:12:40 Looking for file FCSys.mo in FCSys:0.2.4: false
-2015/09/23 07:12:40 Looking for file FCSys 0.2.4.mo in FCSys:0.2.4: false
-2015/09/23 07:12:40 Looking for file FCSys.mo in FCSys:0.2.4: false
-2015/09/23 07:12:40 Looking for file FCSys 0.2.4.mo in FCSys:0.2.4: false
-2015/09/23 07:12:40 Looking for directory FCSys in FCSys:0.2.4: false
-2015/09/23 07:12:40 Looking for directory FCSys 0.2.4 in FCSys:0.2.4: true
-2015/09/23 07:12:40   Found
-2015/09/23 07:12:41 Looking for directory FCSys in FCSys:0.2.4: false
-2015/09/23 07:12:41 Looking for directory FCSys 0.2.4 in FCSys:0.2.4: true
+2015/09/23 13:18:52   Reviewing contents of kdavies4/FCSys
     Processing library FCSys @ FCSys 0.2.4
+    Processing library FCSysTest @ FCSysTest
+2015/09/23 13:18:54 Processing tag v0.2.3
+  0.2.3: Recording
+2015/09/23 13:18:55   Reviewing contents of kdavies4/FCSys
+    Processing library FCSys @ FCSys 0.2
+    Processing library FCSysTest @ FCSysTest
+2015/09/23 13:18:58 Processing tag v0.2.2
+  0.2.2: Recording
+2015/09/23 13:18:58   Reviewing contents of kdavies4/FCSys
+    Processing library FCSys @ FCSys 0.2
+    Processing library FCSysTest @ FCSysTest
+2015/09/23 13:19:01 Processing tag v0.2.1
+  0.2.1: Recording
+2015/09/23 13:19:01   Reviewing contents of kdavies4/FCSys
+    Processing library FCSys @ FCSys 0.2
+    Processing library FCSysTest @ FCSysTest
+2015/09/23 13:19:04 Processing tag v0.2.0
+  0.2.0: Recording
+2015/09/23 13:19:04   Reviewing contents of kdavies4/FCSys
+    Processing library FCSys @ FCSys 0.2
+    Processing library FCSysTest @ FCSysTest
+2015/09/23 13:19:07 Processing tag v0.1.2
+  0.1.2: Recording
+2015/09/23 13:19:07   Reviewing contents of kdavies4/FCSys
+    Processing library FCSys @ FCSys 0.1
+    Processing library FCSysTest @ FCSysTest
+2015/09/23 13:19:10 Processing tag v0.1.1
+  0.1.1: Recording
+2015/09/23 13:19:10   Reviewing contents of kdavies4/FCSys
+    Processing library FCSys @ FCSys 0.1
+    Processing library FCSysTest @ FCSysTest
+2015/09/23 13:19:13 Processing tag v0.1.0
+  0.1.0: Recording
+2015/09/23 13:19:13   Reviewing contents of kdavies4/FCSys
+    Processing library FCSys @ FCSys 0.1
+    Processing library FCSysTest @ FCSysTest
+2015/09/23 13:19:16 Processing tag show
   show: Ignoring
+2015/09/23 13:19:16 Processing tag diss
   diss: Ignoring
 Processing: FuelCellLib (https://github.com/modelica-3rdparty/FuelCellLib, fork=false)
-2015/09/23 07:12:42 No source for FuelCellLib
+2015/09/23 13:19:17 No source for FuelCellLib
+2015/09/23 13:19:17 Processing tag v1.0
   1.0: Recording
-2015/09/23 07:12:43 Looking for file FuelCellLib.mo in FuelCellLib:1.0: false
-2015/09/23 07:12:43 Looking for file FuelCellLib 1.0.mo in FuelCellLib:1.0: false
-2015/09/23 07:12:43 Looking for file FuelCellLib.mo in FuelCellLib:1.0: false
-2015/09/23 07:12:43 Looking for file FuelCellLib 1.0.mo in FuelCellLib:1.0: false
-2015/09/23 07:12:43 Looking for directory FuelCellLib in FuelCellLib:1.0: false
-2015/09/23 07:12:44 Looking for directory FuelCellLib 1.0 in FuelCellLib:1.0: true
-2015/09/23 07:12:44   Found
-2015/09/23 07:12:44 Looking for directory FuelCellLib in FuelCellLib:1.0: false
-2015/09/23 07:12:44 Looking for directory FuelCellLib 1.0 in FuelCellLib:1.0: true
+2015/09/23 13:19:18   Reviewing contents of modelica-3rdparty/FuelCellLib
     Processing library FuelCellLib @ FuelCellLib 1.0
 Processing: FuzzyControl (https://github.com/modelica-3rdparty/FuzzyControl, fork=false)
-2015/09/23 07:12:45 No source for FuzzyControl
+2015/09/23 13:19:20 No source for FuzzyControl
+2015/09/23 13:19:20 Processing tag v1.0
   1.0: Recording
-2015/09/23 07:12:46 Looking for file FuzzyControl.mo in FuzzyControl:1.0: false
-2015/09/23 07:12:46 Looking for file FuzzyControl 1.0.mo in FuzzyControl:1.0: false
-2015/09/23 07:12:46 Looking for file FuzzyControl.mo in FuzzyControl:1.0: false
-2015/09/23 07:12:46 Looking for file FuzzyControl 1.0.mo in FuzzyControl:1.0: false
-2015/09/23 07:12:47 Looking for directory FuzzyControl in FuzzyControl:1.0: true
-2015/09/23 07:12:47   Found
-2015/09/23 07:12:47 Looking for directory FuzzyControl 1.0 in FuzzyControl:1.0: false
-2015/09/23 07:12:47 Looking for directory FuzzyControl in FuzzyControl:1.0: true
-2015/09/23 07:12:48 Looking for directory FuzzyControl 1.0 in FuzzyControl:1.0: false
+2015/09/23 13:19:21   Reviewing contents of modelica-3rdparty/FuzzyControl
     Processing library FuzzyControl @ FuzzyControl
 Processing: HelmholtzMedia (https://github.com/modelica-3rdparty/HelmholtzMedia, fork=true)
-2015/09/23 07:12:48 Source for HelmholtzMedia exists
+2015/09/23 13:19:23 Source for HelmholtzMedia exists
+2015/09/23 13:19:24 Processing tag v0.9.7
   0.9.7: Recording
-2015/09/23 07:12:49 Looking for file HelmholtzMedia.mo in HelmholtzMedia:0.9.7: false
-2015/09/23 07:12:49 Looking for file HelmholtzMedia 0.9.7.mo in HelmholtzMedia:0.9.7: false
-2015/09/23 07:12:49 Looking for file HelmholtzMedia.mo in HelmholtzMedia:0.9.7: false
-2015/09/23 07:12:50 Looking for file HelmholtzMedia 0.9.7.mo in HelmholtzMedia:0.9.7: false
-2015/09/23 07:12:50 Looking for directory HelmholtzMedia in HelmholtzMedia:0.9.7: true
-2015/09/23 07:12:50   Found
-2015/09/23 07:12:50 Looking for directory HelmholtzMedia 0.9.7 in HelmholtzMedia:0.9.7: false
-2015/09/23 07:12:50 Looking for directory HelmholtzMedia in HelmholtzMedia:0.9.7: true
-2015/09/23 07:12:51 Looking for directory HelmholtzMedia 0.9.7 in HelmholtzMedia:0.9.7: false
+2015/09/23 13:19:25   Reviewing contents of thorade/HelmholtzMedia
     Processing library HelmholtzMedia @ HelmholtzMedia
+2015/09/23 13:19:27 Processing tag v0.9.6
   0.9.6: Recording
-2015/09/23 07:12:51 Looking for file HelmholtzMedia.mo in HelmholtzMedia:0.9.6: false
-2015/09/23 07:12:52 Looking for file HelmholtzMedia 0.9.6.mo in HelmholtzMedia:0.9.6: false
-2015/09/23 07:12:52 Looking for file HelmholtzMedia.mo in HelmholtzMedia:0.9.6: false
-2015/09/23 07:12:52 Looking for file HelmholtzMedia 0.9.6.mo in HelmholtzMedia:0.9.6: false
-2015/09/23 07:12:52 Looking for directory HelmholtzMedia in HelmholtzMedia:0.9.6: true
-2015/09/23 07:12:52   Found
-2015/09/23 07:12:52 Looking for directory HelmholtzMedia 0.9.6 in HelmholtzMedia:0.9.6: false
-2015/09/23 07:12:53 Looking for directory HelmholtzMedia in HelmholtzMedia:0.9.6: true
-2015/09/23 07:12:53 Looking for directory HelmholtzMedia 0.9.6 in HelmholtzMedia:0.9.6: false
+2015/09/23 13:19:28   Reviewing contents of thorade/HelmholtzMedia
     Processing library HelmholtzMedia @ HelmholtzMedia
+2015/09/23 13:19:30 Processing tag v0.9.5
   0.9.5: Recording
-2015/09/23 07:12:54 Looking for file HelmholtzMedia.mo in HelmholtzMedia:0.9.5: false
-2015/09/23 07:12:54 Looking for file HelmholtzMedia 0.9.5.mo in HelmholtzMedia:0.9.5: false
-2015/09/23 07:12:54 Looking for file HelmholtzMedia.mo in HelmholtzMedia:0.9.5: false
-2015/09/23 07:12:54 Looking for file HelmholtzMedia 0.9.5.mo in HelmholtzMedia:0.9.5: false
-2015/09/23 07:12:54 Looking for directory HelmholtzMedia in HelmholtzMedia:0.9.5: true
-2015/09/23 07:12:54   Found
-2015/09/23 07:12:55 Looking for directory HelmholtzMedia 0.9.5 in HelmholtzMedia:0.9.5: false
-2015/09/23 07:12:55 Looking for directory HelmholtzMedia in HelmholtzMedia:0.9.5: true
-2015/09/23 07:12:55 Looking for directory HelmholtzMedia 0.9.5 in HelmholtzMedia:0.9.5: false
+2015/09/23 13:19:30   Reviewing contents of thorade/HelmholtzMedia
     Processing library HelmholtzMedia @ HelmholtzMedia
+2015/09/23 13:19:32 Processing tag v0.9.4
   0.9.4: Recording
-2015/09/23 07:12:56 Looking for file HelmholtzMedia.mo in HelmholtzMedia:0.9.4: false
-2015/09/23 07:12:56 Looking for file HelmholtzMedia 0.9.4.mo in HelmholtzMedia:0.9.4: false
-2015/09/23 07:12:56 Looking for file HelmholtzMedia.mo in HelmholtzMedia:0.9.4: false
-2015/09/23 07:12:56 Looking for file HelmholtzMedia 0.9.4.mo in HelmholtzMedia:0.9.4: false
-2015/09/23 07:12:56 Looking for directory HelmholtzMedia in HelmholtzMedia:0.9.4: true
-2015/09/23 07:12:56   Found
-2015/09/23 07:12:57 Looking for directory HelmholtzMedia 0.9.4 in HelmholtzMedia:0.9.4: false
-2015/09/23 07:12:57 Looking for directory HelmholtzMedia in HelmholtzMedia:0.9.4: true
-2015/09/23 07:12:57 Looking for directory HelmholtzMedia 0.9.4 in HelmholtzMedia:0.9.4: false
+2015/09/23 13:19:33   Reviewing contents of thorade/HelmholtzMedia
     Processing library HelmholtzMedia @ HelmholtzMedia
+2015/09/23 13:19:34 Processing tag v0.9.3
   0.9.3: Recording
-2015/09/23 07:12:58 Looking for file HelmholtzMedia.mo in HelmholtzMedia:0.9.3: false
-2015/09/23 07:12:58 Looking for file HelmholtzMedia 0.9.3.mo in HelmholtzMedia:0.9.3: false
-2015/09/23 07:12:58 Looking for file HelmholtzMedia.mo in HelmholtzMedia:0.9.3: false
-2015/09/23 07:12:58 Looking for file HelmholtzMedia 0.9.3.mo in HelmholtzMedia:0.9.3: false
-2015/09/23 07:12:59 Looking for directory HelmholtzMedia in HelmholtzMedia:0.9.3: true
-2015/09/23 07:12:59   Found
-2015/09/23 07:12:59 Looking for directory HelmholtzMedia 0.9.3 in HelmholtzMedia:0.9.3: false
-2015/09/23 07:12:59 Looking for directory HelmholtzMedia in HelmholtzMedia:0.9.3: true
-2015/09/23 07:13:00 Looking for directory HelmholtzMedia 0.9.3 in HelmholtzMedia:0.9.3: false
+2015/09/23 13:19:36   Reviewing contents of thorade/HelmholtzMedia
     Processing library HelmholtzMedia @ HelmholtzMedia
+2015/09/23 13:19:38 Processing tag v0.9.2
   0.9.2: Recording
-2015/09/23 07:13:00 Looking for file HelmholtzMedia.mo in HelmholtzMedia:0.9.2: false
-2015/09/23 07:13:00 Looking for file HelmholtzMedia 0.9.2.mo in HelmholtzMedia:0.9.2: false
-2015/09/23 07:13:01 Looking for file HelmholtzMedia.mo in HelmholtzMedia:0.9.2: false
-2015/09/23 07:13:01 Looking for file HelmholtzMedia 0.9.2.mo in HelmholtzMedia:0.9.2: false
-2015/09/23 07:13:01 Looking for directory HelmholtzMedia in HelmholtzMedia:0.9.2: true
-2015/09/23 07:13:01   Found
-2015/09/23 07:13:01 Looking for directory HelmholtzMedia 0.9.2 in HelmholtzMedia:0.9.2: false
-2015/09/23 07:13:01 Looking for directory HelmholtzMedia in HelmholtzMedia:0.9.2: true
-2015/09/23 07:13:02 Looking for directory HelmholtzMedia 0.9.2 in HelmholtzMedia:0.9.2: false
+2015/09/23 13:19:38   Reviewing contents of thorade/HelmholtzMedia
     Processing library HelmholtzMedia @ HelmholtzMedia
+2015/09/23 13:19:39 Processing tag v0.9.1
+  0.9.1: Recording
+2015/09/23 13:19:40   Reviewing contents of thorade/HelmholtzMedia
+2015/09/23 13:19:40   Repository is a library
+    Processing library HelmholtzMedia @ .
+2015/09/23 13:19:41 Processing tag v0.9.0
+  0.9.0: Recording
+2015/09/23 13:19:41   Reviewing contents of thorade/HelmholtzMedia
+2015/09/23 13:19:42   Repository is a library
+    Processing library HelmholtzMedia @ .
+2015/09/23 13:19:43 Processing tag v0.8.4
+  0.8.4: Recording
+2015/09/23 13:19:43   Reviewing contents of thorade/HelmholtzMedia
+2015/09/23 13:19:43   Repository is a library
+    Processing library HelmholtzMedia @ .
+2015/09/23 13:19:44 Processing tag v0.8.3_Helium_beta
   0.8.3_Helium_beta: Ignoring
+2015/09/23 13:19:44 Processing tag v0.8.2
+  0.8.2: Recording
+2015/09/23 13:19:44   Reviewing contents of thorade/HelmholtzMedia
+2015/09/23 13:19:45   Repository is a library
+    Processing library HelmholtzMedia @ .
+2015/09/23 13:19:45 Processing tag v0.8.1
+  0.8.1: Recording
+2015/09/23 13:19:46   Reviewing contents of thorade/HelmholtzMedia
+2015/09/23 13:19:46   Repository is a library
+    Processing library HelmholtzMedia @ .
+2015/09/23 13:19:47 Processing tag v0.8
+  0.8: Recording
+2015/09/23 13:19:47   Reviewing contents of thorade/HelmholtzMedia
+2015/09/23 13:19:47   Repository is a library
+    Processing library HelmholtzMedia @ .
+2015/09/23 13:19:48 Processing tag v0.7.1
+  0.7.1: Recording
+2015/09/23 13:19:49   Reviewing contents of thorade/HelmholtzMedia
+2015/09/23 13:19:49   Repository is a library
+    Processing library HelmholtzMedia @ .
+2015/09/23 13:19:49 Processing tag v0.7
+  0.7: Recording
+2015/09/23 13:19:50   Reviewing contents of thorade/HelmholtzMedia
+2015/09/23 13:19:50   Repository is a library
+    Processing library HelmholtzMedia @ .
+2015/09/23 13:19:51 Processing tag v0.6.1
+  0.6.1: Recording
+2015/09/23 13:19:51   Reviewing contents of thorade/HelmholtzMedia
+2015/09/23 13:19:52   Repository is a library
+    Processing library HelmholtzMedia @ .
+2015/09/23 13:19:52 Processing tag v0.6
+  0.6: Recording
+2015/09/23 13:19:53   Reviewing contents of thorade/HelmholtzMedia
+2015/09/23 13:19:53   Repository is a library
+    Processing library HelmholtzMedia @ .
+2015/09/23 13:19:54 Processing tag v0.5
+  0.5: Recording
+2015/09/23 13:19:54   Reviewing contents of thorade/HelmholtzMedia
+2015/09/23 13:19:54   Repository is a library
+    Processing library HelmholtzMedia @ .
+2015/09/23 13:19:55 Processing tag v0.4
+  0.4: Recording
+2015/09/23 13:19:55   Reviewing contents of thorade/HelmholtzMedia
+2015/09/23 13:19:56   Repository is a library
+    Processing library HelmholtzMedia @ .
+2015/09/23 13:19:56 Processing tag v0.3
+  0.3: Recording
+2015/09/23 13:19:57   Reviewing contents of thorade/HelmholtzMedia
+2015/09/23 13:19:57   Repository is a library
+    Processing library HelmholtzFluids @ .
+2015/09/23 13:19:58 Processing tag v0.2
+  0.2: Recording
+2015/09/23 13:19:58   Reviewing contents of thorade/HelmholtzMedia
+2015/09/23 13:19:58   Repository is a library
+    Processing library HelmholtzFluids @ .
+2015/09/23 13:19:59 Processing tag v0.1
+  0.1: Recording
+2015/09/23 13:19:59   Reviewing contents of thorade/HelmholtzMedia
+2015/09/23 13:20:00   Repository is a library
+    Processing library HelmholtzFluids @ .
 Processing: IdealizedContact (https://github.com/modelica-3rdparty/IdealizedContact, fork=true)
-2015/09/23 07:13:03 Source for IdealizedContact exists
+2015/09/23 13:20:02 Source for IdealizedContact exists
+2015/09/23 13:20:03 Processing tag v0.2.0
   0.2.0: Recording
-2015/09/23 07:13:04 Looking for file IdealizedContact.mo in IdealizedContact:0.2.0: false
-2015/09/23 07:13:04 Looking for file IdealizedContact 0.2.0.mo in IdealizedContact:0.2.0: false
-2015/09/23 07:13:04 Looking for file IdealizedContact.mo in IdealizedContact:0.2.0: false
-2015/09/23 07:13:04 Looking for file IdealizedContact 0.2.0.mo in IdealizedContact:0.2.0: false
-2015/09/23 07:13:04 Looking for directory IdealizedContact in IdealizedContact:0.2.0: false
-2015/09/23 07:13:04 Looking for directory IdealizedContact 0.2.0 in IdealizedContact:0.2.0: true
-2015/09/23 07:13:04   Found
-2015/09/23 07:13:05 Looking for directory IdealizedContact in IdealizedContact:0.2.0: false
-2015/09/23 07:13:05 Looking for directory IdealizedContact 0.2.0 in IdealizedContact:0.2.0: true
+2015/09/23 13:20:03   Reviewing contents of oestersoetebier/IdealizedContact
+    Processing library IdealizedContact @ IdealizedContact 0.1.0
     Processing library IdealizedContact @ IdealizedContact 0.2.0
+2015/09/23 13:20:08 Processing tag v0.1.0
   0.1.0: Recording
-2015/09/23 07:13:07 Looking for file IdealizedContact.mo in IdealizedContact:0.1.0: false
-2015/09/23 07:13:07 Looking for file IdealizedContact 0.1.0.mo in IdealizedContact:0.1.0: false
-2015/09/23 07:13:07 Looking for file IdealizedContact.mo in IdealizedContact:0.1.0: false
-2015/09/23 07:13:07 Looking for file IdealizedContact 0.1.0.mo in IdealizedContact:0.1.0: false
-2015/09/23 07:13:07 Looking for directory IdealizedContact in IdealizedContact:0.1.0: false
-2015/09/23 07:13:07 Looking for directory IdealizedContact 0.1.0 in IdealizedContact:0.1.0: true
-2015/09/23 07:13:07   Found
-2015/09/23 07:13:08 Looking for directory IdealizedContact in IdealizedContact:0.1.0: false
-2015/09/23 07:13:08 Looking for directory IdealizedContact 0.1.0 in IdealizedContact:0.1.0: true
+2015/09/23 13:20:09   Reviewing contents of oestersoetebier/IdealizedContact
     Processing library IdealizedContact @ IdealizedContact 0.1.0
 Processing: IDEAS (https://github.com/modelica-3rdparty/IDEAS, fork=true)
-2015/09/23 07:13:10 Source for IDEAS exists
+2015/09/23 13:20:11 Source for IDEAS exists
+2015/09/23 13:20:12 Processing tag versionLinearisationPaper
   ersionLinearisationPaper: Ignoring
 Processing: IndustrialControlSystems (https://github.com/modelica-3rdparty/IndustrialControlSystems, fork=true)
-2015/09/23 07:13:10 Source for IndustrialControlSystems exists
+2015/09/23 13:20:12 Source for IndustrialControlSystems exists
+2015/09/23 13:20:13 Processing tag v1.0
   1.0: Recording
-2015/09/23 07:13:12 Looking for file IndustrialControlSystems.mo in IndustrialControlSystems:1.0: false
-2015/09/23 07:13:12 Looking for file IndustrialControlSystems 1.0.mo in IndustrialControlSystems:1.0: false
-2015/09/23 07:13:12 Looking for file IndustrialControlSystems.mo in IndustrialControlSystems:1.0: false
-2015/09/23 07:13:12 Looking for file IndustrialControlSystems 1.0.mo in IndustrialControlSystems:1.0: false
-2015/09/23 07:13:12 Looking for directory IndustrialControlSystems in IndustrialControlSystems:1.0: false
-2015/09/23 07:13:12 Looking for directory IndustrialControlSystems 1.0 in IndustrialControlSystems:1.0: true
-2015/09/23 07:13:12   Found
-2015/09/23 07:13:13 Looking for directory IndustrialControlSystems in IndustrialControlSystems:1.0: false
-2015/09/23 07:13:13 Looking for directory IndustrialControlSystems 1.0 in IndustrialControlSystems:1.0: true
+2015/09/23 13:20:13   Reviewing contents of mbonvini/IndustrialControlSystems
     Processing library IndustrialControlSystems @ IndustrialControlSystems 1.0
 Processing: LinearMPC (https://github.com/modelica-3rdparty/LinearMPC, fork=false)
-2015/09/23 07:13:14 No source for LinearMPC
+2015/09/23 13:20:15 No source for LinearMPC
+2015/09/23 13:20:16 Processing tag v1.0
   1.0: Recording
-2015/09/23 07:13:15 Looking for file LinearMPC.mo in LinearMPC:1.0: true
-2015/09/23 07:13:15   Found
-2015/09/23 07:13:15 Looking for file LinearMPC 1.0.mo in LinearMPC:1.0: false
-2015/09/23 07:13:16 Looking for file LinearMPC.mo in LinearMPC:1.0: true
-2015/09/23 07:13:16 Looking for file LinearMPC 1.0.mo in LinearMPC:1.0: false
-2015/09/23 07:13:16 Looking for directory LinearMPC in LinearMPC:1.0: false
-2015/09/23 07:13:16 Looking for directory LinearMPC 1.0 in LinearMPC:1.0: false
-2015/09/23 07:13:17 Looking for directory LinearMPC in LinearMPC:1.0: false
-2015/09/23 07:13:17 Looking for directory LinearMPC 1.0 in LinearMPC:1.0: false
+2015/09/23 13:20:16   Reviewing contents of modelica-3rdparty/LinearMPC
     Processing library LinearMPC @ LinearMPC.mo
+2015/09/23 13:20:17 Processing tag v0.1
+  0.1: Recording
+2015/09/23 13:20:17   Reviewing contents of modelica-3rdparty/LinearMPC
+2015/09/23 13:20:19 Error extracting uses annotation: Error while parsing uses annotation of linearMPC.mo in github repository LinearMPC: Unable to normalize version for ThermoPower: Unable to normalize version string '2.01IRT'
+    Processing library LinearMPC @ linearMPC.mo
 Processing: ModelicaDEVS (https://github.com/modelica-3rdparty/ModelicaDEVS, fork=false)
-2015/09/23 07:13:17 No source for ModelicaDEVS
+2015/09/23 13:20:19 No source for ModelicaDEVS
+2015/09/23 13:20:20 Processing tag v1.0
 Processing: MotorcycleDynamics (https://github.com/modelica-3rdparty/MotorcycleDynamics, fork=false)
-2015/09/23 07:13:18 No source for MotorcycleDynamics
+2015/09/23 13:20:20 No source for MotorcycleDynamics
+2015/09/23 13:20:21 Processing tag v0.7.0
   0.7.0: Recording
-2015/09/23 07:13:19 Looking for file MotorcycleDynamics.mo in MotorcycleDynamics:0.7.0: false
-2015/09/23 07:13:20 Looking for file MotorcycleDynamics 0.7.0.mo in MotorcycleDynamics:0.7.0: true
-2015/09/23 07:13:20   Found
-2015/09/23 07:13:21 Looking for file MotorcycleDynamics.mo in MotorcycleDynamics:0.7.0: false
-2015/09/23 07:13:21 Looking for file MotorcycleDynamics 0.7.0.mo in MotorcycleDynamics:0.7.0: true
-2015/09/23 07:13:22 Looking for directory MotorcycleDynamics in MotorcycleDynamics:0.7.0: false
-2015/09/23 07:13:22 Looking for directory MotorcycleDynamics 0.7.0 in MotorcycleDynamics:0.7.0: false
-2015/09/23 07:13:22 Looking for directory MotorcycleDynamics in MotorcycleDynamics:0.7.0: false
-2015/09/23 07:13:22 Looking for directory MotorcycleDynamics 0.7.0 in MotorcycleDynamics:0.7.0: false
+2015/09/23 13:20:21   Reviewing contents of modelica-3rdparty/MotorcycleDynamics
     Processing library MotorcycleDynamics @ MotorcycleDynamics 0.7.0.mo
+2015/09/23 13:20:24 Processing tag v0.7
   0.7: Recording
-2015/09/23 07:13:23 Looking for file MotorcycleDynamics.mo in MotorcycleDynamics:0.7: false
-2015/09/23 07:13:23 Looking for file MotorcycleDynamics 0.7.mo in MotorcycleDynamics:0.7: false
-2015/09/23 07:13:24 Looking for file MotorcycleDynamics.mo in MotorcycleDynamics:0.7: false
-2015/09/23 07:13:24 Looking for file MotorcycleDynamics 0.7.mo in MotorcycleDynamics:0.7: false
-2015/09/23 07:13:24 Looking for directory MotorcycleDynamics in MotorcycleDynamics:0.7: false
-2015/09/23 07:13:24 Looking for directory MotorcycleDynamics 0.7 in MotorcycleDynamics:0.7: true
-2015/09/23 07:13:24   Found
-2015/09/23 07:13:24 Looking for directory MotorcycleDynamics in MotorcycleDynamics:0.7: false
-2015/09/23 07:13:25 Looking for directory MotorcycleDynamics 0.7 in MotorcycleDynamics:0.7: true
+2015/09/23 13:20:25   Reviewing contents of modelica-3rdparty/MotorcycleDynamics
     Processing library MotorcycleDynamics @ MotorcycleDynamics 0.7
 Processing: MotorcycleLib (https://github.com/modelica-3rdparty/MotorcycleLib, fork=false)
-2015/09/23 07:13:26 No source for MotorcycleLib
+2015/09/23 13:20:27 No source for MotorcycleLib
+2015/09/23 13:20:27 Processing tag v1.0
+  1.0: Recording
+2015/09/23 13:20:28   Reviewing contents of modelica-3rdparty/MotorcycleLib
+    Processing library MotorcycleLib @ MotorcycleLib 1.0
 Processing: msgpack-modelica (https://github.com/modelica-3rdparty/msgpack-modelica, fork=false)
-2015/09/23 07:13:27 No source for msgpack-modelica
+2015/09/23 13:20:30 No source for msgpack-modelica
+2015/09/23 13:20:31 Processing tag v0.1
   0.1: Recording
-2015/09/23 07:13:28 Looking for file msgpack-modelica.mo in msgpack-modelica:0.1: false
-2015/09/23 07:13:28 Looking for file msgpack-modelica 0.1.mo in msgpack-modelica:0.1: false
-2015/09/23 07:13:28 Looking for file msgpack-modelica.mo in msgpack-modelica:0.1: false
-2015/09/23 07:13:28 Looking for file msgpack-modelica 0.1.mo in msgpack-modelica:0.1: false
-2015/09/23 07:13:28 Looking for directory msgpack-modelica in msgpack-modelica:0.1: false
-2015/09/23 07:13:29 Looking for directory msgpack-modelica 0.1 in msgpack-modelica:0.1: false
-2015/09/23 07:13:29 Looking for directory msgpack-modelica in msgpack-modelica:0.1: false
-2015/09/23 07:13:29 Looking for directory msgpack-modelica 0.1 in msgpack-modelica:0.1: false
-2015/09/23 07:13:29 Check if directory msgpack-modelica:0.1 is a package: false
-2015/09/23 07:13:29 Nothing found in msgpack-modelica/0.1 for among [msgpack-modelica.mo msgpack-modelica 0.1.mo msgpack-modelica.mo msgpack-modelica 0.1.mo] or [msgpack-modelica msgpack-modelica 0.1 msgpack-modelica msgpack-modelica 0.1]
-    No Modelica libraries found in repository msgpack-modelica:0.1
+2015/09/23 13:20:31   Reviewing contents of modelica-3rdparty/msgpack-modelica
+    Processing library MessagePack @ MessagePack
 Processing: MultiBondLib (https://github.com/modelica-3rdparty/MultiBondLib, fork=false)
-2015/09/23 07:13:29 No source for MultiBondLib
+2015/09/23 13:20:33 No source for MultiBondLib
+2015/09/23 13:20:34 Processing tag v1.3
   1.3: Recording
-2015/09/23 07:13:30 Looking for file MultiBondLib.mo in MultiBondLib:1.3: false
-2015/09/23 07:13:30 Looking for file MultiBondLib 1.3.mo in MultiBondLib:1.3: false
-2015/09/23 07:13:30 Looking for file MultiBondLib.mo in MultiBondLib:1.3: false
-2015/09/23 07:13:30 Looking for file MultiBondLib 1.3.mo in MultiBondLib:1.3: false
-2015/09/23 07:13:31 Looking for directory MultiBondLib in MultiBondLib:1.3: false
-2015/09/23 07:13:31 Looking for directory MultiBondLib 1.3 in MultiBondLib:1.3: true
-2015/09/23 07:13:31   Found
-2015/09/23 07:13:31 Looking for directory MultiBondLib in MultiBondLib:1.3: false
-2015/09/23 07:13:31 Looking for directory MultiBondLib 1.3 in MultiBondLib:1.3: true
+2015/09/23 13:20:34   Reviewing contents of modelica-3rdparty/MultiBondLib
     Processing library MultiBondLib @ MultiBondLib 1.3
 Processing: MultiPhaseMixtureMedia (https://github.com/modelica-3rdparty/MultiPhaseMixtureMedia, fork=false)
-2015/09/23 07:13:33 No source for MultiPhaseMixtureMedia
+2015/09/23 13:20:36 No source for MultiPhaseMixtureMedia
+Processing: NCLib (https://github.com/modelica-3rdparty/NCLib, fork=false)
+2015/09/23 13:20:37 No source for NCLib
+2015/09/23 13:20:37 Processing tag v0.82
+Processing: netCDF-DataReader (https://github.com/modelica-3rdparty/netCDF-DataReader, fork=true)
+2015/09/23 13:20:38 Source for netCDF-DataReader exists
+2015/09/23 13:20:38 Processing tag v2.4.0
+  2.4.0: Recording
+2015/09/23 13:20:39   Reviewing contents of tbeu/netCDF-DataReader
+    Processing library NcDataReader2 @ NcDataReader2
+Processing: NeuralNetwork (https://github.com/modelica-3rdparty/NeuralNetwork, fork=false)
+2015/09/23 13:20:42 No source for NeuralNetwork
+2015/09/23 13:20:43 Processing tag v1.0
+  1.0: Recording
+2015/09/23 13:20:43   Reviewing contents of modelica-3rdparty/NeuralNetwork
+    Processing library NeuralNetwork @ NeuralNetwork 1.0
+Processing: Noise (https://github.com/modelica-3rdparty/Noise, fork=true)
+2015/09/23 13:20:45 Source for Noise exists
+2015/09/23 13:20:46 Processing tag v1.0-beta.1
+  1.0-beta.1: Recording
+2015/09/23 13:20:46   Reviewing contents of DLR-SR/Noise
+    Processing library Modelica_Noise @ Modelica_Noise 1.0 Beta.1
+2015/09/23 13:20:48 Processing tag v0.2.0
+  0.2.0: Recording
+2015/09/23 13:20:48   Reviewing contents of DLR-SR/Noise
+    Processing library Noise @ Noise 0.2.0
+Processing: ObjectStab (https://github.com/modelica-3rdparty/ObjectStab, fork=false)
+2015/09/23 13:20:50 No source for ObjectStab
+2015/09/23 13:20:51 Processing tag v1.0.3
+  1.0.3: Recording
+2015/09/23 13:20:51   Reviewing contents of modelica-3rdparty/ObjectStab
+    Processing library ObjectStab @ ObjectStab 1.0.3
+Processing: open-bldc-modelica (https://github.com/modelica-3rdparty/open-bldc-modelica, fork=true)
+2015/09/23 13:20:53 Source for open-bldc-modelica exists
+Processing: OpenHydraulics (https://github.com/modelica-3rdparty/OpenHydraulics, fork=true)
+2015/09/23 13:20:54 Source for OpenHydraulics exists
+2015/09/23 13:20:54 Processing tag v1.0.1
+  1.0.1: Recording
+2015/09/23 13:20:55   Reviewing contents of cparedis/OpenHydraulics
+    Processing library OpenHydraulics @ OpenHydraulics
+2015/09/23 13:20:56 Processing tag v1.0
+  1.0: Recording
+2015/09/23 13:20:57   Reviewing contents of cparedis/OpenHydraulics
+    Processing library OpenHydraulics @ OpenHydraulics
+Processing: PDELib (https://github.com/modelica-3rdparty/PDELib, fork=false)
+2015/09/23 13:20:59 No source for PDELib
+2015/09/23 13:20:59 Processing tag v1.0
+  1.0: Recording
+2015/09/23 13:21:00   Reviewing contents of modelica-3rdparty/PDELib
+    Processing library PDE @ PDELib 1.0
+Processing: Physiolibrary (https://github.com/modelica-3rdparty/Physiolibrary, fork=true)
+2015/09/23 13:21:03 Source for Physiolibrary exists
+2015/09/23 13:21:04 Processing tag v2.3.1
+  2.3.1: Recording
+2015/09/23 13:21:05   Reviewing contents of MarekMatejak/Physiolibrary
+    Processing library Physiolibrary @ Physiolibrary
+2015/09/23 13:21:07 Processing tag v2.3.0
+  2.3.0: Recording
+2015/09/23 13:21:07   Reviewing contents of MarekMatejak/Physiolibrary
+    Processing library Physiolibrary @ Physiolibrary 2.3.0
+2015/09/23 13:21:08 Processing tag v2.2.0
+  2.2.0: Recording
+2015/09/23 13:21:09   Reviewing contents of MarekMatejak/Physiolibrary
+    Processing library Physiolibrary @ Physiolibrary 2.2.0
+2015/09/23 13:21:10 Processing tag v2.1.1
+  2.1.1: Recording
+2015/09/23 13:21:11   Reviewing contents of MarekMatejak/Physiolibrary
+    Processing library Physiolibrary @ Physiolibrary 2.1.1
+2015/09/23 13:21:13 Processing tag v2.1.0
+  2.1.0: Recording
+2015/09/23 13:21:13   Reviewing contents of MarekMatejak/Physiolibrary
+    Processing library Physiolibrary @ Physiolibrary 2.1.0
+2015/09/23 13:21:15 Processing tag v2.0.2
+  2.0.2: Recording
+2015/09/23 13:21:15   Reviewing contents of MarekMatejak/Physiolibrary
+    Processing library Physiolibrary @ Physiolibrary 2.0.2
+2015/09/23 13:21:16 Processing tag v2.0.1
+  2.0.1: Recording
+2015/09/23 13:21:17   Reviewing contents of MarekMatejak/Physiolibrary
+    Processing library Physiolibrary @ Physiolibrary
+2015/09/23 13:21:18 Processing tag v2.0.0
+  2.0.0: Recording
+2015/09/23 13:21:19   Reviewing contents of MarekMatejak/Physiolibrary
+    Processing library Physiolibrary @ Physiolibrary 2.0.0
+2015/09/23 13:21:21 Processing tag v1.2.0
+  1.2.0: Recording
+2015/09/23 13:21:21   Reviewing contents of MarekMatejak/Physiolibrary
+    Processing library Physiolibrary @ Physiolibrary 1.2.0
+2015/09/23 13:21:22 Processing tag v1.1.0
+  1.1.0: Recording
+2015/09/23 13:21:23   Reviewing contents of MarekMatejak/Physiolibrary
+    Processing library Physiolibrary @ Physiolibrary 1.1.0
+2015/09/23 13:21:24 Processing tag v1.0.1
+  1.0.1: Recording
+2015/09/23 13:21:24   Reviewing contents of MarekMatejak/Physiolibrary
+    Processing library Physiolibrary @ Physiolibrary 1.0.1
+2015/09/23 13:21:26 Processing tag v1.0.0
+  1.0.0: Recording
+2015/09/23 13:21:26   Reviewing contents of MarekMatejak/Physiolibrary
+    Processing library Physiolibrary @ Physiolibrary 1.0.0
+Processing: PlanarMechanics (https://github.com/modelica-3rdparty/PlanarMechanics, fork=true)
+2015/09/23 13:21:28 Source for PlanarMechanics exists
+2015/09/23 13:21:29 Processing tag v1.3.0
+  1.3.0: Recording
+2015/09/23 13:21:29   Reviewing contents of dzimmer/PlanarMechanics
+    Processing library PlanarMechanics @ PlanarMechanics
+2015/09/23 13:21:30 Processing tag v1.2.0
+  1.2.0: Recording
+2015/09/23 13:21:31   Reviewing contents of dzimmer/PlanarMechanics
+    Processing library PlanarMechanics @ PlanarMechanics 1.2.0
+Processing: PNlib (https://github.com/modelica-3rdparty/PNlib, fork=true)
+2015/09/23 13:21:33 Source for PNlib exists
+2015/09/23 13:21:34 Processing tag v1.1
+  1.1: Recording
+2015/09/23 13:21:34   Reviewing contents of lochel/PNlib
+    Processing library PNlib @ PNlib
+2015/09/23 13:21:36 Processing tag v1.0
+  1.0: Recording
+2015/09/23 13:21:36   Reviewing contents of lochel/PNlib
+    Processing library PNlib @ PNlib.mo
+Processing: PraxisSimulationstechnik (https://github.com/modelica-3rdparty/PraxisSimulationstechnik, fork=true)
+2015/09/23 13:21:39 Source for PraxisSimulationstechnik exists
+Processing: QCalc (https://github.com/modelica-3rdparty/QCalc, fork=true)
+2015/09/23 13:21:40 Source for QCalc exists
+2015/09/23 13:21:40 Processing tag v0.3.3
+  0.3.3: Recording
+2015/09/23 13:21:41   Reviewing contents of kdavies4/QCalc
+    Processing library QCalc @ QCalc
+    Processing library QCalcTests @ QCalcTests
+2015/09/23 13:21:44 Processing tag v0.3.2
+  0.3.2: Recording
+2015/09/23 13:21:44   Reviewing contents of kdavies4/QCalc
+    Processing library QCalc @ QCalc 0.3.2
+    Processing library QCalcTests @ QCalcTests
+2015/09/23 13:21:47 Processing tag v0.3.1
+  0.3.1: Recording
+2015/09/23 13:21:48   Reviewing contents of kdavies4/QCalc
+    Processing library QCalc @ QCalc 0.3.1
+    Processing library QCalcTests @ QCalcTests
+2015/09/23 13:21:51 Processing tag v0.3.0
+  0.3.0: Recording
+2015/09/23 13:21:51   Reviewing contents of kdavies4/QCalc
+    Processing library QCalc @ QCalc 0.3.0
+    Processing library QCalcTests @ QCalcTests
+2015/09/23 13:21:55 Processing tag v0.2.1
+  0.2.1: Recording
+2015/09/23 13:21:56   Reviewing contents of kdavies4/QCalc
+    Processing library QCalc @ QCalc 0.2.1
+    Processing library QCalcTests @ QCalcTests
+2015/09/23 13:21:59 Processing tag v0.2.0
+  0.2.0: Recording
+2015/09/23 13:21:59   Reviewing contents of kdavies4/QCalc
+    Processing library QCalc @ QCalc 0.2.0
+    Processing library QCalcTests @ QCalcTests
+2015/09/23 13:22:03 Processing tag v0.1.0
+  0.1.0: Recording
+2015/09/23 13:22:03   Reviewing contents of kdavies4/QCalc
+    Processing library QCalc @ QCalc 0.1.0
+    Processing library QCalcTests @ QCalcTests
+2015/09/23 13:22:07 Processing tag 0.3.1
+  0.3.1: Recording
+2015/09/23 13:22:07   Reviewing contents of kdavies4/QCalc
+    Processing library QCalc @ QCalc 0.3.1
+    Processing library QCalcTests @ QCalcTests
+Processing: QSSFluidFlow (https://github.com/modelica-3rdparty/QSSFluidFlow, fork=false)
+2015/09/23 13:22:11 No source for QSSFluidFlow
+2015/09/23 13:22:11 Processing tag v1.0
+  1.0: Recording
+2015/09/23 13:22:12   Reviewing contents of modelica-3rdparty/QSSFluidFlow
+    Processing library QSSFluidFlow @ QSSFluidFlow 1.0
+Processing: RealTimeCoordinationLibrary (https://github.com/modelica-3rdparty/RealTimeCoordinationLibrary, fork=false)
+2015/09/23 13:22:13 No source for RealTimeCoordinationLibrary
+2015/09/23 13:22:14 Processing tag v1.0.2
+  1.0.2: Recording
+2015/09/23 13:22:14   Reviewing contents of modelica-3rdparty/RealTimeCoordinationLibrary
+2015/09/23 13:22:15   Repository is a library
+    Processing library RealTimeCoordinationLibrary @ .
+2015/09/23 13:22:16 Processing tag v1.0.1
+  1.0.1: Recording
+2015/09/23 13:22:17   Reviewing contents of modelica-3rdparty/RealTimeCoordinationLibrary
+2015/09/23 13:22:17   Repository is a library
+    Processing library RealTimeCoordinationLibrary @ .
+2015/09/23 13:22:18 Processing tag v1.0
+  1.0: Recording
+2015/09/23 13:22:19   Reviewing contents of modelica-3rdparty/RealTimeCoordinationLibrary
+2015/09/23 13:22:19   Repository is a library
+    Processing library RealTimeCoordination @ .
+Processing: ScalableTestSuite (https://github.com/modelica-3rdparty/ScalableTestSuite, fork=true)
+2015/09/23 13:22:20 Source for ScalableTestSuite exists
+2015/09/23 13:22:21 Processing tag v1.0.0
+  1.0.0: Recording
+2015/09/23 13:22:21   Reviewing contents of casella/ScalableTestSuite
+    Processing library ScalableTestSuite @ ScalableTestSuite
+Processing: Servomechanisms (https://github.com/modelica-3rdparty/Servomechanisms, fork=true)
+2015/09/23 13:22:23 Source for Servomechanisms exists
+Processing: SPICELib (https://github.com/modelica-3rdparty/SPICELib, fork=false)
+2015/09/23 13:22:23 No source for SPICELib
+2015/09/23 13:22:24 Processing tag v1.1
+  1.1: Recording
+2015/09/23 13:22:24   Reviewing contents of modelica-3rdparty/SPICELib
+    Processing library SPICELib @ SPICELib 1.1
+Processing: Spot (https://github.com/modelica-3rdparty/Spot, fork=false)
+2015/09/23 13:22:26 No source for Spot
+2015/09/23 13:22:26 Processing tag v0.706.1
+  0.706.1: Recording
+2015/09/23 13:22:27   Reviewing contents of modelica-3rdparty/Spot
+    Processing library Spot @ Spot 0.706.1
+    Processing library SpotExamples @ SpotExamples 0.706.1
+2015/09/23 13:22:29 Processing tag v0.706
+  0.706: Recording
+2015/09/23 13:22:30   Reviewing contents of modelica-3rdparty/Spot
+    Processing library Spot @ Spot 0.706
+    Processing library SpotExamples @ SpotExamples 0.706
+Processing: SystemDynamics (https://github.com/modelica-3rdparty/SystemDynamics, fork=false)
+2015/09/23 13:22:34 No source for SystemDynamics
+2015/09/23 13:22:34 Processing tag v2.1
+  2.1: Recording
+2015/09/23 13:22:35   Reviewing contents of modelica-3rdparty/SystemDynamics
+    Processing library SystemDynamics @ SystemDynamics 2.1
+2015/09/23 13:22:37 Processing tag v2.0
+  2.0: Recording
+2015/09/23 13:22:37   Reviewing contents of modelica-3rdparty/SystemDynamics
+    Processing library SystemDynamics @ SystemDynamics 2.0
+Processing: TechThermo (https://github.com/modelica-3rdparty/TechThermo, fork=false)
+2015/09/23 13:22:44 No source for TechThermo
+2015/09/23 13:22:44 Processing tag v1.0
+  1.0: Recording
+2015/09/23 13:22:45   Reviewing contents of modelica-3rdparty/TechThermo
+    Processing library TechThermo @ TechThermo 1.0
+Processing: ThermoBondLib (https://github.com/modelica-3rdparty/ThermoBondLib, fork=false)
+2015/09/23 13:22:47 No source for ThermoBondLib
+2015/09/23 13:22:48 Processing tag v2.1
+  2.1: Recording
+2015/09/23 13:22:48   Reviewing contents of modelica-3rdparty/ThermoBondLib
+    Processing library ThermoBondLib @ ThermoBondlib 2.1
+Processing: Thermocycle-library (https://github.com/modelica-3rdparty/Thermocycle-library, fork=true)
+2015/09/23 13:22:51 Source for Thermocycle-library exists
+2015/09/23 13:22:51 Processing tag v2.0.0
+  2.0.0: Recording
+2015/09/23 13:22:51   Reviewing contents of thermocycle/Thermocycle-library
+    Processing library ThermoCycle @ ThermoCycle 2.0.0
+2015/09/23 13:22:53 Processing tag v1.0.0
+  1.0.0: Recording
+2015/09/23 13:22:53   Reviewing contents of thermocycle/Thermocycle-library
+    Processing library ThermoCycle @ ThermoCycle 1.0.0
+Processing: ThermoPower (https://github.com/modelica-3rdparty/ThermoPower, fork=false)
+2015/09/23 13:22:55 No source for ThermoPower
+2015/09/23 13:22:55 Processing tag v3.1-beta.0
+  3.1-beta.0: Recording
+2015/09/23 13:22:56   Reviewing contents of modelica-3rdparty/ThermoPower
+    Processing library ThermoPower @ ThermoPower 3.1
+2015/09/23 13:22:57 Processing tag v2.1+msl.2.2.2
+  2.1+msl.2.2.2: Recording
+2015/09/23 13:22:58   Reviewing contents of modelica-3rdparty/ThermoPower
+    Processing library ThermoPower @ ThermoPower 2.1
+2015/09/23 13:22:59 Processing tag v2.1+msl.2.2.1
+  2.1+msl.2.2.1: Recording
+2015/09/23 13:23:00   Reviewing contents of modelica-3rdparty/ThermoPower
+    Processing library ThermoPower @ ThermoPower 2.1
+2015/09/23 13:23:01 Processing tag v2.0
+  2.0: Recording
+2015/09/23 13:23:02   Reviewing contents of modelica-3rdparty/ThermoPower
+    Processing library ThermoPower @ ThermoPower
+2015/09/23 13:23:04 Processing tag EDF-report-2.0
+  EDF-report-2.0: Ignoring
+Processing: Verif (https://github.com/modelica-3rdparty/Verif, fork=false)
+2015/09/23 13:23:04 No source for Verif
+2015/09/23 13:23:05 Processing tag v2.2
+  2.2: Recording
+2015/09/23 13:23:05   Reviewing contents of modelica-3rdparty/Verif
+2015/09/23 13:23:08 Error extracting uses annotation: Error while parsing uses annotation of Verif 2.2/package.mo in github repository Verif: Unable to normalize version for BondLib: Unable to normalize version string '2.1a'
+    Processing library Verif @ Verif 2.2
+Processing: WasteWater (https://github.com/modelica-3rdparty/WasteWater, fork=false)
+2015/09/23 13:23:08 No source for WasteWater
+2015/09/23 13:23:09 Processing tag v2.1.0
+  2.1.0: Recording
+2015/09/23 13:23:09   Reviewing contents of modelica-3rdparty/WasteWater
+    Processing library WasteWater @ WasteWater 2.0.1
+2015/09/23 13:23:11 Processing tag v2.0.1
+  2.0.1: Recording
+2015/09/23 13:23:11   Reviewing contents of modelica-3rdparty/WasteWater
+    Processing library WasteWater @ WasteWater 2.0.1
+Processing: WheelsAndTires (https://github.com/modelica-3rdparty/WheelsAndTires, fork=false)
+2015/09/23 13:23:13 No source for WheelsAndTires
+2015/09/23 13:23:13 Processing tag v1.0
+  1.0: Recording
+2015/09/23 13:23:14   Reviewing contents of modelica-3rdparty/WheelsAndTires
+    Processing library WheelsAndTires @ WheelsAndTires 1.0
+Processing: WindPowerPlants (https://github.com/modelica-3rdparty/WindPowerPlants, fork=true)
+2015/09/23 13:23:17 Source for WindPowerPlants exists
+2015/09/23 13:23:17 Processing tag v0.9.4
+  0.9.4: Recording
+2015/09/23 13:23:18   Reviewing contents of christiankral/WindPowerPlants
+    Processing library WindPowerPlants @ WindPowerPlants
+2015/09/23 13:23:19 Processing tag v0.9.3
+  0.9.3: Recording
+2015/09/23 13:23:19   Reviewing contents of christiankral/WindPowerPlants
+    Processing library WindPowerPlants @ WindPowerPlants
+2015/09/23 13:23:20 Processing tag v0.9.2
+  0.9.2: Recording
+2015/09/23 13:23:21   Reviewing contents of christiankral/WindPowerPlants
+    Processing library WindPowerPlants @ WindPowerPlants
+2015/09/23 13:23:22 Processing tag v0.9.1
+  0.9.1: Recording
+2015/09/23 13:23:22   Reviewing contents of christiankral/WindPowerPlants
+    Processing library WindPowerPlants @ WindPowerPlants
+2015/09/23 13:23:24 Processing tag v0.9.0
+  0.9.0: Recording
+2015/09/23 13:23:24   Reviewing contents of christiankral/WindPowerPlants
+    No Modelica libraries found in repository WindPowerPlants:0.9.0
