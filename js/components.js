@@ -43,7 +43,8 @@ var ImpactState = (function () {
             var t = term.toLowerCase();
             this.index.libraries.forEach(function (lib) {
                 var inname = lib.name.toLowerCase().indexOf(t) > -1;
-                if (inname) {
+                var indesc = lib.description.toLowerCase().indexOf(t) > -1;
+                if (inname || indesc) {
                     _this.results.push(lib);
                 }
             });
