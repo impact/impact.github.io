@@ -9,19 +9,23 @@
 	<link type="text/css" rel="stylesheet"
 		  href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
 	<link type="text/css" rel="stylesheet" href="css/impact.css">
+	<link rel="icon" href="./img/favicon.ico">
 	<title>Impact - Search Engine</title>
   </head>
   <body>
 	<div id="impact"></div>
-	<script src="bower_components/semver/semver.js"></script>
 	<script src="bower_components/jquery/dist/jquery.js"></script>
 	<script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+	<script type="text/javascript" src="dist/bundle.js" charset="utf-8"></script>
+	<!--
+	<script src="bower_components/semver/semver.js"></script>
 	<script src="bower_components/react/react-with-addons.js"></script>
+	<script src="bower_components/react-router/build/umd/ReactRouter.min.js"></script>
 	<script src="js/components.js"></script>
 
 	<script>
-	  console.log("Rendering")
-      React.render((React.createElement(Impact, null)), document.getElementById('impact'));
+	  Impact.Mount(document.getElementById('impact'));
 	</script>
+	-->
   </body>
 </html>
