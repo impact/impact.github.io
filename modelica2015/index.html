@@ -1,0 +1,697 @@
+<html lang="en-US" class="">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!-- <meta name="author" content="marcolago"> -->
+
+    <meta property="og:title" content="Dependency Resolution in Impact">
+    <meta property="og:type" content="website">
+    
+    <meta property="og:url" content="http://github.com/impact/impact">
+    
+    
+    <meta property="og:image" content="https://raw2.github.com/impact/impact/master/images/logo_glossy.svg">
+    
+    <meta property="og:site_name" content="Dependency Resolution in Impact">
+
+    
+    <meta name="description" content="Dependency Resolution in Impact">
+    
+
+    
+
+    <title>Dependency Resolution in Impact</title>
+
+    
+
+    
+
+    <link rel="stylesheet" href="css/flowtime/reset.css">
+    <link rel="stylesheet" href="css/flowtime/flowtime.css">
+    <link rel="stylesheet" href="css/flowtime/default.css">
+    <link rel="stylesheet" href="css/flowtime/prism.css">
+    <link rel="stylesheet" href="css/flowtime/cadeau.css">
+
+    
+    <link rel="stylesheet" href="css/impact.css">
+    
+    
+    <link rel="apple-touch-icon-precomposed" href="img/flowtime/touch-icon-iphone.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/flowtime/touch-icon-ipad.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/flowtime/touch-icon-iphone-retina.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/flowtime/touch-icon-ipad-retina.png">
+    
+    <link rel="apple-touch-startup-image" href="img/flowtime/startup-640x920.png" media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 2)">
+    <link rel="apple-touch-startup-image" href="img/flowtime/startup-640x1096.png" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)">
+    
+  </head>
+  <body class="">
+    <div class="flowtime">
+      
+      <div class="ft-section" data-id="title">
+	
+	
+	<div class="ft-page" style="page-break-before:always;" data-id="title">
+	  
+	  
+
+
+
+<div class="stack-center"><div class="stacked-center">
+  <img src="img/logo_glossy.svg">
+  <div>
+    <h3>When impact got Going</h3>
+  </div>
+  <div class="pull-right">
+    <p class="right-justify">
+      Dietmar Winkler
+      <br>
+      <a href="https://twitter.com/dietmarw" target="_blank">@dietmarw</a>
+      <br>
+      <a href="http://www.hit.no/eng/ansatte/vis/dietmar.winkler">
+	Telemark University College
+      </a>
+    </p>
+  </div>
+
+  <div class="pull-left">
+    <p class="left-justify">
+      Michael Tiller
+      <br>
+      <a href="https://twitter.com/mtiller" target="_blank">@mtiller</a>
+      <br>
+      <a href="http://www.xogeny.com">Xogeny</a>
+    </p>
+  </div>
+</div></div>
+
+	</div>
+	
+      </div>
+      
+      <div class="ft-section" data-id="ecosystems">
+	
+	
+	<div class="ft-page" style="page-break-before:always;" data-id="eco_meme">
+	  
+	  
+
+
+
+<div>
+  <img style="width: 800px; margin-left: auto; margin-right: auto" src="img/ecosystem.jpg">
+</div>
+
+	</div>
+	
+      </div>
+      
+      <div class="ft-section" data-id="impact">
+	
+	
+	<div class="ft-page" style="page-break-before:always;" data-id="impact_meme">
+	  
+	  
+
+
+
+<div class="stack-center"><div class="stacked-center"><img width="800px" src="img/impact.jpg"></div></div>
+
+	</div>
+	
+	<div class="ft-page" style="page-break-before:always;" data-id="impact_is">
+	  
+	  
+
+
+
+<h1><code>impact</code></h1>
+
+<div style="width: 45%; float: left">
+  <h2 class="ft-fragment">What: Package manager for Modelica</h2>
+  <h2 class="ft-fragment">Why: Manage libraries per project basis</h2>
+  <h2 class="ft-fragment">Where: github.com/impact</h2>
+</div>
+
+<div style="width: 45%; float: right">
+  <h2 class="ft-fragment">Not: Build system, <code>MODELICAPATH</code></h2>
+  <h2 class="ft-fragment">Not: Load libraries by scripts or GUI</h2>
+  <h2 class="ft-fragment">Not: Modelica Association</h2>
+</div>
+
+
+
+
+	</div>
+	
+      </div>
+      
+      <div class="ft-section" data-id="golang">
+	
+	
+	<div class="ft-page" style="page-break-before:always;" data-id="go_meme">
+	  
+	  
+
+
+
+<div class="stack-center"><div class="stacked-center"><img width="800px" src="img/golang.jpeg"></div></div>
+
+	</div>
+	
+	<div class="ft-page" style="page-break-before:always;" data-id="reasons">
+	  
+	  
+
+
+
+<h1>Reasons for Migration to Go</h1>
+
+<h2 class="ft-fragment">Supporting Python 2 and 3 was a pain</h2>
+<h2 class="ft-fragment">No Runtime</h2>
+<h2 class="ft-fragment">Static Type System</h2>
+<h2 class="ft-fragment">Excellent JSON Support</h2>
+<h2 class="ft-fragment">Static Executables</h2>
+<h2 class="ft-fragment">Cross Platform</h2>
+<h2 class="ft-fragment">Cross Compilation</h2>
+
+	</div>
+	
+      </div>
+      
+      <div class="ft-section" data-id="dependencies">
+	
+	
+	<div class="ft-page" style="page-break-before:always;" data-id="dependencies">
+	  
+	  
+
+
+
+<div class="stack-center"><div class="stacked-center"><h1>Dependency Resolution</h1></div></div>
+
+	</div>
+	
+	<div class="ft-page" style="page-break-before:always;" data-id="use_case">
+	  
+	  
+
+
+
+<h1>Use Cases</h1>
+
+<h2 class="C-step">Install a program or library and all it's dependencies</h2>
+
+<pre class="C-step">
+$ npm install cadeau
+cadeau@0.4.0 node_modules/cadeau
+├── colors@0.6.2
+├── marked@0.3.5
+├── argparse@0.1.16 (underscore.string@2.4.0, underscore@1.7.0)
+├── html@0.0.7
+├── lodash@2.4.2
+├── js-yaml@3.0.2 (esprima@1.0.4)
+├── fs-extra@0.8.1 (jsonfile@1.1.1, rimraf@2.2.8, ncp@0.4.2, mkdirp@0.3.5)
+├── handlebars@2.0.0 (optimist@0.3.7, uglify-js@2.3.6)
+├── swig@1.3.2 (optimist@0.6.1, uglify-js@2.4.24)
+├── cheerio@0.13.1 (underscore@1.5.2, entities@0.5.0, htmlparser2@3.4.0, CSSselect@0.4.1)
+├── jade@1.1.5 (character-parser@1.2.0, commander@2.1.0, mkdirp@0.3.5, with@2.0.0,
+|    constantinople@1.0.2, monocle@1.1.51, transformers@2.1.0)
+└── connect@2.13.1 (uid2@0.0.3, methods@0.1.0, cookie-signature@1.0.1, pause@0.0.1, debug@0.8.1,
+    fresh@0.2.0, bytes@0.2.1, buffer-crc32@0.2.1, qs@0.6.6, raw-body@1.1.3, batch@0.5.0,
+    cookie@0.1.0, compressible@1.0.0, negotiator@0.3.0, send@0.1.4, multiparty@2.2.0)
+</pre>
+
+	</div>
+	
+	<div class="ft-page" style="page-break-before:always;" data-id="goal">
+	  
+	  
+
+
+
+<h1>Goal</h1>
+
+<h2 class="ft-fragment">
+  Find the most <u>recent version</u> of each library...
+</h2>
+
+<h2 class="ft-fragment">
+  ...prioritizing based on a <u>breadth-first traversal</u> of dependencies
+</h2>
+
+<h3 class="ft-fragment">Independent of any algorithm</h3>
+
+	</div>
+	
+	<div class="ft-page" style="page-break-before:always;" data-id="recent">
+	  
+	  
+
+
+
+<h1>Semantic Versions</h1>
+
+<h2 class="ft-fragment">How do we determine what is the most recent version?</h2>
+
+<img class="ft-fragment" style="width: 60%; margin-left: auto; margin-right: auto" src="img/semantic-versioning.png">
+
+<h2 class="ft-fragment">Patch: Fixes, no change in functionality</h2>
+<h2 class="ft-fragment">Minor: Improvements, no change in API</h2>
+<h2 class="ft-fragment">Major: Improvements, breaking changes</h2>
+
+	</div>
+	
+	<div class="ft-page" style="page-break-before:always;" data-id="ordering">
+	  
+	  
+
+
+
+<h1>Breadth-First</h1>
+
+<div class="stack-center"><div class="stacked-center">
+  <img style="width: 600px" src="img/Breadth-first.png">
+</div></div>
+
+	</div>
+	
+	<div class="ft-page" style="page-break-before:always;" data-id="example">
+	  
+	  
+
+
+
+<img style="height: 600px; float: right" src="img/complex_case.svg">
+<h1>Example</h1>
+
+<div>
+  <h2>Goal: Install <code>A</code></h2>
+
+  <h2>Existing Libraries</h2>
+
+  <h3>A: 1.0.0, 2.0.0</h3>
+  <h3>B: 1.0.0, 1.1.0, 1.2.0</h3>
+  <h3>C: 1.1.0, 1.2.0</h3>
+  <h3>D: 1.0.0, 1.1.0</h3>
+</div>
+
+
+
+	</div>
+	
+	<div class="ft-page" style="page-break-before:always;" data-id="example1">
+	  
+	  
+
+
+
+
+<h1>Example</h1>
+
+<img style="width: 250px; float: right" src="img/g1.png">
+<img style="height: 600px" src="img/complex_case.svg">
+
+
+	</div>
+	
+	<div class="ft-page" style="page-break-before:always;" data-id="example2">
+	  
+	  
+
+
+
+
+<h1>Example</h1>
+
+<img style="width: 250px; float: right" src="img/g2.png">
+<img style="height: 600px" src="img/complex_case.svg">
+
+
+	</div>
+	
+	<div class="ft-page" style="page-break-before:always;" data-id="example3">
+	  
+	  
+
+
+
+
+<h1>Example</h1>
+
+<img style="width: 250px; float: right" src="img/g3.png">
+<img style="height: 600px" src="img/complex_case.svg">
+
+
+	</div>
+	
+	<div class="ft-page" style="page-break-before:always;" data-id="example4">
+	  
+	  
+
+
+
+
+<h1>Example</h1>
+
+<img style="width: 250px; float: right" src="img/g4.png">
+<img style="height: 600px" src="img/complex_case.svg">
+
+
+	</div>
+	
+	<div class="ft-page" style="page-break-before:always;" data-id="example5">
+	  
+	  
+
+
+
+
+<h1>Example</h1>
+
+<img style="width: 250px; float: right" src="img/g5.png">
+<img style="height: 600px" src="img/complex_case.svg">
+
+
+	</div>
+	
+	<div class="ft-page" style="page-break-before:always;" data-id="example6">
+	  
+	  
+
+
+
+
+<h1>Example</h1>
+
+<img style="width: 250px; float: right" src="img/g6.png">
+<img style="height: 600px" src="img/complex_case.svg">
+
+
+	</div>
+	
+	<div class="ft-page" style="page-break-before:always;" data-id="example7">
+	  
+	  
+
+
+
+
+<h1>Example</h1>
+
+<img style="width: 250px; float: right" src="img/g7.png">
+<img style="height: 600px" src="img/complex_case.svg">
+
+
+	</div>
+	
+	<div class="ft-page" style="page-break-before:always;" data-id="example8">
+	  
+	  
+
+
+
+
+<h1>Example</h1>
+
+<img style="width: 250px; float: right" src="img/g8.png">
+<img style="height: 600px" src="img/complex_case.svg">
+
+
+	</div>
+	
+	<div class="ft-page" style="page-break-before:always;" data-id="example9">
+	  
+	  
+
+
+
+
+<h1>Example</h1>
+
+<img style="width: 250px; float: right" src="img/g9.png">
+<img style="height: 600px" src="img/complex_case.svg">
+
+
+	</div>
+	
+	<div class="ft-page" style="page-break-before:always;" data-id="example10">
+	  
+	  
+
+
+
+
+<h1>Example</h1>
+
+<img style="width: 250px; float: right" src="img/g10.png">
+<img style="height: 600px" src="img/complex_case.svg">
+
+
+	</div>
+	
+	<div class="ft-page" style="page-break-before:always;" data-id="example11">
+	  
+	  
+
+
+
+
+<h1>Example</h1>
+
+<img style="width: 250px; float: right" src="img/g11.png">
+<img style="height: 600px" src="img/complex_case.svg">
+
+
+	</div>
+	
+	<div class="ft-page" style="page-break-before:always;" data-id="example12">
+	  
+	  
+
+
+
+
+<h1>Example</h1>
+
+<img style="width: 250px; float: right" src="img/g12.png">
+<img style="height: 600px" src="img/complex_case.svg">
+
+
+	</div>
+	
+	<div class="ft-page" style="page-break-before:always;" data-id="example13">
+	  
+	  
+
+
+
+
+<h1>Example</h1>
+
+<img style="width: 250px; float: right" src="img/g13.png">
+<img style="height: 600px" src="img/complex_case.svg">
+
+
+	</div>
+	
+	<div class="ft-page" style="page-break-before:always;" data-id="example14">
+	  
+	  
+
+
+
+
+<h1>Example</h1>
+
+<img style="width: 250px; float: right" src="img/g14.png">
+<img style="height: 600px" src="img/complex_case.svg">
+
+
+	</div>
+	
+	<div class="ft-page" style="page-break-before:always;" data-id="example15">
+	  
+	  
+
+
+
+
+<h1>Example</h1>
+
+<img style="width: 250px; float: right" src="img/g15.png">
+<img style="height: 600px" src="img/complex_case.svg">
+
+
+	</div>
+	
+	<div class="ft-page" style="page-break-before:always;" data-id="example16">
+	  
+	  
+
+
+
+
+<h1>Example</h1>
+
+<img style="width: 250px; float: right" src="img/g16.png">
+<img style="height: 600px" src="img/complex_case.svg">
+
+
+	</div>
+	
+	<div class="ft-page" style="page-break-before:always;" data-id="example17">
+	  
+	  
+
+
+
+
+<h1>Example</h1>
+
+<img style="width: 250px; float: right" src="img/g17.png">
+<img style="height: 600px" src="img/complex_case.svg">
+
+
+	</div>
+	
+	<div class="ft-page" style="page-break-before:always;" data-id="example18">
+	  
+	  
+
+
+
+<div style="float: right; width: 50%">
+  <div>
+	<img style="width: 250px; margin-left: auto" src="img/solution.png">
+  </div>
+
+  <h2>Find the most <u>recent version</u> of each library prioritizing based on a <u>breadth-first traversal</u> of dependencies</h2>
+</div>
+
+<h1>Example</h1>
+
+<img style="width: 45%" src="img/complex_case.svg">
+
+
+	</div>
+	
+	<div class="ft-page" style="page-break-before:always;" data-id="nuances">
+	  
+	  
+
+
+
+<h1>Nuances</h1>
+
+<h2>Cannot elaborate the dependency tree until we pick a particular version of a library</h2>
+
+<h2>Order of child dependencies matters (<i>e.g.,</i> order in <code>uses</code> annotation)</h2>
+
+	</div>
+	
+	<div class="ft-page" style="page-break-before:always;" data-id="constraints">
+	  
+	  
+
+
+
+<h1>Constraints</h1>
+
+<h3 class="ft-fragment">
+  Currently, we take the constraints specified by a library literally
+  (<i>i.e.,</i> the current definition of the <code>uses</code>
+  annotation specifies that each version of a library can only be
+  compatible with a single version of any other library)
+</h3>
+
+<h3 class="ft-fragment">
+  It would be good if, in the future, Modelica allowed multiple
+  candidates to be used via the <code>uses</code> annotation.
+</h3>
+
+<h3 class="ft-fragment">
+  Eventually, we'd like to move to a more "rational" approach where
+  semantic versioning was taken into account when determining
+  constraints.
+</h3>
+
+	</div>
+	
+      </div>
+      
+      <div class="ft-section" data-id="future">
+	
+	
+	<div class="ft-page" style="page-break-before:always;" data-id="auto-page-0">
+	  
+	  <div class="stack-center"><div class="stacked-center"><h1>Future</h1></div></div>
+	</div>
+	
+	<div class="ft-page" style="page-break-before:always;" data-id="future">
+	  
+	  
+
+
+
+<h1>Next Steps</h1>
+
+<h2 class="ft-fragment">Git Checkout</h2>
+
+<h2 class="ft-fragment">Manifest file - Storing a list of dependencies</h2>
+<ul>
+<li class="ft-fragment">Allows a simple <code>impact install</code> to install everything</li>
+<li class="ft-fragment">Stores in Version Control knowledge of all dependencies</li>
+<li class="ft-fragment">Cloud deployment</li>
+</ul>
+
+<h2 class="ft-fragment">Grow Community</h2>
+<ul>
+<li class="ft-fragment">More users</li>
+<li class="ft-fragment">More contributors</li>
+<li class="ft-fragment">More implementations in tools (OpenModelica, ESi-Xplorer)</li>
+</ul>
+
+	</div>
+	
+      </div>
+      
+      <div class="loglog"></div>
+
+      <script src="js/flowtime/brav1toolbox.js"></script>
+      <script src="js/flowtime/flowtime.js"></script>
+      <script src="js/flowtime/prism.js"></script>
+
+      
+
+
+
+      <script type="text/javascript">
+	// Configuration API test
+	Flowtime.showProgress(true);
+	// Flowtime.fragmentsOnSide(true);
+	// Flowtime.fragmentsOnBack(true);
+	// Flowtime.useHistory(false);
+	// Flowtime.slideInPx(true);
+	// Flowtime.sectionsSlideToTop(true);
+	// Flowtime.gridNavigation(false);
+	// Flowtime.useOverviewVariant(true);
+	Flowtime.setTouchNavigation(false);
+	Flowtime.parallaxInPx(true);
+	Flowtime.mouseDragEnabled(false);
+	Flowtime.enableNavigation(true, true, , );
+	Flowtime.clicker(true);
+	// event management
+	Flowtime.addEventListener("flowtimenavigation", onNavigation, false);
+	function onNavigation(e)
+	{
+	cacheTitle = document.title.replace("Dependency Resolution in Impact | ", "");
+	}
+	// starts the application with configuration options
+	Flowtime.start();
+      </script>
+    </div>
+    
+  </body>
+</html>
