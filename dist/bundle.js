@@ -32929,8 +32929,9 @@
 	            header =
 	                React.createElement("h4", {"className": "list-group-item-heading"}, React.createElement("a", {"href": homepage}, name));
 	        }
-	        var rating = React.createElement("button", {"type": "button", "className": "btn btn-default btn-sm"}, "Stars: ", stars);
-	        return React.createElement("div", {"className": "list-group-item"}, React.createElement("p", {"className": "pullright"}, rating), header, React.createElement("p", {"className": "list-group-item-text"}, this.props.library.description), React.createElement("p", {"className": "centered"}, versions));
+	        var rating = React.createElement("button", {"type": "button", "className": "btn btn-default btn-lg", "disabled": true}, "Stars: ", stars);
+	        var rating2 = React.createElement("span", null, "Stars: ", stars);
+	        return React.createElement("div", {"className": "list-group-item"}, React.createElement("p", {"className": "pullright"}, rating2), header, React.createElement("p", {"className": "list-group-item-text"}, this.props.library.description), React.createElement("p", {"className": "centered"}, versions));
 	    };
 	    return Component;
 	})(React.Component);
