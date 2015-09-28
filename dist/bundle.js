@@ -27249,6 +27249,7 @@
 	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 	};
 	var React = __webpack_require__(2);
+	var version = __webpack_require__(214);
 	var Props = (function () {
 	    function Props() {
 	        this.small = false;
@@ -27262,7 +27263,7 @@
 	    }
 	    Component.prototype.render = function () {
 	        var lead = (this.props.small ? null :
-	            React.createElement("div", {"className": "col-lg-10 col-lg-offset-1 centered"}, React.createElement("p", {"className": "lead"}, "A Modelica Search Engine")));
+	            React.createElement("div", {"className": "col-lg-10 col-lg-offset-1 centered"}, React.createElement("p", {"className": "lead"}, "A Modelica Search Engine ", React.createElement("span", {"id": "version"}, "(", version, ")"))));
 	        var small = !this.props.small;
 	        var content = React.createElement("div", {"className": "row"}, React.createElement("div", {"className": "col-lg-10 col-lg-offset-1 centered"}, React.createElement("img", {"id": "logo", "className": this.props.small ? 'small' : null, "src": "img/logo_glossy.svg"})), lead);
 	        return content;
@@ -27271,6 +27272,13 @@
 	})(React.Component);
 	module.exports = Component;
 	//# sourceMappingURL=Logo.js.map
+
+/***/ },
+/* 214 */
+/***/ function(module, exports) {
+
+	module.exports = 'v1.0.0';
+	//# sourceMappingURL=version.js.map
 
 /***/ }
 /******/ ]);
