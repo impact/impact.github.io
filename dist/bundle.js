@@ -25869,7 +25869,7 @@
 	        // The HTML for the search box
 	        var searchbox = React.createElement("div", {"className": "input-group"}, React.createElement("input", {"autoFocus": true, "type": "text", "className": "form-control", "value": term, "placeholder": "Search for...", "onChange": this.handleChange.bind(this)}), React.createElement("span", {"className": "input-group-btn"}, React.createElement("button", {"className": "btn btn-default", "type": "button"}, React.createElement("span", {"className": "glyphicon glyphicon-search"}))));
 	        // The complete HTML for this component
-	        var content = React.createElement("div", {"className": "row"}, React.createElement("div", {"className": "col-lg-4 col-lg-offset-4 col-md-8 col-md-offset-2 col-sm-12 centered"}, searchbox), results.length > 0 ?
+	        var content = React.createElement("div", {"id": "search", "className": "row"}, React.createElement("div", {"className": "col-lg-4 col-lg-offset-4 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 centered"}, searchbox), results.length > 0 ?
 	            React.createElement("div", {"className": "list-group col-lg-6 col-lg-offset-3 rgroup col-md-12"}, relems) : null);
 	        return content;
 	    };
@@ -27277,7 +27277,7 @@
 /* 214 */
 /***/ function(module, exports) {
 
-	module.exports = 'v1.0.0';
+	module.exports = 'v1.0.1';
 	//# sourceMappingURL=version.js.map
 
 /***/ }
