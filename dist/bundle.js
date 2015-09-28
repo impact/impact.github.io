@@ -34,7 +34,7 @@
 /******/ 	__webpack_require__.c = installedModules;
 
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "";
+/******/ 	__webpack_require__.p = "/dist";
 
 /******/ 	// Load entry module and return exports
 /******/ 	return __webpack_require__(0);
@@ -44,8 +44,8 @@
 /* 0 */
 /***/ function(module, exports, __webpack_require__) {
 
+	/// <reference path="../typings/node/node.d.ts"/>
 	var Impact = __webpack_require__(1);
-
 	// This kicks the application off.
 	Impact.Mount(document.getElementById('impact'));
 
@@ -54,7 +54,6 @@
 /* 1 */
 /***/ function(module, exports, __webpack_require__) {
 
-	/// <reference path="../typings/node/node.d.ts"/>
 	// React
 	var React = __webpack_require__(2);
 	var Addons = __webpack_require__(158);
@@ -142,7 +141,7 @@
 	    });
 	}
 	exports.Mount = Mount;
-	//# sourceMappingURL=Impact.js.map
+
 
 /***/ },
 /* 2 */
@@ -25756,7 +25755,7 @@
 /* 215 */
 /***/ function(module, exports, __webpack_require__) {
 
-	/// <reference path="../typings/node/node.d.ts"/>
+	/// <reference path="../../typings/node/node.d.ts"/>
 	var sha1 = __webpack_require__(216);
 	function libhash(lib) {
 	    var str = lib.uri + " " + lib.name;
@@ -25774,7 +25773,7 @@
 	    return found;
 	}
 	exports.findLibrary = findLibrary;
-	//# sourceMappingURL=Index.js.map
+
 
 /***/ },
 /* 216 */
@@ -27828,7 +27827,9 @@
 	    function Store(source) {
 	        this.source = source;
 	        if (!source) {
-	            this.source = "/impact_index.json";
+	            // Use the local version, if it exists, to avoid the need
+	            // for a network connection.
+	            this.source = "./impact_index.json";
 	        }
 	        this.index = new State_1.SubState(null);
 	        this.term = new State_1.SubState("");
@@ -27838,14 +27839,50 @@
 	    };
 	    Store.prototype.load = function () {
 	        var _this = this;
-	        return $.get(this.source, function (result) {
+	        return $.get(this.source)
+	            .then(function (result) {
+	            console.log("Loaded index from ", _this.source);
 	            _this.index.update(result);
+	        }, function (e) {
+	            var remote = "http://impact.github.io/impact_index.json";
+	            // If we get here, there was an error.  So now let's try
+	            // a public version of impact_index.json (requires a
+	            // network connection).
+	            console.log("Failed to load index from ", _this.source);
+	            console.log("Now tring to load from ", remote);
+	            return $.get(remote)
+	                .then(function (result) {
+	                console.log("Loaded index from ", remote);
+	                _this.index.update(result);
+	            }, function (e) {
+	                console.error("Unable to load index file from ", _this.source, " or ", remote);
+	            });
 	        });
+	        /*
+	        return $.get(this.source, (result: ImpactIndex) => {
+	            console.log("Loaded index from ", this.source);
+	            this.index.update(result);
+	        }, (e) => {
+	            var remote = "http://impact.github.io/impact_index.json";
+
+	            // If we get here, there was an error.  So now let's try
+	            // a public version of impact_index.json (requires a
+	            // network connection).
+	            console.log("Failed to load index from ", this.source);
+	            console.log("Now tring to load from ", remote);
+	            return $.get(remote, (result: ImpactIndex) => {
+	                console.log("Loaded index from ", remote);
+	                this.index.update(result);
+	            }, (e) => {
+	                console.error("Unable to load index file from ", this.source, " or ", remote);
+	            })
+	        })
+	        */
 	    };
 	    return Store;
 	})();
 	module.exports = Store;
-	//# sourceMappingURL=Store.js.map
+
 
 /***/ },
 /* 224 */
@@ -27894,7 +27931,7 @@
 	    return SubState;
 	})();
 	exports.SubState = SubState;
-	//# sourceMappingURL=State.js.map
+
 
 /***/ },
 /* 225 */
@@ -27919,7 +27956,7 @@
 	    return Component;
 	})(React.Component);
 	module.exports = Component;
-	//# sourceMappingURL=Application.js.map
+
 
 /***/ },
 /* 226 */
@@ -28020,7 +28057,7 @@
 	    return Component;
 	})(React.Component);
 	module.exports = Component;
-	//# sourceMappingURL=Search.js.map
+
 
 /***/ },
 /* 227 */
@@ -28071,7 +28108,7 @@
 	    return Component;
 	})(React.Component);
 	module.exports = Component;
-	//# sourceMappingURL=Result.js.map
+
 
 /***/ },
 /* 228 */
@@ -29326,7 +29363,7 @@
 	    return Component;
 	})(React.Component);
 	module.exports = Component;
-	//# sourceMappingURL=Listing.js.map
+
 
 /***/ },
 /* 230 */
@@ -29381,7 +29418,7 @@
 	    return Component;
 	})(React.Component);
 	module.exports = Component;
-	//# sourceMappingURL=Detailed.js.map
+
 
 /***/ },
 /* 231 */
@@ -29408,7 +29445,7 @@
 	    }
 	    Component.prototype.render = function () {
 	        var lead = (this.props.small ? null :
-	            React.createElement("div", {"className": Impact_1.fullscreen("centered")}, React.createElement("p", {"className": "lead"}, "A Modelica Search Engine ", React.createElement("span", {"id": "version"}, "(", version, ")"))));
+	            React.createElement("div", {"className": Impact_1.fullscreen("centered")}, React.createElement("p", {"className": "lead"}, "The Modelica Search Engine ", React.createElement("span", {"id": "version"}, "(", version, ")"))));
 	        var small = !this.props.small;
 	        var content = React.createElement("div", {"className": "row"}, React.createElement("div", {"className": Impact_1.fullscreen("centered")}, React.createElement("img", {"id": "logo", "className": this.props.small ? 'small' : null, "src": "img/logo_glossy.svg"})), lead);
 	        return content;
@@ -29416,14 +29453,14 @@
 	    return Component;
 	})(React.Component);
 	module.exports = Component;
-	//# sourceMappingURL=Logo.js.map
+
 
 /***/ },
 /* 232 */
 /***/ function(module, exports) {
 
-	module.exports = 'v1.0.2';
-	//# sourceMappingURL=version.js.map
+	module.exports = 'v1.0.3';
+
 
 /***/ }
 /******/ ]);
