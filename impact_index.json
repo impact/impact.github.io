@@ -509,12 +509,12 @@
           "isfile": false,
           "dependencies": [
             {
-              "name": "Modelica_Synchronous",
-              "version": "0.92.0"
-            },
-            {
               "name": "Modelica",
               "version": "3.2.1"
+            },
+            {
+              "name": "Modelica_Synchronous",
+              "version": "0.92.0"
             }
           ],
           "sha": "dcd2461ea8ff6609e005745961172cf8118b1fa1"
@@ -563,12 +563,12 @@
           "isfile": false,
           "dependencies": [
             {
-              "name": "Modelica",
-              "version": "3.2.1"
-            },
-            {
               "name": "Modelica_Synchronous",
               "version": "0.92.0"
+            },
+            {
+              "name": "Modelica",
+              "version": "3.2.1"
             }
           ],
           "sha": "412be4526852e9b1ce7dbed91df34a98653eee13"
@@ -581,12 +581,12 @@
           "isfile": false,
           "dependencies": [
             {
-              "name": "Modelica",
-              "version": "3.2.2"
-            },
-            {
               "name": "Modelica_Synchronous",
               "version": "0.92.1"
+            },
+            {
+              "name": "Modelica",
+              "version": "3.2.2"
             }
           ],
           "sha": "0114fec559ec6fb8ada76e20cfa2ff59b57dc7d0"
@@ -866,6 +866,20 @@
             }
           ],
           "sha": "7b551888089277a0dd979db636d47aba0279e8f0"
+        },
+        "0.5.0": {
+          "version": "0.5.0",
+          "tarball_url": "https://api.github.com/repos/modelica/PowerSystems/tarball/v0.5.0",
+          "zipball_url": "https://api.github.com/repos/modelica/PowerSystems/zipball/v0.5.0",
+          "path": "PowerSystems 0.5.0",
+          "isfile": false,
+          "dependencies": [
+            {
+              "name": "Modelica",
+              "version": "3.2.2"
+            }
+          ],
+          "sha": "fd9cd34be0dcb9f64687cb0a2e02933ae844a95c"
         }
       },
       "owner_uri": "https://github.com/modelica",
@@ -961,7 +975,7 @@
               "version": "3.2.0"
             }
           ],
-          "sha": "cdfd50846c1a4ad8d8887bb4dd2a36e675c033a0"
+          "sha": "42428db6e84bcde28543a3bba9bccee581309bb1"
         }
       },
       "owner_uri": "https://github.com/AtiyahElsheikh",
@@ -1195,12 +1209,12 @@
           "isfile": false,
           "dependencies": [
             {
-              "name": "ModelicaAdditions",
-              "version": "1.5.0"
-            },
-            {
               "name": "Modelica",
               "version": "1.6.0"
+            },
+            {
+              "name": "ModelicaAdditions",
+              "version": "1.5.0"
             }
           ],
           "sha": "961e3d6af3fcea6d467d5003c54bff252e9aef24"
@@ -1377,24 +1391,6 @@
           ],
           "sha": "e1ba0af915c0c920a5e50acf56ce71a308872c03"
         },
-        "0.3.2": {
-          "version": "0.3.2",
-          "tarball_url": "https://api.github.com/repos/modelica-3rdparty/BrineProp/tarball/v0.3.2",
-          "zipball_url": "https://api.github.com/repos/modelica-3rdparty/BrineProp/zipball/v0.3.2",
-          "path": "BrineProp",
-          "isfile": false,
-          "dependencies": [
-            {
-              "name": "DataFiles",
-              "version": "1.0.0"
-            },
-            {
-              "name": "Modelica",
-              "version": "3.2.1"
-            }
-          ],
-          "sha": "13cf6b599a20a40715b3a248785d2553d1045342"
-        },
         "0.4.0": {
           "version": "0.4.0",
           "tarball_url": "https://api.github.com/repos/modelica-3rdparty/BrineProp/tarball/v0.4.0",
@@ -1403,33 +1399,15 @@
           "isfile": false,
           "dependencies": [
             {
-              "name": "Modelica",
-              "version": "3.2.1"
-            },
-            {
               "name": "DataFiles",
               "version": "1.0.0"
+            },
+            {
+              "name": "Modelica",
+              "version": "3.2.1"
             }
           ],
           "sha": "93aa7a61ed954192db58b1814609df92c8f7b719"
-        },
-        "0.4.1": {
-          "version": "0.4.1",
-          "tarball_url": "https://api.github.com/repos/modelica-3rdparty/BrineProp/tarball/v0.4.1",
-          "zipball_url": "https://api.github.com/repos/modelica-3rdparty/BrineProp/zipball/v0.4.1",
-          "path": "BrineProp",
-          "isfile": false,
-          "dependencies": [
-            {
-              "name": "DataFiles",
-              "version": "1.0.0"
-            },
-            {
-              "name": "Modelica",
-              "version": "3.2.1"
-            }
-          ],
-          "sha": "32d105deff9269b47e5c69627f2eee43bacd9fbd"
         },
         "0.4.2": {
           "version": "0.4.2",
@@ -1475,12 +1453,12 @@
           "isfile": false,
           "dependencies": [
             {
-              "name": "Modelica",
-              "version": "3.2.1"
-            },
-            {
               "name": "DataFiles",
               "version": "1.0.0"
+            },
+            {
+              "name": "Modelica",
+              "version": "3.2.1"
             }
           ],
           "sha": "0c5553829e7c6b28c918cbac29fe855e9695b162"
@@ -1493,12 +1471,12 @@
           "isfile": false,
           "dependencies": [
             {
-              "name": "DataFiles",
-              "version": "1.0.0"
-            },
-            {
               "name": "Modelica",
               "version": "3.2.1"
+            },
+            {
+              "name": "DataFiles",
+              "version": "1.0.0"
             }
           ],
           "sha": "2b835989d0aa78c153b8621ee185d683084d08dc"
@@ -2001,7 +1979,7 @@
       "repository_uri": "git://github.com/tbeu/ExternData.git",
       "repository_format": "git",
       "description": ":page_facing_up: Modelica library for data I/O of INI, JSON, XML, MATLAB MAT and Excel XLS/XLSX files",
-      "stars": 6
+      "stars": 7
     },
     {
       "name": "FaultTriggering",
@@ -2033,12 +2011,12 @@
           "isfile": false,
           "dependencies": [
             {
-              "name": "Modelica",
-              "version": "3.2.1"
-            },
-            {
               "name": "ModelManagement",
               "version": "1.1.1"
+            },
+            {
+              "name": "Modelica",
+              "version": "3.2.1"
             }
           ],
           "sha": "0a180687231d36540e1695523d3de6bbe10b28c5"
@@ -2875,16 +2853,16 @@
           "isfile": false,
           "dependencies": [
             {
-              "name": "Modelica",
-              "version": "3.2.1"
-            },
-            {
               "name": "Complex",
               "version": "3.2.1"
             },
             {
               "name": "PowerSystems",
               "version": "0.7.0"
+            },
+            {
+              "name": "Modelica",
+              "version": "3.2.1"
             }
           ],
           "sha": "251a7db89416f6c6f38505d08cf0ad6056b2ed4d"
@@ -2897,11 +2875,11 @@
           "isfile": false,
           "dependencies": [
             {
-              "name": "Complex",
+              "name": "Modelica",
               "version": "3.2.1"
             },
             {
-              "name": "Modelica",
+              "name": "Complex",
               "version": "3.2.1"
             }
           ],
@@ -2915,11 +2893,11 @@
           "isfile": false,
           "dependencies": [
             {
-              "name": "Modelica",
+              "name": "Complex",
               "version": "3.2.1"
             },
             {
-              "name": "Complex",
+              "name": "Modelica",
               "version": "3.2.1"
             }
           ],
@@ -3119,14 +3097,6 @@
           "isfile": false,
           "dependencies": [
             {
-              "name": "MultiBondLib",
-              "version": "1.3.0"
-            },
-            {
-              "name": "Modelica",
-              "version": "2.2.1"
-            },
-            {
               "name": "BondLib",
               "version": "2.3.0"
             },
@@ -3145,6 +3115,14 @@
             {
               "name": "WheelsAndTires",
               "version": "1.0.0"
+            },
+            {
+              "name": "MultiBondLib",
+              "version": "1.3.0"
+            },
+            {
+              "name": "Modelica",
+              "version": "2.2.1"
             }
           ],
           "sha": "da7c95a712a612924255deb17e338fb3ecd53963"
@@ -3951,12 +3929,12 @@
           "isfile": false,
           "dependencies": [
             {
-              "name": "Modelica",
-              "version": "3.2.0"
-            },
-            {
               "name": "XogenyTest",
               "version": "1.1.0"
+            },
+            {
+              "name": "Modelica",
+              "version": "3.2.0"
             }
           ],
           "sha": "af6c34dda691a9bdf7ca1de10650974b2d5cecf5"
@@ -4004,16 +3982,16 @@
           "isfile": false,
           "dependencies": [
             {
+              "name": "Modelica",
+              "version": "3.2.0"
+            },
+            {
               "name": "RealTimeCoordinationLibrary",
               "version": "1.0.1"
             },
             {
               "name": "Modelica_StateGraph2",
               "version": "2.0.1"
-            },
-            {
-              "name": "Modelica",
-              "version": "3.2.0"
             }
           ],
           "sha": "370adafcac44bea20577c9186d414e80cee40840"
@@ -4061,16 +4039,16 @@
           "isfile": false,
           "dependencies": [
             {
+              "name": "Modelica",
+              "version": "3.2.0"
+            },
+            {
               "name": "RealTimeCoordination",
               "version": "1.0.0"
             },
             {
               "name": "Modelica_StateGraph2",
               "version": "2.0.1"
-            },
-            {
-              "name": "Modelica",
-              "version": "3.2.0"
             }
           ],
           "sha": "610f6b1841bae8f09afb2376911ceb78d980391c"
@@ -4484,12 +4462,12 @@
           "isfile": false,
           "dependencies": [
             {
-              "name": "Modelica",
-              "version": "2.2.1"
-            },
-            {
               "name": "BondLib",
               "version": "2.4.0"
+            },
+            {
+              "name": "Modelica",
+              "version": "2.2.1"
             }
           ],
           "sha": "055369c28c2dafb4642c428807a0b49f8fe6b2b2"
@@ -4515,16 +4493,16 @@
           "isfile": false,
           "dependencies": [
             {
+              "name": "ThermoPower",
+              "version": "3.0.0"
+            },
+            {
               "name": "Modelica",
               "version": "3.2.0"
             },
             {
               "name": "CoolProp2Modelica,TILMedia",
               "version": "2.1.4"
-            },
-            {
-              "name": "ThermoPower",
-              "version": "3.0.0"
             }
           ],
           "sha": "5ffe844472c96a74bed89425807c2c5f4a2a08f1"
