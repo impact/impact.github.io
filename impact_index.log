@@ -1,243 +1,287 @@
-(Generated: on. 14. des. 07:54:22 +0100 2016)
-2016/12/14 07:54:22 Ignoring settings file, got error while parsing: open /home/dietmarw/.config/impact/impactrc: no such file or directory
+(Generated: ti. 07. feb. 08:15:22 +0100 2017)
+2017/02/07 08:15:22 Ignoring settings file, got error while parsing: open /home/dietmarw/.config/impact/impactrc: no such file or directory
 Fetching repositories for modelica
   Fetching page 1, 10 entries
   Fetching page 2, 0 entries
+Processing: ElectricalEnergyStorage (https://github.com/modelica/ElectricalEnergyStorage, fork=false)
+2017/02/07 08:15:23 No source for ElectricalEnergyStorage
 Processing: ExternalMedia (https://github.com/modelica/ExternalMedia, fork=false)
-2016/12/14 07:54:23 No source for ExternalMedia
+2017/02/07 08:15:24 No source for ExternalMedia
 Processing: fmi-standard.org (https://github.com/modelica/fmi-standard.org, fork=false)
-2016/12/14 07:54:24 No source for fmi-standard.org
+2017/02/07 08:15:24 No source for fmi-standard.org
 Processing: Modelica (https://github.com/modelica/Modelica, fork=false)
-2016/12/14 07:54:24 No source for Modelica
-2016/12/14 07:54:25 Processing tag v3.2.2
+2017/02/07 08:15:25 No source for Modelica
+2017/02/07 08:15:25 Processing tag v3.2.2
   3.2.2: Recording
-2016/12/14 07:54:25   Reviewing contents of modelica/Modelica
-2016/12/14 07:54:29 Error extracting uses annotation: Error while parsing uses annotation of ModelicaReference 3.2.2/package.mo in github repository Modelica: Unable to find version for library Modelica
+2017/02/07 08:15:26   Reviewing contents of modelica/Modelica
+2017/02/07 08:15:30 Error extracting uses annotation: Error while parsing uses annotation of ModelicaReference/package.mo in github repository Modelica: Unable to find version for library Modelica
     Processing library Complex @ Complex.mo
-    Processing library Modelica @ Modelica 3.2.2
-    Processing library Modelica @ ModelicaReference 3.2.2
-    Processing library ModelicaServices @ ModelicaServices 3.2.2
+    Processing library Modelica @ Modelica
+    Processing library Modelica @ ModelicaReference
+    Processing library ModelicaServices @ ModelicaServices
+    Processing library ModelicaTest @ ModelicaTest
+    Processing library ModelicaTestOverdetermined @ ModelicaTestOverdetermined.mo
     Processing library ObsoleteModelica3 @ ObsoleteModelica3.mo
-2016/12/14 07:54:31 Processing tag v3.2.1+build.4
+2017/02/07 08:15:33 Processing tag v3.2.1+build.4
   3.2.1+build.4: Recording
-2016/12/14 07:54:31   Reviewing contents of modelica/Modelica
-2016/12/14 07:54:35 Error extracting uses annotation: Error while parsing uses annotation of ModelicaReference 3.2.1/package.mo in github repository Modelica: Unable to find version for library Modelica
+2017/02/07 08:15:33   Reviewing contents of modelica/Modelica
+2017/02/07 08:15:38 Error extracting uses annotation: Error while parsing uses annotation of ModelicaReference/package.mo in github repository Modelica: Unable to find version for library Modelica
     Processing library Complex @ Complex.mo
-    Processing library Modelica @ Modelica 3.2.1
-    Processing library Modelica @ ModelicaReference 3.2.1
-    Processing library ModelicaServices @ ModelicaServices 3.2.1
+    Processing library Modelica @ Modelica
+    Processing library Modelica @ ModelicaReference
+    Processing library ModelicaServices @ ModelicaServices
+    Processing library ModelicaTest @ ModelicaTest
     Processing library ObsoleteModelica3 @ ObsoleteModelica3.mo
-2016/12/14 07:54:37 Processing tag v3.2.1+build.3
+2017/02/07 08:15:40 Processing tag v3.2.1+build.3
   3.2.1+build.3: Recording
-2016/12/14 07:54:37   Reviewing contents of modelica/Modelica
-2016/12/14 07:54:41 Error extracting uses annotation: Error while parsing uses annotation of ModelicaReference 3.2.1/package.mo in github repository Modelica: Unable to find version for library Modelica
+2017/02/07 08:15:40   Reviewing contents of modelica/Modelica
+2017/02/07 08:15:45 Error extracting uses annotation: Error while parsing uses annotation of ModelicaReference/package.mo in github repository Modelica: Unable to find version for library Modelica
     Processing library Complex @ Complex.mo
-    Processing library Modelica @ Modelica 3.2.1
-    Processing library Modelica @ ModelicaReference 3.2.1
-    Processing library ModelicaServices @ ModelicaServices 3.2.1
+    Processing library Modelica @ Modelica
+    Processing library Modelica @ ModelicaReference
+    Processing library ModelicaServices @ ModelicaServices
+    Processing library ModelicaTest @ ModelicaTest
     Processing library ObsoleteModelica3 @ ObsoleteModelica3.mo
-2016/12/14 07:54:42 Processing tag v3.2.1+build.2
+2017/02/07 08:15:47 Processing tag v3.2.1+build.2
   3.2.1+build.2: Recording
-2016/12/14 07:54:43   Reviewing contents of modelica/Modelica
-2016/12/14 07:54:47 Error extracting uses annotation: Error while parsing uses annotation of ModelicaReference 3.2.1/package.mo in github repository Modelica: Unable to find version for library Modelica
+2017/02/07 08:15:47   Reviewing contents of modelica/Modelica
+2017/02/07 08:15:52 Error extracting uses annotation: Error while parsing uses annotation of ModelicaReference/package.mo in github repository Modelica: Unable to find version for library Modelica
     Processing library Complex @ Complex.mo
-    Processing library Modelica @ Modelica 3.2.1
-    Processing library Modelica @ ModelicaReference 3.2.1
-    Processing library ModelicaServices @ ModelicaServices 3.2.1
+    Processing library Modelica @ Modelica
+    Processing library Modelica @ ModelicaReference
+    Processing library ModelicaServices @ ModelicaServices
+    Processing library ModelicaTest @ ModelicaTest
     Processing library ObsoleteModelica3 @ ObsoleteModelica3.mo
-2016/12/14 07:54:48 Processing tag v3.2
+2017/02/07 08:15:54 Processing tag v3.2
   3.2: Recording
-2016/12/14 07:54:49   Reviewing contents of modelica/Modelica
-2016/12/14 07:54:53 Error extracting uses annotation: Error while parsing uses annotation of ModelicaReference/package.mo in github repository Modelica: Unable to find version for library Modelica
+2017/02/07 08:15:54   Reviewing contents of modelica/Modelica
+2017/02/07 08:16:00 Error extracting uses annotation: Error while parsing uses annotation of ModelicaReference/package.mo in github repository Modelica: Unable to find version for library Modelica
     Processing library Complex @ Complex.mo
-    Processing library Modelica @ Modelica 3.2
+    Processing library Modelica @ Modelica
     Processing library Modelica @ ModelicaReference
-    Processing library ModelicaServices @ ModelicaServices 1.1
+    Processing library ModelicaTest @ ModelicaTest
     Processing library ObsoleteModelica3 @ ObsoleteModelica3.mo
-2016/12/14 07:54:55 Processing tag v3.1
+2017/02/07 08:16:01 Processing tag v3.1
   3.1: Recording
-2016/12/14 07:54:55   Reviewing contents of modelica/Modelica
-2016/12/14 07:54:58 Error extracting uses annotation: Error while parsing uses annotation of ModelicaReference/package.mo in github repository Modelica: Unable to find version for library Modelica
-    Processing library Modelica @ Modelica 3.1
+2017/02/07 08:16:01   Reviewing contents of modelica/Modelica
+2017/02/07 08:16:05 Error extracting uses annotation: Error while parsing uses annotation of ModelicaReference/package.mo in github repository Modelica: Unable to find version for library Modelica
+    Processing library Modelica @ Modelica
     Processing library Modelica @ ModelicaReference
-    Processing library ModelicaServices @ ModelicaServices 1.0
+    Processing library ModelicaServices @ ModelicaServices
     Processing library ObsoleteModelica3 @ ObsoleteModelica3.mo
-2016/12/14 07:55:00 Processing tag v3.0.1
+2017/02/07 08:16:06 Processing tag v3.0.1
   3.0.1: Recording
-2016/12/14 07:55:00   Reviewing contents of modelica/Modelica
-    Processing library Modelica @ Modelica 3.0.1
+2017/02/07 08:16:07   Reviewing contents of modelica/Modelica
+2017/02/07 08:16:09 Error extracting uses annotation: Error while parsing uses annotation of ModelicaReference/package.mo in github repository Modelica: Unable to find version for library Modelica
+    Processing library Modelica @ Modelica
+    Processing library Modelica @ ModelicaReference
     Processing library ObsoleteModelica3 @ ObsoleteModelica3.mo
-2016/12/14 07:55:02 Processing tag v3.0
+2017/02/07 08:16:10 Processing tag v3.0
   3.0: Recording
-2016/12/14 07:55:03   Reviewing contents of modelica/Modelica
-    Processing library Modelica @ Modelica 3.0
+2017/02/07 08:16:10   Reviewing contents of modelica/Modelica
+2017/02/07 08:16:13 Error extracting uses annotation: Error while parsing uses annotation of ModelicaReference/package.mo in github repository Modelica: Unable to find version for library Modelica
+    Processing library Modelica @ Modelica
+    Processing library Modelica @ ModelicaReference
     Processing library ObsoleteModelica3 @ ObsoleteModelica3.mo
-2016/12/14 07:55:05 Processing tag v2.2.2
+2017/02/07 08:16:14 Processing tag v2.2.2
   2.2.2: Recording
-2016/12/14 07:55:06   Reviewing contents of modelica/Modelica
-    Processing library Modelica @ Modelica 2.2.2
-2016/12/14 07:55:07 Processing tag v2.2.1
+2017/02/07 08:16:14   Reviewing contents of modelica/Modelica
+    Processing library Modelica @ Modelica
+2017/02/07 08:16:16 Processing tag v2.2.1
   2.2.1: Recording
-2016/12/14 07:55:07   Reviewing contents of modelica/Modelica
-    Processing library Modelica @ Modelica 2.2.1
-2016/12/14 07:55:09 Processing tag v2.2
+2017/02/07 08:16:16   Reviewing contents of modelica/Modelica
+2017/02/07 08:16:16   Repository is a library
+    Processing library Modelica @ .
+2017/02/07 08:16:17 Processing tag v2.2
   2.2: Recording
-2016/12/14 07:55:09   Reviewing contents of modelica/Modelica
-    Processing library Modelica @ Modelica 2.2
-2016/12/14 07:55:11 Processing tag v2.1
+2017/02/07 08:16:18   Reviewing contents of modelica/Modelica
+2017/02/07 08:16:18   Repository is a library
+    Processing library Modelica @ .
+2017/02/07 08:16:19 Processing tag v2.1
   2.1: Recording
-2016/12/14 07:55:11   Reviewing contents of modelica/Modelica
-    Processing library Modelica @ Modelica 2.1
-2016/12/14 07:55:13 Processing tag v1.6
+2017/02/07 08:16:19   Reviewing contents of modelica/Modelica
+2017/02/07 08:16:19   Repository is a library
+    Processing library Modelica @ .
+2017/02/07 08:16:20 Processing tag v1.6
   1.6: Recording
-2016/12/14 07:55:13   Reviewing contents of modelica/Modelica
-    Processing library Modelica @ Modelica 1.6
+2017/02/07 08:16:20   Reviewing contents of modelica/Modelica
+2017/02/07 08:16:21   Repository is a library
+    Processing library Modelica @ .
+2017/02/07 08:16:21 Processing tag v1.5
+  1.5: Recording
+2017/02/07 08:16:22   Reviewing contents of modelica/Modelica
+2017/02/07 08:16:22   Repository is a library
+    Processing library Modelica @ .
+2017/02/07 08:16:23 Processing tag v1.3.1
+  1.3.1: Recording
+2017/02/07 08:16:23   Reviewing contents of modelica/Modelica
+2017/02/07 08:16:23   Repository is a library
+    Processing library Modelica @ .
 Processing: Modelica_DeviceDrivers (https://github.com/modelica/Modelica_DeviceDrivers, fork=false)
-2016/12/14 07:55:15 No source for Modelica_DeviceDrivers
-2016/12/14 07:55:15 Processing tag v1.4.4
+2017/02/07 08:16:24 No source for Modelica_DeviceDrivers
+2017/02/07 08:16:25 Processing tag v1.4.4
   1.4.4: Recording
-2016/12/14 07:55:16   Reviewing contents of modelica/Modelica_DeviceDrivers
+2017/02/07 08:16:25   Reviewing contents of modelica/Modelica_DeviceDrivers
     Processing library Modelica_DeviceDrivers @ Modelica_DeviceDrivers
-2016/12/14 07:55:17 Processing tag v1.4.3
+2017/02/07 08:16:27 Processing tag v1.4.3
   1.4.3: Recording
-2016/12/14 07:55:18   Reviewing contents of modelica/Modelica_DeviceDrivers
+2017/02/07 08:16:27   Reviewing contents of modelica/Modelica_DeviceDrivers
     Processing library Modelica_DeviceDrivers @ Modelica_DeviceDrivers
-2016/12/14 07:55:19 Processing tag v1.4.2
+2017/02/07 08:16:29 Processing tag v1.4.2
   1.4.2: Recording
-2016/12/14 07:55:19   Reviewing contents of modelica/Modelica_DeviceDrivers
+2017/02/07 08:16:29   Reviewing contents of modelica/Modelica_DeviceDrivers
     Processing library Modelica_DeviceDrivers @ Modelica_DeviceDrivers
-2016/12/14 07:55:21 Processing tag v1.4.1
+2017/02/07 08:16:30 Processing tag v1.4.1
   1.4.1: Recording
-2016/12/14 07:55:21   Reviewing contents of modelica/Modelica_DeviceDrivers
+2017/02/07 08:16:31   Reviewing contents of modelica/Modelica_DeviceDrivers
     Processing library Modelica_DeviceDrivers @ Modelica_DeviceDrivers
-2016/12/14 07:55:22 Processing tag v1.4.0
+2017/02/07 08:16:32 Processing tag v1.4.0
   1.4.0: Recording
-2016/12/14 07:55:23   Reviewing contents of modelica/Modelica_DeviceDrivers
+2017/02/07 08:16:33   Reviewing contents of modelica/Modelica_DeviceDrivers
     Processing library Modelica_DeviceDrivers @ Modelica_DeviceDrivers
-2016/12/14 07:55:24 Processing tag v1.3+build.2
+2017/02/07 08:16:34 Processing tag v1.3+build.2
   1.3+build.2: Recording
-2016/12/14 07:55:25   Reviewing contents of modelica/Modelica_DeviceDrivers
+2017/02/07 08:16:34   Reviewing contents of modelica/Modelica_DeviceDrivers
     Processing library Modelica_DeviceDrivers @ Modelica_DeviceDrivers 1.3
-2016/12/14 07:55:26 Processing tag v1.3+build.1
+2017/02/07 08:16:36 Processing tag v1.3+build.1
   1.3+build.1: Recording
-2016/12/14 07:55:27   Reviewing contents of modelica/Modelica_DeviceDrivers
+2017/02/07 08:16:36   Reviewing contents of modelica/Modelica_DeviceDrivers
     Processing library Modelica_DeviceDrivers @ Modelica_DeviceDrivers 1.3
-2016/12/14 07:55:28 Processing tag v1.2+build.1
+2017/02/07 08:16:38 Processing tag v1.2+build.1
   1.2+build.1: Recording
-2016/12/14 07:55:28   Reviewing contents of modelica/Modelica_DeviceDrivers
+2017/02/07 08:16:38   Reviewing contents of modelica/Modelica_DeviceDrivers
     Processing library Modelica_DeviceDrivers @ Modelica_DeviceDrivers 1.2
-2016/12/14 07:55:30 Processing tag v1.1
+2017/02/07 08:16:39 Processing tag v1.1
   1.1: Recording
-2016/12/14 07:55:30   Reviewing contents of modelica/Modelica_DeviceDrivers
+2017/02/07 08:16:40   Reviewing contents of modelica/Modelica_DeviceDrivers
     Processing library Modelica_DeviceDrivers @ Modelica_DeviceDrivers 1.1
-2016/12/14 07:55:32 Processing tag v1.1build4
+2017/02/07 08:16:41 Processing tag v1.1build4
   1.1build4: Ignoring
-2016/12/14 07:55:32 Processing tag v1.1build3
+2017/02/07 08:16:41 Processing tag v1.1build3
   1.1build3: Ignoring
-2016/12/14 07:55:32 Processing tag v1.1build2
+2017/02/07 08:16:41 Processing tag v1.1build2
   1.1build2: Ignoring
-2016/12/14 07:55:32 Processing tag v1.0
+2017/02/07 08:16:41 Processing tag v1.0
   1.0: Recording
-2016/12/14 07:55:32   Reviewing contents of modelica/Modelica_DeviceDrivers
+2017/02/07 08:16:42   Reviewing contents of modelica/Modelica_DeviceDrivers
     Processing library Modelica_DeviceDrivers @ Modelica_DeviceDrivers 1.0
-Processing: Modelica_EnergyStorages (https://github.com/modelica/Modelica_EnergyStorages, fork=false)
-2016/12/14 07:55:34 No source for Modelica_EnergyStorages
 Processing: Modelica_LinearSystems2 (https://github.com/modelica/Modelica_LinearSystems2, fork=false)
-2016/12/14 07:55:34 No source for Modelica_LinearSystems2
-2016/12/14 07:55:35 Processing tag v2.3.4
+2017/02/07 08:16:44 No source for Modelica_LinearSystems2
+2017/02/07 08:16:44 Processing tag v2.3.4
   2.3.4: Recording
-2016/12/14 07:55:35   Reviewing contents of modelica/Modelica_LinearSystems2
-    Processing library Modelica_LinearSystems2 @ Modelica_LinearSystems2 2.3.4
-2016/12/14 07:55:37 Processing tag v2.3.3
+2017/02/07 08:16:45   Reviewing contents of modelica/Modelica_LinearSystems2
+2017/02/07 08:16:45   Repository is a library
+    Processing library Modelica_LinearSystems2 @ .
+2017/02/07 08:16:45 Processing tag v2.3.3
   2.3.3: Recording
-2016/12/14 07:55:37   Reviewing contents of modelica/Modelica_LinearSystems2
-    Processing library Modelica_LinearSystems2 @ Modelica_LinearSystems2 2.3.3
-2016/12/14 07:55:39 Processing tag v2.3.2
+2017/02/07 08:16:46   Reviewing contents of modelica/Modelica_LinearSystems2
+2017/02/07 08:16:46   Repository is a library
+    Processing library Modelica_LinearSystems2 @ .
+2017/02/07 08:16:47 Processing tag v2.3.2
   2.3.2: Recording
-2016/12/14 07:55:39   Reviewing contents of modelica/Modelica_LinearSystems2
-    Processing library Modelica_LinearSystems2 @ Modelica_LinearSystems 2.3.2
-2016/12/14 07:55:40 Processing tag v2.3.1
+2017/02/07 08:16:47   Reviewing contents of modelica/Modelica_LinearSystems2
+2017/02/07 08:16:47   Repository is a library
+    Processing library Modelica_LinearSystems2 @ .
+2017/02/07 08:16:48 Processing tag v2.3.1
   2.3.1: Recording
-2016/12/14 07:55:41   Reviewing contents of modelica/Modelica_LinearSystems2
-    Processing library Modelica_LinearSystems2 @ Modelica_LinearSystems 2.3.1
-2016/12/14 07:55:42 Processing tag v2.3
+2017/02/07 08:16:49   Reviewing contents of modelica/Modelica_LinearSystems2
+2017/02/07 08:16:49   Repository is a library
+    Processing library Modelica_LinearSystems2 @ .
+2017/02/07 08:16:49 Processing tag v2.3
   2.3: Recording
-2016/12/14 07:55:43   Reviewing contents of modelica/Modelica_LinearSystems2
-    Processing library Modelica_LinearSystems2 @ Modelica_LinearSystems2 2.3
-2016/12/14 07:55:44 Processing tag v2.0
+2017/02/07 08:16:50   Reviewing contents of modelica/Modelica_LinearSystems2
+2017/02/07 08:16:50   Repository is a library
+    Processing library Modelica_LinearSystems2 @ .
+2017/02/07 08:16:51 Processing tag v2.2
+  2.2: Recording
+2017/02/07 08:16:51   Reviewing contents of modelica/Modelica_LinearSystems2
+2017/02/07 08:16:51   Repository is a library
+    Processing library Modelica_LinearSystems2 @ .
+2017/02/07 08:16:52 Processing tag v2.1
+  2.1: Recording
+2017/02/07 08:16:53   Reviewing contents of modelica/Modelica_LinearSystems2
+2017/02/07 08:16:53   Repository is a library
+    Processing library Modelica_LinearSystems2 @ .
+2017/02/07 08:16:53 Processing tag v2.0
   2.0: Recording
-2016/12/14 07:55:45   Reviewing contents of modelica/Modelica_LinearSystems2
-    Processing library Modelica_LinearSystems2 @ Modelica_LinearSystems2 2.0
-2016/12/14 07:55:46 Processing tag deprecated
-  deprecated: Ignoring
+2017/02/07 08:16:54   Reviewing contents of modelica/Modelica_LinearSystems2
+2017/02/07 08:16:54   Repository is a library
+    Processing library Modelica_LinearSystems2 @ .
 Processing: Modelica_StateGraph2 (https://github.com/modelica/Modelica_StateGraph2, fork=false)
-2016/12/14 07:55:46 No source for Modelica_StateGraph2
-2016/12/14 07:55:47 Processing tag v2.0.2
+2017/02/07 08:16:55 No source for Modelica_StateGraph2
+2017/02/07 08:16:56 Processing tag v2.0.2
   2.0.2: Recording
-2016/12/14 07:55:47   Reviewing contents of modelica/Modelica_StateGraph2
+2017/02/07 08:16:56   Reviewing contents of modelica/Modelica_StateGraph2
     Processing library Modelica_StateGraph2 @ Modelica_StateGraph2 2.0.2
-2016/12/14 07:55:49 Processing tag v2.0.1
+2017/02/07 08:16:58 Processing tag v2.0.1
   2.0.1: Recording
-2016/12/14 07:55:49   Reviewing contents of modelica/Modelica_StateGraph2
+2017/02/07 08:16:58   Reviewing contents of modelica/Modelica_StateGraph2
     Processing library Modelica_StateGraph2 @ Modelica_StateGraph2 2.0.1
-2016/12/14 07:55:51 Processing tag v2.0
+2017/02/07 08:17:00 Processing tag v2.0
   2.0: Recording
-2016/12/14 07:55:51   Reviewing contents of modelica/Modelica_StateGraph2
+2017/02/07 08:17:00   Reviewing contents of modelica/Modelica_StateGraph2
     Processing library Modelica_StateGraph2 @ Modelica_StateGraph2 2.0
 Processing: Modelica_Synchronous (https://github.com/modelica/Modelica_Synchronous, fork=false)
-2016/12/14 07:55:53 No source for Modelica_Synchronous
-2016/12/14 07:55:54 Processing tag v0.92.1
+2017/02/07 08:17:02 No source for Modelica_Synchronous
+2017/02/07 08:17:03 Processing tag v0.92.1
   0.92.1: Recording
-2016/12/14 07:55:54   Reviewing contents of modelica/Modelica_Synchronous
-    Processing library Modelica_Synchronous @ Modelica_Synchronous 0.92.1
-2016/12/14 07:55:56 Processing tag v0.92
+2017/02/07 08:17:03   Reviewing contents of modelica/Modelica_Synchronous
+2017/02/07 08:17:04   Repository is a library
+    Processing library Modelica_Synchronous @ .
+2017/02/07 08:17:04 Processing tag v0.92
   0.92: Recording
-2016/12/14 07:55:56   Reviewing contents of modelica/Modelica_Synchronous
-    Processing library Modelica_Synchronous @ Modelica_Synchronous 0.92
-2016/12/14 07:55:57 Processing tag v0.92+build.2
-  0.92+build.2: Recording
-2016/12/14 07:55:58   Reviewing contents of modelica/Modelica_Synchronous
-    Processing library Modelica_Synchronous @ Modelica_Synchronous 0.92
-2016/12/14 07:55:59 Processing tag v0.91
+2017/02/07 08:17:05   Reviewing contents of modelica/Modelica_Synchronous
+2017/02/07 08:17:05   Repository is a library
+    Processing library Modelica_Synchronous @ .
+2017/02/07 08:17:06 Processing tag v0.91
   0.91: Recording
-2016/12/14 07:56:00   Reviewing contents of modelica/Modelica_Synchronous
-2016/12/14 07:56:00   Repository is a library
+2017/02/07 08:17:06   Reviewing contents of modelica/Modelica_Synchronous
+2017/02/07 08:17:06   Repository is a library
+    Processing library Modelica_Synchronous @ .
+2017/02/07 08:17:07 Processing tag v0.9
+  0.9: Recording
+2017/02/07 08:17:07   Reviewing contents of modelica/Modelica_Synchronous
+2017/02/07 08:17:08   Repository is a library
     Processing library Modelica_Synchronous @ .
 Processing: PowerSystems (https://github.com/modelica/PowerSystems, fork=false)
-2016/12/14 07:56:01 No source for PowerSystems
-2016/12/14 07:56:02 Processing tag v0.5.0
+2017/02/07 08:17:09 No source for PowerSystems
+2017/02/07 08:17:09 Processing tag v0.6.0
+  0.6.0: Recording
+2017/02/07 08:17:10   Reviewing contents of modelica/PowerSystems
+    Processing library PowerSystems @ PowerSystems 0.6.0
+2017/02/07 08:17:11 Processing tag v0.5.0
   0.5.0: Recording
-2016/12/14 07:56:02   Reviewing contents of modelica/PowerSystems
+2017/02/07 08:17:12   Reviewing contents of modelica/PowerSystems
     Processing library PowerSystems @ PowerSystems 0.5.0
-2016/12/14 07:56:03 Processing tag v0.4.0
+2017/02/07 08:17:13 Processing tag v0.4.0
   0.4.0: Recording
-2016/12/14 07:56:04   Reviewing contents of modelica/PowerSystems
+2017/02/07 08:17:14   Reviewing contents of modelica/PowerSystems
     Processing library PowerSystems @ PowerSystems 0.4.0
-2016/12/14 07:56:05 Processing tag v0.3
+2017/02/07 08:17:15 Processing tag v0.3
   0.3: Recording
-2016/12/14 07:56:06   Reviewing contents of modelica/PowerSystems
+2017/02/07 08:17:15   Reviewing contents of modelica/PowerSystems
     Processing library PowerSystems @ PowerSystems 0.3
-2016/12/14 07:56:07 Processing tag v0.2
+2017/02/07 08:17:17 Processing tag v0.2
   0.2: Recording
-2016/12/14 07:56:07   Reviewing contents of modelica/PowerSystems
+2017/02/07 08:17:17   Reviewing contents of modelica/PowerSystems
     Processing library PowerSystems @ PowerSystems 0.2
 Processing: VehicleInterfaces (https://github.com/modelica/VehicleInterfaces, fork=false)
-2016/12/14 07:56:09 No source for VehicleInterfaces
-2016/12/14 07:56:10 Processing tag v1.2.4
+2017/02/07 08:17:19 No source for VehicleInterfaces
+2017/02/07 08:17:19 Processing tag v1.2.4
   1.2.4: Recording
-2016/12/14 07:56:10   Reviewing contents of modelica/VehicleInterfaces
+2017/02/07 08:17:20   Reviewing contents of modelica/VehicleInterfaces
     Processing library VehicleInterfaces @ VehicleInterfaces
-2016/12/14 07:56:11 Processing tag v1.2.3
+2017/02/07 08:17:21 Processing tag v1.2.3
   1.2.3: Recording
-2016/12/14 07:56:12   Reviewing contents of modelica/VehicleInterfaces
+2017/02/07 08:17:22   Reviewing contents of modelica/VehicleInterfaces
     Processing library VehicleInterfaces @ VehicleInterfaces
-2016/12/14 07:56:13 Processing tag v1.2.2
+2017/02/07 08:17:23 Processing tag v1.2.2
   1.2.2: Recording
-2016/12/14 07:56:14   Reviewing contents of modelica/VehicleInterfaces
+2017/02/07 08:17:24   Reviewing contents of modelica/VehicleInterfaces
     Processing library VehicleInterfaces @ VehicleInterfaces 1.2.2
-2016/12/14 07:56:15 Processing tag v1.2.1
+2017/02/07 08:17:25 Processing tag v1.2.1
   1.2.1: Recording
-2016/12/14 07:56:16   Reviewing contents of modelica/VehicleInterfaces
+2017/02/07 08:17:25   Reviewing contents of modelica/VehicleInterfaces
     Processing library VehicleInterfaces @ VehicleInterfaces 1.2.1
 Fetching repositories for modelica-3rdparty
   Fetching page 1, 10 entries
@@ -247,1053 +291,1106 @@ Fetching repositories for modelica-3rdparty
   Fetching page 5, 10 entries
   Fetching page 6, 10 entries
   Fetching page 7, 10 entries
-  Fetching page 8, 3 entries
+  Fetching page 8, 5 entries
   Fetching page 9, 0 entries
 Processing: ADGenKinetics (https://github.com/modelica-3rdparty/ADGenKinetics, fork=true)
-2016/12/14 07:56:22 Source for ADGenKinetics exists
-2016/12/14 07:56:22 Processing tag v1.0+r23
+2017/02/07 08:17:31 Source for ADGenKinetics exists
+2017/02/07 08:17:32 Processing tag v1.0+r23
   1.0+r23: Recording
-2016/12/14 07:56:23   Reviewing contents of AtiyahElsheikh/ADGenKinetics
+2017/02/07 08:17:32   Reviewing contents of AtiyahElsheikh/ADGenKinetics
     Processing library ADGenKinetics @ ADGenKinetics.mo
 Processing: ADMSL (https://github.com/modelica-3rdparty/ADMSL, fork=true)
-2016/12/14 07:56:24 Source for ADMSL exists
+2017/02/07 08:17:34 Source for ADMSL exists
 Processing: AdvancedNoise (https://github.com/modelica-3rdparty/AdvancedNoise, fork=true)
-2016/12/14 07:56:24 Source for AdvancedNoise exists
-2016/12/14 07:56:25 Processing tag v1.0.0
+2017/02/07 08:17:34 Source for AdvancedNoise exists
+2017/02/07 08:17:35 Processing tag v1.0.0
   1.0.0: Recording
-2016/12/14 07:56:25   Reviewing contents of DLR-SR/AdvancedNoise
+2017/02/07 08:17:35   Reviewing contents of DLR-SR/AdvancedNoise
     Processing library AdvancedNoise @ AdvancedNoise 1.0.0
-2016/12/14 07:56:27 Processing tag v0.9.1
+2017/02/07 08:17:37 Processing tag v0.9.1
   0.9.1: Recording
-2016/12/14 07:56:27   Reviewing contents of DLR-SR/AdvancedNoise
-2016/12/14 07:56:29 Error extracting uses annotation: Error while parsing uses annotation of AdvancedNoise 0.9.1/package.mo in github repository AdvancedNoise: Unable to normalize version for Modelica_Noise: Unable to normalize version string '1.0Beta.1'
+2017/02/07 08:17:37   Reviewing contents of DLR-SR/AdvancedNoise
+2017/02/07 08:17:39 Error extracting uses annotation: Error while parsing uses annotation of AdvancedNoise 0.9.1/package.mo in github repository AdvancedNoise: Unable to normalize version for Modelica_Noise: Unable to normalize version string '1.0Beta.1'
     Processing library AdvancedNoise @ AdvancedNoise 0.9.1
     Processing library Modelica_Noise @ Modelica_Noise 1.0 Beta.1
-2016/12/14 07:56:30 Processing tag v0.9.0
+2017/02/07 08:17:40 Processing tag v0.9.0
   0.9.0: Recording
-2016/12/14 07:56:30   Reviewing contents of DLR-SR/AdvancedNoise
-2016/12/14 07:56:31 Error extracting uses annotation: Error while parsing uses annotation of AdvancedNoise 0.9.0/package.mo in github repository AdvancedNoise: Unable to normalize version for Modelica_Noise: Unable to normalize version string '1.0Beta.1'
+2017/02/07 08:17:41   Reviewing contents of DLR-SR/AdvancedNoise
+2017/02/07 08:17:42 Error extracting uses annotation: Error while parsing uses annotation of AdvancedNoise 0.9.0/package.mo in github repository AdvancedNoise: Unable to normalize version for Modelica_Noise: Unable to normalize version string '1.0Beta.1'
     Processing library AdvancedNoise @ AdvancedNoise 0.9.0
 Processing: AixLib (https://github.com/modelica-3rdparty/AixLib, fork=true)
-2016/12/14 07:56:32 Source for AixLib exists
-2016/12/14 07:56:32 Processing tag v0.3.2
+2017/02/07 08:17:43 Source for AixLib exists
+2017/02/07 08:17:43 Processing tag v0.4.0
+  0.4.0: Recording
+2017/02/07 08:17:44   Reviewing contents of RWTH-EBC/AixLib
+    Processing library AixLib @ AixLib
+2017/02/07 08:17:45 Processing tag v0.3.2
   0.3.2: Recording
-2016/12/14 07:56:33   Reviewing contents of RWTH-EBC/AixLib
+2017/02/07 08:17:45   Reviewing contents of RWTH-EBC/AixLib
     Processing library AixLib @ AixLib
-2016/12/14 07:56:34 Processing tag v0.3.1
+2017/02/07 08:17:47 Processing tag v0.3.1
   0.3.1: Recording
-2016/12/14 07:56:34   Reviewing contents of RWTH-EBC/AixLib
+2017/02/07 08:17:47   Reviewing contents of RWTH-EBC/AixLib
     Processing library AixLib @ AixLib
-2016/12/14 07:56:36 Processing tag v0.3.0
+2017/02/07 08:17:49 Processing tag v0.3.0
   0.3.0: Recording
-2016/12/14 07:56:36   Reviewing contents of RWTH-EBC/AixLib
+2017/02/07 08:17:49   Reviewing contents of RWTH-EBC/AixLib
     Processing library AixLib @ AixLib
-2016/12/14 07:56:38 Processing tag v0.2.5
+2017/02/07 08:17:50 Processing tag v0.2.5
   0.2.5: Recording
-2016/12/14 07:56:38   Reviewing contents of RWTH-EBC/AixLib
+2017/02/07 08:17:51   Reviewing contents of RWTH-EBC/AixLib
     Processing library AixLib @ AixLib
-2016/12/14 07:56:39 Processing tag v0.2.4
+2017/02/07 08:17:52 Processing tag v0.2.4
   0.2.4: Recording
-2016/12/14 07:56:40   Reviewing contents of RWTH-EBC/AixLib
+2017/02/07 08:17:53   Reviewing contents of RWTH-EBC/AixLib
     Processing library AixLib @ AixLib
-2016/12/14 07:56:41 Processing tag v0.2.3
+2017/02/07 08:17:54 Processing tag v0.2.3
   0.2.3: Recording
-2016/12/14 07:56:41   Reviewing contents of RWTH-EBC/AixLib
+2017/02/07 08:17:54   Reviewing contents of RWTH-EBC/AixLib
     Processing library AixLib @ AixLib
-2016/12/14 07:56:43 Processing tag v0.2.2
+2017/02/07 08:17:56 Processing tag v0.2.2
   0.2.2: Recording
-2016/12/14 07:56:43   Reviewing contents of RWTH-EBC/AixLib
+2017/02/07 08:17:57   Reviewing contents of RWTH-EBC/AixLib
     Processing library AixLib @ AixLib
-2016/12/14 07:56:44 Processing tag v0.2.1
+2017/02/07 08:17:58 Processing tag v0.2.1
   0.2.1: Recording
-2016/12/14 07:56:45   Reviewing contents of RWTH-EBC/AixLib
+2017/02/07 08:17:58   Reviewing contents of RWTH-EBC/AixLib
     Processing library AixLib @ AixLib
-2016/12/14 07:56:46 Processing tag v0.2.0
+2017/02/07 08:18:00 Processing tag v0.2.0
   0.2.0: Recording
-2016/12/14 07:56:47   Reviewing contents of RWTH-EBC/AixLib
+2017/02/07 08:18:00   Reviewing contents of RWTH-EBC/AixLib
     Processing library AixLib @ AixLib
-2016/12/14 07:56:48 Processing tag v0.1.0
+2017/02/07 08:18:02 Processing tag v0.1.0
   0.1.0: Recording
-2016/12/14 07:56:48   Reviewing contents of RWTH-EBC/AixLib
+2017/02/07 08:18:02   Reviewing contents of RWTH-EBC/AixLib
     Processing library AixLib @ AixLib
 Processing: ATplus (https://github.com/modelica-3rdparty/ATplus, fork=false)
-2016/12/14 07:56:50 No source for ATplus
-2016/12/14 07:56:51 Processing tag v2.1
+2017/02/07 08:18:04 No source for ATplus
+2017/02/07 08:18:04 Processing tag v2.1
   2.1: Recording
-2016/12/14 07:56:51   Reviewing contents of modelica-3rdparty/ATplus
+2017/02/07 08:18:05   Reviewing contents of modelica-3rdparty/ATplus
     Processing library ATplus @ ATplus 2.1
 Processing: BioChem (https://github.com/modelica-3rdparty/BioChem, fork=true)
-2016/12/14 07:56:53 Source for BioChem exists
-2016/12/14 07:56:53 Processing tag v1.0.1
+2017/02/07 08:18:07 Source for BioChem exists
+2017/02/07 08:18:07 Processing tag v1.0.1
   1.0.1: Recording
-2016/12/14 07:56:54   Reviewing contents of OpenModelica/BioChem
+2017/02/07 08:18:08   Reviewing contents of OpenModelica/BioChem
     Processing library BioChem @ BioChem 1.0.1
-2016/12/14 07:56:55 Processing tag v1.0
+2017/02/07 08:18:09 Processing tag v1.0
   1.0: Recording
-2016/12/14 07:56:56   Reviewing contents of OpenModelica/BioChem
+2017/02/07 08:18:09   Reviewing contents of OpenModelica/BioChem
     Processing library BioChem @ BioChem 1.0
 Processing: BondGraph (https://github.com/modelica-3rdparty/BondGraph, fork=false)
-2016/12/14 07:56:57 No source for BondGraph
-2016/12/14 07:56:58 Processing tag v1.1.0
+2017/02/07 08:18:11 No source for BondGraph
+2017/02/07 08:18:12 Processing tag v1.1.0
   1.1.0: Recording
-2016/12/14 07:56:58   Reviewing contents of modelica-3rdparty/BondGraph
+2017/02/07 08:18:12   Reviewing contents of modelica-3rdparty/BondGraph
     Processing library BondGraph @ BondGraph.mo
-2016/12/14 07:56:59 Processing tag v1.0.0
+2017/02/07 08:18:13 Processing tag v1.0.0
   1.0.0: Recording
-2016/12/14 07:57:00   Reviewing contents of modelica-3rdparty/BondGraph
+2017/02/07 08:18:14   Reviewing contents of modelica-3rdparty/BondGraph
     Processing library BondGraph @ BondGraph.mo
 Processing: BondLib (https://github.com/modelica-3rdparty/BondLib, fork=false)
-2016/12/14 07:57:01 No source for BondLib
-2016/12/14 07:57:02 Processing tag v2.3
+2017/02/07 08:18:15 No source for BondLib
+2017/02/07 08:18:16 Processing tag v2.3
   2.3: Recording
-2016/12/14 07:57:02   Reviewing contents of modelica-3rdparty/BondLib
+2017/02/07 08:18:16   Reviewing contents of modelica-3rdparty/BondLib
     Processing library BondLib @ BondLib 2.3
 Processing: BrineProp (https://github.com/modelica-3rdparty/BrineProp, fork=true)
-2016/12/14 07:57:05 Source for BrineProp exists
-2016/12/14 07:57:05 Processing tag v0.5.4
+2017/02/07 08:18:19 Source for BrineProp exists
+2017/02/07 08:18:19 Processing tag v0.5.4
   0.5.4: Recording
-2016/12/14 07:57:06   Reviewing contents of Heineken/BrineProp
+2017/02/07 08:18:20   Reviewing contents of Heineken/BrineProp
     Processing library BrineProp @ BrineProp
-2016/12/14 07:57:08 Processing tag v0.5.3
+2017/02/07 08:18:22 Processing tag v0.5.3
   0.5.3: Recording
-2016/12/14 07:57:08   Reviewing contents of Heineken/BrineProp
+2017/02/07 08:18:22   Reviewing contents of Heineken/BrineProp
     Processing library BrineProp @ BrineProp
-2016/12/14 07:57:10 Processing tag v0.5.2
+2017/02/07 08:18:24 Processing tag v0.5.2
   0.5.2: Recording
-2016/12/14 07:57:10   Reviewing contents of Heineken/BrineProp
+2017/02/07 08:18:25   Reviewing contents of Heineken/BrineProp
     Processing library BrineProp @ BrineProp
-2016/12/14 07:57:12 Processing tag v0.5.0
+2017/02/07 08:18:26 Processing tag v0.5.0
   0.5.0: Recording
-2016/12/14 07:57:13   Reviewing contents of Heineken/BrineProp
+2017/02/07 08:18:27   Reviewing contents of Heineken/BrineProp
     Processing library BrineProp @ BrineProp
-2016/12/14 07:57:14 Processing tag v0.4.7
+2017/02/07 08:18:29 Processing tag v0.4.7
   0.4.7: Recording
-2016/12/14 07:57:15   Reviewing contents of Heineken/BrineProp
+2017/02/07 08:18:29   Reviewing contents of Heineken/BrineProp
     Processing library BrineProp @ BrineProp
-2016/12/14 07:57:17 Processing tag v0.4.6
+2017/02/07 08:18:31 Processing tag v0.4.6
   0.4.6: Recording
-2016/12/14 07:57:17   Reviewing contents of Heineken/BrineProp
+2017/02/07 08:18:31   Reviewing contents of Heineken/BrineProp
     Processing library BrineProp @ BrineProp
-2016/12/14 07:57:19 Processing tag v0.4.5
+2017/02/07 08:18:33 Processing tag v0.4.5
   0.4.5: Recording
-2016/12/14 07:57:19   Reviewing contents of Heineken/BrineProp
+2017/02/07 08:18:34   Reviewing contents of Heineken/BrineProp
     Processing library BrineProp @ BrineProp
-2016/12/14 07:57:21 Processing tag v0.4.4
+2017/02/07 08:18:35 Processing tag v0.4.4
   0.4.4: Recording
-2016/12/14 07:57:22   Reviewing contents of Heineken/BrineProp
+2017/02/07 08:18:36   Reviewing contents of Heineken/BrineProp
     Processing library BrineProp @ BrineProp
-2016/12/14 07:57:23 Processing tag v0.4.3
+2017/02/07 08:18:38 Processing tag v0.4.3
   0.4.3: Recording
-2016/12/14 07:57:24   Reviewing contents of Heineken/BrineProp
+2017/02/07 08:18:38   Reviewing contents of Heineken/BrineProp
     Processing library BrineProp @ BrineProp
-2016/12/14 07:57:26 Processing tag v0.4.2
+2017/02/07 08:18:40 Processing tag v0.4.2
   0.4.2: Recording
-2016/12/14 07:57:26   Reviewing contents of Heineken/BrineProp
+2017/02/07 08:18:41   Reviewing contents of Heineken/BrineProp
     Processing library BrineProp @ BrineProp
-2016/12/14 07:57:28 Processing tag v0.4.1
+2017/02/07 08:18:42 Processing tag v0.4.1
   0.4.1: Recording
-2016/12/14 07:57:28   Reviewing contents of Heineken/BrineProp
+2017/02/07 08:18:43   Reviewing contents of Heineken/BrineProp
     Processing library BrineProp @ BrineProp
-2016/12/14 07:57:30 Processing tag v0.4.0
+2017/02/07 08:18:45 Processing tag v0.4.0
   0.4.0: Recording
-2016/12/14 07:57:31   Reviewing contents of Heineken/BrineProp
+2017/02/07 08:18:45   Reviewing contents of Heineken/BrineProp
     Processing library BrineProp @ BrineProp
-2016/12/14 07:57:32 Processing tag v0.3.2
+2017/02/07 08:18:47 Processing tag v0.3.2
   0.3.2: Recording
-2016/12/14 07:57:33   Reviewing contents of Heineken/BrineProp
+2017/02/07 08:18:47   Reviewing contents of Heineken/BrineProp
     Processing library BrineProp @ BrineProp
-2016/12/14 07:57:35 Processing tag v0.3.1
+2017/02/07 08:18:49 Processing tag v0.3.1
   0.3.1: Recording
-2016/12/14 07:57:35   Reviewing contents of Heineken/BrineProp
+2017/02/07 08:18:50   Reviewing contents of Heineken/BrineProp
     Processing library BrineProp @ BrineProp
-2016/12/14 07:57:37 Processing tag v0.3.0
+2017/02/07 08:18:52 Processing tag v0.3.0
   0.3.0: Recording
-2016/12/14 07:57:38   Reviewing contents of Heineken/BrineProp
+2017/02/07 08:18:52   Reviewing contents of Heineken/BrineProp
     Processing library BrineProp @ BrineProp
-2016/12/14 07:57:40 Processing tag v0.2.0
+2017/02/07 08:18:55 Processing tag v0.2.0
   0.2.0: Recording
-2016/12/14 07:57:40   Reviewing contents of Heineken/BrineProp
+2017/02/07 08:18:55   Reviewing contents of Heineken/BrineProp
     Processing library BrineProp @ BrineProp
-2016/12/14 07:57:42 Processing tag v0.1.9
+2017/02/07 08:18:57 Processing tag v0.1.9
 Processing: Buildings (https://github.com/modelica-3rdparty/Buildings, fork=true)
-2016/12/14 07:57:43 Source for modelica-buildings exists
-2016/12/14 07:57:43 Processing tag v3.0.0
+2017/02/07 08:18:57 Source for modelica-buildings exists
+2017/02/07 08:18:58 Processing tag v3.0.0
   3.0.0: Recording
-2016/12/14 07:57:44   Reviewing contents of lbl-srg/modelica-buildings
+2017/02/07 08:18:58   Reviewing contents of lbl-srg/modelica-buildings
     Processing library Buildings @ Buildings
-2016/12/14 07:57:46 Processing tag v3.0.0-rc.1
+2017/02/07 08:19:00 Processing tag v3.0.0-rc.1
   3.0.0-rc.1: Recording
-2016/12/14 07:57:46   Reviewing contents of lbl-srg/modelica-buildings
+2017/02/07 08:19:01   Reviewing contents of lbl-srg/modelica-buildings
     Processing library Buildings @ Buildings
-2016/12/14 07:57:48 Processing tag v2.1.0
+2017/02/07 08:19:03 Processing tag v2.1.0
   2.1.0: Recording
-2016/12/14 07:57:49   Reviewing contents of lbl-srg/modelica-buildings
+2017/02/07 08:19:03   Reviewing contents of lbl-srg/modelica-buildings
     Processing library Buildings @ Buildings 2.1.0
-2016/12/14 07:57:50 Processing tag v2.0.0
+2017/02/07 08:19:05 Processing tag v2.0.0
   2.0.0: Recording
-2016/12/14 07:57:50   Reviewing contents of lbl-srg/modelica-buildings
+2017/02/07 08:19:05   Reviewing contents of lbl-srg/modelica-buildings
     Processing library Buildings @ Buildings 2.0.0
-2016/12/14 07:57:52 Processing tag v2.0.0-rc.1
+2017/02/07 08:19:07 Processing tag v2.0.0-rc.1
   2.0.0-rc.1: Recording
-2016/12/14 07:57:52   Reviewing contents of lbl-srg/modelica-buildings
+2017/02/07 08:19:07   Reviewing contents of lbl-srg/modelica-buildings
     Processing library Buildings @ Buildings 2.0.0
-2016/12/14 07:57:54 Processing tag v1.6+build.1
+2017/02/07 08:19:09 Processing tag v1.6+build.1
   1.6+build.1: Recording
-2016/12/14 07:57:54   Reviewing contents of lbl-srg/modelica-buildings
+2017/02/07 08:19:09   Reviewing contents of lbl-srg/modelica-buildings
     Processing library Buildings @ Buildings 1.6
-2016/12/14 07:57:55 Processing tag v1.5+build.3
+2017/02/07 08:19:11 Processing tag v1.5+build.3
   1.5+build.3: Recording
-2016/12/14 07:57:56   Reviewing contents of lbl-srg/modelica-buildings
+2017/02/07 08:19:11   Reviewing contents of lbl-srg/modelica-buildings
     Processing library Buildings @ Buildings 1.5
-2016/12/14 07:57:57 Processing tag v1.5+build.2
+2017/02/07 08:19:13 Processing tag v1.5+build.2
   1.5+build.2: Recording
-2016/12/14 07:57:58   Reviewing contents of lbl-srg/modelica-buildings
+2017/02/07 08:19:13   Reviewing contents of lbl-srg/modelica-buildings
     Processing library Buildings @ Buildings 1.5
-2016/12/14 07:57:59 Processing tag v1.5+build.1
+2017/02/07 08:19:14 Processing tag v1.5+build.1
   1.5+build.1: Recording
-2016/12/14 07:57:59   Reviewing contents of lbl-srg/modelica-buildings
+2017/02/07 08:19:15   Reviewing contents of lbl-srg/modelica-buildings
     Processing library Buildings @ Buildings 1.5
-2016/12/14 07:58:01 Processing tag v1.4_build1
+2017/02/07 08:19:16 Processing tag v1.4_build1
   1.4_build1: Ignoring
 Processing: BuildingSystems (https://github.com/modelica-3rdparty/BuildingSystems, fork=true)
-2016/12/14 07:58:01 Source for BuildingSystems exists
+2017/02/07 08:19:17 Source for BuildingSystems exists
 Processing: buildsyspro (https://github.com/modelica-3rdparty/buildsyspro, fork=true)
-2016/12/14 07:58:02 Source for BuildSysPro exists
-2016/12/14 07:58:02 Processing tag v2015.12b
+2017/02/07 08:19:17 Source for BuildSysPro exists
+2017/02/07 08:19:18 Processing tag v2015.12b
   2015.12b: Ignoring
-2016/12/14 07:58:02 Processing tag v2015.12a
+2017/02/07 08:19:18 Processing tag v2015.12a
   2015.12a: Ignoring
-2016/12/14 07:58:02 Processing tag v2.0.0
-  2.0.0: Recording
-2016/12/14 07:58:03   Reviewing contents of edf-enerbat/BuildSysPro
+2017/02/07 08:19:18 Processing tag v2.1.0
+  2.1.0: Recording
+2017/02/07 08:19:18   Reviewing contents of edf-enerbat/BuildSysPro
     Processing library BuildSysPro @ BuildSysPro
-2016/12/14 07:58:04 Processing tag 2015.12b
+2017/02/07 08:19:20 Processing tag v2.0.0
+  2.0.0: Recording
+2017/02/07 08:19:20   Reviewing contents of edf-enerbat/BuildSysPro
+    Processing library BuildSysPro @ BuildSysPro
+2017/02/07 08:19:21 Processing tag 2015.12b
   2015.12b: Ignoring
 Processing: Chemical (https://github.com/modelica-3rdparty/Chemical, fork=true)
-2016/12/14 07:58:05 Source for Chemical exists
-2016/12/14 07:58:05 Processing tag v1.1.0
+2017/02/07 08:19:22 Source for Chemical exists
+2017/02/07 08:19:22 Processing tag v1.1.0
   1.1.0: Recording
-2016/12/14 07:58:06   Reviewing contents of MarekMatejak/Chemical
+2017/02/07 08:19:23   Reviewing contents of MarekMatejak/Chemical
     Processing library Chemical @ Chemical
-2016/12/14 07:58:07 Processing tag v1.1.0-gamma
+2017/02/07 08:19:24 Processing tag v1.1.0-gamma
   1.1.0-gamma: Recording
-2016/12/14 07:58:07   Reviewing contents of MarekMatejak/Chemical
+2017/02/07 08:19:25   Reviewing contents of MarekMatejak/Chemical
     Processing library Chemical @ Chemical
-2016/12/14 07:58:09 Processing tag v1.1.0-beta
+2017/02/07 08:19:26 Processing tag v1.1.0-beta
   1.1.0-beta: Recording
-2016/12/14 07:58:09   Reviewing contents of MarekMatejak/Chemical
+2017/02/07 08:19:27   Reviewing contents of MarekMatejak/Chemical
     Processing library Chemical @ Chemical 1.1.0
-2016/12/14 07:58:10 Processing tag v1.1.0-alpha
+2017/02/07 08:19:28 Processing tag v1.1.0-alpha
   1.1.0-alpha: Recording
-2016/12/14 07:58:11   Reviewing contents of MarekMatejak/Chemical
+2017/02/07 08:19:29   Reviewing contents of MarekMatejak/Chemical
     Processing library Chemical @ Chemical
-2016/12/14 07:58:12 Processing tag v1.0.0
+2017/02/07 08:19:30 Processing tag v1.0.0
   1.0.0: Recording
-2016/12/14 07:58:13   Reviewing contents of MarekMatejak/Chemical
+2017/02/07 08:19:31   Reviewing contents of MarekMatejak/Chemical
     Processing library Chemical @ Chemical 1.0.0
 Processing: ComplexLib (https://github.com/modelica-3rdparty/ComplexLib, fork=false)
-2016/12/14 07:58:14 No source for ComplexLib
-2016/12/14 07:58:15 Processing tag v1.0
+2017/02/07 08:19:32 No source for ComplexLib
+2017/02/07 08:19:33 Processing tag v1.0
   1.0: Recording
-2016/12/14 07:58:15   Reviewing contents of modelica-3rdparty/ComplexLib
+2017/02/07 08:19:33   Reviewing contents of modelica-3rdparty/ComplexLib
     Processing library ComplexLib @ ComplexLib.mo
 Processing: DESLib (https://github.com/modelica-3rdparty/DESLib, fork=false)
-2016/12/14 07:58:17 No source for DESLib
-2016/12/14 07:58:17 Processing tag v1.6.1
+2017/02/07 08:19:35 No source for DESLib
+2017/02/07 08:19:35 Processing tag v1.6.1
   1.6.1: Recording
-2016/12/14 07:58:18   Reviewing contents of modelica-3rdparty/DESLib
-2016/12/14 07:58:19 Error extracting uses annotation: Error while parsing uses annotation of DESLib 1.6.1/package.mo in github repository DESLib: Unable to normalize version for DESLib: Unable to normalize version string '1'
+2017/02/07 08:19:36   Reviewing contents of modelica-3rdparty/DESLib
+2017/02/07 08:19:38 Error extracting uses annotation: Error while parsing uses annotation of DESLib 1.6.1/package.mo in github repository DESLib: Unable to normalize version for DESLib: Unable to normalize version string '1'
     Processing library DESLib @ DESLib 1.6.1
 Processing: ExtendedPetriNets (https://github.com/modelica-3rdparty/ExtendedPetriNets, fork=false)
-2016/12/14 07:58:20 No source for ExtendedPetriNets
-2016/12/14 07:58:20 Processing tag v1.0
+2017/02/07 08:19:38 No source for ExtendedPetriNets
+2017/02/07 08:19:39 Processing tag v1.0
   1.0: Recording
-2016/12/14 07:58:20   Reviewing contents of modelica-3rdparty/ExtendedPetriNets
+2017/02/07 08:19:39   Reviewing contents of modelica-3rdparty/ExtendedPetriNets
     Processing library ExtendedPetriNets @ ExtendedPetriNets 1.0
 Processing: ExternalMemoryLib (https://github.com/modelica-3rdparty/ExternalMemoryLib, fork=true)
-2016/12/14 07:58:22 Source for ExternalMemoryLib exists
+2017/02/07 08:19:41 Source for ExternalMemoryLib exists
 Processing: ExternData (https://github.com/modelica-3rdparty/ExternData, fork=true)
-2016/12/14 07:58:23 Source for ExternData exists
-2016/12/14 07:58:23 Processing tag v2.1.0
+2017/02/07 08:19:41 Source for ExternData exists
+2017/02/07 08:19:42 Processing tag v2.1.0
   2.1.0: Recording
-2016/12/14 07:58:24   Reviewing contents of tbeu/ExternData
+2017/02/07 08:19:42   Reviewing contents of tbeu/ExternData
     Processing library ExternData @ ExternData
-2016/12/14 07:58:25 Processing tag v2.0.0
+2017/02/07 08:19:44 Processing tag v2.0.0
   2.0.0: Recording
-2016/12/14 07:58:26   Reviewing contents of tbeu/ExternData
+2017/02/07 08:19:44   Reviewing contents of tbeu/ExternData
     Processing library ExternData @ ExternData
-2016/12/14 07:58:27 Processing tag v1.1.0
+2017/02/07 08:19:45 Processing tag v1.1.0
   1.1.0: Recording
-2016/12/14 07:58:27   Reviewing contents of tbeu/ExternData
+2017/02/07 08:19:46   Reviewing contents of tbeu/ExternData
     Processing library ExternData @ ExternData
-2016/12/14 07:58:29 Processing tag v1.0.4
+2017/02/07 08:19:47 Processing tag v1.0.4
   1.0.4: Recording
-2016/12/14 07:58:29   Reviewing contents of tbeu/ExternData
+2017/02/07 08:19:48   Reviewing contents of tbeu/ExternData
     Processing library ExternData @ ExternData
-2016/12/14 07:58:30 Processing tag v1.0.3
+2017/02/07 08:19:49 Processing tag v1.0.3
   1.0.3: Recording
-2016/12/14 07:58:31   Reviewing contents of tbeu/ExternData
+2017/02/07 08:19:50   Reviewing contents of tbeu/ExternData
     Processing library ExternData @ ExternData
-2016/12/14 07:58:32 Processing tag v1.0.2
+2017/02/07 08:19:51 Processing tag v1.0.2
   1.0.2: Recording
-2016/12/14 07:58:32   Reviewing contents of tbeu/ExternData
+2017/02/07 08:19:51   Reviewing contents of tbeu/ExternData
     Processing library ExternData @ ExternData
-2016/12/14 07:58:34 Processing tag v1.0.1
+2017/02/07 08:19:53 Processing tag v1.0.1
   1.0.1: Recording
-2016/12/14 07:58:34   Reviewing contents of tbeu/ExternData
+2017/02/07 08:19:53   Reviewing contents of tbeu/ExternData
     Processing library ExternData @ ExternData
-2016/12/14 07:58:35 Processing tag v1.0.0
+2017/02/07 08:19:54 Processing tag v1.0.0
   1.0.0: Recording
-2016/12/14 07:58:36   Reviewing contents of tbeu/ExternData
+2017/02/07 08:19:55   Reviewing contents of tbeu/ExternData
     Processing library ExternData @ ExternData
 Processing: FastBuildings (https://github.com/modelica-3rdparty/FastBuildings, fork=true)
-2016/12/14 07:58:38 Source for FastBuildings exists
+2017/02/07 08:19:57 Source for FastBuildings exists
 Processing: FaultTriggering (https://github.com/modelica-3rdparty/FaultTriggering, fork=true)
-2016/12/14 07:58:38 Source for FaultTriggering exists
-2016/12/14 07:58:39 Processing tag v0.6.5
+2017/02/07 08:19:57 Source for FaultTriggering exists
+2017/02/07 08:19:58 Processing tag v0.6.6
+  0.6.6: Recording
+2017/02/07 08:19:58   Reviewing contents of DLR-SR/FaultTriggering
+    Processing library FaultTriggering @ FaultTriggering
+2017/02/07 08:20:00 Processing tag v0.6.5
   0.6.5: Recording
-2016/12/14 07:58:39   Reviewing contents of DLR-SR/FaultTriggering
+2017/02/07 08:20:00   Reviewing contents of DLR-SR/FaultTriggering
     Processing library FaultTriggering @ FaultTriggering
-2016/12/14 07:58:41 Processing tag v0.6.4
+2017/02/07 08:20:01 Processing tag v0.6.4
   0.6.4: Recording
-2016/12/14 07:58:41   Reviewing contents of DLR-SR/FaultTriggering
+2017/02/07 08:20:02   Reviewing contents of DLR-SR/FaultTriggering
     Processing library FaultTriggering @ FaultTriggering 0.5.0
-2016/12/14 07:58:42 Processing tag v0.6.3
+2017/02/07 08:20:03 Processing tag v0.6.3
   0.6.3: Recording
-2016/12/14 07:58:43   Reviewing contents of DLR-SR/FaultTriggering
+2017/02/07 08:20:04   Reviewing contents of DLR-SR/FaultTriggering
     Processing library FaultTriggering @ FaultTriggering
-2016/12/14 07:58:44 Processing tag v0.6.2
+2017/02/07 08:20:05 Processing tag v0.6.2
   0.6.2: Recording
-2016/12/14 07:58:44   Reviewing contents of DLR-SR/FaultTriggering
+2017/02/07 08:20:06   Reviewing contents of DLR-SR/FaultTriggering
     Processing library FaultTriggering @ FaultTriggering
-2016/12/14 07:58:46 Processing tag v0.5.0
+2017/02/07 08:20:08 Processing tag v0.5.0
   0.5.0: Recording
-2016/12/14 07:58:46   Reviewing contents of DLR-SR/FaultTriggering
+2017/02/07 08:20:08   Reviewing contents of DLR-SR/FaultTriggering
     Processing library FaultTriggering @ FaultTriggering 0.5.0
 Processing: FCSys (https://github.com/modelica-3rdparty/FCSys, fork=true)
-2016/12/14 07:58:48 Source for FCSys exists
-2016/12/14 07:58:48 Processing tag v0.2.6
+2017/02/07 08:20:10 Source for FCSys exists
+2017/02/07 08:20:10 Processing tag v0.2.6
   0.2.6: Recording
-2016/12/14 07:58:49   Reviewing contents of kdavies4/FCSys
+2017/02/07 08:20:11   Reviewing contents of kdavies4/FCSys
     Processing library FCSys @ FCSys 0.2.6
     Processing library FCSysTest @ FCSysTest
-2016/12/14 07:58:51 Processing tag v0.2.5
+2017/02/07 08:20:13 Processing tag v0.2.5
   0.2.5: Recording
-2016/12/14 07:58:52   Reviewing contents of kdavies4/FCSys
+2017/02/07 08:20:14   Reviewing contents of kdavies4/FCSys
     Processing library FCSys @ FCSys 0.2.5
     Processing library FCSysTest @ FCSysTest
-2016/12/14 07:58:54 Processing tag v0.2.4
+2017/02/07 08:20:16 Processing tag v0.2.4
   0.2.4: Recording
-2016/12/14 07:58:55   Reviewing contents of kdavies4/FCSys
+2017/02/07 08:20:17   Reviewing contents of kdavies4/FCSys
     Processing library FCSys @ FCSys 0.2.4
     Processing library FCSysTest @ FCSysTest
-2016/12/14 07:58:57 Processing tag v0.2.3
+2017/02/07 08:20:19 Processing tag v0.2.3
   0.2.3: Recording
-2016/12/14 07:58:58   Reviewing contents of kdavies4/FCSys
+2017/02/07 08:20:20   Reviewing contents of kdavies4/FCSys
     Processing library FCSys @ FCSys 0.2
     Processing library FCSysTest @ FCSysTest
-2016/12/14 07:59:00 Processing tag v0.2.2
+2017/02/07 08:20:22 Processing tag v0.2.2
   0.2.2: Recording
-2016/12/14 07:59:00   Reviewing contents of kdavies4/FCSys
+2017/02/07 08:20:23   Reviewing contents of kdavies4/FCSys
     Processing library FCSys @ FCSys 0.2
     Processing library FCSysTest @ FCSysTest
-2016/12/14 07:59:03 Processing tag v0.2.1
+2017/02/07 08:20:25 Processing tag v0.2.1
   0.2.1: Recording
-2016/12/14 07:59:03   Reviewing contents of kdavies4/FCSys
+2017/02/07 08:20:26   Reviewing contents of kdavies4/FCSys
     Processing library FCSys @ FCSys 0.2
     Processing library FCSysTest @ FCSysTest
-2016/12/14 07:59:06 Processing tag v0.2.0
+2017/02/07 08:20:28 Processing tag v0.2.0
   0.2.0: Recording
-2016/12/14 07:59:06   Reviewing contents of kdavies4/FCSys
+2017/02/07 08:20:29   Reviewing contents of kdavies4/FCSys
     Processing library FCSys @ FCSys 0.2
     Processing library FCSysTest @ FCSysTest
-2016/12/14 07:59:09 Processing tag v0.1.2
+2017/02/07 08:20:31 Processing tag v0.1.2
   0.1.2: Recording
-2016/12/14 07:59:09   Reviewing contents of kdavies4/FCSys
+2017/02/07 08:20:32   Reviewing contents of kdavies4/FCSys
     Processing library FCSys @ FCSys 0.1
     Processing library FCSysTest @ FCSysTest
-2016/12/14 07:59:12 Processing tag v0.1.1
+2017/02/07 08:20:34 Processing tag v0.1.1
   0.1.1: Recording
-2016/12/14 07:59:12   Reviewing contents of kdavies4/FCSys
+2017/02/07 08:20:35   Reviewing contents of kdavies4/FCSys
     Processing library FCSys @ FCSys 0.1
     Processing library FCSysTest @ FCSysTest
-2016/12/14 07:59:15 Processing tag v0.1.0
+2017/02/07 08:20:37 Processing tag v0.1.0
   0.1.0: Recording
-2016/12/14 07:59:15   Reviewing contents of kdavies4/FCSys
+2017/02/07 08:20:38   Reviewing contents of kdavies4/FCSys
     Processing library FCSys @ FCSys 0.1
     Processing library FCSysTest @ FCSysTest
-2016/12/14 07:59:18 Processing tag show
+2017/02/07 08:20:40 Processing tag show
   show: Ignoring
-2016/12/14 07:59:18 Processing tag diss
+2017/02/07 08:20:40 Processing tag diss
   diss: Ignoring
 Processing: FeedDriveLibrary (https://github.com/modelica-3rdparty/FeedDriveLibrary, fork=true)
-2016/12/14 07:59:18 Source for FeedDriveLibrary exists
-2016/12/14 07:59:18 Processing tag 2
+2017/02/07 08:20:41 Source for FeedDriveLibrary exists
+2017/02/07 08:20:41 Processing tag 2
   2: Ignoring
-2016/12/14 07:59:18 Processing tag 1.0.1
+2017/02/07 08:20:41 Processing tag 1.0.1
   1.0.1: Recording
-2016/12/14 07:59:19   Reviewing contents of denistwo/FeedDriveLibrary
+2017/02/07 08:20:42   Reviewing contents of denistwo/FeedDriveLibrary
     Processing library FeedDriveLibrary @ FeedDriveLibrary.mo
-2016/12/14 07:59:20 Processing tag 1.0.0
+2017/02/07 08:20:43 Processing tag 1.0.0
   1.0.0: Recording
-2016/12/14 07:59:20   Reviewing contents of denistwo/FeedDriveLibrary
+2017/02/07 08:20:43   Reviewing contents of denistwo/FeedDriveLibrary
     Processing library FeedDriveLibrary @ FeedDriveLibrary.mo
-2016/12/14 07:59:21 Processing tag 01
+2017/02/07 08:20:44 Processing tag 01
   01: Ignoring
 Processing: FuelCellLib (https://github.com/modelica-3rdparty/FuelCellLib, fork=false)
-2016/12/14 07:59:22 No source for FuelCellLib
-2016/12/14 07:59:22 Processing tag v1.0
+2017/02/07 08:20:45 No source for FuelCellLib
+2017/02/07 08:20:45 Processing tag v1.0
   1.0: Recording
-2016/12/14 07:59:23   Reviewing contents of modelica-3rdparty/FuelCellLib
+2017/02/07 08:20:46   Reviewing contents of modelica-3rdparty/FuelCellLib
     Processing library FuelCellLib @ FuelCellLib 1.0
 Processing: FuzzyControl (https://github.com/modelica-3rdparty/FuzzyControl, fork=false)
-2016/12/14 07:59:24 No source for FuzzyControl
-2016/12/14 07:59:25 Processing tag v1.0
+2017/02/07 08:20:47 No source for FuzzyControl
+2017/02/07 08:20:48 Processing tag v1.0
   1.0: Recording
-2016/12/14 07:59:25   Reviewing contents of modelica-3rdparty/FuzzyControl
+2017/02/07 08:20:48   Reviewing contents of modelica-3rdparty/FuzzyControl
     Processing library FuzzyControl @ FuzzyControl
 Processing: HelmholtzMedia (https://github.com/modelica-3rdparty/HelmholtzMedia, fork=true)
-2016/12/14 07:59:27 Source for HelmholtzMedia exists
-2016/12/14 07:59:27 Processing tag v0.9.7
+2017/02/07 08:20:50 Source for HelmholtzMedia exists
+2017/02/07 08:20:51 Processing tag v0.9.7
   0.9.7: Recording
-2016/12/14 07:59:28   Reviewing contents of thorade/HelmholtzMedia
+2017/02/07 08:20:51   Reviewing contents of thorade/HelmholtzMedia
     Processing library HelmholtzMedia @ HelmholtzMedia
-2016/12/14 07:59:30 Processing tag v0.9.6
+2017/02/07 08:20:53 Processing tag v0.9.6
   0.9.6: Recording
-2016/12/14 07:59:30   Reviewing contents of thorade/HelmholtzMedia
+2017/02/07 08:20:54   Reviewing contents of thorade/HelmholtzMedia
     Processing library HelmholtzMedia @ HelmholtzMedia
-2016/12/14 07:59:32 Processing tag v0.9.5
+2017/02/07 08:20:55 Processing tag v0.9.5
   0.9.5: Recording
-2016/12/14 07:59:32   Reviewing contents of thorade/HelmholtzMedia
+2017/02/07 08:20:56   Reviewing contents of thorade/HelmholtzMedia
     Processing library HelmholtzMedia @ HelmholtzMedia
-2016/12/14 07:59:34 Processing tag v0.9.4
+2017/02/07 08:20:58 Processing tag v0.9.4
   0.9.4: Recording
-2016/12/14 07:59:35   Reviewing contents of thorade/HelmholtzMedia
+2017/02/07 08:20:58   Reviewing contents of thorade/HelmholtzMedia
     Processing library HelmholtzMedia @ HelmholtzMedia
-2016/12/14 07:59:36 Processing tag v0.9.3
+2017/02/07 08:21:00 Processing tag v0.9.3
   0.9.3: Recording
-2016/12/14 07:59:37   Reviewing contents of thorade/HelmholtzMedia
+2017/02/07 08:21:00   Reviewing contents of thorade/HelmholtzMedia
     Processing library HelmholtzMedia @ HelmholtzMedia
-2016/12/14 07:59:39 Processing tag v0.9.2
+2017/02/07 08:21:02 Processing tag v0.9.2
   0.9.2: Recording
-2016/12/14 07:59:39   Reviewing contents of thorade/HelmholtzMedia
+2017/02/07 08:21:03   Reviewing contents of thorade/HelmholtzMedia
     Processing library HelmholtzMedia @ HelmholtzMedia
-2016/12/14 07:59:40 Processing tag v0.9.1
+2017/02/07 08:21:04 Processing tag v0.9.1
   0.9.1: Recording
-2016/12/14 07:59:41   Reviewing contents of thorade/HelmholtzMedia
-2016/12/14 07:59:41   Repository is a library
+2017/02/07 08:21:05   Reviewing contents of thorade/HelmholtzMedia
+2017/02/07 08:21:05   Repository is a library
     Processing library HelmholtzMedia @ .
-2016/12/14 07:59:42 Processing tag v0.9.0
+2017/02/07 08:21:06 Processing tag v0.9.0
   0.9.0: Recording
-2016/12/14 07:59:42   Reviewing contents of thorade/HelmholtzMedia
-2016/12/14 07:59:42   Repository is a library
+2017/02/07 08:21:06   Reviewing contents of thorade/HelmholtzMedia
+2017/02/07 08:21:06   Repository is a library
     Processing library HelmholtzMedia @ .
-2016/12/14 07:59:43 Processing tag v0.8.4
+2017/02/07 08:21:07 Processing tag v0.8.4
   0.8.4: Recording
-2016/12/14 07:59:43   Reviewing contents of thorade/HelmholtzMedia
-2016/12/14 07:59:44   Repository is a library
+2017/02/07 08:21:07   Reviewing contents of thorade/HelmholtzMedia
+2017/02/07 08:21:08   Repository is a library
     Processing library HelmholtzMedia @ .
-2016/12/14 07:59:44 Processing tag v0.8.3_Helium_beta
+2017/02/07 08:21:08 Processing tag v0.8.3_Helium_beta
   0.8.3_Helium_beta: Ignoring
-2016/12/14 07:59:44 Processing tag v0.8.2
+2017/02/07 08:21:08 Processing tag v0.8.2
   0.8.2: Recording
-2016/12/14 07:59:45   Reviewing contents of thorade/HelmholtzMedia
-2016/12/14 07:59:45   Repository is a library
+2017/02/07 08:21:09   Reviewing contents of thorade/HelmholtzMedia
+2017/02/07 08:21:09   Repository is a library
     Processing library HelmholtzMedia @ .
-2016/12/14 07:59:45 Processing tag v0.8.1
+2017/02/07 08:21:10 Processing tag v0.8.1
   0.8.1: Recording
-2016/12/14 07:59:46   Reviewing contents of thorade/HelmholtzMedia
-2016/12/14 07:59:46   Repository is a library
+2017/02/07 08:21:10   Reviewing contents of thorade/HelmholtzMedia
+2017/02/07 08:21:10   Repository is a library
     Processing library HelmholtzMedia @ .
-2016/12/14 07:59:47 Processing tag v0.8
+2017/02/07 08:21:11 Processing tag v0.8
   0.8: Recording
-2016/12/14 07:59:47   Reviewing contents of thorade/HelmholtzMedia
-2016/12/14 07:59:47   Repository is a library
+2017/02/07 08:21:11   Reviewing contents of thorade/HelmholtzMedia
+2017/02/07 08:21:12   Repository is a library
     Processing library HelmholtzMedia @ .
-2016/12/14 07:59:48 Processing tag v0.7.1
+2017/02/07 08:21:12 Processing tag v0.7.1
   0.7.1: Recording
-2016/12/14 07:59:48   Reviewing contents of thorade/HelmholtzMedia
-2016/12/14 07:59:48   Repository is a library
+2017/02/07 08:21:13   Reviewing contents of thorade/HelmholtzMedia
+2017/02/07 08:21:13   Repository is a library
     Processing library HelmholtzMedia @ .
-2016/12/14 07:59:49 Processing tag v0.7
+2017/02/07 08:21:14 Processing tag v0.7
   0.7: Recording
-2016/12/14 07:59:50   Reviewing contents of thorade/HelmholtzMedia
-2016/12/14 07:59:50   Repository is a library
+2017/02/07 08:21:14   Reviewing contents of thorade/HelmholtzMedia
+2017/02/07 08:21:14   Repository is a library
     Processing library HelmholtzMedia @ .
-2016/12/14 07:59:50 Processing tag v0.6.1
+2017/02/07 08:21:18 Processing tag v0.6.1
   0.6.1: Recording
-2016/12/14 07:59:51   Reviewing contents of thorade/HelmholtzMedia
-2016/12/14 07:59:51   Repository is a library
+2017/02/07 08:21:19   Reviewing contents of thorade/HelmholtzMedia
+2017/02/07 08:21:19   Repository is a library
     Processing library HelmholtzMedia @ .
-2016/12/14 07:59:52 Processing tag v0.6
+2017/02/07 08:21:19 Processing tag v0.6
   0.6: Recording
-2016/12/14 07:59:52   Reviewing contents of thorade/HelmholtzMedia
-2016/12/14 07:59:52   Repository is a library
+2017/02/07 08:21:20   Reviewing contents of thorade/HelmholtzMedia
+2017/02/07 08:21:20   Repository is a library
     Processing library HelmholtzMedia @ .
-2016/12/14 07:59:53 Processing tag v0.5
+2017/02/07 08:21:21 Processing tag v0.5
   0.5: Recording
-2016/12/14 07:59:53   Reviewing contents of thorade/HelmholtzMedia
-2016/12/14 07:59:53   Repository is a library
+2017/02/07 08:21:21   Reviewing contents of thorade/HelmholtzMedia
+2017/02/07 08:21:21   Repository is a library
     Processing library HelmholtzMedia @ .
-2016/12/14 07:59:54 Processing tag v0.4
+2017/02/07 08:21:22 Processing tag v0.4
   0.4: Recording
-2016/12/14 07:59:55   Reviewing contents of thorade/HelmholtzMedia
-2016/12/14 07:59:55   Repository is a library
+2017/02/07 08:21:22   Reviewing contents of thorade/HelmholtzMedia
+2017/02/07 08:21:23   Repository is a library
     Processing library HelmholtzMedia @ .
-2016/12/14 07:59:55 Processing tag v0.3
+2017/02/07 08:21:23 Processing tag v0.3
   0.3: Recording
-2016/12/14 07:59:56   Reviewing contents of thorade/HelmholtzMedia
-2016/12/14 07:59:56   Repository is a library
+2017/02/07 08:21:24   Reviewing contents of thorade/HelmholtzMedia
+2017/02/07 08:21:24   Repository is a library
     Processing library HelmholtzFluids @ .
-2016/12/14 07:59:57 Processing tag v0.2
+2017/02/07 08:21:25 Processing tag v0.2
   0.2: Recording
-2016/12/14 07:59:57   Reviewing contents of thorade/HelmholtzMedia
-2016/12/14 07:59:57   Repository is a library
+2017/02/07 08:21:26   Reviewing contents of thorade/HelmholtzMedia
+2017/02/07 08:21:26   Repository is a library
     Processing library HelmholtzFluids @ .
-2016/12/14 07:59:58 Processing tag v0.1
+2017/02/07 08:21:26 Processing tag v0.1
   0.1: Recording
-2016/12/14 07:59:58   Reviewing contents of thorade/HelmholtzMedia
-2016/12/14 07:59:58   Repository is a library
+2017/02/07 08:21:27   Reviewing contents of thorade/HelmholtzMedia
+2017/02/07 08:21:27   Repository is a library
     Processing library HelmholtzFluids @ .
+Processing: Icons (https://github.com/modelica-3rdparty/Icons, fork=true)
+2017/02/07 08:21:28 Source for Icons exists
 Processing: IdealizedContact (https://github.com/modelica-3rdparty/IdealizedContact, fork=true)
-2016/12/14 08:00:00 Source for IdealizedContact exists
-2016/12/14 08:00:00 Processing tag v0.2.0
+2017/02/07 08:21:29 Source for IdealizedContact exists
+2017/02/07 08:21:29 Processing tag v0.2.0
   0.2.0: Recording
-2016/12/14 08:00:01   Reviewing contents of oestersoetebier/IdealizedContact
+2017/02/07 08:21:30   Reviewing contents of oestersoetebier/IdealizedContact
     Processing library IdealizedContact @ IdealizedContact 0.1.0
     Processing library IdealizedContact @ IdealizedContact 0.2.0
-2016/12/14 08:00:03 Processing tag v0.1.0
+2017/02/07 08:21:33 Processing tag v0.1.0
   0.1.0: Recording
-2016/12/14 08:00:04   Reviewing contents of oestersoetebier/IdealizedContact
+2017/02/07 08:21:33   Reviewing contents of oestersoetebier/IdealizedContact
     Processing library IdealizedContact @ IdealizedContact 0.1.0
 Processing: IDEAS (https://github.com/modelica-3rdparty/IDEAS, fork=true)
-2016/12/14 08:00:06 Source for IDEAS exists
-2016/12/14 08:00:07 Processing tag versionLinearisationPaper
+2017/02/07 08:21:35 Source for IDEAS exists
+2017/02/07 08:21:35 Processing tag versionLinearisationPaper
   ersionLinearisationPaper: Ignoring
-2016/12/14 08:00:07 Processing tag v0.3.0
+2017/02/07 08:21:35 Processing tag v0.3.0
   0.3.0: Recording
-2016/12/14 08:00:07   Reviewing contents of open-ideas/IDEAS
+2017/02/07 08:21:36   Reviewing contents of open-ideas/IDEAS
     Processing library IDEAS @ IDEAS
-2016/12/14 08:00:10 Processing tag _LinearisationPaper
+2017/02/07 08:21:38 Processing tag _LinearisationPaper
   _LinearisationPaper: Ignoring
 Processing: IndustrialControlSystems (https://github.com/modelica-3rdparty/IndustrialControlSystems, fork=true)
-2016/12/14 08:00:10 Source for IndustrialControlSystems exists
-2016/12/14 08:00:11 Processing tag v1.0
+2017/02/07 08:21:39 Source for IndustrialControlSystems exists
+2017/02/07 08:21:39 Processing tag v1.0
   1.0: Recording
-2016/12/14 08:00:11   Reviewing contents of mbonvini/IndustrialControlSystems
+2017/02/07 08:21:40   Reviewing contents of mbonvini/IndustrialControlSystems
     Processing library IndustrialControlSystems @ IndustrialControlSystems 1.0
 Processing: ipsl (https://github.com/modelica-3rdparty/ipsl, fork=true)
-2016/12/14 08:00:13 Source for ipsl exists
-2016/12/14 08:00:14 Processing tag v1.0.0
+2017/02/07 08:21:41 Source for ipsl exists
+2017/02/07 08:21:42 Processing tag v1.0.0
   1.0.0: Recording
-2016/12/14 08:00:14   Reviewing contents of itesla/ipsl
+2017/02/07 08:21:42   Reviewing contents of itesla/ipsl
     Processing library iPSL @ iPSL
-2016/12/14 08:00:16 Processing tag v0.8.1
+2017/02/07 08:21:44 Processing tag v0.8.1
   0.8.1: Recording
-2016/12/14 08:00:16   Reviewing contents of itesla/ipsl
+2017/02/07 08:21:45   Reviewing contents of itesla/ipsl
     Processing library iPSL @ iPSL
-2016/12/14 08:00:18 Processing tag v0.8.0
+2017/02/07 08:21:46 Processing tag v0.8.0
   0.8.0: Recording
-2016/12/14 08:00:18   Reviewing contents of itesla/ipsl
+2017/02/07 08:21:46   Reviewing contents of itesla/ipsl
     Processing library iPSL @ iPSL
-2016/12/14 08:00:19 Processing tag v0.8
+2017/02/07 08:21:48 Processing tag v0.8
   0.8: Recording
-2016/12/14 08:00:20   Reviewing contents of itesla/ipsl
+2017/02/07 08:21:48   Reviewing contents of itesla/ipsl
     Processing library iPSL @ iPSL
-2016/12/14 08:00:21 Processing tag Tuto_ModProd_2016
+2017/02/07 08:21:49 Processing tag Tuto_ModProd_2016
   Tuto_ModProd_2016: Ignoring
 Processing: KeyWordIO (https://github.com/modelica-3rdparty/KeyWordIO, fork=true)
-2016/12/14 08:00:22 Source for KeyWordIO exists
-2016/12/14 08:00:22 Processing tag v0.4.0
+2017/02/07 08:21:50 Source for KeyWordIO exists
+2017/02/07 08:21:50 Processing tag v0.6.0
+  0.6.0: Recording
+2017/02/07 08:21:51   Reviewing contents of christiankral/KeyWordIO
+    Processing library KeyWordIO @ KeyWordIO
+2017/02/07 08:21:52 Processing tag v0.5.0
+  0.5.0: Recording
+2017/02/07 08:21:53   Reviewing contents of christiankral/KeyWordIO
+    Processing library KeyWordIO @ KeyWordIO
+2017/02/07 08:21:54 Processing tag v0.4.0
   0.4.0: Recording
-2016/12/14 08:00:23   Reviewing contents of christiankral/KeyWordIO
+2017/02/07 08:21:55   Reviewing contents of christiankral/KeyWordIO
     Processing library KeyWordIO @ KeyWordIO
-2016/12/14 08:00:24 Processing tag v0.3.0
+2017/02/07 08:21:56 Processing tag v0.3.0
   0.3.0: Recording
-2016/12/14 08:00:25   Reviewing contents of christiankral/KeyWordIO
+2017/02/07 08:21:56   Reviewing contents of christiankral/KeyWordIO
     Processing library KeyWordIO @ KeyWordIO
-2016/12/14 08:00:26 Processing tag v0.2.0
+2017/02/07 08:21:58 Processing tag v0.2.0
   0.2.0: Recording
-2016/12/14 08:00:26   Reviewing contents of christiankral/KeyWordIO
+2017/02/07 08:21:58   Reviewing contents of christiankral/KeyWordIO
     Processing library KeyWordIO @ KeyWordIO
-2016/12/14 08:00:28 Processing tag v0.1.0
+2017/02/07 08:21:59 Processing tag v0.1.0
   0.1.0: Recording
-2016/12/14 08:00:28   Reviewing contents of christiankral/KeyWordIO
+2017/02/07 08:22:00   Reviewing contents of christiankral/KeyWordIO
     Processing library KeyWordIO @ KeyWordIO
 Processing: LinearMPC (https://github.com/modelica-3rdparty/LinearMPC, fork=false)
-2016/12/14 08:00:30 No source for LinearMPC
-2016/12/14 08:00:30 Processing tag v1.0
+2017/02/07 08:22:02 No source for LinearMPC
+2017/02/07 08:22:02 Processing tag v1.0
   1.0: Recording
-2016/12/14 08:00:31   Reviewing contents of modelica-3rdparty/LinearMPC
+2017/02/07 08:22:03   Reviewing contents of modelica-3rdparty/LinearMPC
     Processing library LinearMPC @ LinearMPC.mo
-2016/12/14 08:00:32 Processing tag v0.1
+2017/02/07 08:22:04 Processing tag v0.1
   0.1: Recording
-2016/12/14 08:00:32   Reviewing contents of modelica-3rdparty/LinearMPC
-2016/12/14 08:00:33 Error extracting uses annotation: Error while parsing uses annotation of linearMPC.mo in github repository LinearMPC: Unable to normalize version for ThermoPower: Unable to normalize version string '2.01IRT'
+2017/02/07 08:22:04   Reviewing contents of modelica-3rdparty/LinearMPC
+2017/02/07 08:22:05 Error extracting uses annotation: Error while parsing uses annotation of linearMPC.mo in github repository LinearMPC: Unable to normalize version for ThermoPower: Unable to normalize version string '2.01IRT'
     Processing library LinearMPC @ linearMPC.mo
 Processing: modelica-flight (https://github.com/modelica-3rdparty/modelica-flight, fork=true)
-2016/12/14 08:00:34 Source for modelica-flight exists
+2017/02/07 08:22:06 Source for modelica-flight exists
 Processing: Modelica-MVEM (https://github.com/modelica-3rdparty/Modelica-MVEM, fork=true)
-2016/12/14 08:00:34 Source for Modelica-MVEM exists
-2016/12/14 08:00:35 Processing tag v1.0.1
+2017/02/07 08:22:06 Source for Modelica-MVEM exists
+2017/02/07 08:22:07 Processing tag v1.0.1
   1.0.1: Recording
-2016/12/14 08:00:35   Reviewing contents of droberg/Modelica-MVEM
+2017/02/07 08:22:07   Reviewing contents of droberg/Modelica-MVEM
     Processing library MVEMLib @ MVEMLib
-2016/12/14 08:00:36 Processing tag v1.0.0
+2017/02/07 08:22:09 Processing tag v1.0.0
   1.0.0: Recording
-2016/12/14 08:00:37   Reviewing contents of droberg/Modelica-MVEM
+2017/02/07 08:22:09   Reviewing contents of droberg/Modelica-MVEM
     Processing library MVEMLib @ MVEMLib
 Processing: ModelicaDEVS (https://github.com/modelica-3rdparty/ModelicaDEVS, fork=false)
-2016/12/14 08:00:39 No source for ModelicaDEVS
-2016/12/14 08:00:39 Processing tag v1.0
+2017/02/07 08:22:11 No source for ModelicaDEVS
+2017/02/07 08:22:11 Processing tag v1.0
 Processing: ModelicaDFR (https://github.com/modelica-3rdparty/ModelicaDFR, fork=true)
-2016/12/14 08:00:40 Source for ModelicaDFR exists
+2017/02/07 08:22:12 Source for ModelicaDFR exists
 Processing: MotorcycleDynamics (https://github.com/modelica-3rdparty/MotorcycleDynamics, fork=false)
-2016/12/14 08:00:40 No source for MotorcycleDynamics
-2016/12/14 08:00:41 Processing tag v0.7.0
+2017/02/07 08:22:12 No source for MotorcycleDynamics
+2017/02/07 08:22:13 Processing tag v0.7.0
   0.7.0: Recording
-2016/12/14 08:00:41   Reviewing contents of modelica-3rdparty/MotorcycleDynamics
+2017/02/07 08:22:13   Reviewing contents of modelica-3rdparty/MotorcycleDynamics
     Processing library MotorcycleDynamics @ MotorcycleDynamics 0.7.0.mo
-2016/12/14 08:00:43 Processing tag v0.7
+2017/02/07 08:22:16 Processing tag v0.7
   0.7: Recording
-2016/12/14 08:00:44   Reviewing contents of modelica-3rdparty/MotorcycleDynamics
+2017/02/07 08:22:16   Reviewing contents of modelica-3rdparty/MotorcycleDynamics
     Processing library MotorcycleDynamics @ MotorcycleDynamics 0.7
 Processing: MotorcycleLib (https://github.com/modelica-3rdparty/MotorcycleLib, fork=false)
-2016/12/14 08:00:46 No source for MotorcycleLib
-2016/12/14 08:00:46 Processing tag v1.0
+2017/02/07 08:22:18 No source for MotorcycleLib
+2017/02/07 08:22:19 Processing tag v1.0
   1.0: Recording
-2016/12/14 08:00:47   Reviewing contents of modelica-3rdparty/MotorcycleLib
+2017/02/07 08:22:19   Reviewing contents of modelica-3rdparty/MotorcycleLib
     Processing library MotorcycleLib @ MotorcycleLib 1.0
 Processing: msgpack-modelica (https://github.com/modelica-3rdparty/msgpack-modelica, fork=false)
-2016/12/14 08:00:49 No source for msgpack-modelica
-2016/12/14 08:00:49 Processing tag v0.1
+2017/02/07 08:22:21 No source for msgpack-modelica
+2017/02/07 08:22:22 Processing tag v0.1
   0.1: Recording
-2016/12/14 08:00:50   Reviewing contents of modelica-3rdparty/msgpack-modelica
+2017/02/07 08:22:22   Reviewing contents of modelica-3rdparty/msgpack-modelica
     Processing library MessagePack @ MessagePack
 Processing: MultiBondLib (https://github.com/modelica-3rdparty/MultiBondLib, fork=false)
-2016/12/14 08:00:51 No source for MultiBondLib
-2016/12/14 08:00:52 Processing tag v1.3
+2017/02/07 08:22:24 No source for MultiBondLib
+2017/02/07 08:22:25 Processing tag v1.3
   1.3: Recording
-2016/12/14 08:00:52   Reviewing contents of modelica-3rdparty/MultiBondLib
+2017/02/07 08:22:25   Reviewing contents of modelica-3rdparty/MultiBondLib
     Processing library MultiBondLib @ MultiBondLib 1.3
 Processing: MultiPhaseMixtureMedia (https://github.com/modelica-3rdparty/MultiPhaseMixtureMedia, fork=true)
-2016/12/14 08:00:54 Source for MultiPhaseMixtureMedia exists
-2016/12/14 08:00:55 Processing tag v1.0.0
+2017/02/07 08:22:29 Source for MultiPhaseMixtureMedia exists
+2017/02/07 08:22:29 Processing tag v1.0.0
   1.0.0: Recording
-2016/12/14 08:00:55   Reviewing contents of jwindahlModelon/MultiPhaseMixtureMedia
+2017/02/07 08:22:30   Reviewing contents of jwindahlModelon/MultiPhaseMixtureMedia
     No Modelica libraries found in repository MultiPhaseMixtureMedia:1.0.0
 Processing: NCLib (https://github.com/modelica-3rdparty/NCLib, fork=false)
-2016/12/14 08:00:57 No source for NCLib
-2016/12/14 08:00:57 Processing tag v0.82
+2017/02/07 08:22:31 No source for NCLib
+2017/02/07 08:22:32 Processing tag v0.82
 Processing: netCDF-DataReader (https://github.com/modelica-3rdparty/netCDF-DataReader, fork=true)
-2016/12/14 08:00:58 Source for netCDF-DataReader exists
-2016/12/14 08:00:58 Processing tag v2.4.0
+2017/02/07 08:22:32 Source for netCDF-DataReader exists
+2017/02/07 08:22:33 Processing tag v2.4.0
   2.4.0: Recording
-2016/12/14 08:00:59   Reviewing contents of tbeu/netCDF-DataReader
+2017/02/07 08:22:33   Reviewing contents of tbeu/netCDF-DataReader
     Processing library NcDataReader2 @ NcDataReader2
 Processing: NeuralNetwork (https://github.com/modelica-3rdparty/NeuralNetwork, fork=false)
-2016/12/14 08:01:01 No source for NeuralNetwork
-2016/12/14 08:01:01 Processing tag v1.0
+2017/02/07 08:22:35 No source for NeuralNetwork
+2017/02/07 08:22:36 Processing tag v1.0
   1.0: Recording
-2016/12/14 08:01:02   Reviewing contents of modelica-3rdparty/NeuralNetwork
+2017/02/07 08:22:36   Reviewing contents of modelica-3rdparty/NeuralNetwork
     Processing library NeuralNetwork @ NeuralNetwork 1.0
 Processing: Noise (https://github.com/modelica-3rdparty/Noise, fork=true)
-2016/12/14 08:01:03 Source for Noise exists
-2016/12/14 08:01:04 Processing tag v1.0-beta.1
+2017/02/07 08:22:38 Source for Noise exists
+2017/02/07 08:22:38 Processing tag v1.0-beta.1
   1.0-beta.1: Recording
-2016/12/14 08:01:04   Reviewing contents of DLR-SR/Noise
+2017/02/07 08:22:39   Reviewing contents of DLR-SR/Noise
     Processing library Modelica_Noise @ Modelica_Noise 1.0 Beta.1
-2016/12/14 08:01:06 Processing tag v0.2.0
+2017/02/07 08:22:40 Processing tag v0.2.0
   0.2.0: Recording
-2016/12/14 08:01:06   Reviewing contents of DLR-SR/Noise
+2017/02/07 08:22:41   Reviewing contents of DLR-SR/Noise
     Processing library Noise @ Noise 0.2.0
 Processing: ObjectStab (https://github.com/modelica-3rdparty/ObjectStab, fork=false)
-2016/12/14 08:01:08 No source for ObjectStab
-2016/12/14 08:01:08 Processing tag v1.0.3
+2017/02/07 08:22:42 No source for ObjectStab
+2017/02/07 08:22:43 Processing tag v1.0.3
   1.0.3: Recording
-2016/12/14 08:01:09   Reviewing contents of modelica-3rdparty/ObjectStab
+2017/02/07 08:22:43   Reviewing contents of modelica-3rdparty/ObjectStab
     Processing library ObjectStab @ ObjectStab 1.0.3
 Processing: open-bldc-modelica (https://github.com/modelica-3rdparty/open-bldc-modelica, fork=true)
-2016/12/14 08:01:11 Source for open-bldc-modelica exists
+2017/02/07 08:22:45 Source for open-bldc-modelica exists
 Processing: openfdm (https://github.com/modelica-3rdparty/openfdm, fork=true)
-2016/12/14 08:01:11 Source for openfdm exists
+2017/02/07 08:22:46 Source for openfdm exists
 Processing: OpenHydraulics (https://github.com/modelica-3rdparty/OpenHydraulics, fork=true)
-2016/12/14 08:01:12 Source for OpenHydraulics exists
-2016/12/14 08:01:12 Processing tag v1.0.1
+2017/02/07 08:22:46 Source for OpenHydraulics exists
+2017/02/07 08:22:47 Processing tag v1.0.1
   1.0.1: Recording
-2016/12/14 08:01:13   Reviewing contents of cparedis/OpenHydraulics
+2017/02/07 08:22:47   Reviewing contents of cparedis/OpenHydraulics
     Processing library OpenHydraulics @ OpenHydraulics
-2016/12/14 08:01:14 Processing tag v1.0
+2017/02/07 08:22:49 Processing tag v1.0
   1.0: Recording
-2016/12/14 08:01:15   Reviewing contents of cparedis/OpenHydraulics
+2017/02/07 08:22:49   Reviewing contents of cparedis/OpenHydraulics
     Processing library OpenHydraulics @ OpenHydraulics
 Processing: PDELib (https://github.com/modelica-3rdparty/PDELib, fork=false)
-2016/12/14 08:01:16 No source for PDELib
-2016/12/14 08:01:17 Processing tag v1.0
+2017/02/07 08:22:51 No source for PDELib
+2017/02/07 08:22:51 Processing tag v1.0
   1.0: Recording
-2016/12/14 08:01:17   Reviewing contents of modelica-3rdparty/PDELib
+2017/02/07 08:22:52   Reviewing contents of modelica-3rdparty/PDELib
     Processing library PDE @ PDELib 1.0
 Processing: PhotoVoltaics (https://github.com/modelica-3rdparty/PhotoVoltaics, fork=true)
-2016/12/14 08:01:19 Source for PhotoVoltaics exists
+2017/02/07 08:22:54 Source for PhotoVoltaics exists
+2017/02/07 08:22:54 Processing tag v0.3.2
+  0.3.2: Recording
+2017/02/07 08:22:55   Reviewing contents of christiankral/PhotoVoltaics
+    Processing library PhotoVoltaics @ PhotoVoltaics.mo
+    Processing library PhotoVoltaics_TGM @ PhotoVoltaics_TGM.mo
+2017/02/07 08:22:57 Processing tag v0.3.1
+  0.3.1: Recording
+2017/02/07 08:22:57   Reviewing contents of christiankral/PhotoVoltaics
+    Processing library PhotoVoltaics @ PhotoVoltaics.mo
+    Processing library PhotoVoltaics_TGM @ PhotoVoltaics_TGM.mo
+2017/02/07 08:22:59 Processing tag v0.3.0
+  0.3.0: Recording
+2017/02/07 08:23:00   Reviewing contents of christiankral/PhotoVoltaics
+    Processing library PhotoVoltaics @ PhotoVoltaics.mo
+    Processing library PhotoVoltaics_TGM @ PhotoVoltaics_TGM.mo
+2017/02/07 08:23:02 Processing tag v0.2.1
+  0.2.1: Recording
+2017/02/07 08:23:03   Reviewing contents of christiankral/PhotoVoltaics
+    Processing library PhotoVoltaics @ PhotoVoltaics.mo
+    Processing library PhotoVoltaics_TGM @ PhotoVoltaics_TGM.mo
+2017/02/07 08:23:05 Processing tag v0.1.0
+  0.1.0: Recording
+2017/02/07 08:23:05   Reviewing contents of christiankral/PhotoVoltaics
+    Processing library PhotoVoltaics @ PhotoVoltaics.mo
+    Processing library PhotoVoltaics_Buildings @ PhotoVoltaics_Buildings.mo
 Processing: Physiolibrary (https://github.com/modelica-3rdparty/Physiolibrary, fork=true)
-2016/12/14 08:01:20 Source for Physiolibrary exists
-2016/12/14 08:01:20 Processing tag v2.3.1
+2017/02/07 08:23:08 Source for Physiolibrary exists
+2017/02/07 08:23:09 Processing tag v2.3.1
   2.3.1: Recording
-2016/12/14 08:01:21   Reviewing contents of MarekMatejak/Physiolibrary
+2017/02/07 08:23:09   Reviewing contents of MarekMatejak/Physiolibrary
     Processing library Physiolibrary @ Physiolibrary
-2016/12/14 08:01:22 Processing tag v2.3.0
+2017/02/07 08:23:11 Processing tag v2.3.0
   2.3.0: Recording
-2016/12/14 08:01:23   Reviewing contents of MarekMatejak/Physiolibrary
+2017/02/07 08:23:11   Reviewing contents of MarekMatejak/Physiolibrary
     Processing library Physiolibrary @ Physiolibrary 2.3.0
-2016/12/14 08:01:24 Processing tag v2.2.0
+2017/02/07 08:23:13 Processing tag v2.2.0
   2.2.0: Recording
-2016/12/14 08:01:24   Reviewing contents of MarekMatejak/Physiolibrary
+2017/02/07 08:23:13   Reviewing contents of MarekMatejak/Physiolibrary
     Processing library Physiolibrary @ Physiolibrary 2.2.0
-2016/12/14 08:01:26 Processing tag v2.1.1
+2017/02/07 08:23:14 Processing tag v2.1.1
   2.1.1: Recording
-2016/12/14 08:01:26   Reviewing contents of MarekMatejak/Physiolibrary
+2017/02/07 08:23:15   Reviewing contents of MarekMatejak/Physiolibrary
     Processing library Physiolibrary @ Physiolibrary 2.1.1
-2016/12/14 08:01:27 Processing tag v2.1.0
+2017/02/07 08:23:16 Processing tag v2.1.0
   2.1.0: Recording
-2016/12/14 08:01:28   Reviewing contents of MarekMatejak/Physiolibrary
+2017/02/07 08:23:17   Reviewing contents of MarekMatejak/Physiolibrary
     Processing library Physiolibrary @ Physiolibrary 2.1.0
-2016/12/14 08:01:29 Processing tag v2.0.2
+2017/02/07 08:23:18 Processing tag v2.0.2
   2.0.2: Recording
-2016/12/14 08:01:30   Reviewing contents of MarekMatejak/Physiolibrary
+2017/02/07 08:23:19   Reviewing contents of MarekMatejak/Physiolibrary
     Processing library Physiolibrary @ Physiolibrary 2.0.2
-2016/12/14 08:01:31 Processing tag v2.0.1
+2017/02/07 08:23:20 Processing tag v2.0.1
   2.0.1: Recording
-2016/12/14 08:01:31   Reviewing contents of MarekMatejak/Physiolibrary
+2017/02/07 08:23:21   Reviewing contents of MarekMatejak/Physiolibrary
     Processing library Physiolibrary @ Physiolibrary
-2016/12/14 08:01:33 Processing tag v2.0.0
+2017/02/07 08:23:22 Processing tag v2.0.0
   2.0.0: Recording
-2016/12/14 08:01:33   Reviewing contents of MarekMatejak/Physiolibrary
+2017/02/07 08:23:22   Reviewing contents of MarekMatejak/Physiolibrary
     Processing library Physiolibrary @ Physiolibrary 2.0.0
-2016/12/14 08:01:34 Processing tag v1.2.0
+2017/02/07 08:23:24 Processing tag v1.2.0
   1.2.0: Recording
-2016/12/14 08:01:35   Reviewing contents of MarekMatejak/Physiolibrary
+2017/02/07 08:23:24   Reviewing contents of MarekMatejak/Physiolibrary
     Processing library Physiolibrary @ Physiolibrary 1.2.0
-2016/12/14 08:01:36 Processing tag v1.1.0
+2017/02/07 08:23:25 Processing tag v1.1.0
   1.1.0: Recording
-2016/12/14 08:01:37   Reviewing contents of MarekMatejak/Physiolibrary
+2017/02/07 08:23:26   Reviewing contents of MarekMatejak/Physiolibrary
     Processing library Physiolibrary @ Physiolibrary 1.1.0
-2016/12/14 08:01:38 Processing tag v1.0.1
+2017/02/07 08:23:27 Processing tag v1.0.1
   1.0.1: Recording
-2016/12/14 08:01:38   Reviewing contents of MarekMatejak/Physiolibrary
+2017/02/07 08:23:28   Reviewing contents of MarekMatejak/Physiolibrary
     Processing library Physiolibrary @ Physiolibrary 1.0.1
-2016/12/14 08:01:40 Processing tag v1.0.0
+2017/02/07 08:23:29 Processing tag v1.0.0
   1.0.0: Recording
-2016/12/14 08:01:40   Reviewing contents of MarekMatejak/Physiolibrary
+2017/02/07 08:23:30   Reviewing contents of MarekMatejak/Physiolibrary
     Processing library Physiolibrary @ Physiolibrary 1.0.0
 Processing: Physiomodel (https://github.com/modelica-3rdparty/Physiomodel, fork=true)
-2016/12/14 08:01:42 Source for Physiomodel exists
-2016/12/14 08:01:42 Processing tag v1.0.0
+2017/02/07 08:23:31 Source for Physiomodel exists
+2017/02/07 08:23:32 Processing tag v1.0.0
   1.0.0: Recording
-2016/12/14 08:01:43   Reviewing contents of physiology/Physiomodel
+2017/02/07 08:23:32   Reviewing contents of physiology/Physiomodel
     Processing library Physiomodel @ Physiomodel
 Processing: PlanarMechanics (https://github.com/modelica-3rdparty/PlanarMechanics, fork=true)
-2016/12/14 08:01:45 Source for PlanarMechanics exists
-2016/12/14 08:01:45 Processing tag v1.3.0
+2017/02/07 08:23:35 Source for PlanarMechanics exists
+2017/02/07 08:23:35 Processing tag v1.4.0
+  1.4.0: Recording
+2017/02/07 08:23:36   Reviewing contents of dzimmer/PlanarMechanics
+    Processing library PlanarMechanics @ PlanarMechanics 1.4.0
+2017/02/07 08:23:37 Processing tag v1.3.0
   1.3.0: Recording
-2016/12/14 08:01:46   Reviewing contents of dzimmer/PlanarMechanics
+2017/02/07 08:23:38   Reviewing contents of dzimmer/PlanarMechanics
     Processing library PlanarMechanics @ PlanarMechanics
-2016/12/14 08:01:47 Processing tag v1.2.0
+2017/02/07 08:23:39 Processing tag v1.2.0
   1.2.0: Recording
-2016/12/14 08:01:48   Reviewing contents of dzimmer/PlanarMechanics
+2017/02/07 08:23:39   Reviewing contents of dzimmer/PlanarMechanics
     Processing library PlanarMechanics @ PlanarMechanics 1.2.0
 Processing: PNlib (https://github.com/modelica-3rdparty/PNlib, fork=true)
-2016/12/14 08:01:49 Source for PNlib exists
-2016/12/14 08:01:50 Processing tag v2.0
+2017/02/07 08:23:41 Source for PNlib exists
+2017/02/07 08:23:42 Processing tag v2.0
   2.0: Recording
-2016/12/14 08:01:50   Reviewing contents of lochel/PNlib
+2017/02/07 08:23:42   Reviewing contents of lochel/PNlib
     Processing library PNlib @ PNlib
-2016/12/14 08:01:53 Processing tag v1.3
+2017/02/07 08:23:45 Processing tag v1.3
   1.3: Recording
-2016/12/14 08:01:53   Reviewing contents of lochel/PNlib
+2017/02/07 08:23:45   Reviewing contents of lochel/PNlib
     Processing library PNlib @ PNlib
-2016/12/14 08:01:55 Processing tag v1.2
+2017/02/07 08:23:47 Processing tag v1.2
   1.2: Recording
-2016/12/14 08:01:56   Reviewing contents of lochel/PNlib
+2017/02/07 08:23:48   Reviewing contents of lochel/PNlib
     Processing library PNlib @ PNlib
-2016/12/14 08:01:58 Processing tag v1.1
+2017/02/07 08:23:50 Processing tag v1.1
   1.1: Recording
-2016/12/14 08:01:59   Reviewing contents of lochel/PNlib
+2017/02/07 08:23:51   Reviewing contents of lochel/PNlib
     Processing library PNlib @ PNlib
-2016/12/14 08:02:00 Processing tag v1.0
+2017/02/07 08:23:52 Processing tag v1.0
   1.0: Recording
-2016/12/14 08:02:00   Reviewing contents of lochel/PNlib
+2017/02/07 08:23:53   Reviewing contents of lochel/PNlib
     Processing library PNlib @ PNlib.mo
 Processing: PraxisSimulationstechnik (https://github.com/modelica-3rdparty/PraxisSimulationstechnik, fork=true)
-2016/12/14 08:02:02 Source for PraxisSimulationstechnik exists
+2017/02/07 08:23:54 Source for PraxisSimulationstechnik exists
 Processing: PVSystems (https://github.com/modelica-3rdparty/PVSystems, fork=true)
-2016/12/14 08:02:03 Source for PVSystems exists
+2017/02/07 08:23:55 Source for PVSystems exists
 Processing: QCalc (https://github.com/modelica-3rdparty/QCalc, fork=true)
-2016/12/14 08:02:04 Source for QCalc exists
-2016/12/14 08:02:04 Processing tag v0.3.3
+2017/02/07 08:23:56 Source for QCalc exists
+2017/02/07 08:23:56 Processing tag v0.3.3
   0.3.3: Recording
-2016/12/14 08:02:05   Reviewing contents of kdavies4/QCalc
+2017/02/07 08:23:57   Reviewing contents of kdavies4/QCalc
     Processing library QCalc @ QCalc
     Processing library QCalcTests @ QCalcTests
-2016/12/14 08:02:08 Processing tag v0.3.2
+2017/02/07 08:24:00 Processing tag v0.3.2
   0.3.2: Recording
-2016/12/14 08:02:08   Reviewing contents of kdavies4/QCalc
+2017/02/07 08:24:00   Reviewing contents of kdavies4/QCalc
     Processing library QCalc @ QCalc 0.3.2
     Processing library QCalcTests @ QCalcTests
-2016/12/14 08:02:11 Processing tag v0.3.1
+2017/02/07 08:24:03 Processing tag v0.3.1
   0.3.1: Recording
-2016/12/14 08:02:11   Reviewing contents of kdavies4/QCalc
+2017/02/07 08:24:04   Reviewing contents of kdavies4/QCalc
     Processing library QCalc @ QCalc 0.3.1
     Processing library QCalcTests @ QCalcTests
-2016/12/14 08:02:14 Processing tag v0.3.0
+2017/02/07 08:24:07 Processing tag v0.3.0
   0.3.0: Recording
-2016/12/14 08:02:15   Reviewing contents of kdavies4/QCalc
+2017/02/07 08:24:07   Reviewing contents of kdavies4/QCalc
     Processing library QCalc @ QCalc 0.3.0
     Processing library QCalcTests @ QCalcTests
-2016/12/14 08:02:18 Processing tag v0.2.1
+2017/02/07 08:24:10 Processing tag v0.2.1
   0.2.1: Recording
-2016/12/14 08:02:18   Reviewing contents of kdavies4/QCalc
+2017/02/07 08:24:11   Reviewing contents of kdavies4/QCalc
     Processing library QCalc @ QCalc 0.2.1
     Processing library QCalcTests @ QCalcTests
-2016/12/14 08:02:21 Processing tag v0.2.0
+2017/02/07 08:24:14 Processing tag v0.2.0
   0.2.0: Recording
-2016/12/14 08:02:22   Reviewing contents of kdavies4/QCalc
+2017/02/07 08:24:14   Reviewing contents of kdavies4/QCalc
     Processing library QCalc @ QCalc 0.2.0
     Processing library QCalcTests @ QCalcTests
-2016/12/14 08:02:24 Processing tag v0.1.0
+2017/02/07 08:24:17 Processing tag v0.1.0
   0.1.0: Recording
-2016/12/14 08:02:25   Reviewing contents of kdavies4/QCalc
+2017/02/07 08:24:17   Reviewing contents of kdavies4/QCalc
     Processing library QCalc @ QCalc 0.1.0
     Processing library QCalcTests @ QCalcTests
-2016/12/14 08:02:28 Processing tag 0.3.1
+2017/02/07 08:24:20 Processing tag 0.3.1
   0.3.1: Recording
-2016/12/14 08:02:28   Reviewing contents of kdavies4/QCalc
+2017/02/07 08:24:21   Reviewing contents of kdavies4/QCalc
     Processing library QCalc @ QCalc 0.3.1
     Processing library QCalcTests @ QCalcTests
 Processing: QSSFluidFlow (https://github.com/modelica-3rdparty/QSSFluidFlow, fork=false)
-2016/12/14 08:02:31 No source for QSSFluidFlow
-2016/12/14 08:02:32 Processing tag v1.0
+2017/02/07 08:24:24 No source for QSSFluidFlow
+2017/02/07 08:24:25 Processing tag v1.0
   1.0: Recording
-2016/12/14 08:02:32   Reviewing contents of modelica-3rdparty/QSSFluidFlow
+2017/02/07 08:24:25   Reviewing contents of modelica-3rdparty/QSSFluidFlow
     Processing library QSSFluidFlow @ QSSFluidFlow 1.0
 Processing: RealTimeCoordinationLibrary (https://github.com/modelica-3rdparty/RealTimeCoordinationLibrary, fork=false)
-2016/12/14 08:02:34 No source for RealTimeCoordinationLibrary
-2016/12/14 08:02:34 Processing tag v1.0.2
+2017/02/07 08:24:27 No source for RealTimeCoordinationLibrary
+2017/02/07 08:24:27 Processing tag v1.0.2
   1.0.2: Recording
-2016/12/14 08:02:35   Reviewing contents of modelica-3rdparty/RealTimeCoordinationLibrary
-2016/12/14 08:02:35   Repository is a library
+2017/02/07 08:24:28   Reviewing contents of modelica-3rdparty/RealTimeCoordinationLibrary
+2017/02/07 08:24:28   Repository is a library
     Processing library RealTimeCoordinationLibrary @ .
-2016/12/14 08:02:36 Processing tag v1.0.1
+2017/02/07 08:24:29 Processing tag v1.0.1
   1.0.1: Recording
-2016/12/14 08:02:36   Reviewing contents of modelica-3rdparty/RealTimeCoordinationLibrary
-2016/12/14 08:02:36   Repository is a library
+2017/02/07 08:24:30   Reviewing contents of modelica-3rdparty/RealTimeCoordinationLibrary
+2017/02/07 08:24:30   Repository is a library
     Processing library RealTimeCoordinationLibrary @ .
-2016/12/14 08:02:37 Processing tag v1.0
+2017/02/07 08:24:31 Processing tag v1.0
   1.0: Recording
-2016/12/14 08:02:38   Reviewing contents of modelica-3rdparty/RealTimeCoordinationLibrary
-2016/12/14 08:02:38   Repository is a library
+2017/02/07 08:24:31   Reviewing contents of modelica-3rdparty/RealTimeCoordinationLibrary
+2017/02/07 08:24:31   Repository is a library
     Processing library RealTimeCoordination @ .
 Processing: ScalableTestSuite (https://github.com/modelica-3rdparty/ScalableTestSuite, fork=true)
-2016/12/14 08:02:39 Source for ScalableTestSuite exists
-2016/12/14 08:02:39 Processing tag v1.8.2
+2017/02/07 08:24:32 Source for ScalableTestSuite exists
+2017/02/07 08:24:33 Processing tag v1.8.2
   1.8.2: Recording
-2016/12/14 08:02:40   Reviewing contents of casella/ScalableTestSuite
+2017/02/07 08:24:33   Reviewing contents of casella/ScalableTestSuite
     Processing library ScalableTestSuite @ ScalableTestSuite
-2016/12/14 08:02:41 Processing tag v1.8.1
+2017/02/07 08:24:35 Processing tag v1.8.1
   1.8.1: Recording
-2016/12/14 08:02:42   Reviewing contents of casella/ScalableTestSuite
+2017/02/07 08:24:35   Reviewing contents of casella/ScalableTestSuite
     Processing library ScalableTestSuite @ ScalableTestSuite
-2016/12/14 08:02:43 Processing tag v1.8.0
+2017/02/07 08:24:37 Processing tag v1.8.0
   1.8.0: Recording
-2016/12/14 08:02:43   Reviewing contents of casella/ScalableTestSuite
+2017/02/07 08:24:37   Reviewing contents of casella/ScalableTestSuite
     Processing library ScalableTestSuite @ ScalableTestSuite
-2016/12/14 08:02:45 Processing tag v1.7.1
+2017/02/07 08:24:38 Processing tag v1.7.1
   1.7.1: Recording
-2016/12/14 08:02:45   Reviewing contents of casella/ScalableTestSuite
+2017/02/07 08:24:39   Reviewing contents of casella/ScalableTestSuite
     Processing library ScalableTestSuite @ ScalableTestSuite
-2016/12/14 08:02:46 Processing tag v1.7.0
+2017/02/07 08:24:40 Processing tag v1.7.0
   1.7.0: Recording
-2016/12/14 08:02:47   Reviewing contents of casella/ScalableTestSuite
+2017/02/07 08:24:41   Reviewing contents of casella/ScalableTestSuite
     Processing library ScalableTestSuite @ ScalableTestSuite
-2016/12/14 08:02:48 Processing tag v1.6.2
+2017/02/07 08:24:42 Processing tag v1.6.2
   1.6.2: Recording
-2016/12/14 08:02:49   Reviewing contents of casella/ScalableTestSuite
+2017/02/07 08:24:42   Reviewing contents of casella/ScalableTestSuite
     Processing library ScalableTestSuite @ ScalableTestSuite
-2016/12/14 08:02:50 Processing tag v1.6.1
+2017/02/07 08:24:44 Processing tag v1.6.1
   1.6.1: Recording
-2016/12/14 08:02:50   Reviewing contents of casella/ScalableTestSuite
+2017/02/07 08:24:44   Reviewing contents of casella/ScalableTestSuite
     Processing library ScalableTestSuite @ ScalableTestSuite
-2016/12/14 08:02:52 Processing tag v1.6.0
+2017/02/07 08:24:45 Processing tag v1.6.0
   1.6.0: Recording
-2016/12/14 08:02:52   Reviewing contents of casella/ScalableTestSuite
+2017/02/07 08:24:46   Reviewing contents of casella/ScalableTestSuite
     Processing library ScalableTestSuite @ ScalableTestSuite
-2016/12/14 08:02:53 Processing tag v1.5.1
+2017/02/07 08:24:47 Processing tag v1.5.1
   1.5.1: Recording
-2016/12/14 08:02:54   Reviewing contents of casella/ScalableTestSuite
+2017/02/07 08:24:48   Reviewing contents of casella/ScalableTestSuite
     Processing library ScalableTestSuite @ ScalableTestSuite
-2016/12/14 08:02:55 Processing tag v1.5.0
+2017/02/07 08:24:49 Processing tag v1.5.0
   1.5.0: Recording
-2016/12/14 08:02:56   Reviewing contents of casella/ScalableTestSuite
+2017/02/07 08:24:50   Reviewing contents of casella/ScalableTestSuite
     Processing library ScalableTestSuite @ ScalableTestSuite
-2016/12/14 08:02:57 Processing tag v1.4.0
+2017/02/07 08:24:51 Processing tag v1.4.0
   1.4.0: Recording
-2016/12/14 08:02:57   Reviewing contents of casella/ScalableTestSuite
+2017/02/07 08:24:51   Reviewing contents of casella/ScalableTestSuite
     Processing library ScalableTestSuite @ ScalableTestSuite
-2016/12/14 08:02:59 Processing tag v1.3.0
+2017/02/07 08:24:53 Processing tag v1.3.0
   1.3.0: Recording
-2016/12/14 08:02:59   Reviewing contents of casella/ScalableTestSuite
+2017/02/07 08:24:53   Reviewing contents of casella/ScalableTestSuite
     Processing library ScalableTestSuite @ ScalableTestSuite
-2016/12/14 08:03:00 Processing tag v1.2.0
+2017/02/07 08:24:54 Processing tag v1.2.0
   1.2.0: Recording
-2016/12/14 08:03:01   Reviewing contents of casella/ScalableTestSuite
+2017/02/07 08:24:55   Reviewing contents of casella/ScalableTestSuite
     Processing library ScalableTestSuite @ ScalableTestSuite
-2016/12/14 08:03:02 Processing tag v1.1.2
+2017/02/07 08:24:56 Processing tag v1.1.2
   1.1.2: Recording
-2016/12/14 08:03:03   Reviewing contents of casella/ScalableTestSuite
+2017/02/07 08:24:57   Reviewing contents of casella/ScalableTestSuite
     Processing library ScalableTestSuite @ ScalableTestSuite
-2016/12/14 08:03:04 Processing tag v1.1.1
+2017/02/07 08:24:58 Processing tag v1.1.1
   1.1.1: Recording
-2016/12/14 08:03:05   Reviewing contents of casella/ScalableTestSuite
+2017/02/07 08:24:58   Reviewing contents of casella/ScalableTestSuite
     Processing library ScalableTestSuite @ ScalableTestSuite
-2016/12/14 08:03:06 Processing tag v1.1.0
+2017/02/07 08:25:00 Processing tag v1.1.0
   1.1.0: Recording
-2016/12/14 08:03:06   Reviewing contents of casella/ScalableTestSuite
+2017/02/07 08:25:00   Reviewing contents of casella/ScalableTestSuite
     Processing library ScalableTestSuite @ ScalableTestSuite
-2016/12/14 08:03:08 Processing tag v1.0.0
+2017/02/07 08:25:01 Processing tag v1.0.0
   1.0.0: Recording
-2016/12/14 08:03:08   Reviewing contents of casella/ScalableTestSuite
+2017/02/07 08:25:02   Reviewing contents of casella/ScalableTestSuite
     Processing library ScalableTestSuite @ ScalableTestSuite
 Processing: Servomechanisms (https://github.com/modelica-3rdparty/Servomechanisms, fork=true)
-2016/12/14 08:03:10 Source for Servomechanisms exists
+2017/02/07 08:25:04 Source for Servomechanisms exists
 Processing: SPICELib (https://github.com/modelica-3rdparty/SPICELib, fork=false)
-2016/12/14 08:03:10 No source for SPICELib
-2016/12/14 08:03:11 Processing tag v1.1
+2017/02/07 08:25:04 No source for SPICELib
+2017/02/07 08:25:05 Processing tag v1.1
   1.1: Recording
-2016/12/14 08:03:11   Reviewing contents of modelica-3rdparty/SPICELib
+2017/02/07 08:25:05   Reviewing contents of modelica-3rdparty/SPICELib
     Processing library SPICELib @ SPICELib 1.1
 Processing: Spot (https://github.com/modelica-3rdparty/Spot, fork=false)
-2016/12/14 08:03:13 No source for Spot
-2016/12/14 08:03:14 Processing tag v0.706.1
+2017/02/07 08:25:07 No source for Spot
+2017/02/07 08:25:08 Processing tag v0.706.1
   0.706.1: Recording
-2016/12/14 08:03:14   Reviewing contents of modelica-3rdparty/Spot
+2017/02/07 08:25:08   Reviewing contents of modelica-3rdparty/Spot
     Processing library Spot @ Spot 0.706.1
     Processing library SpotExamples @ SpotExamples 0.706.1
-2016/12/14 08:03:16 Processing tag v0.706
+2017/02/07 08:25:11 Processing tag v0.706
   0.706: Recording
-2016/12/14 08:03:17   Reviewing contents of modelica-3rdparty/Spot
+2017/02/07 08:25:11   Reviewing contents of modelica-3rdparty/Spot
     Processing library Spot @ Spot 0.706
     Processing library SpotExamples @ SpotExamples 0.706
 Processing: SystemDynamics (https://github.com/modelica-3rdparty/SystemDynamics, fork=false)
-2016/12/14 08:03:21 No source for SystemDynamics
-2016/12/14 08:03:22 Processing tag v2.1
+2017/02/07 08:25:15 No source for SystemDynamics
+2017/02/07 08:25:15 Processing tag v2.1
   2.1: Recording
-2016/12/14 08:03:22   Reviewing contents of modelica-3rdparty/SystemDynamics
+2017/02/07 08:25:16   Reviewing contents of modelica-3rdparty/SystemDynamics
     Processing library SystemDynamics @ SystemDynamics 2.1
-2016/12/14 08:03:24 Processing tag v2.0
+2017/02/07 08:25:17 Processing tag v2.0
   2.0: Recording
-2016/12/14 08:03:24   Reviewing contents of modelica-3rdparty/SystemDynamics
+2017/02/07 08:25:18   Reviewing contents of modelica-3rdparty/SystemDynamics
     Processing library SystemDynamics @ SystemDynamics 2.0
 Processing: TechThermo (https://github.com/modelica-3rdparty/TechThermo, fork=false)
-2016/12/14 08:03:26 No source for TechThermo
-2016/12/14 08:03:27 Processing tag v1.0
+2017/02/07 08:25:20 No source for TechThermo
+2017/02/07 08:25:20 Processing tag v1.0
   1.0: Recording
-2016/12/14 08:03:27   Reviewing contents of modelica-3rdparty/TechThermo
+2017/02/07 08:25:21   Reviewing contents of modelica-3rdparty/TechThermo
     Processing library TechThermo @ TechThermo 1.0
 Processing: ThermoBondLib (https://github.com/modelica-3rdparty/ThermoBondLib, fork=false)
-2016/12/14 08:03:29 No source for ThermoBondLib
-2016/12/14 08:03:30 Processing tag v2.1
+2017/02/07 08:25:23 No source for ThermoBondLib
+2017/02/07 08:25:23 Processing tag v2.1
   2.1: Recording
-2016/12/14 08:03:30   Reviewing contents of modelica-3rdparty/ThermoBondLib
+2017/02/07 08:25:24   Reviewing contents of modelica-3rdparty/ThermoBondLib
     Processing library ThermoBondLib @ ThermoBondlib 2.1
 Processing: Thermocycle-library (https://github.com/modelica-3rdparty/Thermocycle-library, fork=true)
-2016/12/14 08:03:32 Source for Thermocycle-library exists
-2016/12/14 08:03:33 Processing tag v2.0.0
+2017/02/07 08:25:26 Source for Thermocycle-library exists
+2017/02/07 08:25:26 Processing tag v2.0.0
   2.0.0: Recording
-2016/12/14 08:03:33   Reviewing contents of thermocycle/Thermocycle-library
+2017/02/07 08:25:27   Reviewing contents of thermocycle/Thermocycle-library
     Processing library ThermoCycle @ ThermoCycle 2.0.0
-2016/12/14 08:03:34 Processing tag v1.0.0
+2017/02/07 08:25:28 Processing tag v1.0.0
   1.0.0: Recording
-2016/12/14 08:03:35   Reviewing contents of thermocycle/Thermocycle-library
+2017/02/07 08:25:28   Reviewing contents of thermocycle/Thermocycle-library
     Processing library ThermoCycle @ ThermoCycle 1.0.0
 Processing: ThermoPower (https://github.com/modelica-3rdparty/ThermoPower, fork=false)
-2016/12/14 08:03:37 No source for ThermoPower
-2016/12/14 08:03:37 Processing tag v3.1-beta.0
+2017/02/07 08:25:30 No source for ThermoPower
+2017/02/07 08:25:31 Processing tag v3.1-beta.0
   3.1-beta.0: Recording
-2016/12/14 08:03:38   Reviewing contents of modelica-3rdparty/ThermoPower
+2017/02/07 08:25:31   Reviewing contents of modelica-3rdparty/ThermoPower
     Processing library ThermoPower @ ThermoPower 3.1
-2016/12/14 08:03:39 Processing tag v2.1+msl.2.2.2
+2017/02/07 08:25:33 Processing tag v2.1+msl.2.2.2
   2.1+msl.2.2.2: Recording
-2016/12/14 08:03:39   Reviewing contents of modelica-3rdparty/ThermoPower
+2017/02/07 08:25:33   Reviewing contents of modelica-3rdparty/ThermoPower
     Processing library ThermoPower @ ThermoPower 2.1
-2016/12/14 08:03:41 Processing tag v2.1+msl.2.2.1
+2017/02/07 08:25:34 Processing tag v2.1+msl.2.2.1
   2.1+msl.2.2.1: Recording
-2016/12/14 08:03:41   Reviewing contents of modelica-3rdparty/ThermoPower
+2017/02/07 08:25:35   Reviewing contents of modelica-3rdparty/ThermoPower
     Processing library ThermoPower @ ThermoPower 2.1
-2016/12/14 08:03:42 Processing tag v2.0
+2017/02/07 08:25:36 Processing tag v2.0
   2.0: Recording
-2016/12/14 08:03:43   Reviewing contents of modelica-3rdparty/ThermoPower
+2017/02/07 08:25:37   Reviewing contents of modelica-3rdparty/ThermoPower
     Processing library ThermoPower @ ThermoPower
-2016/12/14 08:03:44 Processing tag EDF-report-2.0
+2017/02/07 08:25:38 Processing tag EDF-report-2.0
   EDF-report-2.0: Ignoring
 Processing: Verif (https://github.com/modelica-3rdparty/Verif, fork=false)
-2016/12/14 08:03:45 No source for Verif
-2016/12/14 08:03:45 Processing tag v2.2
+2017/02/07 08:25:38 No source for Verif
+2017/02/07 08:25:39 Processing tag v2.2
   2.2: Recording
-2016/12/14 08:03:46   Reviewing contents of modelica-3rdparty/Verif
-2016/12/14 08:03:47 Error extracting uses annotation: Error while parsing uses annotation of Verif 2.2/package.mo in github repository Verif: Unable to normalize version for BondLib: Unable to normalize version string '2.1a'
+2017/02/07 08:25:39   Reviewing contents of modelica-3rdparty/Verif
+2017/02/07 08:25:41 Error extracting uses annotation: Error while parsing uses annotation of Verif 2.2/package.mo in github repository Verif: Unable to normalize version for BondLib: Unable to normalize version string '2.1a'
     Processing library Verif @ Verif 2.2
 Processing: WasteWater (https://github.com/modelica-3rdparty/WasteWater, fork=false)
-2016/12/14 08:03:48 No source for WasteWater
-2016/12/14 08:03:48 Processing tag v2.1.0
+2017/02/07 08:25:41 No source for WasteWater
+2017/02/07 08:25:42 Processing tag v2.1.0
   2.1.0: Recording
-2016/12/14 08:03:49   Reviewing contents of modelica-3rdparty/WasteWater
+2017/02/07 08:25:42   Reviewing contents of modelica-3rdparty/WasteWater
     Processing library WasteWater @ WasteWater 2.1.0
-2016/12/14 08:03:50 Processing tag v2.0.1
+2017/02/07 08:25:44 Processing tag v2.0.1
   2.0.1: Recording
-2016/12/14 08:03:50   Reviewing contents of modelica-3rdparty/WasteWater
+2017/02/07 08:25:44   Reviewing contents of modelica-3rdparty/WasteWater
     Processing library WasteWater @ WasteWater 2.0.1
+Processing: Wavelet (https://github.com/modelica-3rdparty/Wavelet, fork=false)
+2017/02/07 08:25:46 No source for Wavelet
 Processing: WheelsAndTires (https://github.com/modelica-3rdparty/WheelsAndTires, fork=false)
-2016/12/14 08:03:52 No source for WheelsAndTires
-2016/12/14 08:03:53 Processing tag v1.0
+2017/02/07 08:25:46 No source for WheelsAndTires
+2017/02/07 08:25:47 Processing tag v1.0
   1.0: Recording
-2016/12/14 08:03:53   Reviewing contents of modelica-3rdparty/WheelsAndTires
+2017/02/07 08:25:48   Reviewing contents of modelica-3rdparty/WheelsAndTires
     Processing library WheelsAndTires @ WheelsAndTires 1.0
 Processing: WindPowerPlants (https://github.com/modelica-3rdparty/WindPowerPlants, fork=true)
-2016/12/14 08:03:55 Source for WindPowerPlants exists
-2016/12/14 08:03:56 Processing tag v1.0.0
+2017/02/07 08:25:50 Source for WindPowerPlants exists
+2017/02/07 08:25:50 Processing tag v1.0.0
   1.0.0: Recording
-2016/12/14 08:03:56   Reviewing contents of christiankral/WindPowerPlants
+2017/02/07 08:25:51   Reviewing contents of christiankral/WindPowerPlants
     Processing library WindPowerPlants @ WindPowerPlants
-2016/12/14 08:03:57 Processing tag v0.9.8
+2017/02/07 08:25:52 Processing tag v0.9.8
   0.9.8: Recording
-2016/12/14 08:03:58   Reviewing contents of christiankral/WindPowerPlants
+2017/02/07 08:25:53   Reviewing contents of christiankral/WindPowerPlants
     Processing library WindPowerPlants @ WindPowerPlants
-2016/12/14 08:03:59 Processing tag v0.9.7
+2017/02/07 08:25:54 Processing tag v0.9.7
   0.9.7: Recording
-2016/12/14 08:04:00   Reviewing contents of christiankral/WindPowerPlants
+2017/02/07 08:25:54   Reviewing contents of christiankral/WindPowerPlants
     Processing library WindPowerPlants @ WindPowerPlants
-2016/12/14 08:04:01 Processing tag v0.9.5
+2017/02/07 08:25:56 Processing tag v0.9.5
   0.9.5: Recording
-2016/12/14 08:04:01   Reviewing contents of christiankral/WindPowerPlants
+2017/02/07 08:25:56   Reviewing contents of christiankral/WindPowerPlants
     Processing library WindPowerPlants @ WindPowerPlants
-2016/12/14 08:04:03 Processing tag v0.9.4
+2017/02/07 08:25:57 Processing tag v0.9.4
   0.9.4: Recording
-2016/12/14 08:04:03   Reviewing contents of christiankral/WindPowerPlants
+2017/02/07 08:25:58   Reviewing contents of christiankral/WindPowerPlants
     Processing library WindPowerPlants @ WindPowerPlants
-2016/12/14 08:04:05 Processing tag v0.9.3
+2017/02/07 08:25:59 Processing tag v0.9.3
   0.9.3: Recording
-2016/12/14 08:04:05   Reviewing contents of christiankral/WindPowerPlants
+2017/02/07 08:26:00   Reviewing contents of christiankral/WindPowerPlants
     Processing library WindPowerPlants @ WindPowerPlants
-2016/12/14 08:04:08 Processing tag v0.9.2
+2017/02/07 08:26:01 Processing tag v0.9.2
   0.9.2: Recording
-2016/12/14 08:04:08   Reviewing contents of christiankral/WindPowerPlants
+2017/02/07 08:26:02   Reviewing contents of christiankral/WindPowerPlants
     Processing library WindPowerPlants @ WindPowerPlants
-2016/12/14 08:04:10 Processing tag v0.9.1
+2017/02/07 08:26:03 Processing tag v0.9.1
   0.9.1: Recording
-2016/12/14 08:04:10   Reviewing contents of christiankral/WindPowerPlants
+2017/02/07 08:26:03   Reviewing contents of christiankral/WindPowerPlants
     Processing library WindPowerPlants @ WindPowerPlants
-2016/12/14 08:04:12 Processing tag v0.9.0
+2017/02/07 08:26:05 Processing tag v0.9.0
   0.9.0: Recording
-2016/12/14 08:04:12   Reviewing contents of christiankral/WindPowerPlants
+2017/02/07 08:26:05   Reviewing contents of christiankral/WindPowerPlants
     No Modelica libraries found in repository WindPowerPlants:0.9.0
 Processing: XogenyTest (https://github.com/modelica-3rdparty/XogenyTest, fork=true)
-2016/12/14 08:04:13 Source for XogenyTest exists
+2017/02/07 08:26:07 Source for XogenyTest exists
