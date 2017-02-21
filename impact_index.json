@@ -551,12 +551,12 @@
           "isfile": false,
           "dependencies": [
             {
-              "name": "Modelica_Synchronous",
-              "version": "0.91.0"
-            },
-            {
               "name": "Modelica",
               "version": "3.2.0"
+            },
+            {
+              "name": "Modelica_Synchronous",
+              "version": "0.91.0"
             }
           ],
           "sha": "be63e7b4b803a5e69eeda58b45096b3f8e1c2245"
@@ -1048,7 +1048,7 @@
       "repository_uri": "git://github.com/modelica/PowerSystems.git",
       "repository_format": "git",
       "description": "Free (standard conform) library that is intended to model electrical power systems at different levels of detail both in transient and steady-state mode.",
-      "stars": 21
+      "stars": 22
     },
     {
       "name": "VehicleInterfaces",
@@ -1401,7 +1401,7 @@
       "repository_uri": "git://github.com/RWTH-EBC/AixLib.git",
       "repository_format": "git",
       "description": "A Modelica model library for building performance simulations",
-      "stars": 30
+      "stars": 31
     },
     {
       "name": "ATplus",
@@ -1569,12 +1569,12 @@
           "isfile": false,
           "dependencies": [
             {
-              "name": "Modelica",
-              "version": "3.2.0"
-            },
-            {
               "name": "DataFiles",
               "version": "1.0.0"
+            },
+            {
+              "name": "Modelica",
+              "version": "3.2.0"
             }
           ],
           "sha": "3fbf97045bc36edf2fdb0400453022374ad06b52"
@@ -1695,12 +1695,12 @@
           "isfile": false,
           "dependencies": [
             {
-              "name": "Modelica",
-              "version": "3.2.1"
-            },
-            {
               "name": "DataFiles",
               "version": "1.0.0"
+            },
+            {
+              "name": "Modelica",
+              "version": "3.2.1"
             }
           ],
           "sha": "0c5553829e7c6b28c918cbac29fe855e9695b162"
@@ -1803,12 +1803,12 @@
           "isfile": false,
           "dependencies": [
             {
-              "name": "Modelica",
-              "version": "3.2.1"
-            },
-            {
               "name": "DataFiles",
               "version": "1.0.0"
+            },
+            {
+              "name": "Modelica",
+              "version": "3.2.1"
             }
           ],
           "sha": "06a70159c4d7f0bec3a2083f3c2a4ac362a4255a"
@@ -1908,12 +1908,12 @@
           "isfile": false,
           "dependencies": [
             {
-              "name": "Modelica",
-              "version": "3.2.1"
-            },
-            {
               "name": "Modelica_StateGraph2",
               "version": "2.0.2"
+            },
+            {
+              "name": "Modelica",
+              "version": "3.2.1"
             }
           ],
           "sha": "78fb55211a60ebcd0196810966a33bc7b1fc7b41"
@@ -1997,7 +1997,7 @@
       "repository_uri": "git://github.com/lbl-srg/modelica-buildings.git",
       "repository_format": "git",
       "description": "Modelica Buildings library",
-      "stars": 43
+      "stars": 44
     },
     {
       "name": "BuildSysPro",
@@ -2038,7 +2038,7 @@
       "repository_uri": "git://github.com/edf-enerbat/BuildSysPro.git",
       "repository_format": "git",
       "description": "BuildSysPro open source: EDF's Modelica library for buildings, districts and energy systems modelling",
-      "stars": 9
+      "stars": 10
     },
     {
       "name": "Chemical",
@@ -3209,7 +3209,7 @@
       "repository_uri": "git://github.com/open-ideas/IDEAS.git",
       "repository_format": "git",
       "description": "Modelica library allowing simultaneous transient simulation of thermal and electrical systems at both building and feeder level.",
-      "stars": 20
+      "stars": 21
     },
     {
       "name": "IndustrialControlSystems",
@@ -3240,7 +3240,7 @@
     },
     {
       "name": "iPSL",
-      "uri": "https://github.com/itesla/ipsl",
+      "uri": "https://github.com/modelica-3rdparty/ipsl",
       "versions": {
         "0.8.0": {
           "version": "0.8.0",
@@ -3250,16 +3250,16 @@
           "isfile": false,
           "dependencies": [
             {
-              "name": "PowerSystems",
-              "version": "0.7.0"
-            },
-            {
               "name": "Modelica",
               "version": "3.2.1"
             },
             {
               "name": "Complex",
               "version": "3.2.1"
+            },
+            {
+              "name": "PowerSystems",
+              "version": "0.7.0"
             }
           ],
           "sha": "251a7db89416f6c6f38505d08cf0ad6056b2ed4d"
@@ -3301,13 +3301,13 @@
           "sha": "5aa9438a3bfda8b2f9d9e7ac830786806aea1f09"
         }
       },
-      "owner_uri": "https://github.com/itesla",
+      "owner_uri": "https://github.com/modelica-3rdparty",
       "email": "",
-      "homepage": "https://github.com/itesla/ipsl",
-      "repository_uri": "git://github.com/itesla/ipsl.git",
+      "homepage": "https://github.com/modelica-3rdparty/ipsl",
+      "repository_uri": "git://github.com/modelica-3rdparty/ipsl.git",
       "repository_format": "git",
-      "description": "The iTesla Power System Library is a Modelica library developed as part of the iTesla project. The library contains a set of power system component models for phasor time domain simulations.",
-      "stars": 17
+      "description": "iTesla Power System Library",
+      "stars": 0
     },
     {
       "name": "KeyWordIO",
@@ -3522,14 +3522,6 @@
           "isfile": false,
           "dependencies": [
             {
-              "name": "MultiBondLib",
-              "version": "1.3.0"
-            },
-            {
-              "name": "Modelica",
-              "version": "2.2.1"
-            },
-            {
               "name": "BondLib",
               "version": "2.3.0"
             },
@@ -3548,6 +3540,14 @@
             {
               "name": "WheelsAndTires",
               "version": "1.0.0"
+            },
+            {
+              "name": "MultiBondLib",
+              "version": "1.3.0"
+            },
+            {
+              "name": "Modelica",
+              "version": "2.2.1"
             }
           ],
           "sha": "da7c95a712a612924255deb17e338fb3ecd53963"
@@ -3595,12 +3595,12 @@
           "isfile": false,
           "dependencies": [
             {
-              "name": "BondLib",
-              "version": "2.1.0"
-            },
-            {
               "name": "Modelica",
               "version": "2.2.1"
+            },
+            {
+              "name": "BondLib",
+              "version": "2.1.0"
             }
           ],
           "sha": "e96784322f683ebccf703a65e8857d3d219b8fe8"
@@ -3771,6 +3771,90 @@
       "stars": 11
     },
     {
+      "name": "OpenIPSL",
+      "uri": "https://github.com/itesla/ipsl",
+      "versions": {
+        "1.0.0": {
+          "version": "1.0.0",
+          "tarball_url": "https://api.github.com/repos/modelica-3rdparty/OpenIPSL/tarball/v1.0.0",
+          "zipball_url": "https://api.github.com/repos/modelica-3rdparty/OpenIPSL/zipball/v1.0.0",
+          "path": "OpenIPSL",
+          "isfile": false,
+          "dependencies": [
+            {
+              "name": "Modelica",
+              "version": "3.2.1"
+            },
+            {
+              "name": "Complex",
+              "version": "3.2.1"
+            }
+          ],
+          "sha": "25e3f8d3acd57d26dd0701bbc4de5f2bdbd7bafd"
+        }
+      },
+      "owner_uri": "https://github.com/itesla",
+      "email": "",
+      "homepage": "https://github.com/itesla/ipsl",
+      "repository_uri": "git://github.com/itesla/ipsl.git",
+      "repository_format": "git",
+      "description": "The iTesla Power System Library is a Modelica library developed as part of the iTesla project. The library contains a set of power system component models for phasor time domain simulations.",
+      "stars": 17
+    },
+    {
+      "name": "iPSL",
+      "uri": "https://github.com/itesla/ipsl",
+      "versions": {
+        "0.8.0": {
+          "version": "0.8.0",
+          "tarball_url": "https://api.github.com/repos/modelica-3rdparty/OpenIPSL/tarball/v0.8",
+          "zipball_url": "https://api.github.com/repos/modelica-3rdparty/OpenIPSL/zipball/v0.8",
+          "path": "iPSL",
+          "isfile": false,
+          "dependencies": [
+            {
+              "name": "Modelica",
+              "version": "3.2.1"
+            },
+            {
+              "name": "Complex",
+              "version": "3.2.1"
+            },
+            {
+              "name": "PowerSystems",
+              "version": "0.7.0"
+            }
+          ],
+          "sha": "251a7db89416f6c6f38505d08cf0ad6056b2ed4d"
+        },
+        "0.8.1": {
+          "version": "0.8.1",
+          "tarball_url": "https://api.github.com/repos/modelica-3rdparty/OpenIPSL/tarball/v0.8.1",
+          "zipball_url": "https://api.github.com/repos/modelica-3rdparty/OpenIPSL/zipball/v0.8.1",
+          "path": "iPSL",
+          "isfile": false,
+          "dependencies": [
+            {
+              "name": "Complex",
+              "version": "3.2.1"
+            },
+            {
+              "name": "Modelica",
+              "version": "3.2.1"
+            }
+          ],
+          "sha": "4b97d63999b278838fcb00395fe2969d1e86af39"
+        }
+      },
+      "owner_uri": "https://github.com/itesla",
+      "email": "",
+      "homepage": "https://github.com/itesla/ipsl",
+      "repository_uri": "git://github.com/itesla/ipsl.git",
+      "repository_format": "git",
+      "description": "The iTesla Power System Library is a Modelica library developed as part of the iTesla project. The library contains a set of power system component models for phasor time domain simulations.",
+      "stars": 17
+    },
+    {
       "name": "PDE",
       "uri": "https://github.com/modelica-3rdparty/PDELib",
       "versions": {
@@ -3878,7 +3962,7 @@
       "repository_uri": "git://github.com/christiankral/PhotoVoltaics.git",
       "repository_format": "git",
       "description": "Modelica library for the simulation of photo voltaic cells and modules",
-      "stars": 2
+      "stars": 3
     },
     {
       "name": "PhotoVoltaics_TGM",
@@ -3892,16 +3976,16 @@
           "isfile": true,
           "dependencies": [
             {
-              "name": "PhotoVoltaics",
-              "version": "0.2.1"
-            },
-            {
               "name": "Modelica",
               "version": "3.2.2"
             },
             {
               "name": "Buildings",
               "version": "4.0.0"
+            },
+            {
+              "name": "PhotoVoltaics",
+              "version": "0.2.1"
             }
           ],
           "sha": "74301136d6c2a4fa3f6344d9b7aa86e94d9e31b7"
@@ -3914,16 +3998,16 @@
           "isfile": true,
           "dependencies": [
             {
-              "name": "Modelica",
-              "version": "3.2.2"
-            },
-            {
               "name": "Buildings",
               "version": "4.0.0"
             },
             {
               "name": "PhotoVoltaics",
               "version": "0.3.0"
+            },
+            {
+              "name": "Modelica",
+              "version": "3.2.2"
             }
           ],
           "sha": "5de01f3181e796379cc2a76a0a38276a1789094a"
@@ -3936,16 +4020,16 @@
           "isfile": true,
           "dependencies": [
             {
-              "name": "PhotoVoltaics",
-              "version": "0.3.1"
-            },
-            {
               "name": "Modelica",
               "version": "3.2.2"
             },
             {
               "name": "Buildings",
               "version": "4.0.0"
+            },
+            {
+              "name": "PhotoVoltaics",
+              "version": "0.3.1"
             }
           ],
           "sha": "20183dd038861e2cb159690e49d16e994947b354"
@@ -3958,16 +4042,16 @@
           "isfile": true,
           "dependencies": [
             {
+              "name": "PhotoVoltaics",
+              "version": "0.3.2"
+            },
+            {
               "name": "Modelica",
               "version": "3.2.2"
             },
             {
               "name": "Buildings",
               "version": "4.0.0"
-            },
-            {
-              "name": "PhotoVoltaics",
-              "version": "0.3.2"
             }
           ],
           "sha": "92a5d8fed64dd6fdd142bda4de115a263387ad73"
@@ -3979,7 +4063,7 @@
       "repository_uri": "git://github.com/christiankral/PhotoVoltaics.git",
       "repository_format": "git",
       "description": "Modelica library for the simulation of photo voltaic cells and modules",
-      "stars": 2
+      "stars": 3
     },
     {
       "name": "PhotoVoltaics_Buildings",
@@ -4010,7 +4094,7 @@
       "repository_uri": "git://github.com/christiankral/PhotoVoltaics.git",
       "repository_format": "git",
       "description": "Modelica library for the simulation of photo voltaic cells and modules",
-      "stars": 2
+      "stars": 3
     },
     {
       "name": "Physiolibrary",
@@ -4205,12 +4289,12 @@
           "isfile": false,
           "dependencies": [
             {
-              "name": "Modelica",
-              "version": "3.2.1"
-            },
-            {
               "name": "Physiolibrary",
               "version": "2.3.1"
+            },
+            {
+              "name": "Modelica",
+              "version": "3.2.1"
             }
           ],
           "sha": "07b7343c11601601d1e1ef454077e1c84ee71300"
@@ -4291,12 +4375,12 @@
           "isfile": true,
           "dependencies": [
             {
-              "name": "Modelica",
-              "version": "3.2.0"
-            },
-            {
               "name": "ModelicaAdditions",
               "version": "1.5.0"
+            },
+            {
+              "name": "Modelica",
+              "version": "3.2.0"
             }
           ],
           "sha": "6dde0521bcc9fa6cec3af61c007a03bf6b437800"
@@ -4543,12 +4627,12 @@
           "isfile": false,
           "dependencies": [
             {
-              "name": "Modelica",
-              "version": "3.2.0"
-            },
-            {
               "name": "XogenyTest",
               "version": "1.1.0"
+            },
+            {
+              "name": "Modelica",
+              "version": "3.2.0"
             }
           ],
           "sha": "a23b17a636d23b84904d6504b55152124f55cf4d"
@@ -4672,16 +4756,16 @@
           "isfile": false,
           "dependencies": [
             {
+              "name": "Modelica_StateGraph2",
+              "version": "2.0.1"
+            },
+            {
               "name": "Modelica",
               "version": "3.2.0"
             },
             {
               "name": "RealTimeCoordinationLibrary",
               "version": "1.0.2"
-            },
-            {
-              "name": "Modelica_StateGraph2",
-              "version": "2.0.1"
             }
           ],
           "sha": "293b4ada6ad8753eee1a3d793a00e7e68927693f"
@@ -5078,12 +5162,12 @@
           "isfile": false,
           "dependencies": [
             {
-              "name": "Spot",
-              "version": "0.706.1"
-            },
-            {
               "name": "Modelica",
               "version": "3.2.1"
+            },
+            {
+              "name": "Spot",
+              "version": "0.706.1"
             }
           ],
           "sha": "8109b5236bdf6337fe2b2a865d89cbbd54dd28fa"
@@ -5172,12 +5256,12 @@
           "isfile": false,
           "dependencies": [
             {
-              "name": "BondLib",
-              "version": "2.4.0"
-            },
-            {
               "name": "Modelica",
               "version": "2.2.1"
+            },
+            {
+              "name": "BondLib",
+              "version": "2.4.0"
             }
           ],
           "sha": "055369c28c2dafb4642c428807a0b49f8fe6b2b2"
@@ -5203,16 +5287,16 @@
           "isfile": false,
           "dependencies": [
             {
-              "name": "Modelica",
-              "version": "3.2.0"
-            },
-            {
               "name": "CoolProp2Modelica,TILMedia",
               "version": "2.1.4"
             },
             {
               "name": "ThermoPower",
               "version": "3.0.0"
+            },
+            {
+              "name": "Modelica",
+              "version": "3.2.0"
             }
           ],
           "sha": "5ffe844472c96a74bed89425807c2c5f4a2a08f1"
@@ -5250,55 +5334,13 @@
     },
     {
       "name": "ThermoPower",
-      "uri": "https://github.com/modelica-3rdparty/ThermoPower",
+      "uri": "https://github.com/casella/ThermoPower",
       "versions": {
-        "2.0.0": {
-          "version": "2.0.0",
-          "tarball_url": "https://api.github.com/repos/modelica-3rdparty/ThermoPower/tarball/v2.0",
-          "zipball_url": "https://api.github.com/repos/modelica-3rdparty/ThermoPower/zipball/v2.0",
-          "path": "ThermoPower",
-          "isfile": false,
-          "dependencies": [
-            {
-              "name": "Modelica",
-              "version": "2.2.0"
-            }
-          ],
-          "sha": "14df10c15e449399f1a333639355c51353ee1472"
-        },
-        "2.1.0+msl.2.2.1": {
-          "version": "2.1.0+msl.2.2.1",
-          "tarball_url": "https://api.github.com/repos/modelica-3rdparty/ThermoPower/tarball/v2.1+msl.2.2.1",
-          "zipball_url": "https://api.github.com/repos/modelica-3rdparty/ThermoPower/zipball/v2.1+msl.2.2.1",
-          "path": "ThermoPower 2.1",
-          "isfile": false,
-          "dependencies": [
-            {
-              "name": "Modelica",
-              "version": "2.2.1"
-            }
-          ],
-          "sha": "636824173b26a02e195ba7ec72b1d66fabbe512c"
-        },
-        "2.1.0+msl.2.2.2": {
-          "version": "2.1.0+msl.2.2.2",
-          "tarball_url": "https://api.github.com/repos/modelica-3rdparty/ThermoPower/tarball/v2.1+msl.2.2.2",
-          "zipball_url": "https://api.github.com/repos/modelica-3rdparty/ThermoPower/zipball/v2.1+msl.2.2.2",
-          "path": "ThermoPower 2.1",
-          "isfile": false,
-          "dependencies": [
-            {
-              "name": "Modelica",
-              "version": "2.2.2"
-            }
-          ],
-          "sha": "0dd9dae7b7f352532fd7896f1aa150b6d303a4c0"
-        },
         "3.1.0-beta.0": {
           "version": "3.1.0-beta.0",
           "tarball_url": "https://api.github.com/repos/modelica-3rdparty/ThermoPower/tarball/v3.1-beta.0",
           "zipball_url": "https://api.github.com/repos/modelica-3rdparty/ThermoPower/zipball/v3.1-beta.0",
-          "path": "ThermoPower 3.1",
+          "path": "ThermoPower",
           "isfile": false,
           "dependencies": [
             {
@@ -5306,16 +5348,16 @@
               "version": "3.2.1"
             }
           ],
-          "sha": "bc5f8eb9982c4dc8f4da0f0001055df5261e6c1a"
+          "sha": "9b5a365357d4d40a42fa235d2f3f45094fa99c27"
         }
       },
-      "owner_uri": "https://github.com/modelica-3rdparty",
+      "owner_uri": "https://github.com/casella",
       "email": "",
-      "homepage": "https://github.com/modelica-3rdparty/ThermoPower",
-      "repository_uri": "git://github.com/modelica-3rdparty/ThermoPower.git",
+      "homepage": "https://github.com/casella/ThermoPower",
+      "repository_uri": "git://github.com/casella/ThermoPower.git",
       "repository_format": "git",
-      "description": "Free library to model thermal power plants (based on Modelica.Media)",
-      "stars": 7
+      "description": "A Modelica library for thermal power generation system modelling",
+      "stars": 3
     },
     {
       "name": "Verif",
@@ -5422,11 +5464,11 @@
           "isfile": false,
           "dependencies": [
             {
-              "name": "Modelica",
+              "name": "Complex",
               "version": "3.2.1"
             },
             {
-              "name": "Complex",
+              "name": "Modelica",
               "version": "3.2.1"
             }
           ],
@@ -5440,11 +5482,11 @@
           "isfile": false,
           "dependencies": [
             {
-              "name": "Modelica",
+              "name": "Complex",
               "version": "3.2.1"
             },
             {
-              "name": "Complex",
+              "name": "Modelica",
               "version": "3.2.1"
             }
           ],
