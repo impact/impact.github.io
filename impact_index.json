@@ -18,6 +18,20 @@
             }
           ],
           "sha": "9a8ce665af5d4f00a52b20c7339de82cda1a8716"
+        },
+        "1.0.1": {
+          "version": "1.0.1",
+          "tarball_url": "https://api.github.com/repos/modelica/efmi-testcases/tarball/refs/tags/v1.0.1",
+          "zipball_url": "https://api.github.com/repos/modelica/efmi-testcases/zipball/refs/tags/v1.0.1",
+          "path": "eFMI",
+          "isfile": false,
+          "dependencies": [
+            {
+              "name": "Modelica",
+              "version": "4.0.0"
+            }
+          ],
+          "sha": "04c7e3e39ccc8b13552b17b9b67c8cd6a424897c"
         }
       },
       "owner_uri": "https://github.com/modelica",
@@ -26,7 +40,7 @@
       "repository_uri": "git://github.com/modelica/efmi-testcases.git",
       "repository_format": "git",
       "description": "Official eFMI test cases for demonstrating and evaluating eFMI tooling.",
-      "stars": 2
+      "stars": 4
     },
     {
       "name": "eFMI_TestCases",
@@ -53,6 +67,28 @@
             }
           ],
           "sha": "9a8ce665af5d4f00a52b20c7339de82cda1a8716"
+        },
+        "1.0.1": {
+          "version": "1.0.1",
+          "tarball_url": "https://api.github.com/repos/modelica/efmi-testcases/tarball/refs/tags/v1.0.1",
+          "zipball_url": "https://api.github.com/repos/modelica/efmi-testcases/zipball/refs/tags/v1.0.1",
+          "path": "eFMI_TestCases",
+          "isfile": false,
+          "dependencies": [
+            {
+              "name": "Modelica",
+              "version": "4.0.0"
+            },
+            {
+              "name": "eFMI",
+              "version": "1.0.1"
+            },
+            {
+              "name": "ModelManagement",
+              "version": "1.3.0"
+            }
+          ],
+          "sha": "04c7e3e39ccc8b13552b17b9b67c8cd6a424897c"
         }
       },
       "owner_uri": "https://github.com/modelica",
@@ -61,7 +97,7 @@
       "repository_uri": "git://github.com/modelica/efmi-testcases.git",
       "repository_format": "git",
       "description": "Official eFMI test cases for demonstrating and evaluating eFMI tooling.",
-      "stars": 2
+      "stars": 4
     },
     {
       "name": "Complex",
@@ -289,8 +325,8 @@
       "homepage": "https://github.com/modelica/ModelicaStandardLibrary",
       "repository_uri": "git://github.com/modelica/ModelicaStandardLibrary.git",
       "repository_format": "git",
-      "description": "Free (standard conforming) library from the Modelica Association to model mechanical (1D/3D), electrical (analog, digital, machines), magnetic, thermal, fluid, control systems and hierarchical state machines. Also numerical functions and functions for strings, files and streams are included.",
-      "stars": 276
+      "description": "Free (standard conforming) library to model mechanical (1D/3D), electrical (analog, digital, machines), magnetic, thermal, fluid, control systems and hierarchical state machines. Also numerical functions and functions for strings, files and streams are included.",
+      "stars": 401
     },
     {
       "name": "Modelica",
@@ -466,11 +502,11 @@
           "isfile": false,
           "dependencies": [
             {
-              "name": "ModelicaServices",
+              "name": "Complex",
               "version": "3.2.3"
             },
             {
-              "name": "Complex",
+              "name": "ModelicaServices",
               "version": "3.2.3"
             }
           ],
@@ -574,11 +610,11 @@
           "isfile": false,
           "dependencies": [
             {
-              "name": "ModelicaServices",
+              "name": "Complex",
               "version": "3.2.3"
             },
             {
-              "name": "Complex",
+              "name": "ModelicaServices",
               "version": "3.2.3"
             }
           ],
@@ -592,11 +628,11 @@
           "isfile": false,
           "dependencies": [
             {
-              "name": "ModelicaServices",
+              "name": "Complex",
               "version": "3.2.3"
             },
             {
-              "name": "Complex",
+              "name": "ModelicaServices",
               "version": "3.2.3"
             }
           ],
@@ -700,11 +736,11 @@
           "isfile": false,
           "dependencies": [
             {
-              "name": "Complex",
+              "name": "ModelicaServices",
               "version": "4.0.0"
             },
             {
-              "name": "ModelicaServices",
+              "name": "Complex",
               "version": "4.0.0"
             }
           ],
@@ -718,11 +754,11 @@
           "isfile": false,
           "dependencies": [
             {
-              "name": "Complex",
+              "name": "ModelicaServices",
               "version": "4.0.0"
             },
             {
-              "name": "ModelicaServices",
+              "name": "Complex",
               "version": "4.0.0"
             }
           ],
@@ -736,11 +772,11 @@
           "isfile": false,
           "dependencies": [
             {
-              "name": "Complex",
+              "name": "ModelicaServices",
               "version": "4.0.0"
             },
             {
-              "name": "ModelicaServices",
+              "name": "Complex",
               "version": "4.0.0"
             }
           ],
@@ -788,8 +824,8 @@
       "homepage": "https://github.com/modelica/ModelicaStandardLibrary",
       "repository_uri": "git://github.com/modelica/ModelicaStandardLibrary.git",
       "repository_format": "git",
-      "description": "Free (standard conforming) library from the Modelica Association to model mechanical (1D/3D), electrical (analog, digital, machines), magnetic, thermal, fluid, control systems and hierarchical state machines. Also numerical functions and functions for strings, files and streams are included.",
-      "stars": 276
+      "description": "Free (standard conforming) library to model mechanical (1D/3D), electrical (analog, digital, machines), magnetic, thermal, fluid, control systems and hierarchical state machines. Also numerical functions and functions for strings, files and streams are included.",
+      "stars": 401
     },
     {
       "name": "ModelicaStandardLibrary",
@@ -1044,8 +1080,8 @@
       "homepage": "https://github.com/modelica/ModelicaStandardLibrary",
       "repository_uri": "git://github.com/modelica/ModelicaStandardLibrary.git",
       "repository_format": "git",
-      "description": "Free (standard conforming) library from the Modelica Association to model mechanical (1D/3D), electrical (analog, digital, machines), magnetic, thermal, fluid, control systems and hierarchical state machines. Also numerical functions and functions for strings, files and streams are included.",
-      "stars": 276
+      "description": "Free (standard conforming) library to model mechanical (1D/3D), electrical (analog, digital, machines), magnetic, thermal, fluid, control systems and hierarchical state machines. Also numerical functions and functions for strings, files and streams are included.",
+      "stars": 401
     },
     {
       "name": "ModelicaServices",
@@ -1393,8 +1429,8 @@
       "homepage": "https://github.com/modelica/ModelicaStandardLibrary",
       "repository_uri": "git://github.com/modelica/ModelicaStandardLibrary.git",
       "repository_format": "git",
-      "description": "Free (standard conforming) library from the Modelica Association to model mechanical (1D/3D), electrical (analog, digital, machines), magnetic, thermal, fluid, control systems and hierarchical state machines. Also numerical functions and functions for strings, files and streams are included.",
-      "stars": 276
+      "description": "Free (standard conforming) library to model mechanical (1D/3D), electrical (analog, digital, machines), magnetic, thermal, fluid, control systems and hierarchical state machines. Also numerical functions and functions for strings, files and streams are included.",
+      "stars": 401
     },
     {
       "name": "ModelicaTest",
@@ -1742,8 +1778,8 @@
       "homepage": "https://github.com/modelica/ModelicaStandardLibrary",
       "repository_uri": "git://github.com/modelica/ModelicaStandardLibrary.git",
       "repository_format": "git",
-      "description": "Free (standard conforming) library from the Modelica Association to model mechanical (1D/3D), electrical (analog, digital, machines), magnetic, thermal, fluid, control systems and hierarchical state machines. Also numerical functions and functions for strings, files and streams are included.",
-      "stars": 276
+      "description": "Free (standard conforming) library to model mechanical (1D/3D), electrical (analog, digital, machines), magnetic, thermal, fluid, control systems and hierarchical state machines. Also numerical functions and functions for strings, files and streams are included.",
+      "stars": 401
     },
     {
       "name": "ModelicaTestConversion4",
@@ -1811,11 +1847,11 @@
           "isfile": true,
           "dependencies": [
             {
-              "name": "Complex",
+              "name": "Modelica",
               "version": "3.2.3"
             },
             {
-              "name": "Modelica",
+              "name": "Complex",
               "version": "3.2.3"
             }
           ],
@@ -1847,11 +1883,11 @@
           "isfile": true,
           "dependencies": [
             {
-              "name": "Complex",
+              "name": "Modelica",
               "version": "3.2.3"
             },
             {
-              "name": "Modelica",
+              "name": "Complex",
               "version": "3.2.3"
             }
           ],
@@ -1863,8 +1899,8 @@
       "homepage": "https://github.com/modelica/ModelicaStandardLibrary",
       "repository_uri": "git://github.com/modelica/ModelicaStandardLibrary.git",
       "repository_format": "git",
-      "description": "Free (standard conforming) library from the Modelica Association to model mechanical (1D/3D), electrical (analog, digital, machines), magnetic, thermal, fluid, control systems and hierarchical state machines. Also numerical functions and functions for strings, files and streams are included.",
-      "stars": 276
+      "description": "Free (standard conforming) library to model mechanical (1D/3D), electrical (analog, digital, machines), magnetic, thermal, fluid, control systems and hierarchical state machines. Also numerical functions and functions for strings, files and streams are included.",
+      "stars": 401
     },
     {
       "name": "ModelicaTestOverdetermined",
@@ -2156,8 +2192,8 @@
       "homepage": "https://github.com/modelica/ModelicaStandardLibrary",
       "repository_uri": "git://github.com/modelica/ModelicaStandardLibrary.git",
       "repository_format": "git",
-      "description": "Free (standard conforming) library from the Modelica Association to model mechanical (1D/3D), electrical (analog, digital, machines), magnetic, thermal, fluid, control systems and hierarchical state machines. Also numerical functions and functions for strings, files and streams are included.",
-      "stars": 276
+      "description": "Free (standard conforming) library to model mechanical (1D/3D), electrical (analog, digital, machines), magnetic, thermal, fluid, control systems and hierarchical state machines. Also numerical functions and functions for strings, files and streams are included.",
+      "stars": 401
     },
     {
       "name": "ObsoleteModelica4",
@@ -2253,8 +2289,8 @@
       "homepage": "https://github.com/modelica/ModelicaStandardLibrary",
       "repository_uri": "git://github.com/modelica/ModelicaStandardLibrary.git",
       "repository_format": "git",
-      "description": "Free (standard conforming) library from the Modelica Association to model mechanical (1D/3D), electrical (analog, digital, machines), magnetic, thermal, fluid, control systems and hierarchical state machines. Also numerical functions and functions for strings, files and streams are included.",
-      "stars": 276
+      "description": "Free (standard conforming) library to model mechanical (1D/3D), electrical (analog, digital, machines), magnetic, thermal, fluid, control systems and hierarchical state machines. Also numerical functions and functions for strings, files and streams are included.",
+      "stars": 401
     },
     {
       "name": "ObsoleteModelica3",
@@ -2560,8 +2596,8 @@
       "homepage": "https://github.com/modelica/ModelicaStandardLibrary",
       "repository_uri": "git://github.com/modelica/ModelicaStandardLibrary.git",
       "repository_format": "git",
-      "description": "Free (standard conforming) library from the Modelica Association to model mechanical (1D/3D), electrical (analog, digital, machines), magnetic, thermal, fluid, control systems and hierarchical state machines. Also numerical functions and functions for strings, files and streams are included.",
-      "stars": 276
+      "description": "Free (standard conforming) library to model mechanical (1D/3D), electrical (analog, digital, machines), magnetic, thermal, fluid, control systems and hierarchical state machines. Also numerical functions and functions for strings, files and streams are included.",
+      "stars": 401
     },
     {
       "name": "Modelica_LinearSystems2",
@@ -2693,20 +2729,6 @@
           ],
           "sha": "1a9735b7d6f2ea00c98ad46447fe10f6f5fcd359"
         },
-        "2.3.5-rc.1": {
-          "version": "2.3.5-rc.1",
-          "tarball_url": "https://api.github.com/repos/modelica/Modelica_LinearSystems2/tarball/refs/tags/v2.3.5-rc.1",
-          "zipball_url": "https://api.github.com/repos/modelica/Modelica_LinearSystems2/zipball/refs/tags/v2.3.5-rc.1",
-          "path": "Modelica_LinearSystems2",
-          "isfile": false,
-          "dependencies": [
-            {
-              "name": "Modelica",
-              "version": "3.2.3"
-            }
-          ],
-          "sha": "5485b6524c0ae9d8d9ecc48aef1db29d03714e6f"
-        },
         "2.4.0": {
           "version": "2.4.0",
           "tarball_url": "https://api.github.com/repos/modelica/Modelica_LinearSystems2/tarball/refs/tags/v2.4.0",
@@ -2721,38 +2743,10 @@
           ],
           "sha": "325f2edbdbde72e17ab3e6f8a68b61fe192ea4e8"
         },
-        "2.4.0-beta.1": {
-          "version": "2.4.0-beta.1",
-          "tarball_url": "https://api.github.com/repos/modelica/Modelica_LinearSystems2/tarball/refs/tags/v2.4.0-beta.1",
-          "zipball_url": "https://api.github.com/repos/modelica/Modelica_LinearSystems2/zipball/refs/tags/v2.4.0-beta.1",
-          "path": "Modelica_LinearSystems2",
-          "isfile": false,
-          "dependencies": [
-            {
-              "name": "Modelica",
-              "version": "4.0.0"
-            }
-          ],
-          "sha": "466666458dcccc8a64255e3a3610017212b18cf4"
-        },
-        "2.4.0-rc.1": {
-          "version": "2.4.0-rc.1",
-          "tarball_url": "https://api.github.com/repos/modelica/Modelica_LinearSystems2/tarball/refs/tags/v2.4.0-rc.1",
-          "zipball_url": "https://api.github.com/repos/modelica/Modelica_LinearSystems2/zipball/refs/tags/v2.4.0-rc.1",
-          "path": "Modelica_LinearSystems2",
-          "isfile": false,
-          "dependencies": [
-            {
-              "name": "Modelica",
-              "version": "4.0.0"
-            }
-          ],
-          "sha": "61a3f5869a4f62cabfa1a5ddf41524065e7e622b"
-        },
-        "2.4.1-alpha": {
-          "version": "2.4.1-alpha",
-          "tarball_url": "https://api.github.com/repos/modelica/Modelica_LinearSystems2/tarball/refs/tags/v2.4.1-alpha",
-          "zipball_url": "https://api.github.com/repos/modelica/Modelica_LinearSystems2/zipball/refs/tags/v2.4.1-alpha",
+        "2.4.1": {
+          "version": "2.4.1",
+          "tarball_url": "https://api.github.com/repos/modelica/Modelica_LinearSystems2/tarball/refs/tags/v2.4.1",
+          "zipball_url": "https://api.github.com/repos/modelica/Modelica_LinearSystems2/zipball/refs/tags/v2.4.1",
           "path": "Modelica_LinearSystems2",
           "isfile": false,
           "dependencies": [
@@ -2765,7 +2759,43 @@
               "version": "1.11.0"
             }
           ],
-          "sha": "311c9b7410d7f2683947c5b88e28af1a1b951c0b"
+          "sha": "00404dfe14920261c4a262221d94bd88f7f64192"
+        },
+        "2.4.1+build.2": {
+          "version": "2.4.1+build.2",
+          "tarball_url": "https://api.github.com/repos/modelica/Modelica_LinearSystems2/tarball/refs/tags/v2.4.1+build.2",
+          "zipball_url": "https://api.github.com/repos/modelica/Modelica_LinearSystems2/zipball/refs/tags/v2.4.1+build.2",
+          "path": "Modelica_LinearSystems2",
+          "isfile": false,
+          "dependencies": [
+            {
+              "name": "Modelica",
+              "version": "4.0.0"
+            },
+            {
+              "name": "DymolaCommands",
+              "version": "1.11.0"
+            }
+          ],
+          "sha": "ea18e1525270a4f6d27f4d7abd23b0550c2e0050"
+        },
+        "2.4.1-beta.2": {
+          "version": "2.4.1-beta.2",
+          "tarball_url": "https://api.github.com/repos/modelica/Modelica_LinearSystems2/tarball/refs/tags/v2.4.1-beta.2",
+          "zipball_url": "https://api.github.com/repos/modelica/Modelica_LinearSystems2/zipball/refs/tags/v2.4.1-beta.2",
+          "path": "Modelica_LinearSystems2",
+          "isfile": false,
+          "dependencies": [
+            {
+              "name": "Modelica",
+              "version": "4.0.0"
+            },
+            {
+              "name": "DymolaCommands",
+              "version": "1.11.0"
+            }
+          ],
+          "sha": "edd2e29f770364e7e58b2c2f5ab168d71b82251b"
         }
       },
       "owner_uri": "https://github.com/modelica",
@@ -2774,7 +2804,7 @@
       "repository_uri": "git://github.com/modelica/Modelica_LinearSystems2.git",
       "repository_format": "git",
       "description": "Free library providing different representations of linear, time invariant differential and difference equation systems, as well as typical operations on these system descriptions.",
-      "stars": 12
+      "stars": 16
     },
     {
       "name": "Modelica_Synchronous",
@@ -2866,11 +2896,11 @@
           "isfile": false,
           "dependencies": [
             {
-              "name": "ModelicaServices",
+              "name": "Modelica",
               "version": "3.2.3"
             },
             {
-              "name": "Modelica",
+              "name": "ModelicaServices",
               "version": "3.2.3"
             }
           ],
@@ -2883,7 +2913,7 @@
       "repository_uri": "git://github.com/modelica/Modelica_Synchronous.git",
       "repository_format": "git",
       "description": "Free (standard conforming) library to precisely define and synchronize sampled data systems with different sampling rates. It provides convenient to use blocks to utilize the new synchronous language elements introduced in Modelica 3.3.",
-      "stars": 7
+      "stars": 10
     },
     {
       "name": "ObsoleteVehicleInterfaces2",
@@ -2906,6 +2936,24 @@
             }
           ],
           "sha": "ae4fb70b2b6ff985e80750eadcf4a7e4bec4fb98"
+        },
+        "2.0.1": {
+          "version": "2.0.1",
+          "tarball_url": "https://api.github.com/repos/modelica/VehicleInterfaces/tarball/refs/tags/v2.0.1",
+          "zipball_url": "https://api.github.com/repos/modelica/VehicleInterfaces/zipball/refs/tags/v2.0.1",
+          "path": "ObsoleteVehicleInterfaces2.mo",
+          "isfile": true,
+          "dependencies": [
+            {
+              "name": "VehicleInterfaces",
+              "version": "2.0.0"
+            },
+            {
+              "name": "Modelica",
+              "version": "4.0.0"
+            }
+          ],
+          "sha": "63fc631f0b539a85ee15e137a5e21629ca108182"
         }
       },
       "owner_uri": "https://github.com/modelica",
@@ -2914,7 +2962,7 @@
       "repository_uri": "git://github.com/modelica/VehicleInterfaces.git",
       "repository_format": "git",
       "description": "Free (standard conforming) library for interface definitions and architectures for vehicle system modeling",
-      "stars": 30
+      "stars": 33
     },
     {
       "name": "VehicleInterfaces",
@@ -3003,6 +3051,20 @@
             }
           ],
           "sha": "ae4fb70b2b6ff985e80750eadcf4a7e4bec4fb98"
+        },
+        "2.0.1": {
+          "version": "2.0.1",
+          "tarball_url": "https://api.github.com/repos/modelica/VehicleInterfaces/tarball/refs/tags/v2.0.1",
+          "zipball_url": "https://api.github.com/repos/modelica/VehicleInterfaces/zipball/refs/tags/v2.0.1",
+          "path": "VehicleInterfaces",
+          "isfile": false,
+          "dependencies": [
+            {
+              "name": "Modelica",
+              "version": "4.0.0"
+            }
+          ],
+          "sha": "63fc631f0b539a85ee15e137a5e21629ca108182"
         }
       },
       "owner_uri": "https://github.com/modelica",
@@ -3011,7 +3073,7 @@
       "repository_uri": "git://github.com/modelica/VehicleInterfaces.git",
       "repository_format": "git",
       "description": "Free (standard conforming) library for interface definitions and architectures for vehicle system modeling",
-      "stars": 30
+      "stars": 33
     },
     {
       "name": "VehicleInterfacesTestConversion2",
@@ -3030,6 +3092,20 @@
             }
           ],
           "sha": "ae4fb70b2b6ff985e80750eadcf4a7e4bec4fb98"
+        },
+        "2.0.1": {
+          "version": "2.0.1",
+          "tarball_url": "https://api.github.com/repos/modelica/VehicleInterfaces/tarball/refs/tags/v2.0.1",
+          "zipball_url": "https://api.github.com/repos/modelica/VehicleInterfaces/zipball/refs/tags/v2.0.1",
+          "path": "VehicleInterfacesTestConversion2.mo",
+          "isfile": true,
+          "dependencies": [
+            {
+              "name": "VehicleInterfaces",
+              "version": "1.2.5"
+            }
+          ],
+          "sha": "63fc631f0b539a85ee15e137a5e21629ca108182"
         }
       },
       "owner_uri": "https://github.com/modelica",
@@ -3038,7 +3114,7 @@
       "repository_uri": "git://github.com/modelica/VehicleInterfaces.git",
       "repository_format": "git",
       "description": "Free (standard conforming) library for interface definitions and architectures for vehicle system modeling",
-      "stars": 30
+      "stars": 33
     },
     {
       "name": "ADGenKinetics",
@@ -3157,6 +3233,34 @@
             }
           ],
           "sha": "3d5ee54b4086e5c29e7276a7b92d40a3237aed8c"
+        },
+        "1.1.0": {
+          "version": "1.1.0",
+          "tarball_url": "https://api.github.com/repos/modelica-3rdparty/AdvancedNoise/tarball/refs/tags/v1.1.0",
+          "zipball_url": "https://api.github.com/repos/modelica-3rdparty/AdvancedNoise/zipball/refs/tags/v1.1.0",
+          "path": "AdvancedNoise",
+          "isfile": false,
+          "dependencies": [
+            {
+              "name": "Modelica",
+              "version": "4.0.0"
+            }
+          ],
+          "sha": "1f3e063b73170de616d21a2ea519bb0ffc44fcfc"
+        },
+        "1.1.0-alpha": {
+          "version": "1.1.0-alpha",
+          "tarball_url": "https://api.github.com/repos/modelica-3rdparty/AdvancedNoise/tarball/refs/tags/v1.1.0-alpha",
+          "zipball_url": "https://api.github.com/repos/modelica-3rdparty/AdvancedNoise/zipball/refs/tags/v1.1.0-alpha",
+          "path": "AdvancedNoise",
+          "isfile": false,
+          "dependencies": [
+            {
+              "name": "Modelica",
+              "version": "4.0.0"
+            }
+          ],
+          "sha": "0ca7d8b55909410f2eb3eb983ef93136c71f7faa"
         }
       },
       "owner_uri": "https://github.com/DLR-SR",
@@ -3165,7 +3269,7 @@
       "repository_uri": "git://github.com/DLR-SR/AdvancedNoise.git",
       "repository_format": "git",
       "description": "Modelica library with advanced noise features building on Modelica_Noise",
-      "stars": 8
+      "stars": 9
     },
     {
       "name": "Modelica_Noise",
@@ -3378,16 +3482,16 @@
           "isfile": false,
           "dependencies": [
             {
+              "name": "Modelica_Synchronous",
+              "version": "0.92.1"
+            },
+            {
               "name": "NcDataReader2",
               "version": "2.4.0"
             },
             {
               "name": "Modelica",
               "version": "3.2.2"
-            },
-            {
-              "name": "Modelica_Synchronous",
-              "version": "0.92.1"
             }
           ],
           "sha": "d71279d6925c105a4f9e3f5b76f69fc60410602b"
@@ -3400,20 +3504,20 @@
           "isfile": false,
           "dependencies": [
             {
-              "name": "Modelica",
-              "version": "3.2.2"
-            },
-            {
-              "name": "Modelica_DeviceDrivers",
-              "version": "1.4.4"
-            },
-            {
               "name": "Modelica_Synchronous",
               "version": "0.92.1"
             },
             {
               "name": "NcDataReader2",
               "version": "2.4.0"
+            },
+            {
+              "name": "Modelica",
+              "version": "3.2.2"
+            },
+            {
+              "name": "Modelica_DeviceDrivers",
+              "version": "1.4.4"
             }
           ],
           "sha": "a6dcc19711382b968994afcf42fa00df30b86d69"
@@ -3426,6 +3530,10 @@
           "isfile": false,
           "dependencies": [
             {
+              "name": "Modelica",
+              "version": "3.2.2"
+            },
+            {
               "name": "Modelica_DeviceDrivers",
               "version": "1.4.4"
             },
@@ -3436,10 +3544,6 @@
             {
               "name": "NcDataReader2",
               "version": "2.4.0"
-            },
-            {
-              "name": "Modelica",
-              "version": "3.2.2"
             }
           ],
           "sha": "4e9a01e6f3180eb3a6c0f760350122bf340c5ef4"
@@ -3504,20 +3608,20 @@
           "isfile": false,
           "dependencies": [
             {
-              "name": "Modelica_Synchronous",
-              "version": "0.92.1"
-            },
-            {
-              "name": "NcDataReader2",
-              "version": "2.4.0"
-            },
-            {
               "name": "Modelica",
               "version": "3.2.2"
             },
             {
               "name": "Modelica_DeviceDrivers",
               "version": "1.4.4"
+            },
+            {
+              "name": "Modelica_Synchronous",
+              "version": "0.92.1"
+            },
+            {
+              "name": "NcDataReader2",
+              "version": "2.4.0"
             }
           ],
           "sha": "f7212bda66f6abcdf94535be5602c549792e2d22"
@@ -3529,6 +3633,10 @@
           "path": "AixLib",
           "isfile": false,
           "dependencies": [
+            {
+              "name": "Modelica",
+              "version": "3.2.3"
+            },
             {
               "name": "Modelica_Synchronous",
               "version": "0.92.2"
@@ -3544,10 +3652,6 @@
             {
               "name": "Modelica_DeviceDrivers",
               "version": "1.7.0"
-            },
-            {
-              "name": "Modelica",
-              "version": "3.2.3"
             }
           ],
           "sha": "83e95e24640ac881dbb7d906938dddc1d92712ec"
@@ -3590,12 +3694,42 @@
           "isfile": false,
           "dependencies": [
             {
+              "name": "NcDataReader2",
+              "version": "2.5.0"
+            },
+            {
+              "name": "SDF",
+              "version": "0.4.1"
+            },
+            {
+              "name": "Modelica_DeviceDrivers",
+              "version": "1.7.0"
+            },
+            {
               "name": "Modelica",
               "version": "3.2.3"
             },
             {
               "name": "Modelica_Synchronous",
               "version": "0.92.2"
+            }
+          ],
+          "sha": "65e49ddf5c935846888a61aa303e52c909619079"
+        },
+        "1.3.0": {
+          "version": "1.3.0",
+          "tarball_url": "https://api.github.com/repos/modelica-3rdparty/AixLib/tarball/refs/tags/v1.3.0",
+          "zipball_url": "https://api.github.com/repos/modelica-3rdparty/AixLib/zipball/refs/tags/v1.3.0",
+          "path": "AixLib",
+          "isfile": false,
+          "dependencies": [
+            {
+              "name": "ObsoleteModelica4",
+              "version": "4.0.0"
+            },
+            {
+              "name": "Modelica",
+              "version": "4.0.0"
             },
             {
               "name": "NcDataReader2",
@@ -3610,7 +3744,59 @@
               "version": "1.7.0"
             }
           ],
-          "sha": "65e49ddf5c935846888a61aa303e52c909619079"
+          "sha": "098f613c83a3d11149cc7ea4eb9589dfe8e86766"
+        },
+        "1.3.1": {
+          "version": "1.3.1",
+          "tarball_url": "https://api.github.com/repos/modelica-3rdparty/AixLib/tarball/refs/tags/v1.3.1",
+          "zipball_url": "https://api.github.com/repos/modelica-3rdparty/AixLib/zipball/refs/tags/v1.3.1",
+          "path": "AixLib",
+          "isfile": false,
+          "dependencies": [
+            {
+              "name": "NcDataReader2",
+              "version": "2.5.0"
+            },
+            {
+              "name": "SDF",
+              "version": "0.4.2"
+            },
+            {
+              "name": "Modelica_DeviceDrivers",
+              "version": "2.0.0"
+            },
+            {
+              "name": "ObsoleteModelica4",
+              "version": "4.0.0"
+            },
+            {
+              "name": "Modelica",
+              "version": "4.0.0"
+            }
+          ],
+          "sha": "b341e6903b36fe032e0aff256496cef456c8ceca"
+        },
+        "1.3.2": {
+          "version": "1.3.2",
+          "tarball_url": "https://api.github.com/repos/modelica-3rdparty/AixLib/tarball/refs/tags/v1.3.2",
+          "zipball_url": "https://api.github.com/repos/modelica-3rdparty/AixLib/zipball/refs/tags/v1.3.2",
+          "path": "AixLib",
+          "isfile": false,
+          "dependencies": [
+            {
+              "name": "SDF",
+              "version": "0.4.2"
+            },
+            {
+              "name": "Modelica_DeviceDrivers",
+              "version": "2.1.1"
+            },
+            {
+              "name": "Modelica",
+              "version": "4.0.0"
+            }
+          ],
+          "sha": "5783775e3b703ba16eec3adef7128fc231ef9b49"
         }
       },
       "owner_uri": "https://github.com/RWTH-EBC",
@@ -3619,7 +3805,7 @@
       "repository_uri": "git://github.com/RWTH-EBC/AixLib.git",
       "repository_format": "git",
       "description": "A Modelica model library for building performance simulations",
-      "stars": 114
+      "stars": 159
     },
     {
       "name": "ATplus",
@@ -3816,7 +4002,7 @@
       "repository_uri": "git://github.com/modelica-3rdparty/BondGraph.git",
       "repository_format": "git",
       "description": "Free library for graphical Bond Graph modelling that contains common standard linear elements, sensors, and specific non-linear elements, especially for hydraulic networks.",
-      "stars": 5
+      "stars": 6
     },
     {
       "name": "BondLib",
@@ -3843,7 +4029,7 @@
       "repository_uri": "git://github.com/modelica-3rdparty/BondLib.git",
       "repository_format": "git",
       "description": "Free library to model physical systems with bond graphs.",
-      "stars": 5
+      "stars": 8
     },
     {
       "name": "BrineProp",
@@ -3965,12 +4151,12 @@
           "isfile": false,
           "dependencies": [
             {
-              "name": "DataFiles",
-              "version": "1.0.0"
-            },
-            {
               "name": "Modelica",
               "version": "3.2.1"
+            },
+            {
+              "name": "DataFiles",
+              "version": "1.0.0"
             }
           ],
           "sha": "0c5553829e7c6b28c918cbac29fe855e9695b162"
@@ -3983,12 +4169,12 @@
           "isfile": false,
           "dependencies": [
             {
-              "name": "Modelica",
-              "version": "3.2.1"
-            },
-            {
               "name": "DataFiles",
               "version": "1.0.0"
+            },
+            {
+              "name": "Modelica",
+              "version": "3.2.1"
             }
           ],
           "sha": "2b835989d0aa78c153b8621ee185d683084d08dc"
@@ -4198,7 +4384,7 @@
       "repository_uri": "git://github.com/Heineken/BrineProp.git",
       "repository_format": "git",
       "description": "Modelica.Media models for p-h-T-rho-eta properties of aqueous solutions of multiple salts (NaCl,KCl,CaCl2) and gases (CO2,N2,CH4). Two-phase model with VLE calculation. Repo has been moved to",
-      "stars": 4
+      "stars": 6
     },
     {
       "name": "BuildingControlLib",
@@ -4212,10 +4398,6 @@
           "isfile": false,
           "dependencies": [
             {
-              "name": "Modelica",
-              "version": "3.2.2"
-            },
-            {
               "name": "AixLib",
               "version": "0.4.0"
             },
@@ -4226,6 +4408,10 @@
             {
               "name": "Modelica_StateGraph2",
               "version": "2.0.2"
+            },
+            {
+              "name": "Modelica",
+              "version": "3.2.2"
             }
           ],
           "sha": "78b9327b9eaa47d346ac19033b74450a7f014883"
@@ -4289,7 +4475,7 @@
       "repository_uri": "git://github.com/TechnicalBuildingSystems/BuildingControlLib.git",
       "repository_format": "git",
       "description": "Welcome to BuildingControlLib, a Modelica library for modelling and simulation of standardized and non-standardized control functions from Building Automation Systems. The library is developed at the Fraunhofer Institute for Building Physics IBP.",
-      "stars": 10
+      "stars": 12
     },
     {
       "name": "Buildings",
@@ -4351,6 +4537,20 @@
           ],
           "sha": "bca6399e7f5504ae13529183f7707f3634622f21"
         },
+        "10.0.0": {
+          "version": "10.0.0",
+          "tarball_url": "https://api.github.com/repos/modelica-3rdparty/Buildings/tarball/refs/tags/v10.0.0",
+          "zipball_url": "https://api.github.com/repos/modelica-3rdparty/Buildings/zipball/refs/tags/v10.0.0",
+          "path": "Buildings",
+          "isfile": false,
+          "dependencies": [
+            {
+              "name": "Modelica",
+              "version": "4.0.0"
+            }
+          ],
+          "sha": "fba6d6f3b3e61c22d6c1fabf707b94de8112e7c6"
+        },
         "2.0.0": {
           "version": "2.0.0",
           "tarball_url": "https://api.github.com/repos/modelica-3rdparty/Buildings/tarball/refs/tags/v2.0.0",
@@ -4359,12 +4559,12 @@
           "isfile": false,
           "dependencies": [
             {
-              "name": "Modelica",
-              "version": "3.2.1"
-            },
-            {
               "name": "Modelica_StateGraph2",
               "version": "2.0.2"
+            },
+            {
+              "name": "Modelica",
+              "version": "3.2.1"
             }
           ],
           "sha": "78fb55211a60ebcd0196810966a33bc7b1fc7b41"
@@ -4395,12 +4595,12 @@
           "isfile": false,
           "dependencies": [
             {
-              "name": "Modelica_StateGraph2",
-              "version": "2.0.2"
-            },
-            {
               "name": "Modelica",
               "version": "3.2.1"
+            },
+            {
+              "name": "Modelica_StateGraph2",
+              "version": "2.0.2"
             }
           ],
           "sha": "da3ebf02eee3b88e9f53c4c6d5ae720ed0aa9bda"
@@ -4413,12 +4613,12 @@
           "isfile": false,
           "dependencies": [
             {
-              "name": "Modelica_StateGraph2",
-              "version": "2.0.2"
-            },
-            {
               "name": "Modelica",
               "version": "3.2.1"
+            },
+            {
+              "name": "Modelica_StateGraph2",
+              "version": "2.0.2"
             }
           ],
           "sha": "15ed829ec502f4b99e4875bf96f1e64a71476192"
@@ -4521,6 +4721,20 @@
           ],
           "sha": "b09ef282fd5671fb866166e99fa94f05f7b8c65c"
         },
+        "7.0.2": {
+          "version": "7.0.2",
+          "tarball_url": "https://api.github.com/repos/modelica-3rdparty/Buildings/tarball/refs/tags/v7.0.2",
+          "zipball_url": "https://api.github.com/repos/modelica-3rdparty/Buildings/zipball/refs/tags/v7.0.2",
+          "path": "Buildings",
+          "isfile": false,
+          "dependencies": [
+            {
+              "name": "Modelica",
+              "version": "3.2.3"
+            }
+          ],
+          "sha": "3d0f7d1a9cd14ba54985f024733b27b024774193"
+        },
         "8.0.0": {
           "version": "8.0.0",
           "tarball_url": "https://api.github.com/repos/modelica-3rdparty/Buildings/tarball/refs/tags/v8.0.0",
@@ -4534,6 +4748,104 @@
             }
           ],
           "sha": "5fa0bed0caa0f27b8ebfa20c1a39e22cdd0f5008"
+        },
+        "8.1.0": {
+          "version": "8.1.0",
+          "tarball_url": "https://api.github.com/repos/modelica-3rdparty/Buildings/tarball/refs/tags/v8.1.0",
+          "zipball_url": "https://api.github.com/repos/modelica-3rdparty/Buildings/zipball/refs/tags/v8.1.0",
+          "path": "Buildings",
+          "isfile": false,
+          "dependencies": [
+            {
+              "name": "Modelica",
+              "version": "3.2.3"
+            }
+          ],
+          "sha": "8a5db0ce3a7c54803e0abc2c01b28f7c18e81b09"
+        },
+        "8.1.1": {
+          "version": "8.1.1",
+          "tarball_url": "https://api.github.com/repos/modelica-3rdparty/Buildings/tarball/refs/tags/v8.1.1",
+          "zipball_url": "https://api.github.com/repos/modelica-3rdparty/Buildings/zipball/refs/tags/v8.1.1",
+          "path": "Buildings",
+          "isfile": false,
+          "dependencies": [
+            {
+              "name": "Modelica",
+              "version": "3.2.3"
+            }
+          ],
+          "sha": "0bca601a67d0eca619290bf745d0980d5cfc8833"
+        },
+        "8.1.2": {
+          "version": "8.1.2",
+          "tarball_url": "https://api.github.com/repos/modelica-3rdparty/Buildings/tarball/refs/tags/v8.1.2",
+          "zipball_url": "https://api.github.com/repos/modelica-3rdparty/Buildings/zipball/refs/tags/v8.1.2",
+          "path": "Buildings",
+          "isfile": false,
+          "dependencies": [
+            {
+              "name": "Modelica",
+              "version": "3.2.3"
+            }
+          ],
+          "sha": "43bb80ae3a86e5f0ed68b35bc4a247cd473982c9"
+        },
+        "8.1.3": {
+          "version": "8.1.3",
+          "tarball_url": "https://api.github.com/repos/modelica-3rdparty/Buildings/tarball/refs/tags/v8.1.3",
+          "zipball_url": "https://api.github.com/repos/modelica-3rdparty/Buildings/zipball/refs/tags/v8.1.3",
+          "path": "Buildings",
+          "isfile": false,
+          "dependencies": [
+            {
+              "name": "Modelica",
+              "version": "3.2.3"
+            }
+          ],
+          "sha": "891d0c21cdbed09e7eaed0e0196ba02f85e6bc8e"
+        },
+        "9.0.0": {
+          "version": "9.0.0",
+          "tarball_url": "https://api.github.com/repos/modelica-3rdparty/Buildings/tarball/refs/tags/v9.0.0",
+          "zipball_url": "https://api.github.com/repos/modelica-3rdparty/Buildings/zipball/refs/tags/v9.0.0",
+          "path": "Buildings",
+          "isfile": false,
+          "dependencies": [
+            {
+              "name": "Modelica",
+              "version": "4.0.0"
+            }
+          ],
+          "sha": "df7415ebeb3ab0ca09d476dccef9e3143b6fe1d0"
+        },
+        "9.1.0": {
+          "version": "9.1.0",
+          "tarball_url": "https://api.github.com/repos/modelica-3rdparty/Buildings/tarball/refs/tags/v9.1.0",
+          "zipball_url": "https://api.github.com/repos/modelica-3rdparty/Buildings/zipball/refs/tags/v9.1.0",
+          "path": "Buildings",
+          "isfile": false,
+          "dependencies": [
+            {
+              "name": "Modelica",
+              "version": "4.0.0"
+            }
+          ],
+          "sha": "d34a259960ca12b2126ef188f2d20fc8148eafb2"
+        },
+        "9.1.1": {
+          "version": "9.1.1",
+          "tarball_url": "https://api.github.com/repos/modelica-3rdparty/Buildings/tarball/refs/tags/v9.1.1",
+          "zipball_url": "https://api.github.com/repos/modelica-3rdparty/Buildings/zipball/refs/tags/v9.1.1",
+          "path": "Buildings",
+          "isfile": false,
+          "dependencies": [
+            {
+              "name": "Modelica",
+              "version": "4.0.0"
+            }
+          ],
+          "sha": "bcba32fb0dcdfd3513ed79f69877e29a7c136092"
         }
       },
       "owner_uri": "https://github.com/lbl-srg",
@@ -4542,7 +4854,7 @@
       "repository_uri": "git://github.com/lbl-srg/modelica-buildings.git",
       "repository_format": "git",
       "description": "Modelica Buildings library",
-      "stars": 138
+      "stars": 191
     },
     {
       "name": "BuildingSystems",
@@ -4583,11 +4895,11 @@
       "repository_uri": "git://github.com/UdK-VPT/BuildingSystems.git",
       "repository_format": "git",
       "description": "Modelica BuildingSystems library",
-      "stars": 47
+      "stars": 65
     },
     {
       "name": "BuildSysPro",
-      "uri": "https://github.com/EDF-TREE/BuildSysPro",
+      "uri": "https://github.com/EDF-Lab/BuildSysPro",
       "versions": {
         "2.0.0": {
           "version": "2.0.0",
@@ -4686,15 +4998,29 @@
             }
           ],
           "sha": "ba53f7e34e7bd5e717b7419076ffedb4619fed2a"
+        },
+        "3.5.0": {
+          "version": "3.5.0",
+          "tarball_url": "https://api.github.com/repos/modelica-3rdparty/BuildSysPro/tarball/refs/tags/v3.5.0",
+          "zipball_url": "https://api.github.com/repos/modelica-3rdparty/BuildSysPro/zipball/refs/tags/v3.5.0",
+          "path": "BuildSysPro",
+          "isfile": false,
+          "dependencies": [
+            {
+              "name": "Modelica",
+              "version": "3.2.3"
+            }
+          ],
+          "sha": "3deab2b5edc84ba657d9a536de47160bc6fec8e2"
         }
       },
-      "owner_uri": "https://github.com/EDF-TREE",
+      "owner_uri": "https://github.com/EDF-Lab",
       "email": "",
-      "homepage": "https://github.com/EDF-TREE/BuildSysPro",
-      "repository_uri": "git://github.com/EDF-TREE/BuildSysPro.git",
+      "homepage": "https://github.com/EDF-Lab/BuildSysPro",
+      "repository_uri": "git://github.com/EDF-Lab/BuildSysPro.git",
       "repository_format": "git",
       "description": "BuildSysPro open source: EDF's Modelica library for buildings, districts and energy systems modelling",
-      "stars": 33
+      "stars": 40
     },
     {
       "name": "BusinessSimulation",
@@ -4713,6 +5039,48 @@
             }
           ],
           "sha": "19a34c8e80613ef814e6c24552061e327ce5e9c1"
+        },
+        "2.0.0": {
+          "version": "2.0.0",
+          "tarball_url": "https://api.github.com/repos/modelica-3rdparty/BusinessSimulation/tarball/refs/tags/v2.0.0",
+          "zipball_url": "https://api.github.com/repos/modelica-3rdparty/BusinessSimulation/zipball/refs/tags/v2.0.0",
+          "path": "BusinessSimulation",
+          "isfile": false,
+          "dependencies": [
+            {
+              "name": "Modelica",
+              "version": "3.2.3"
+            }
+          ],
+          "sha": "7b71f2085a1da2feafb56bda0a65c2453c1e2f02"
+        },
+        "2.1.0": {
+          "version": "2.1.0",
+          "tarball_url": "https://api.github.com/repos/modelica-3rdparty/BusinessSimulation/tarball/refs/tags/v2.1.0",
+          "zipball_url": "https://api.github.com/repos/modelica-3rdparty/BusinessSimulation/zipball/refs/tags/v2.1.0",
+          "path": "BusinessSimulation",
+          "isfile": false,
+          "dependencies": [
+            {
+              "name": "Modelica",
+              "version": "3.2.3"
+            }
+          ],
+          "sha": "8acde2af16a97d495e2afd336a6782ba5be9202e"
+        },
+        "2.1.1": {
+          "version": "2.1.1",
+          "tarball_url": "https://api.github.com/repos/modelica-3rdparty/BusinessSimulation/tarball/refs/tags/v2.1.1",
+          "zipball_url": "https://api.github.com/repos/modelica-3rdparty/BusinessSimulation/zipball/refs/tags/v2.1.1",
+          "path": "BusinessSimulation",
+          "isfile": false,
+          "dependencies": [
+            {
+              "name": "Modelica",
+              "version": "3.2.3"
+            }
+          ],
+          "sha": "b1f7e477a92d0af12caecdd3d777074c66223f44"
         }
       },
       "owner_uri": "https://github.com/bslMS",
@@ -4720,8 +5088,8 @@
       "homepage": "https://github.com/bslMS/BusinessSimulation",
       "repository_uri": "git://github.com/bslMS/BusinessSimulation.git",
       "repository_format": "git",
-      "description": "Business Simulation Library (BSL) - A library for modeling \u0026 simulation of dynamical systems in the social sciences, e.g., business/economics, and ecology using the System Dynamics metaphor",
-      "stars": 3
+      "description": "Business Simulation Library (BSL) - A library for modeling \u0026 simulation of dynamical systems in the social sciences, e.g., business, economics, and ecology using the System Dynamics metaphor.",
+      "stars": 15
     },
     {
       "name": "Chemical",
@@ -4838,6 +5206,20 @@
             }
           ],
           "sha": "65b1bfe4c2fefc2452e0b5efe74abbe21e287949"
+        },
+        "1.4.1": {
+          "version": "1.4.1",
+          "tarball_url": "https://api.github.com/repos/modelica-3rdparty/Chemical/tarball/refs/tags/v1.4.1",
+          "zipball_url": "https://api.github.com/repos/modelica-3rdparty/Chemical/zipball/refs/tags/v1.4.1",
+          "path": "Chemical",
+          "isfile": false,
+          "dependencies": [
+            {
+              "name": "Modelica",
+              "version": "4.0.0"
+            }
+          ],
+          "sha": "245138d95c80db00e3aae1a930a4cad5b76e1002"
         }
       },
       "owner_uri": "https://github.com/MarekMatejak",
@@ -4846,7 +5228,7 @@
       "repository_uri": "git://github.com/MarekMatejak/Chemical.git",
       "repository_format": "git",
       "description": "Modelica Library of Chemical and Electrochemical Processes",
-      "stars": 30
+      "stars": 37
     },
     {
       "name": "ComplexLib",
@@ -4895,7 +5277,7 @@
       "repository_uri": "git://github.com/ATAEngineering/DeployStructLib.git",
       "repository_format": "git",
       "description": "A Modelica library providing specialized structural and mechanism components for modeling deployable structures",
-      "stars": 4
+      "stars": 7
     },
     {
       "name": "DESLib",
@@ -4918,6 +5300,82 @@
       "repository_format": "git",
       "description": "Free library for Parallel DEVS and Process-Oriented Modeling in Modelica",
       "stars": 3
+    },
+    {
+      "name": "DisHeatLib",
+      "uri": "https://github.com/AIT-IES/DisHeatLib",
+      "versions": {
+        "1.0.0": {
+          "version": "1.0.0",
+          "tarball_url": "https://api.github.com/repos/modelica-3rdparty/DisHeatLib/tarball/refs/tags/v1.0.0",
+          "zipball_url": "https://api.github.com/repos/modelica-3rdparty/DisHeatLib/zipball/refs/tags/v1.0.0",
+          "path": "DisHeatLib",
+          "isfile": false,
+          "dependencies": [
+            {
+              "name": "Buildings",
+              "version": "8.0.0"
+            },
+            {
+              "name": "Modelica",
+              "version": "3.2.3"
+            },
+            {
+              "name": "IBPSA",
+              "version": "3.0.0"
+            }
+          ],
+          "sha": "eb5e1dd6445e9e72950764deb8cb7c77a57f54a3"
+        }
+      },
+      "owner_uri": "https://github.com/AIT-IES",
+      "email": "",
+      "homepage": "https://github.com/AIT-IES/DisHeatLib",
+      "repository_uri": "git://github.com/AIT-IES/DisHeatLib.git",
+      "repository_format": "git",
+      "description": "Modelica library for district heating network modelling using IBPSA library as core",
+      "stars": 11
+    },
+    {
+      "name": "ElectrolyteMedia",
+      "uri": "https://github.com/andreasbremen/electrolytemedia",
+      "versions": {
+        "0.1.0": {
+          "version": "0.1.0",
+          "tarball_url": "https://api.github.com/repos/modelica-3rdparty/electrolytemedia/tarball/refs/tags/v0.1",
+          "zipball_url": "https://api.github.com/repos/modelica-3rdparty/electrolytemedia/zipball/refs/tags/v0.1",
+          "path": "ElectrolyteMedia",
+          "isfile": false,
+          "dependencies": [
+            {
+              "name": "Modelica",
+              "version": "3.2.3"
+            }
+          ],
+          "sha": "f2ba7571be1c10fefd07a3d2ea1153d7f2c75a6b"
+        },
+        "0.2.0": {
+          "version": "0.2.0",
+          "tarball_url": "https://api.github.com/repos/modelica-3rdparty/electrolytemedia/tarball/refs/tags/v0.2",
+          "zipball_url": "https://api.github.com/repos/modelica-3rdparty/electrolytemedia/zipball/refs/tags/v0.2",
+          "path": "ElectrolyteMedia",
+          "isfile": false,
+          "dependencies": [
+            {
+              "name": "Modelica",
+              "version": "3.2.3"
+            }
+          ],
+          "sha": "18365c79939c3e34e212a696061bca713d98e799"
+        }
+      },
+      "owner_uri": "https://github.com/andreasbremen",
+      "email": "",
+      "homepage": "https://github.com/andreasbremen/electrolytemedia",
+      "repository_uri": "git://github.com/andreasbremen/electrolytemedia.git",
+      "repository_format": "git",
+      "description": "Modelica framework for the dynamic simulation of aqueous electrolyte systems under consideration of dissociation and phase equilibria",
+      "stars": 1
     },
     {
       "name": "ElectroMechanicalDrives",
@@ -5214,16 +5672,16 @@
           "isfile": false,
           "dependencies": [
             {
+              "name": "ModelicaServices",
+              "version": "4.0.0"
+            },
+            {
               "name": "Modelica",
               "version": "4.0.0"
             },
             {
               "name": "VehicleInterfaces",
               "version": "2.0.0"
-            },
-            {
-              "name": "ModelicaServices",
-              "version": "4.0.0"
             }
           ],
           "sha": "5c62ea8bd7617b6cfe1c2d30637f53bcccc7d249"
@@ -5258,16 +5716,16 @@
           "isfile": false,
           "dependencies": [
             {
-              "name": "ModelicaServices",
-              "version": "4.0.0"
-            },
-            {
               "name": "Modelica",
               "version": "4.0.0"
             },
             {
               "name": "VehicleInterfaces",
               "version": "2.0.0"
+            },
+            {
+              "name": "ModelicaServices",
+              "version": "4.0.0"
             }
           ],
           "sha": "753f148de1a62e0b5987210d364380bd099b5f9e"
@@ -5301,7 +5759,7 @@
       "repository_uri": "git://github.com/AHaumer/EMOTH.git",
       "repository_format": "git",
       "description": "E-Mobility Library of OTH Regensburg (developed by master student Alexander Grimm)",
-      "stars": 5
+      "stars": 6
     },
     {
       "name": "ExtendedPetriNets",
@@ -5608,6 +6066,48 @@
             }
           ],
           "sha": "27ebcecfd6f0e61630d24a95258bca335bdfd688"
+        },
+        "3.0.2": {
+          "version": "3.0.2",
+          "tarball_url": "https://api.github.com/repos/modelica-3rdparty/ExternData/tarball/refs/tags/v3.0.2",
+          "zipball_url": "https://api.github.com/repos/modelica-3rdparty/ExternData/zipball/refs/tags/v3.0.2",
+          "path": "ExternData",
+          "isfile": false,
+          "dependencies": [
+            {
+              "name": "Modelica",
+              "version": "4.0.0"
+            }
+          ],
+          "sha": "c36e55196f02a05bdda102b7b89b3660ab1e5a84"
+        },
+        "3.0.3": {
+          "version": "3.0.3",
+          "tarball_url": "https://api.github.com/repos/modelica-3rdparty/ExternData/tarball/refs/tags/v3.0.3",
+          "zipball_url": "https://api.github.com/repos/modelica-3rdparty/ExternData/zipball/refs/tags/v3.0.3",
+          "path": "ExternData",
+          "isfile": false,
+          "dependencies": [
+            {
+              "name": "Modelica",
+              "version": "4.0.0"
+            }
+          ],
+          "sha": "84007519841b29b533172d196e000aec78c0ec07"
+        },
+        "3.0.4": {
+          "version": "3.0.4",
+          "tarball_url": "https://api.github.com/repos/modelica-3rdparty/ExternData/tarball/refs/tags/v3.0.4",
+          "zipball_url": "https://api.github.com/repos/modelica-3rdparty/ExternData/zipball/refs/tags/v3.0.4",
+          "path": "ExternData",
+          "isfile": false,
+          "dependencies": [
+            {
+              "name": "Modelica",
+              "version": "4.0.0"
+            }
+          ],
+          "sha": "a9c68cceca613ee384ef820a4032944c9d2c0fcb"
         }
       },
       "owner_uri": "https://github.com/modelica-3rdparty",
@@ -5616,7 +6116,7 @@
       "repository_uri": "git://github.com/modelica-3rdparty/ExternData.git",
       "repository_format": "git",
       "description": ":page_facing_up: Modelica library for data I/O of CSV, INI, JSON, MATLAB MAT, SSV, TIR, Excel XLS/XLSX and XML files",
-      "stars": 44
+      "stars": 63
     },
     {
       "name": "FailureModes",
@@ -5663,6 +6163,20 @@
             }
           ],
           "sha": "eee9db6698c5cba2f7972d523f25db49ad54aa64"
+        },
+        "2.0.0": {
+          "version": "2.0.0",
+          "tarball_url": "https://api.github.com/repos/modelica-3rdparty/FailureModes/tarball/refs/tags/v2.0.0",
+          "zipball_url": "https://api.github.com/repos/modelica-3rdparty/FailureModes/zipball/refs/tags/v2.0.0",
+          "path": "FailureModes",
+          "isfile": false,
+          "dependencies": [
+            {
+              "name": "Modelica",
+              "version": "4.0.0"
+            }
+          ],
+          "sha": "894be5ce74947120e95595a574a5d04f04766f03"
         }
       },
       "owner_uri": "https://github.com/casella",
@@ -5671,7 +6185,7 @@
       "repository_uri": "git://github.com/casella/FailureModes.git",
       "repository_format": "git",
       "description": "A collection of examples of runtime failure modes for Modelica models",
-      "stars": 3
+      "stars": 6
     },
     {
       "name": "FaultTriggering",
@@ -5780,7 +6294,7 @@
       "repository_uri": "git://github.com/DLR-SR/FaultTriggering.git",
       "repository_format": "git",
       "description": "Library for fault Modelling in Modelica",
-      "stars": 5
+      "stars": 8
     },
     {
       "name": "FCSys",
@@ -5933,7 +6447,7 @@
       "repository_uri": "git://github.com/kdavies4/FCSys.git",
       "repository_format": "git",
       "description": "Modelica fuel cell library",
-      "stars": 14
+      "stars": 22
     },
     {
       "name": "FCSysTest",
@@ -6086,7 +6600,7 @@
       "repository_uri": "git://github.com/kdavies4/FCSys.git",
       "repository_format": "git",
       "description": "Modelica fuel cell library",
-      "stars": 14
+      "stars": 22
     },
     {
       "name": "FeedDriveLibrary",
@@ -6100,12 +6614,12 @@
           "isfile": true,
           "dependencies": [
             {
-              "name": "Modelica",
-              "version": "3.2.1"
-            },
-            {
               "name": "Modelica_LinearSystems2",
               "version": "2.3.2"
+            },
+            {
+              "name": "Modelica",
+              "version": "3.2.1"
             }
           ],
           "sha": "aa88f225bfbedaf4b613d7556731beb207b9a1a6"
@@ -6131,7 +6645,7 @@
       "repository_uri": "git://github.com/denistwo/FeedDriveLibrary.git",
       "repository_format": "git",
       "description": "This repository is for Modelica Libraries",
-      "stars": 2
+      "stars": 3
     },
     {
       "name": "FuelCellLib",
@@ -6153,7 +6667,7 @@
       "repository_uri": "git://github.com/modelica-3rdparty/FuelCellLib.git",
       "repository_format": "git",
       "description": "Free library to model fuel cells (unlicensed)",
-      "stars": 3
+      "stars": 6
     },
     {
       "name": "FuzzyControl",
@@ -6175,7 +6689,7 @@
       "repository_uri": "git://github.com/modelica-3rdparty/FuzzyControl.git",
       "repository_format": "git",
       "description": "Free library for fuzzy control (unlicensed)",
-      "stars": 3
+      "stars": 4
     },
     {
       "name": "HanserModelica",
@@ -6324,6 +6838,42 @@
             }
           ],
           "sha": "f2181bfcd51e943deb6a3b23b166df638f483990"
+        },
+        "1.1.2": {
+          "version": "1.1.2",
+          "tarball_url": "https://api.github.com/repos/modelica-3rdparty/HanserModelica/tarball/refs/tags/v1.1.2",
+          "zipball_url": "https://api.github.com/repos/modelica-3rdparty/HanserModelica/zipball/refs/tags/v1.1.2",
+          "path": "HanserModelica",
+          "isfile": false,
+          "dependencies": [
+            {
+              "name": "Complex",
+              "version": "3.2.3"
+            },
+            {
+              "name": "Modelica",
+              "version": "3.2.3"
+            }
+          ],
+          "sha": "13a7056f20a5fa1253d0549fcd18f97b5e00d001"
+        },
+        "2.0.0": {
+          "version": "2.0.0",
+          "tarball_url": "https://api.github.com/repos/modelica-3rdparty/HanserModelica/tarball/refs/tags/v2.0.0",
+          "zipball_url": "https://api.github.com/repos/modelica-3rdparty/HanserModelica/zipball/refs/tags/v2.0.0",
+          "path": "HanserModelica",
+          "isfile": false,
+          "dependencies": [
+            {
+              "name": "Complex",
+              "version": "4.0.0"
+            },
+            {
+              "name": "Modelica",
+              "version": "4.0.0"
+            }
+          ],
+          "sha": "01640a0c1b88ad08413a016c9fb73d1ef444cfe6"
         }
       },
       "owner_uri": "https://github.com/christiankral",
@@ -6332,7 +6882,7 @@
       "repository_uri": "git://github.com/christiankral/HanserModelica.git",
       "repository_format": "git",
       "description": "HanserModelica is a Modelica open source educational library on electrical engineering with a particaular focus on polyphase electrical machines",
-      "stars": 13
+      "stars": 23
     },
     {
       "name": "HelmholtzMedia",
@@ -6611,7 +7161,7 @@
       "repository_uri": "git://github.com/thorade/HelmholtzMedia.git",
       "repository_format": "git",
       "description": "Modelica library for the calculation of fluid properties from a Helmholtz energy equation of state (EoS).",
-      "stars": 25
+      "stars": 31
     },
     {
       "name": "HelmholtzFluids",
@@ -6666,7 +7216,7 @@
       "repository_uri": "git://github.com/thorade/HelmholtzMedia.git",
       "repository_format": "git",
       "description": "Modelica library for the calculation of fluid properties from a Helmholtz energy equation of state (EoS).",
-      "stars": 25
+      "stars": 31
     },
     {
       "name": "IdealizedContact",
@@ -6768,6 +7318,48 @@
             }
           ],
           "sha": "12b341fe9bd34058a07bde92375e0d77e40eb013"
+        },
+        "2.2.1": {
+          "version": "2.2.1",
+          "tarball_url": "https://api.github.com/repos/modelica-3rdparty/IDEAS/tarball/refs/tags/v2.2.1",
+          "zipball_url": "https://api.github.com/repos/modelica-3rdparty/IDEAS/zipball/refs/tags/v2.2.1",
+          "path": "IDEAS",
+          "isfile": false,
+          "dependencies": [
+            {
+              "name": "Modelica",
+              "version": "3.2.3"
+            }
+          ],
+          "sha": "32860eadbf59bee955993da936a8c5aeac2d90df"
+        },
+        "2.2.2": {
+          "version": "2.2.2",
+          "tarball_url": "https://api.github.com/repos/modelica-3rdparty/IDEAS/tarball/refs/tags/v2.2.2",
+          "zipball_url": "https://api.github.com/repos/modelica-3rdparty/IDEAS/zipball/refs/tags/v2.2.2",
+          "path": "IDEAS",
+          "isfile": false,
+          "dependencies": [
+            {
+              "name": "Modelica",
+              "version": "3.2.3"
+            }
+          ],
+          "sha": "4f415997929ec53138d9637b0426ae49e1cdf27b"
+        },
+        "3.0.0": {
+          "version": "3.0.0",
+          "tarball_url": "https://api.github.com/repos/modelica-3rdparty/IDEAS/tarball/refs/tags/v3.0",
+          "zipball_url": "https://api.github.com/repos/modelica-3rdparty/IDEAS/zipball/refs/tags/v3.0",
+          "path": "IDEAS",
+          "isfile": false,
+          "dependencies": [
+            {
+              "name": "Modelica",
+              "version": "4.0.0"
+            }
+          ],
+          "sha": "a7be00b7e07943c0acda1b5799a8d32bea896d7b"
         }
       },
       "owner_uri": "https://github.com/open-ideas",
@@ -6776,7 +7368,7 @@
       "repository_uri": "git://github.com/open-ideas/IDEAS.git",
       "repository_format": "git",
       "description": "Modelica library allowing simultaneous transient simulation of thermal and electrical systems at both building and feeder level.",
-      "stars": 81
+      "stars": 113
     },
     {
       "name": "IndustrialControlSystems",
@@ -6817,7 +7409,7 @@
       "repository_uri": "git://github.com/looms-polimi/IndustrialControlSystems.git",
       "repository_format": "git",
       "description": "A Modelica library for the realistic modelling of industrial control system",
-      "stars": 2
+      "stars": 5
     },
     {
       "name": "iPSL",
@@ -6831,16 +7423,16 @@
           "isfile": false,
           "dependencies": [
             {
-              "name": "Modelica",
-              "version": "3.2.1"
-            },
-            {
               "name": "Complex",
               "version": "3.2.1"
             },
             {
               "name": "PowerSystems",
               "version": "0.7.0"
+            },
+            {
+              "name": "Modelica",
+              "version": "3.2.1"
             }
           ],
           "sha": "251a7db89416f6c6f38505d08cf0ad6056b2ed4d"
@@ -6871,11 +7463,11 @@
           "isfile": false,
           "dependencies": [
             {
-              "name": "Modelica",
+              "name": "Complex",
               "version": "3.2.1"
             },
             {
-              "name": "Complex",
+              "name": "Modelica",
               "version": "3.2.1"
             }
           ],
@@ -6957,6 +7549,20 @@
             }
           ],
           "sha": "c2b6168c2703412e320ae04d67eae2fe11879d77"
+        },
+        "0.11.0": {
+          "version": "0.11.0",
+          "tarball_url": "https://api.github.com/repos/modelica-3rdparty/KeyWordIO/tarball/refs/tags/v0.11.0",
+          "zipball_url": "https://api.github.com/repos/modelica-3rdparty/KeyWordIO/zipball/refs/tags/v0.11.0",
+          "path": "KeyWordIO",
+          "isfile": false,
+          "dependencies": [
+            {
+              "name": "Modelica",
+              "version": "4.0.0"
+            }
+          ],
+          "sha": "e43d2f4f2ac44b6fb3780ee19acfb3835d90bbfc"
         },
         "0.2.0": {
           "version": "0.2.0",
@@ -7113,7 +7719,7 @@
       "repository_uri": "git://github.com/modelica-3rdparty/LinearMPC.git",
       "repository_format": "git",
       "description": "Library for model-based predictive controllers with linear process models.",
-      "stars": 4
+      "stars": 7
     },
     {
       "name": "Arduino",
@@ -7183,12 +7789,12 @@
           "isfile": false,
           "dependencies": [
             {
-              "name": "Modelica",
-              "version": "3.2.2"
-            },
-            {
               "name": "Modelica_DeviceDrivers",
               "version": "1.4.4"
+            },
+            {
+              "name": "Modelica",
+              "version": "3.2.2"
             }
           ],
           "sha": "088e2e842f050fcd736f5ba678fab5acea0a570f"
@@ -7219,15 +7825,51 @@
           "isfile": false,
           "dependencies": [
             {
-              "name": "Modelica",
-              "version": "3.2.2"
-            },
-            {
               "name": "Modelica_DeviceDrivers",
               "version": "1.4.4"
+            },
+            {
+              "name": "Modelica",
+              "version": "3.2.2"
             }
           ],
           "sha": "cd7a78541cc813ff18bfee1209fc213e9510c361"
+        },
+        "0.2.0": {
+          "version": "0.2.0",
+          "tarball_url": "https://api.github.com/repos/modelica-3rdparty/Modelica-Arduino/tarball/refs/tags/v0.2.0",
+          "zipball_url": "https://api.github.com/repos/modelica-3rdparty/Modelica-Arduino/zipball/refs/tags/v0.2.0",
+          "path": "Arduino",
+          "isfile": false,
+          "dependencies": [
+            {
+              "name": "Modelica",
+              "version": "4.0.0"
+            },
+            {
+              "name": "Modelica_DeviceDrivers",
+              "version": "2.0.0"
+            }
+          ],
+          "sha": "beaed11c67e13b638e05be06af81346a3462481c"
+        },
+        "0.3.0": {
+          "version": "0.3.0",
+          "tarball_url": "https://api.github.com/repos/modelica-3rdparty/Modelica-Arduino/tarball/refs/tags/v0.3.0",
+          "zipball_url": "https://api.github.com/repos/modelica-3rdparty/Modelica-Arduino/zipball/refs/tags/v0.3.0",
+          "path": "Arduino",
+          "isfile": false,
+          "dependencies": [
+            {
+              "name": "Modelica",
+              "version": "4.0.0"
+            },
+            {
+              "name": "Modelica_DeviceDrivers",
+              "version": "2.0.0"
+            }
+          ],
+          "sha": "224583eef0a8902d920e526d34f94321a84b24a2"
         }
       },
       "owner_uri": "https://github.com/CATIA-Systems",
@@ -7236,7 +7878,7 @@
       "repository_uri": "git://github.com/CATIA-Systems/Modelica-Arduino.git",
       "repository_format": "git",
       "description": "Simulate circuits and sketches on a virtual Arduino Uno in Modelica",
-      "stars": 26
+      "stars": 41
     },
     {
       "name": "IBPSA",
@@ -7277,7 +7919,48 @@
       "repository_uri": "git://github.com/ibpsa/modelica-ibpsa.git",
       "repository_format": "git",
       "description": "Modelica library for building and district energy systems developed within IBPSA Project 1",
-      "stars": 85
+      "stars": 128
+    },
+    {
+      "name": "IDEAS",
+      "uri": "https://github.com/ibpsa/modelica-ibpsa",
+      "versions": {
+        "0.3.0": {
+          "version": "0.3.0",
+          "tarball_url": "https://api.github.com/repos/modelica-3rdparty/modelica-ibpsa/tarball/refs/tags/v0.3.0",
+          "zipball_url": "https://api.github.com/repos/modelica-3rdparty/modelica-ibpsa/zipball/refs/tags/v0.3.0",
+          "path": "IDEAS",
+          "isfile": false,
+          "dependencies": [
+            {
+              "name": "Modelica",
+              "version": "3.2.1"
+            }
+          ],
+          "sha": "26ae0b0a4d8cbefd43fd90add99a0d3fafac49a0"
+        },
+        "2.1.0": {
+          "version": "2.1.0",
+          "tarball_url": "https://api.github.com/repos/modelica-3rdparty/modelica-ibpsa/tarball/refs/tags/v2.1.0",
+          "zipball_url": "https://api.github.com/repos/modelica-3rdparty/modelica-ibpsa/zipball/refs/tags/v2.1.0",
+          "path": "IDEAS",
+          "isfile": false,
+          "dependencies": [
+            {
+              "name": "Modelica",
+              "version": "3.2.2"
+            }
+          ],
+          "sha": "12b341fe9bd34058a07bde92375e0d77e40eb013"
+        }
+      },
+      "owner_uri": "https://github.com/ibpsa",
+      "email": "",
+      "homepage": "https://github.com/ibpsa/modelica-ibpsa",
+      "repository_uri": "git://github.com/ibpsa/modelica-ibpsa.git",
+      "repository_format": "git",
+      "description": "Modelica library for building and district energy systems developed within IBPSA Project 1",
+      "stars": 128
     },
     {
       "name": "Annex60",
@@ -7304,7 +7987,7 @@
       "repository_uri": "git://github.com/ibpsa/modelica-ibpsa.git",
       "repository_format": "git",
       "description": "Modelica library for building and district energy systems developed within IBPSA Project 1",
-      "stars": 85
+      "stars": 128
     },
     {
       "name": "MVEMLib",
@@ -7394,7 +8077,7 @@
       "repository_uri": "git://github.com/TechnicalBuildingSystems/ModelicaADS.git",
       "repository_format": "git",
       "description": "This is a Modelica wrapper for TwinCATs ADS library. It provides functions for communicating with TwinCAT devices. ModelicaADS uses the C API AdsDLL.dll. The documentation for the ADS API is available on infosys.beckhoff.com.",
-      "stars": 5
+      "stars": 4
     },
     {
       "name": "ModelicaTableAdditions",
@@ -7525,6 +8208,62 @@
             }
           ],
           "sha": "8a8b6c11801ee523fca8a799f60463c6e5222518"
+        },
+        "2.2.1": {
+          "version": "2.2.1",
+          "tarball_url": "https://api.github.com/repos/modelica-3rdparty/ModelicaTableAdditions/tarball/refs/tags/v2.2.1",
+          "zipball_url": "https://api.github.com/repos/modelica-3rdparty/ModelicaTableAdditions/zipball/refs/tags/v2.2.1",
+          "path": "ModelicaTableAdditions",
+          "isfile": false,
+          "dependencies": [
+            {
+              "name": "Modelica",
+              "version": "4.0.0"
+            }
+          ],
+          "sha": "20744f20a8e521ea68d8555ace5b34c61355e8c4"
+        },
+        "2.2.2": {
+          "version": "2.2.2",
+          "tarball_url": "https://api.github.com/repos/modelica-3rdparty/ModelicaTableAdditions/tarball/refs/tags/v2.2.2",
+          "zipball_url": "https://api.github.com/repos/modelica-3rdparty/ModelicaTableAdditions/zipball/refs/tags/v2.2.2",
+          "path": "ModelicaTableAdditions",
+          "isfile": false,
+          "dependencies": [
+            {
+              "name": "Modelica",
+              "version": "4.0.0"
+            }
+          ],
+          "sha": "abc3a972d9fe8f7d24ef6789e0641d4712242f4f"
+        },
+        "2.2.3": {
+          "version": "2.2.3",
+          "tarball_url": "https://api.github.com/repos/modelica-3rdparty/ModelicaTableAdditions/tarball/refs/tags/v2.2.3",
+          "zipball_url": "https://api.github.com/repos/modelica-3rdparty/ModelicaTableAdditions/zipball/refs/tags/v2.2.3",
+          "path": "ModelicaTableAdditions",
+          "isfile": false,
+          "dependencies": [
+            {
+              "name": "Modelica",
+              "version": "4.0.0"
+            }
+          ],
+          "sha": "33305e657ebaeb23ad01d8b9d81f2fd313ebeb80"
+        },
+        "2.3.0": {
+          "version": "2.3.0",
+          "tarball_url": "https://api.github.com/repos/modelica-3rdparty/ModelicaTableAdditions/tarball/refs/tags/v2.3.0",
+          "zipball_url": "https://api.github.com/repos/modelica-3rdparty/ModelicaTableAdditions/zipball/refs/tags/v2.3.0",
+          "path": "ModelicaTableAdditions",
+          "isfile": false,
+          "dependencies": [
+            {
+              "name": "Modelica",
+              "version": "4.0.0"
+            }
+          ],
+          "sha": "cf8a27d86e8e6739a6f0974c44b1fdc03c09ed0e"
         }
       },
       "owner_uri": "https://github.com/tbeu",
@@ -7533,7 +8272,7 @@
       "repository_uri": "git://github.com/tbeu/ModelicaTableAdditions.git",
       "repository_format": "git",
       "description": "Extension of the CombiTable blocks of the Modelica Standard Library to additionally support reading CSV, EPW (EnergyPlus Weather) and JSON files",
-      "stars": 10
+      "stars": 14
     },
     {
       "name": "Modelica_DeviceDrivers",
@@ -7615,12 +8354,12 @@
           "isfile": false,
           "dependencies": [
             {
-              "name": "Modelica_Synchronous",
-              "version": "0.92.0"
-            },
-            {
               "name": "Modelica",
               "version": "3.2.1"
+            },
+            {
+              "name": "Modelica_Synchronous",
+              "version": "0.92.0"
             }
           ],
           "sha": "1e7470a3ded11770fbc80cba0142e1419e79d821"
@@ -7651,12 +8390,12 @@
           "isfile": false,
           "dependencies": [
             {
-              "name": "Modelica_Synchronous",
-              "version": "0.92.0"
-            },
-            {
               "name": "Modelica",
               "version": "3.2.1"
+            },
+            {
+              "name": "Modelica_Synchronous",
+              "version": "0.92.0"
             }
           ],
           "sha": "afb5f681a3dc55facf8467cfb93b414764c6c623"
@@ -7872,6 +8611,34 @@
             }
           ],
           "sha": "93758633945f9d376cea071bb14ac20664cadbd2"
+        },
+        "2.1.0": {
+          "version": "2.1.0",
+          "tarball_url": "https://api.github.com/repos/modelica-3rdparty/Modelica_DeviceDrivers/tarball/refs/tags/v2.1.0",
+          "zipball_url": "https://api.github.com/repos/modelica-3rdparty/Modelica_DeviceDrivers/zipball/refs/tags/v2.1.0",
+          "path": "Modelica_DeviceDrivers",
+          "isfile": false,
+          "dependencies": [
+            {
+              "name": "Modelica",
+              "version": "4.0.0"
+            }
+          ],
+          "sha": "86cc3e8eda0b9c7248a52fa54b60ba35fc184fb0"
+        },
+        "2.1.1": {
+          "version": "2.1.1",
+          "tarball_url": "https://api.github.com/repos/modelica-3rdparty/Modelica_DeviceDrivers/tarball/refs/tags/v2.1.1",
+          "zipball_url": "https://api.github.com/repos/modelica-3rdparty/Modelica_DeviceDrivers/zipball/refs/tags/v2.1.1",
+          "path": "Modelica_DeviceDrivers",
+          "isfile": false,
+          "dependencies": [
+            {
+              "name": "Modelica",
+              "version": "4.0.0"
+            }
+          ],
+          "sha": "3b343d4c0a7d6d6f040166bb8a40f4027aa7615b"
         }
       },
       "owner_uri": "https://github.com/modelica-3rdparty",
@@ -7880,7 +8647,7 @@
       "repository_uri": "git://github.com/modelica-3rdparty/Modelica_DeviceDrivers.git",
       "repository_format": "git",
       "description": "Free library for interfacing hardware drivers to Modelica models. There is support for joysticks, keyboards, UDP, TCP/IP, LCM, MQTT, shared memory, AD/DA converters, serial port and other devices.",
-      "stars": 47
+      "stars": 67
     },
     {
       "name": "Modelica_StateGraph2",
@@ -7977,7 +8744,34 @@
       "repository_uri": "git://github.com/HansOlsson/Modelica_StateGraph2.git",
       "repository_format": "git",
       "description": "Free library providing components to model discrete event, reactive and hybrid systems in a convenient way with deterministic hierarchical state diagrams. Modelica_StateGraph2 is not fully Modelica compliant and might never be. For clocked system Modelica 3.3 introduced state machines, but for non-clocked systems this is still a good alternative.",
-      "stars": 3
+      "stars": 4
+    },
+    {
+      "name": "MoSDH",
+      "uri": "https://github.com/MoSDH/MoSDH",
+      "versions": {
+        "1.1.0": {
+          "version": "1.1.0",
+          "tarball_url": "https://api.github.com/repos/modelica-3rdparty/MoSDH/tarball/refs/tags/v1.1",
+          "zipball_url": "https://api.github.com/repos/modelica-3rdparty/MoSDH/zipball/refs/tags/v1.1",
+          "path": "MoSDH",
+          "isfile": false,
+          "dependencies": [
+            {
+              "name": "Modelica",
+              "version": "4.0.0"
+            }
+          ],
+          "sha": "c4abd2a063bf056242b45582c7a09d2a45d9ca4c"
+        }
+      },
+      "owner_uri": "https://github.com/MoSDH",
+      "email": "",
+      "homepage": "https://github.com/MoSDH/MoSDH",
+      "repository_uri": "git://github.com/MoSDH/MoSDH.git",
+      "repository_format": "git",
+      "description": "Library for solar and geothermal district heating systems with seasonal storage",
+      "stars": 6
     },
     {
       "name": "MotorcycleDynamics",
@@ -8004,7 +8798,7 @@
       "repository_uri": "git://github.com/modelica-3rdparty/MotorcycleDynamics.git",
       "repository_format": "git",
       "description": "Free library for the dynamic simulation of a motorcycle, and tailored to test and validation of active control systems for motorcycle dynamics.",
-      "stars": 7
+      "stars": 9
     },
     {
       "name": "MotorcycleLib",
@@ -8017,14 +8811,6 @@
           "path": "MotorcycleLib 1.0",
           "isfile": false,
           "dependencies": [
-            {
-              "name": "WheelsAndTires",
-              "version": "1.0.0"
-            },
-            {
-              "name": "MultiBondLib",
-              "version": "1.3.0"
-            },
             {
               "name": "Modelica",
               "version": "2.2.1"
@@ -8044,6 +8830,14 @@
             {
               "name": "Vectors",
               "version": "0.8.0"
+            },
+            {
+              "name": "WheelsAndTires",
+              "version": "1.0.0"
+            },
+            {
+              "name": "MultiBondLib",
+              "version": "1.3.0"
             }
           ],
           "sha": "da7c95a712a612924255deb17e338fb3ecd53963"
@@ -8055,7 +8849,7 @@
       "repository_uri": "git://github.com/modelica-3rdparty/MotorcycleLib.git",
       "repository_format": "git",
       "description": "Free Modelica library for the purpose of simulation, analysis and control of bicycles and motorcycles (single-track vehicles, uses BondLib)",
-      "stars": 4
+      "stars": 8
     },
     {
       "name": "MessagePack",
@@ -8176,7 +8970,7 @@
       "repository_uri": "git://github.com/modelica-3rdparty/NeuralNetwork.git",
       "repository_format": "git",
       "description": "Free library that provides a neural network mathematical model. (unlicensed)",
-      "stars": 5
+      "stars": 9
     },
     {
       "name": "Noise",
@@ -8237,11 +9031,11 @@
       "repository_uri": "git://github.com/modelica-3rdparty/ObjectStab.git",
       "repository_format": "git",
       "description": "A Modelica Library for Power System Stability Studies",
-      "stars": 5
+      "stars": 6
     },
     {
       "name": "OpenHydraulics",
-      "uri": "https://github.com/cparedis/OpenHydraulics",
+      "uri": "https://github.com/modelica-3rdparty/OpenHydraulics",
       "versions": {
         "1.0.0": {
           "version": "1.0.0",
@@ -8270,15 +9064,64 @@
             }
           ],
           "sha": "d9353c2b06450ccd4f005b5fc79cdca3068ed350"
+        },
+        "2.0.0": {
+          "version": "2.0.0",
+          "tarball_url": "https://api.github.com/repos/modelica-3rdparty/OpenHydraulics/tarball/refs/tags/v2.0.0",
+          "zipball_url": "https://api.github.com/repos/modelica-3rdparty/OpenHydraulics/zipball/refs/tags/v2.0.0",
+          "path": "OpenHydraulics",
+          "isfile": false,
+          "dependencies": [
+            {
+              "name": "Modelica",
+              "version": "4.0.0"
+            }
+          ],
+          "sha": "b4ec233c04db432b7f48edd0ebcba28848445953"
         }
       },
-      "owner_uri": "https://github.com/cparedis",
+      "owner_uri": "https://github.com/modelica-3rdparty",
       "email": "",
-      "homepage": "https://github.com/cparedis/OpenHydraulics",
-      "repository_uri": "git://github.com/cparedis/OpenHydraulics.git",
+      "homepage": "https://github.com/modelica-3rdparty/OpenHydraulics",
+      "repository_uri": "git://github.com/modelica-3rdparty/OpenHydraulics.git",
       "repository_format": "git",
       "description": "A free Modelica package providing components describing 1-dimensional fluid flow in hydraulic circuits.",
-      "stars": 17
+      "stars": 34
+    },
+    {
+      "name": "OpenIMDML",
+      "uri": "https://github.com/ALSETLab/OpenIMDML",
+      "versions": {
+        "1.0.0": {
+          "version": "1.0.0",
+          "tarball_url": "https://api.github.com/repos/modelica-3rdparty/OpenIMDML/tarball/refs/tags/v1.0.0",
+          "zipball_url": "https://api.github.com/repos/modelica-3rdparty/OpenIMDML/zipball/refs/tags/v1.0.0",
+          "path": "OpenIMDML",
+          "isfile": false,
+          "dependencies": [
+            {
+              "name": "OpenIPSL",
+              "version": "3.0.1"
+            },
+            {
+              "name": "Complex",
+              "version": "4.0.0"
+            },
+            {
+              "name": "Modelica",
+              "version": "4.0.0"
+            }
+          ],
+          "sha": "8c688f39200fe55c4736b871537dff4892013c13"
+        }
+      },
+      "owner_uri": "https://github.com/ALSETLab",
+      "email": "",
+      "homepage": "https://github.com/ALSETLab/OpenIMDML",
+      "repository_uri": "git://github.com/ALSETLab/OpenIMDML.git",
+      "repository_format": "git",
+      "description": "Open Instance Multi-Domain Motor Library using Modelica",
+      "stars": 0
     },
     {
       "name": "OpenIPSL",
@@ -8310,15 +9153,37 @@
           "isfile": false,
           "dependencies": [
             {
-              "name": "Modelica",
+              "name": "Complex",
               "version": "3.2.2"
             },
             {
-              "name": "Complex",
+              "name": "Modelica",
               "version": "3.2.2"
             }
           ],
           "sha": "4b97ac8de5992289ad6327e3bd6dca4cdb985393"
+        },
+        "2.0.0": {
+          "version": "2.0.0",
+          "tarball_url": "https://api.github.com/repos/modelica-3rdparty/OpenIPSL/tarball/refs/tags/v2.0.0",
+          "zipball_url": "https://api.github.com/repos/modelica-3rdparty/OpenIPSL/zipball/refs/tags/v2.0.0",
+          "path": "OpenIPSL",
+          "isfile": false,
+          "dependencies": [
+            {
+              "name": "Complex",
+              "version": "3.2.3"
+            },
+            {
+              "name": "Modelica",
+              "version": "3.2.3"
+            },
+            {
+              "name": "Modelica_Synchronous",
+              "version": "0.93.0"
+            }
+          ],
+          "sha": "052ec37cdfd40e6e5506ec146d98afd40fe2792f"
         },
         "2.0.0-beta.1": {
           "version": "2.0.0-beta.1",
@@ -8337,6 +9202,42 @@
             }
           ],
           "sha": "ccea8980350f01fa4c4c929083a1c75e74fd7880"
+        },
+        "3.0.0": {
+          "version": "3.0.0",
+          "tarball_url": "https://api.github.com/repos/modelica-3rdparty/OpenIPSL/tarball/refs/tags/v3.0.0",
+          "zipball_url": "https://api.github.com/repos/modelica-3rdparty/OpenIPSL/zipball/refs/tags/v3.0.0",
+          "path": "OpenIPSL",
+          "isfile": false,
+          "dependencies": [
+            {
+              "name": "Complex",
+              "version": "4.0.0"
+            },
+            {
+              "name": "Modelica",
+              "version": "4.0.0"
+            }
+          ],
+          "sha": "4041bbc77aab52505700c1aaa7f2df3b35c1202b"
+        },
+        "3.0.1": {
+          "version": "3.0.1",
+          "tarball_url": "https://api.github.com/repos/modelica-3rdparty/OpenIPSL/tarball/refs/tags/v3.0.1",
+          "zipball_url": "https://api.github.com/repos/modelica-3rdparty/OpenIPSL/zipball/refs/tags/v3.0.1",
+          "path": "OpenIPSL",
+          "isfile": false,
+          "dependencies": [
+            {
+              "name": "Complex",
+              "version": "4.0.0"
+            },
+            {
+              "name": "Modelica",
+              "version": "4.0.0"
+            }
+          ],
+          "sha": "648ac5422769915f2e04a5ccd0370e413e3ff23e"
         }
       },
       "owner_uri": "https://github.com/itesla",
@@ -8353,8 +9254,8 @@
       "versions": {
         "0.8.0": {
           "version": "0.8.0",
-          "tarball_url": "https://api.github.com/repos/modelica-3rdparty/OpenIPSL/tarball/refs/tags/v0.8",
-          "zipball_url": "https://api.github.com/repos/modelica-3rdparty/OpenIPSL/zipball/refs/tags/v0.8",
+          "tarball_url": "https://api.github.com/repos/modelica-3rdparty/OpenIPSL/tarball/refs/tags/v0.8.0",
+          "zipball_url": "https://api.github.com/repos/modelica-3rdparty/OpenIPSL/zipball/refs/tags/v0.8.0",
           "path": "iPSL",
           "isfile": false,
           "dependencies": [
@@ -8365,13 +9266,9 @@
             {
               "name": "Complex",
               "version": "3.2.1"
-            },
-            {
-              "name": "PowerSystems",
-              "version": "0.7.0"
             }
           ],
-          "sha": "251a7db89416f6c6f38505d08cf0ad6056b2ed4d"
+          "sha": "45dccdf1dfdb1473b50a4ec85d06ad4d05b8de37"
         },
         "0.8.1": {
           "version": "0.8.1",
@@ -8412,15 +9309,15 @@
           "isfile": false,
           "dependencies": [
             {
-              "name": "ModelicaServices",
-              "version": "3.2.3"
-            },
-            {
               "name": "Modelica",
               "version": "3.2.3"
             },
             {
               "name": "Complex",
+              "version": "3.2.3"
+            },
+            {
+              "name": "ModelicaServices",
               "version": "3.2.3"
             }
           ],
@@ -8433,7 +9330,7 @@
       "repository_uri": "git://github.com/upb-lea/OpenModelica_Microgrids.git",
       "repository_format": "git",
       "description": "OpenModelica_Microgrids is a library to simulate three phase AC Microgrids. Usable as stand-alone version or part of the toolbox OpenModelica Microgrid Gym (https://github.com/upb-lea/openmodelica-microgrid-gym).",
-      "stars": 5
+      "stars": 9
     },
     {
       "name": "PDE",
@@ -8460,7 +9357,7 @@
       "repository_uri": "git://github.com/modelica-3rdparty/PDELib.git",
       "repository_format": "git",
       "description": "A free library for modeling systems described by 1D partial differential equations.",
-      "stars": 8
+      "stars": 14
     },
     {
       "name": "PhotoVoltaics",
@@ -8757,7 +9654,7 @@
       "repository_uri": "git://github.com/christiankral/PhotoVoltaics.git",
       "repository_format": "git",
       "description": "Modelica library for the simulation of photo voltaic cells and modules",
-      "stars": 12
+      "stars": 23
     },
     {
       "name": "PhotoVoltaics_TGM",
@@ -8837,16 +9734,16 @@
           "isfile": true,
           "dependencies": [
             {
-              "name": "PhotoVoltaics",
-              "version": "0.3.2"
-            },
-            {
               "name": "Modelica",
               "version": "3.2.2"
             },
             {
               "name": "Buildings",
               "version": "4.0.0"
+            },
+            {
+              "name": "PhotoVoltaics",
+              "version": "0.3.2"
             }
           ],
           "sha": "92a5d8fed64dd6fdd142bda4de115a263387ad73"
@@ -8969,16 +9866,16 @@
           "isfile": false,
           "dependencies": [
             {
+              "name": "Modelica",
+              "version": "3.2.2"
+            },
+            {
               "name": "Buildings",
               "version": "3.0.0"
             },
             {
               "name": "PhotoVoltaics",
               "version": "1.1.0"
-            },
-            {
-              "name": "Modelica",
-              "version": "3.2.2"
             }
           ],
           "sha": "ece5e550877294d1d886c3864b78c4a00eaf15da"
@@ -8991,16 +9888,16 @@
           "isfile": false,
           "dependencies": [
             {
+              "name": "PhotoVoltaics",
+              "version": "1.2.0"
+            },
+            {
               "name": "Modelica",
               "version": "3.2.2"
             },
             {
               "name": "Buildings",
               "version": "5.1.0"
-            },
-            {
-              "name": "PhotoVoltaics",
-              "version": "1.2.0"
             }
           ],
           "sha": "ae21995c5783116b9d3947264fe88881e0e68eaf"
@@ -9035,16 +9932,16 @@
           "isfile": false,
           "dependencies": [
             {
-              "name": "Modelica",
-              "version": "3.2.2"
-            },
-            {
               "name": "Buildings",
               "version": "5.1.0"
             },
             {
               "name": "PhotoVoltaics",
               "version": "1.3.0"
+            },
+            {
+              "name": "Modelica",
+              "version": "3.2.2"
             }
           ],
           "sha": "2a14e123b46e30424bc72489a95489681731baf6"
@@ -9079,16 +9976,16 @@
           "isfile": false,
           "dependencies": [
             {
+              "name": "Modelica",
+              "version": "3.2.3"
+            },
+            {
               "name": "Buildings",
               "version": "5.1.0"
             },
             {
               "name": "PhotoVoltaics",
               "version": "1.4.0"
-            },
-            {
-              "name": "Modelica",
-              "version": "3.2.3"
             }
           ],
           "sha": "2a87c1b24e02a39fc8905e91577774a304d4f471"
@@ -9101,16 +9998,16 @@
           "isfile": false,
           "dependencies": [
             {
-              "name": "PhotoVoltaics",
-              "version": "1.4.1"
-            },
-            {
               "name": "Modelica",
               "version": "3.2.3"
             },
             {
               "name": "Buildings",
               "version": "5.1.0"
+            },
+            {
+              "name": "PhotoVoltaics",
+              "version": "1.4.1"
             }
           ],
           "sha": "1413f797702f0850a249c761142acd16bfb73b48"
@@ -9123,16 +10020,16 @@
           "isfile": false,
           "dependencies": [
             {
-              "name": "Buildings",
-              "version": "6.0.0"
-            },
-            {
               "name": "PhotoVoltaics",
               "version": "1.6.0"
             },
             {
               "name": "Modelica",
               "version": "3.2.3"
+            },
+            {
+              "name": "Buildings",
+              "version": "6.0.0"
             }
           ],
           "sha": "d537eb1c72b7c4175d8d61881a7a3d4410ba7184"
@@ -9162,7 +10059,7 @@
       "repository_uri": "git://github.com/christiankral/PhotoVoltaics.git",
       "repository_format": "git",
       "description": "Modelica library for the simulation of photo voltaic cells and modules",
-      "stars": 12
+      "stars": 23
     },
     {
       "name": "PhotoVoltaics_Buildings",
@@ -9193,7 +10090,7 @@
       "repository_uri": "git://github.com/christiankral/PhotoVoltaics.git",
       "repository_format": "git",
       "description": "Modelica library for the simulation of photo voltaic cells and modules",
-      "stars": 12
+      "stars": 23
     },
     {
       "name": "Physiolibrary",
@@ -9366,6 +10263,28 @@
             }
           ],
           "sha": "7597498ffe49fea2723bafdc8a0f275c0dcecb83"
+        },
+        "3.0.0": {
+          "version": "3.0.0",
+          "tarball_url": "https://api.github.com/repos/modelica-3rdparty/Physiolibrary/tarball/refs/tags/v3.0.0",
+          "zipball_url": "https://api.github.com/repos/modelica-3rdparty/Physiolibrary/zipball/refs/tags/v3.0.0",
+          "path": "Physiolibrary",
+          "isfile": false,
+          "dependencies": [
+            {
+              "name": "Modelica",
+              "version": "4.0.0"
+            },
+            {
+              "name": "Complex",
+              "version": "4.0.0"
+            },
+            {
+              "name": "Chemical",
+              "version": "1.4.0"
+            }
+          ],
+          "sha": "0ef8b5848b8bd08912a1713d0641b6bb03c3e3b2"
         }
       },
       "owner_uri": "https://github.com/MarekMatejak",
@@ -9374,7 +10293,7 @@
       "repository_uri": "git://github.com/MarekMatejak/Physiolibrary.git",
       "repository_format": "git",
       "description": "Modelica library for Physiology",
-      "stars": 24
+      "stars": 31
     },
     {
       "name": "Physiomodel",
@@ -9388,12 +10307,12 @@
           "isfile": false,
           "dependencies": [
             {
-              "name": "Physiolibrary",
-              "version": "2.3.1"
-            },
-            {
               "name": "Modelica",
               "version": "3.2.1"
+            },
+            {
+              "name": "Physiolibrary",
+              "version": "2.3.1"
             }
           ],
           "sha": "07b7343c11601601d1e1ef454077e1c84ee71300"
@@ -9405,7 +10324,7 @@
       "repository_uri": "git://github.com/physiology/Physiomodel.git",
       "repository_format": "git",
       "description": "Mammalian physiology model in Modelica",
-      "stars": 10
+      "stars": 12
     },
     {
       "name": "PlanarMechanics",
@@ -9481,10 +10400,10 @@
           ],
           "sha": "886abd400dc076b4894c5d63af96c01b53910b46"
         },
-        "1.5.0-beta.1": {
-          "version": "1.5.0-beta.1",
-          "tarball_url": "https://api.github.com/repos/modelica-3rdparty/PlanarMechanics/tarball/refs/tags/v1.5.0-beta.1",
-          "zipball_url": "https://api.github.com/repos/modelica-3rdparty/PlanarMechanics/zipball/refs/tags/v1.5.0-beta.1",
+        "1.5.1": {
+          "version": "1.5.1",
+          "tarball_url": "https://api.github.com/repos/modelica-3rdparty/PlanarMechanics/tarball/refs/tags/v1.5.1",
+          "zipball_url": "https://api.github.com/repos/modelica-3rdparty/PlanarMechanics/zipball/refs/tags/v1.5.1",
           "path": "PlanarMechanics",
           "isfile": false,
           "dependencies": [
@@ -9493,7 +10412,49 @@
               "version": "4.0.0"
             }
           ],
-          "sha": "20c670dd7b47aa24cba3a449005446a308c7a3aa"
+          "sha": "b3e7eda0a920cd8925697376b210e7a5802b80ad"
+        },
+        "1.5.1-beta.1": {
+          "version": "1.5.1-beta.1",
+          "tarball_url": "https://api.github.com/repos/modelica-3rdparty/PlanarMechanics/tarball/refs/tags/v1.5.1-beta.1",
+          "zipball_url": "https://api.github.com/repos/modelica-3rdparty/PlanarMechanics/zipball/refs/tags/v1.5.1-beta.1",
+          "path": "PlanarMechanics",
+          "isfile": false,
+          "dependencies": [
+            {
+              "name": "Modelica",
+              "version": "4.0.0"
+            }
+          ],
+          "sha": "995e4d9d2395d025af870a6251f4d0e781c6dd98"
+        },
+        "1.6.0": {
+          "version": "1.6.0",
+          "tarball_url": "https://api.github.com/repos/modelica-3rdparty/PlanarMechanics/tarball/refs/tags/v1.6.0",
+          "zipball_url": "https://api.github.com/repos/modelica-3rdparty/PlanarMechanics/zipball/refs/tags/v1.6.0",
+          "path": "PlanarMechanics",
+          "isfile": false,
+          "dependencies": [
+            {
+              "name": "Modelica",
+              "version": "4.0.0"
+            }
+          ],
+          "sha": "3ae99d218bf1331901efb7c93569f44b9c3c573a"
+        },
+        "1.6.0-alpha": {
+          "version": "1.6.0-alpha",
+          "tarball_url": "https://api.github.com/repos/modelica-3rdparty/PlanarMechanics/tarball/refs/tags/v1.6.0-alpha",
+          "zipball_url": "https://api.github.com/repos/modelica-3rdparty/PlanarMechanics/zipball/refs/tags/v1.6.0-alpha",
+          "path": "PlanarMechanics",
+          "isfile": false,
+          "dependencies": [
+            {
+              "name": "Modelica",
+              "version": "4.0.0"
+            }
+          ],
+          "sha": "a57a6ef5429d30f1141f9b54df87ca894f31a13d"
         }
       },
       "owner_uri": "https://github.com/dzimmer",
@@ -9502,7 +10463,7 @@
       "repository_uri": "git://github.com/dzimmer/PlanarMechanics.git",
       "repository_format": "git",
       "description": "A free Modelica library for planar mechanical multi-body systems",
-      "stars": 18
+      "stars": 24
     },
     {
       "name": "PlanarMechanicsTest",
@@ -9526,10 +10487,10 @@
           ],
           "sha": "886abd400dc076b4894c5d63af96c01b53910b46"
         },
-        "1.5.0-beta.1": {
-          "version": "1.5.0-beta.1",
-          "tarball_url": "https://api.github.com/repos/modelica-3rdparty/PlanarMechanics/tarball/refs/tags/v1.5.0-beta.1",
-          "zipball_url": "https://api.github.com/repos/modelica-3rdparty/PlanarMechanics/zipball/refs/tags/v1.5.0-beta.1",
+        "1.5.1": {
+          "version": "1.5.1",
+          "tarball_url": "https://api.github.com/repos/modelica-3rdparty/PlanarMechanics/tarball/refs/tags/v1.5.1",
+          "zipball_url": "https://api.github.com/repos/modelica-3rdparty/PlanarMechanics/zipball/refs/tags/v1.5.1",
           "path": "PlanarMechanicsTest",
           "isfile": false,
           "dependencies": [
@@ -9539,10 +10500,64 @@
             },
             {
               "name": "PlanarMechanics",
-              "version": "1.5.0"
+              "version": "1.5.1"
             }
           ],
-          "sha": "20c670dd7b47aa24cba3a449005446a308c7a3aa"
+          "sha": "b3e7eda0a920cd8925697376b210e7a5802b80ad"
+        },
+        "1.5.1-beta.1": {
+          "version": "1.5.1-beta.1",
+          "tarball_url": "https://api.github.com/repos/modelica-3rdparty/PlanarMechanics/tarball/refs/tags/v1.5.1-beta.1",
+          "zipball_url": "https://api.github.com/repos/modelica-3rdparty/PlanarMechanics/zipball/refs/tags/v1.5.1-beta.1",
+          "path": "PlanarMechanicsTest",
+          "isfile": false,
+          "dependencies": [
+            {
+              "name": "Modelica",
+              "version": "4.0.0"
+            },
+            {
+              "name": "PlanarMechanics",
+              "version": "1.5.1"
+            }
+          ],
+          "sha": "995e4d9d2395d025af870a6251f4d0e781c6dd98"
+        },
+        "1.6.0": {
+          "version": "1.6.0",
+          "tarball_url": "https://api.github.com/repos/modelica-3rdparty/PlanarMechanics/tarball/refs/tags/v1.6.0",
+          "zipball_url": "https://api.github.com/repos/modelica-3rdparty/PlanarMechanics/zipball/refs/tags/v1.6.0",
+          "path": "PlanarMechanicsTest",
+          "isfile": false,
+          "dependencies": [
+            {
+              "name": "Modelica",
+              "version": "4.0.0"
+            },
+            {
+              "name": "PlanarMechanics",
+              "version": "1.6.0"
+            }
+          ],
+          "sha": "3ae99d218bf1331901efb7c93569f44b9c3c573a"
+        },
+        "1.6.0-alpha": {
+          "version": "1.6.0-alpha",
+          "tarball_url": "https://api.github.com/repos/modelica-3rdparty/PlanarMechanics/tarball/refs/tags/v1.6.0-alpha",
+          "zipball_url": "https://api.github.com/repos/modelica-3rdparty/PlanarMechanics/zipball/refs/tags/v1.6.0-alpha",
+          "path": "PlanarMechanicsTest",
+          "isfile": false,
+          "dependencies": [
+            {
+              "name": "Modelica",
+              "version": "4.0.0"
+            },
+            {
+              "name": "PlanarMechanics",
+              "version": "1.6.0"
+            }
+          ],
+          "sha": "a57a6ef5429d30f1141f9b54df87ca894f31a13d"
         }
       },
       "owner_uri": "https://github.com/dzimmer",
@@ -9551,11 +10566,11 @@
       "repository_uri": "git://github.com/dzimmer/PlanarMechanics.git",
       "repository_format": "git",
       "description": "A free Modelica library for planar mechanical multi-body systems",
-      "stars": 18
+      "stars": 24
     },
     {
       "name": "PNlib",
-      "uri": "https://github.com/AMIT-FHBielefeld/PNlib",
+      "uri": "https://github.com/AMIT-HSBI/PNlib",
       "versions": {
         "1.0.0": {
           "version": "1.0.0",
@@ -9660,13 +10675,13 @@
           "sha": "a4c5354523423ab90405ebecd61ff39ebcfbf882"
         }
       },
-      "owner_uri": "https://github.com/AMIT-FHBielefeld",
+      "owner_uri": "https://github.com/AMIT-HSBI",
       "email": "",
-      "homepage": "https://github.com/AMIT-FHBielefeld/PNlib",
-      "repository_uri": "git://github.com/AMIT-FHBielefeld/PNlib.git",
+      "homepage": "https://github.com/AMIT-HSBI/PNlib",
+      "repository_uri": "git://github.com/AMIT-HSBI/PNlib.git",
       "repository_format": "git",
       "description": "Free Modelica library for modelling xHPN",
-      "stars": 6
+      "stars": 11
     },
     {
       "name": "PowerGrids",
@@ -9721,7 +10736,7 @@
       "repository_uri": "git://github.com/PowerGrids/PowerGrids.git",
       "repository_format": "git",
       "description": "This repository contains the code for PowerGrids, a Modelica library for electro-mechanical modelling of power systems.",
-      "stars": 24
+      "stars": 34
     },
     {
       "name": "PowerSystems",
@@ -9810,6 +10825,20 @@
             }
           ],
           "sha": "3bdc215576fd325ad6e715a9a5c0318593b69fd1"
+        },
+        "1.0.1": {
+          "version": "1.0.1",
+          "tarball_url": "https://api.github.com/repos/modelica-3rdparty/PowerSystems/tarball/refs/tags/v1.0.1",
+          "zipball_url": "https://api.github.com/repos/modelica-3rdparty/PowerSystems/zipball/refs/tags/v1.0.1",
+          "path": "PowerSystems",
+          "isfile": false,
+          "dependencies": [
+            {
+              "name": "Modelica",
+              "version": "3.2.3"
+            }
+          ],
+          "sha": "69fd1e7381fb50e6a0bc77d9ba168e9d6a7d9a6a"
         }
       },
       "owner_uri": "https://github.com/modelica-3rdparty",
@@ -9818,7 +10847,7 @@
       "repository_uri": "git://github.com/modelica-3rdparty/PowerSystems.git",
       "repository_format": "git",
       "description": "Free (standard conform) library that is intended to model electrical power systems at different levels of detail both in transient and steady-state mode.",
-      "stars": 43
+      "stars": 56
     },
     {
       "name": "PVSystems",
@@ -9873,7 +10902,7 @@
       "repository_uri": "git://github.com/raulrpearson/PVSystems.git",
       "repository_format": "git",
       "description": "A Modelica library for photovoltaic system and power converter design",
-      "stars": 20
+      "stars": 28
     },
     {
       "name": "PVlib",
@@ -9942,7 +10971,7 @@
       "repository_uri": "git://github.com/raulrpearson/PVSystems.git",
       "repository_format": "git",
       "description": "A Modelica library for photovoltaic system and power converter design",
-      "stars": 20
+      "stars": 28
     },
     {
       "name": "QCalc",
@@ -10103,12 +11132,12 @@
           "isfile": false,
           "dependencies": [
             {
-              "name": "XogenyTest",
-              "version": "1.1.0"
-            },
-            {
               "name": "Modelica",
               "version": "3.2.0"
+            },
+            {
+              "name": "XogenyTest",
+              "version": "1.1.0"
             }
           ],
           "sha": "67737dc9da951b6559403a3b5dec3e5878a96cc0"
@@ -10214,7 +11243,7 @@
       "repository_uri": "git://github.com/modelica-3rdparty/QSSFluidFlow.git",
       "repository_format": "git",
       "description": "Free library for quasi steady-state fluid pipe flow.",
-      "stars": 2
+      "stars": 3
     },
     {
       "name": "RealTimeCoordinationLibrary",
@@ -10250,16 +11279,16 @@
           "isfile": false,
           "dependencies": [
             {
+              "name": "Modelica",
+              "version": "3.2.0"
+            },
+            {
               "name": "RealTimeCoordinationLibrary",
               "version": "1.0.2"
             },
             {
               "name": "Modelica_StateGraph2",
               "version": "2.0.1"
-            },
-            {
-              "name": "Modelica",
-              "version": "3.2.0"
             }
           ],
           "sha": "293b4ada6ad8753eee1a3d793a00e7e68927693f"
@@ -10309,65 +11338,58 @@
       "stars": 6
     },
     {
+      "name": "LargeTestSuite",
+      "uri": "https://github.com/casella/ScalableTestSuite",
+      "versions": {
+        "2.1.0": {
+          "version": "2.1.0",
+          "tarball_url": "https://api.github.com/repos/modelica-3rdparty/ScalableTestSuite/tarball/refs/tags/v2.1.0",
+          "zipball_url": "https://api.github.com/repos/modelica-3rdparty/ScalableTestSuite/zipball/refs/tags/v2.1.0",
+          "path": "LargeTestSuite",
+          "isfile": false,
+          "dependencies": [
+            {
+              "name": "Modelica",
+              "version": "4.0.0"
+            },
+            {
+              "name": "ScalableTestSuite",
+              "version": "2.1.0"
+            }
+          ],
+          "sha": "b422d610537b594a8a093be91d5ae64fd26999a5"
+        },
+        "2.2.0": {
+          "version": "2.2.0",
+          "tarball_url": "https://api.github.com/repos/modelica-3rdparty/ScalableTestSuite/tarball/refs/tags/v2.2.0",
+          "zipball_url": "https://api.github.com/repos/modelica-3rdparty/ScalableTestSuite/zipball/refs/tags/v2.2.0",
+          "path": "LargeTestSuite",
+          "isfile": false,
+          "dependencies": [
+            {
+              "name": "Modelica",
+              "version": "4.0.0"
+            },
+            {
+              "name": "ScalableTestSuite",
+              "version": "2.2.0"
+            }
+          ],
+          "sha": "e6dcfb489b7e2d07198d93f00858459aa0611267"
+        }
+      },
+      "owner_uri": "https://github.com/casella",
+      "email": "",
+      "homepage": "https://github.com/casella/ScalableTestSuite",
+      "repository_uri": "git://github.com/casella/ScalableTestSuite.git",
+      "repository_format": "git",
+      "description": "A suite of scalable Modelica test models",
+      "stars": 21
+    },
+    {
       "name": "ScalableTestSuite",
       "uri": "https://github.com/casella/ScalableTestSuite",
       "versions": {
-        "1.1.0": {
-          "version": "1.1.0",
-          "tarball_url": "https://api.github.com/repos/modelica-3rdparty/ScalableTestSuite/tarball/refs/tags/v1.1.0",
-          "zipball_url": "https://api.github.com/repos/modelica-3rdparty/ScalableTestSuite/zipball/refs/tags/v1.1.0",
-          "path": "ScalableTestSuite",
-          "isfile": false,
-          "dependencies": [
-            {
-              "name": "Modelica",
-              "version": "3.2.1"
-            }
-          ],
-          "sha": "b521537622d1f796ef8836f2de2e54d2138ca2d1"
-        },
-        "1.1.1": {
-          "version": "1.1.1",
-          "tarball_url": "https://api.github.com/repos/modelica-3rdparty/ScalableTestSuite/tarball/refs/tags/v1.1.1",
-          "zipball_url": "https://api.github.com/repos/modelica-3rdparty/ScalableTestSuite/zipball/refs/tags/v1.1.1",
-          "path": "ScalableTestSuite",
-          "isfile": false,
-          "dependencies": [
-            {
-              "name": "Modelica",
-              "version": "3.2.1"
-            }
-          ],
-          "sha": "7e9a8a137149cc5a1d03a539688ce94de8322bf0"
-        },
-        "1.1.2": {
-          "version": "1.1.2",
-          "tarball_url": "https://api.github.com/repos/modelica-3rdparty/ScalableTestSuite/tarball/refs/tags/v1.1.2",
-          "zipball_url": "https://api.github.com/repos/modelica-3rdparty/ScalableTestSuite/zipball/refs/tags/v1.1.2",
-          "path": "ScalableTestSuite",
-          "isfile": false,
-          "dependencies": [
-            {
-              "name": "Modelica",
-              "version": "3.2.1"
-            }
-          ],
-          "sha": "bc954b318a478c1ccb88a2955ba6dd05891f2514"
-        },
-        "1.10.0": {
-          "version": "1.10.0",
-          "tarball_url": "https://api.github.com/repos/modelica-3rdparty/ScalableTestSuite/tarball/refs/tags/v1.10.0",
-          "zipball_url": "https://api.github.com/repos/modelica-3rdparty/ScalableTestSuite/zipball/refs/tags/v1.10.0",
-          "path": "ScalableTestSuite",
-          "isfile": false,
-          "dependencies": [
-            {
-              "name": "Modelica",
-              "version": "3.2.3"
-            }
-          ],
-          "sha": "6890d260ad3d6a84f7fdad387e2cb7a9326eb0e0"
-        },
         "1.11.0": {
           "version": "1.11.0",
           "tarball_url": "https://api.github.com/repos/modelica-3rdparty/ScalableTestSuite/tarball/refs/tags/v1.11.0",
@@ -10451,20 +11473,6 @@
             }
           ],
           "sha": "3b8a887714691a53b7b77535c82747ed0a5e4bcd"
-        },
-        "1.2.0": {
-          "version": "1.2.0",
-          "tarball_url": "https://api.github.com/repos/modelica-3rdparty/ScalableTestSuite/tarball/refs/tags/v1.2.0",
-          "zipball_url": "https://api.github.com/repos/modelica-3rdparty/ScalableTestSuite/zipball/refs/tags/v1.2.0",
-          "path": "ScalableTestSuite",
-          "isfile": false,
-          "dependencies": [
-            {
-              "name": "Modelica",
-              "version": "3.2.1"
-            }
-          ],
-          "sha": "79e6949dc57ff2216f2813808eb731002b8c741d"
         },
         "1.3.0": {
           "version": "1.3.0",
@@ -10718,19 +11726,89 @@
           ],
           "sha": "0619c17c82679ee0aad8062ad7d40890c606ad81"
         },
-        "10.0.0": {
-          "version": "10.0.0",
-          "tarball_url": "https://api.github.com/repos/modelica-3rdparty/ScalableTestSuite/tarball/refs/tags/v10.0.0",
-          "zipball_url": "https://api.github.com/repos/modelica-3rdparty/ScalableTestSuite/zipball/refs/tags/v10.0.0",
+        "2.0.0": {
+          "version": "2.0.0",
+          "tarball_url": "https://api.github.com/repos/modelica-3rdparty/ScalableTestSuite/tarball/refs/tags/v2.0.0",
+          "zipball_url": "https://api.github.com/repos/modelica-3rdparty/ScalableTestSuite/zipball/refs/tags/v2.0.0",
           "path": "ScalableTestSuite",
           "isfile": false,
           "dependencies": [
             {
               "name": "Modelica",
-              "version": "3.2.2"
+              "version": "4.0.0"
             }
           ],
-          "sha": "87059c2383add5405548ac3b07498e470fb23b1f"
+          "sha": "d3f042644126fdb23cdb4aa94dc42138fc446b7c"
+        },
+        "2.0.1": {
+          "version": "2.0.1",
+          "tarball_url": "https://api.github.com/repos/modelica-3rdparty/ScalableTestSuite/tarball/refs/tags/v2.0.1",
+          "zipball_url": "https://api.github.com/repos/modelica-3rdparty/ScalableTestSuite/zipball/refs/tags/v2.0.1",
+          "path": "ScalableTestSuite",
+          "isfile": false,
+          "dependencies": [
+            {
+              "name": "Modelica",
+              "version": "4.0.0"
+            }
+          ],
+          "sha": "5ba98e333e6305b0b05ec1d446eda1cd926475b1"
+        },
+        "2.0.2": {
+          "version": "2.0.2",
+          "tarball_url": "https://api.github.com/repos/modelica-3rdparty/ScalableTestSuite/tarball/refs/tags/v2.0.2",
+          "zipball_url": "https://api.github.com/repos/modelica-3rdparty/ScalableTestSuite/zipball/refs/tags/v2.0.2",
+          "path": "ScalableTestSuite",
+          "isfile": false,
+          "dependencies": [
+            {
+              "name": "Modelica",
+              "version": "4.0.0"
+            }
+          ],
+          "sha": "6c412bc4fcaab9ae9ec41b4e8f38fee4ca1f75f4"
+        },
+        "2.0.3": {
+          "version": "2.0.3",
+          "tarball_url": "https://api.github.com/repos/modelica-3rdparty/ScalableTestSuite/tarball/refs/tags/v2.0.3",
+          "zipball_url": "https://api.github.com/repos/modelica-3rdparty/ScalableTestSuite/zipball/refs/tags/v2.0.3",
+          "path": "ScalableTestSuite",
+          "isfile": false,
+          "dependencies": [
+            {
+              "name": "Modelica",
+              "version": "4.0.0"
+            }
+          ],
+          "sha": "23c50c93eb75a63d1cb18c533b0aa81b34317f9a"
+        },
+        "2.1.0": {
+          "version": "2.1.0",
+          "tarball_url": "https://api.github.com/repos/modelica-3rdparty/ScalableTestSuite/tarball/refs/tags/v2.1.0",
+          "zipball_url": "https://api.github.com/repos/modelica-3rdparty/ScalableTestSuite/zipball/refs/tags/v2.1.0",
+          "path": "ScalableTestSuite",
+          "isfile": false,
+          "dependencies": [
+            {
+              "name": "Modelica",
+              "version": "4.0.0"
+            }
+          ],
+          "sha": "b422d610537b594a8a093be91d5ae64fd26999a5"
+        },
+        "2.2.0": {
+          "version": "2.2.0",
+          "tarball_url": "https://api.github.com/repos/modelica-3rdparty/ScalableTestSuite/tarball/refs/tags/v2.2.0",
+          "zipball_url": "https://api.github.com/repos/modelica-3rdparty/ScalableTestSuite/zipball/refs/tags/v2.2.0",
+          "path": "ScalableTestSuite",
+          "isfile": false,
+          "dependencies": [
+            {
+              "name": "Modelica",
+              "version": "4.0.0"
+            }
+          ],
+          "sha": "e6dcfb489b7e2d07198d93f00858459aa0611267"
         }
       },
       "owner_uri": "https://github.com/casella",
@@ -10739,7 +11817,7 @@
       "repository_uri": "git://github.com/casella/ScalableTestSuite.git",
       "repository_format": "git",
       "description": "A suite of scalable Modelica test models",
-      "stars": 16
+      "stars": 21
     },
     {
       "name": "SPICELib",
@@ -10761,7 +11839,7 @@
       "repository_uri": "git://github.com/modelica-3rdparty/SPICELib.git",
       "repository_format": "git",
       "description": "Free library with some of the modeling and analysis capabilities of the electric circuit simulator PSPICE.",
-      "stars": 8
+      "stars": 12
     },
     {
       "name": "Spot",
@@ -10806,7 +11884,7 @@
       "repository_uri": "git://github.com/modelica-3rdparty/Spot.git",
       "repository_format": "git",
       "description": "Free library providing components to model power systems both in transient and steady-state mode.",
-      "stars": 4
+      "stars": 6
     },
     {
       "name": "SpotExamples",
@@ -10820,12 +11898,12 @@
           "isfile": false,
           "dependencies": [
             {
-              "name": "Modelica",
-              "version": "2.2.1"
-            },
-            {
               "name": "Spot",
               "version": "0.705.0"
+            },
+            {
+              "name": "Modelica",
+              "version": "2.2.1"
             }
           ],
           "sha": "cc277376fb50cc407e15d3493f6d71ad38157350"
@@ -10838,12 +11916,12 @@
           "isfile": false,
           "dependencies": [
             {
-              "name": "Modelica",
-              "version": "3.2.1"
-            },
-            {
               "name": "Spot",
               "version": "0.706.1"
+            },
+            {
+              "name": "Modelica",
+              "version": "3.2.1"
             }
           ],
           "sha": "8109b5236bdf6337fe2b2a865d89cbbd54dd28fa"
@@ -10855,7 +11933,7 @@
       "repository_uri": "git://github.com/modelica-3rdparty/Spot.git",
       "repository_format": "git",
       "description": "Free library providing components to model power systems both in transient and steady-state mode.",
-      "stars": 4
+      "stars": 6
     },
     {
       "name": "SystemDynamics",
@@ -10902,6 +11980,20 @@
             }
           ],
           "sha": "cc0300732ee25bf7f6052aedf83df5cddfbb1108"
+        },
+        "2.1.2": {
+          "version": "2.1.2",
+          "tarball_url": "https://api.github.com/repos/modelica-3rdparty/SystemDynamics/tarball/refs/tags/v2.1.2",
+          "zipball_url": "https://api.github.com/repos/modelica-3rdparty/SystemDynamics/zipball/refs/tags/v2.1.2",
+          "path": "SystemDynamics",
+          "isfile": false,
+          "dependencies": [
+            {
+              "name": "Modelica",
+              "version": "4.0.0"
+            }
+          ],
+          "sha": "b986a2ea354ab550d627a392f857ad7c9997d961"
         }
       },
       "owner_uri": "https://github.com/modelica-3rdparty",
@@ -10910,7 +12002,7 @@
       "repository_uri": "git://github.com/modelica-3rdparty/SystemDynamics.git",
       "repository_format": "git",
       "description": "Free library for modeling according to the principles of system dynamics of J. Forrester.",
-      "stars": 13
+      "stars": 22
     },
     {
       "name": "TechThermo",
@@ -10932,7 +12024,7 @@
       "repository_uri": "git://github.com/modelica-3rdparty/TechThermo.git",
       "repository_format": "git",
       "description": "Free library for technical thermodynamics. (unlicensed)",
-      "stars": 5
+      "stars": 6
     },
     {
       "name": "ThermoBondLib",
@@ -10946,12 +12038,12 @@
           "isfile": false,
           "dependencies": [
             {
-              "name": "Modelica",
-              "version": "2.2.1"
-            },
-            {
               "name": "BondLib",
               "version": "2.4.0"
+            },
+            {
+              "name": "Modelica",
+              "version": "2.2.1"
             }
           ],
           "sha": "055369c28c2dafb4642c428807a0b49f8fe6b2b2"
@@ -11020,7 +12112,7 @@
       "repository_uri": "git://github.com/thermocycle/Thermocycle-library.git",
       "repository_format": "git",
       "description": "Thermocycle library",
-      "stars": 40
+      "stars": 44
     },
     {
       "name": "ThermofluidStream",
@@ -11053,6 +12145,88 @@
             }
           ],
           "sha": "d7c0607c117057d0eadf072cf57df4d3e36e194d"
+        },
+        "0.3.0-beta": {
+          "version": "0.3.0-beta",
+          "tarball_url": "https://api.github.com/repos/modelica-3rdparty/ThermofluidStream/tarball/refs/tags/v0.3.0-beta",
+          "zipball_url": "https://api.github.com/repos/modelica-3rdparty/ThermofluidStream/zipball/refs/tags/v0.3.0-beta",
+          "path": "ThermofluidStream",
+          "isfile": false,
+          "dependencies": [
+            {
+              "name": "Modelica",
+              "version": "3.2.3"
+            }
+          ],
+          "sha": "f2eb7b0dec05cebdf26c9ddc68612d464d01c207"
+        },
+        "0.4.1-beta": {
+          "version": "0.4.1-beta",
+          "tarball_url": "https://api.github.com/repos/modelica-3rdparty/ThermofluidStream/tarball/refs/tags/v0.4.1-beta",
+          "zipball_url": "https://api.github.com/repos/modelica-3rdparty/ThermofluidStream/zipball/refs/tags/v0.4.1-beta",
+          "path": "ThermofluidStream",
+          "isfile": false,
+          "dependencies": [
+            {
+              "name": "Modelica",
+              "version": "3.2.3"
+            }
+          ],
+          "sha": "bc8c48c4f3101f1386bd06504b8e5f05dbeb8223"
+        },
+        "0.5.0": {
+          "version": "0.5.0",
+          "tarball_url": "https://api.github.com/repos/modelica-3rdparty/ThermofluidStream/tarball/refs/tags/v0.5.0",
+          "zipball_url": "https://api.github.com/repos/modelica-3rdparty/ThermofluidStream/zipball/refs/tags/v0.5.0",
+          "path": "ThermofluidStream",
+          "isfile": false,
+          "dependencies": [
+            {
+              "name": "Modelica",
+              "version": "3.2.3"
+            }
+          ],
+          "sha": "8f73ea281bfb15a2c2fa054f1c8bc14aea547b3d"
+        },
+        "1.0.0": {
+          "version": "1.0.0",
+          "tarball_url": "https://api.github.com/repos/modelica-3rdparty/ThermofluidStream/tarball/refs/tags/v1.0.0",
+          "zipball_url": "https://api.github.com/repos/modelica-3rdparty/ThermofluidStream/zipball/refs/tags/v1.0.0",
+          "path": "ThermofluidStream",
+          "isfile": false,
+          "dependencies": [
+            {
+              "name": "Modelica",
+              "version": "4.0.0"
+            },
+            {
+              "name": "ObsoleteModelica4",
+              "version": "4.0.0"
+            },
+            {
+              "name": "Complex",
+              "version": "4.0.0"
+            }
+          ],
+          "sha": "cffa9282daf1821f2792fdc1fb5878325ea9a2a2"
+        },
+        "1.1.0": {
+          "version": "1.1.0",
+          "tarball_url": "https://api.github.com/repos/modelica-3rdparty/ThermofluidStream/tarball/refs/tags/v1.1.0",
+          "zipball_url": "https://api.github.com/repos/modelica-3rdparty/ThermofluidStream/zipball/refs/tags/v1.1.0",
+          "path": "ThermofluidStream",
+          "isfile": false,
+          "dependencies": [
+            {
+              "name": "Modelica",
+              "version": "4.0.0"
+            },
+            {
+              "name": "Complex",
+              "version": "4.0.0"
+            }
+          ],
+          "sha": "c108e09803d6270804389fc9996403648112f151"
         }
       },
       "owner_uri": "https://github.com/DLR-SR",
@@ -11061,7 +12235,7 @@
       "repository_uri": "git://github.com/DLR-SR/ThermofluidStream.git",
       "repository_format": "git",
       "description": "The DLR Thermofluid Stream Library",
-      "stars": 10
+      "stars": 40
     },
     {
       "name": "ThermoPower",
@@ -11088,7 +12262,7 @@
       "repository_uri": "git://github.com/casella/ThermoPower.git",
       "repository_format": "git",
       "description": "A Modelica library for thermal power generation system modelling",
-      "stars": 14
+      "stars": 29
     },
     {
       "name": "ThermoSysPro",
@@ -11115,7 +12289,93 @@
       "repository_uri": "git://github.com/ThermoSysPro/ThermoSysPro.git",
       "repository_format": "git",
       "description": "ThermoSysPro is a library providing model components in the disciplines of thermal hydraulics and instrumentation and control.",
-      "stars": 4
+      "stars": 15
+    },
+    {
+      "name": "TILMedia",
+      "uri": "https://github.com/TLK-Thermo/TILMediaClaRa",
+      "versions": {
+        "1.7.0": {
+          "version": "1.7.0",
+          "tarball_url": "https://api.github.com/repos/modelica-3rdparty/TILMediaClaRa/tarball/refs/tags/1.7.0",
+          "zipball_url": "https://api.github.com/repos/modelica-3rdparty/TILMediaClaRa/zipball/refs/tags/1.7.0",
+          "path": "TILMedia",
+          "isfile": false,
+          "dependencies": [
+            {
+              "name": "Modelica",
+              "version": "4.0.0"
+            }
+          ],
+          "sha": "0ac84d416ef4890ceb68c029cda5cd7b0124515e"
+        },
+        "1.8.0": {
+          "version": "1.8.0",
+          "tarball_url": "https://api.github.com/repos/modelica-3rdparty/TILMediaClaRa/tarball/refs/tags/1.8.0",
+          "zipball_url": "https://api.github.com/repos/modelica-3rdparty/TILMediaClaRa/zipball/refs/tags/1.8.0",
+          "path": "TILMedia",
+          "isfile": false,
+          "dependencies": [
+            {
+              "name": "Modelica",
+              "version": "4.0.0"
+            }
+          ],
+          "sha": "0fd90ee65236266b94c4c6193d18dbbe3f41af38"
+        },
+        "1.8.1": {
+          "version": "1.8.1",
+          "tarball_url": "https://api.github.com/repos/modelica-3rdparty/TILMediaClaRa/tarball/refs/tags/1.8.1",
+          "zipball_url": "https://api.github.com/repos/modelica-3rdparty/TILMediaClaRa/zipball/refs/tags/1.8.1",
+          "path": "TILMedia",
+          "isfile": false,
+          "dependencies": [
+            {
+              "name": "Modelica",
+              "version": "4.0.0"
+            }
+          ],
+          "sha": "010603eb27287ce477b3902926296ee9b305af50"
+        }
+      },
+      "owner_uri": "https://github.com/TLK-Thermo",
+      "email": "",
+      "homepage": "https://github.com/TLK-Thermo/TILMediaClaRa",
+      "repository_uri": "git://github.com/TLK-Thermo/TILMediaClaRa.git",
+      "repository_format": "git",
+      "description": "",
+      "stars": 0
+    },
+    {
+      "name": "TILMediaClaRa",
+      "uri": "https://github.com/TLK-Thermo/TILMediaClaRa",
+      "versions": {
+        "1.8.0": {
+          "version": "1.8.0",
+          "tarball_url": "https://api.github.com/repos/modelica-3rdparty/TILMediaClaRa/tarball/refs/tags/1.8.0",
+          "zipball_url": "https://api.github.com/repos/modelica-3rdparty/TILMediaClaRa/zipball/refs/tags/1.8.0",
+          "path": "TILMedia_AddOn_Tests",
+          "isfile": false,
+          "dependencies": [],
+          "sha": "0fd90ee65236266b94c4c6193d18dbbe3f41af38"
+        },
+        "1.8.1": {
+          "version": "1.8.1",
+          "tarball_url": "https://api.github.com/repos/modelica-3rdparty/TILMediaClaRa/tarball/refs/tags/1.8.1",
+          "zipball_url": "https://api.github.com/repos/modelica-3rdparty/TILMediaClaRa/zipball/refs/tags/1.8.1",
+          "path": "TILMedia_AddOn_Tests",
+          "isfile": false,
+          "dependencies": [],
+          "sha": "010603eb27287ce477b3902926296ee9b305af50"
+        }
+      },
+      "owner_uri": "https://github.com/TLK-Thermo",
+      "email": "",
+      "homepage": "https://github.com/TLK-Thermo/TILMediaClaRa",
+      "repository_uri": "git://github.com/TLK-Thermo/TILMediaClaRa.git",
+      "repository_format": "git",
+      "description": "",
+      "stars": 0
     },
     {
       "name": "TRANSFORM",
@@ -11129,6 +12389,10 @@
           "isfile": false,
           "dependencies": [
             {
+              "name": "SDF",
+              "version": "0.4.0"
+            },
+            {
               "name": "Modelica",
               "version": "3.2.2"
             },
@@ -11139,10 +12403,6 @@
             {
               "name": "UserInteraction",
               "version": "0.64.0"
-            },
-            {
-              "name": "SDF",
-              "version": "0.4.0"
             }
           ],
           "sha": "141dbb04e2650ca828e9c785f554d6f267f99170"
@@ -11181,20 +12441,20 @@
           "isfile": false,
           "dependencies": [
             {
-              "name": "UserInteraction",
-              "version": "0.64.0"
-            },
-            {
-              "name": "SDF",
-              "version": "0.4.0"
-            },
-            {
               "name": "Modelica",
               "version": "3.2.2"
             },
             {
               "name": "Complex",
               "version": "3.2.2"
+            },
+            {
+              "name": "UserInteraction",
+              "version": "0.64.0"
+            },
+            {
+              "name": "SDF",
+              "version": "0.4.0"
             }
           ],
           "sha": "e58740197d8c7a0dd2c01da508ba405b719100a4"
@@ -11206,6 +12466,10 @@
           "path": "TRANSFORM",
           "isfile": false,
           "dependencies": [
+            {
+              "name": "ModelicaServices",
+              "version": "3.2.2"
+            },
             {
               "name": "Modelica",
               "version": "3.2.3"
@@ -11221,10 +12485,6 @@
             {
               "name": "SDF",
               "version": "0.4.1"
-            },
-            {
-              "name": "ModelicaServices",
-              "version": "3.2.2"
             }
           ],
           "sha": "c53758a5ac46cf36b864e337d40e6aa9b74688cc"
@@ -11236,7 +12496,7 @@
       "repository_uri": "git://github.com/ORNL-Modelica/TRANSFORM-Library.git",
       "repository_format": "git",
       "description": "A Modelica based library for modeling thermal hydraulic energy systems and other multi-physics systems",
-      "stars": 28
+      "stars": 45
     },
     {
       "name": "Verif",
@@ -11294,7 +12554,7 @@
       "repository_uri": "git://github.com/modelica-3rdparty/WasteWater.git",
       "repository_format": "git",
       "description": "Free library for modelling and simulation of waste water treatment plants.",
-      "stars": 30
+      "stars": 44
     },
     {
       "name": "WheelsAndTires",
@@ -11308,16 +12568,16 @@
           "isfile": false,
           "dependencies": [
             {
-              "name": "BondLib",
-              "version": "2.3.0"
-            },
-            {
               "name": "MultiBondLib",
               "version": "1.3.0"
             },
             {
               "name": "Modelica",
               "version": "2.2.1"
+            },
+            {
+              "name": "BondLib",
+              "version": "2.3.0"
             }
           ],
           "sha": "ce6964769ee6bded5db6f5b2132c2b83af5cde51"
@@ -11469,11 +12729,11 @@
           "isfile": false,
           "dependencies": [
             {
-              "name": "Modelica",
+              "name": "Complex",
               "version": "3.2.2"
             },
             {
-              "name": "Complex",
+              "name": "Modelica",
               "version": "3.2.2"
             }
           ],
@@ -11505,11 +12765,11 @@
           "isfile": false,
           "dependencies": [
             {
-              "name": "Modelica",
+              "name": "Complex",
               "version": "3.2.2"
             },
             {
-              "name": "Complex",
+              "name": "Modelica",
               "version": "3.2.2"
             }
           ],
@@ -11559,11 +12819,11 @@
           "isfile": false,
           "dependencies": [
             {
-              "name": "Modelica",
+              "name": "Complex",
               "version": "4.0.0"
             },
             {
-              "name": "Complex",
+              "name": "Modelica",
               "version": "4.0.0"
             }
           ],
@@ -11576,7 +12836,7 @@
       "repository_uri": "git://github.com/christiankral/WindPowerPlants.git",
       "repository_format": "git",
       "description": "The WindPowerPlants library is an open source library for the simulation of wind power plants. The library provides models of wind turbines, generators and control.",
-      "stars": 6
+      "stars": 16
     }
   ]
 }
